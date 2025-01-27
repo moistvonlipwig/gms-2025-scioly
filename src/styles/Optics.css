@@ -65,4 +65,12 @@ ul {
 ul li {
   margin: 10px 0;
 }
+.question-image {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
 

@@ -11,7 +11,6 @@ const Optics = ({ quizFile }) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
 
   useEffect(() => {
-    // Load quiz data based on quizFile prop
     const loadQuizData = () => {
       if (quizFile === "Optics-quiz-1.json") {
         setQuizData(quizData1.questions);
@@ -57,6 +56,11 @@ const Optics = ({ quizFile }) => {
             {quizData.map((question, index) => (
               <li key={index}>
                 <strong>Q{index + 1}:</strong> {question.question} <br />
+                <img
+                  src={question.image}
+                  alt={`Illustration for ${question.question}`}
+                  className="question-image"
+                />
                 <strong>Correct Answer:</strong> {question.answer} <br />
                 <a href={question.reference} target="_blank" rel="noopener noreferrer">
                   Learn more

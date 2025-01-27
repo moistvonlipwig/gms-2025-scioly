@@ -1,33 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Optics from "./components/Optics";
+import MicrobeMission from "./components/MicrobeMission";
 import "./styles/App.css";
 
 const App = () => {
-  const [quizList, setQuizList] = useState([]);
   const [currentQuiz, setCurrentQuiz] = useState("Optics-quiz-1.json");
 
-  useEffect(() => {
-    const fetchQuizList = async () => {
-      const availableQuizzes = [
-        "Optics-quiz-1.json",
-        "Optics-quiz-2.json",
-        "Optics-quiz-3.json"
-      ];
-      setQuizList(availableQuizzes);
-    };
-
-    fetchQuizList();
-  }, []);
-
-  const handleQuizChange = (quiz) => {
-    setCurrentQuiz(quiz);
+  const handleQuizChange = (selectedQuiz) => {
+    setCurrentQuiz(selectedQuiz);
   };
+
+  const quizList = [
+    { label: "Optics Quiz 1", value: "Optics-quiz-1.json" },
+    { label: "Microbe Mission Quiz", value: "MicrobeMission-quiz-1.json" }
+  ];
 
   return (
     <Router basename="/gms-2025-scioly">
       <div className="app-container">
-        <h1>Science Olympiad Optics Quizzes</h1>
+        <h1>Science Olympiad Quizzes</h1>
         <div className="quiz-selector">
           <label htmlFor="quiz-dropdown">Select Quiz:</label>
           <select
@@ -36,18 +28,26 @@ const App = () => {
             onChange={(e) => handleQuizChange(e.target.value)}
           >
             {quizList.map((quiz, index) => (
-              <option key={index} value={quiz}>
-                Quiz {index + 1}
+              <option key={index} value={quiz.value}>
+                {quiz.label}
               </option>
             ))}
           </select>
         </div>
+        <br/>
+        <hr/>
 
         <Routes>
           {/* Default Route */}
           <Route
             path="/"
-            element={<Optics quizFile={`${currentQuiz}`} />}
+            element={
+              currentQuiz === "Optics-quiz-1.json" ? (
+                <Optics quizFile={currentQuiz} />
+              ) : (
+                <MicrobeMission quizFile={currentQuiz} />
+              )
+            }
           />
 
           {/* Fallback Route */}
