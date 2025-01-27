@@ -13,10 +13,10 @@ const Test = ({ quizFile }) => {
     const loadTestData = async () => {
       try {
         const data = await import(`../data/${quizFile}`);
-        console.log(data);
         setTestData(data.questions);
       } catch (error) {
-        console.error(`Failed to load ${quizFile} data:`, error);
+        console.error(`Failed to load ../data/${quizFile} data:`, error);
+        setTestData([]); // Set to an empty array if loading fails
       }
     };
 
@@ -41,7 +41,11 @@ const Test = ({ quizFile }) => {
   };
 
   if (!testData) {
-    return <div>Loading test...</div>;
+    return <div>Loading test...</div>; // Show a loading message until testData is available
+  }
+
+  if (testData.length === 0) {
+    return <div>No questions available for this test.</div>; // Handle case where test data fails to load
   }
 
   return (
@@ -55,15 +59,19 @@ const Test = ({ quizFile }) => {
             {testData.map((question, index) => (
               <li key={index}>
                 <strong>Q{index + 1}:</strong> {question.question} <br />
-                <img
-                  src={question.image}
-                  alt={`Illustration for ${question.question}`}
-                  className="question-image"
-                />
+                {question.image && (
+                  <img
+                    src={question.image}
+                    alt={`Illustration for ${question.question}`}
+                    className="question-image"
+                  />
+                )}
                 <strong>Correct Answer:</strong> {question.answer} <br />
-                <a href={question.reference} target="_blank" rel="noopener noreferrer">
-                  Learn more
-                </a>
+                {question.reference && (
+                  <a href={question.reference} target="_blank" rel="noopener noreferrer">
+                    Learn more
+                  </a>
+                )}
               </li>
             ))}
           </ul>
@@ -73,38 +81,48 @@ const Test = ({ quizFile }) => {
           <div className="question-count">
             <span>Question {currentQuestion + 1}</span>/{testData.length}
           </div>
-          <div className="question-text">{testData[currentQuestion].question}</div>
-          <img
-            src={testData[currentQuestion].image}
-            alt={`Illustration for ${testData[currentQuestion].question}`}
-            className="question-image"
-          />
+          <div className="question-text">
+            {testData[currentQuestion]?.question || "Question not available"}
+          </div>
+          {testData[currentQuestion]?.image && (
+            <img
+              src={testData[currentQuestion].image}
+              alt={`Illustration for ${testData[currentQuestion]?.question || "N/A"}`}
+              className="question-image"
+            />
+          )}
           <div className="answer-section">
-            {testData[currentQuestion].options.map((option, index) => (
-              <button
-                key={index}
-                className={`answer-option ${
-                  selectedAnswer === option
-                    ? option === testData[currentQuestion].answer
-                      ? "correct"
-                      : "incorrect"
-                    : ""
-                }`}
-                onClick={() => handleAnswerOptionClick(option)}
-                disabled={selectedAnswer !== null}
-              >
-                {option}
-              </button>
-            ))}
+            {testData[currentQuestion]?.options?.length > 0 ? (
+              testData[currentQuestion].options.map((option, index) => (
+                <button
+                  key={index}
+                  className={`answer-option ${
+                    selectedAnswer === option
+                      ? option === testData[currentQuestion].answer
+                        ? "correct"
+                        : "incorrect"
+                      : ""
+                  }`}
+                  onClick={() => handleAnswerOptionClick(option)}
+                  disabled={selectedAnswer !== null}
+                >
+                  {option}
+                </button>
+              ))
+            ) : (
+              <p>No options available</p>
+            )}
           </div>
           <div className="reference-section">
-            <a
-              href={testData[currentQuestion].reference}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn more about this question
-            </a>
+            {testData[currentQuestion]?.reference && (
+              <a
+                href={testData[currentQuestion].reference}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn more about this question
+              </a>
+            )}
           </div>
         </div>
       )}
