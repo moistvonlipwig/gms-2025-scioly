@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Optics from "./components/Optics";
-import MicrobeMission from "./components/MicrobeMission";
+import Test from "./components/Test";
 import "./styles/App.css";
 
 const App = () => {
@@ -42,11 +41,7 @@ const App = () => {
           <Route
             path="/"
             element={
-              currentQuiz === "Optics-quiz-1.json" ? (
-                <Optics quizFile={currentQuiz} />
-              ) : (
-                <MicrobeMission quizFile={currentQuiz} />
-              )
+                <Test quizFile={currentQuiz} />
             }
           />
 
