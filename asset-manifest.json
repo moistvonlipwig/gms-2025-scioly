@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/gms-2025-scioly/static/css/main.745df8e3.css",
-    "main.js": "/gms-2025-scioly/static/js/main.869407c8.js",
+    "main.js": "/gms-2025-scioly/static/js/main.27372bea.js",
     "static/js/977.6ddb9d71.chunk.js": "/gms-2025-scioly/static/js/977.6ddb9d71.chunk.js",
     "static/js/932.07a4a2c0.chunk.js": "/gms-2025-scioly/static/js/932.07a4a2c0.chunk.js",
     "static/js/188.d011624b.chunk.js": "/gms-2025-scioly/static/js/188.d011624b.chunk.js",
-    "static/js/336.e3c3caad.chunk.js": "/gms-2025-scioly/static/js/336.e3c3caad.chunk.js",
+    "static/js/336.6af8b199.chunk.js": "/gms-2025-scioly/static/js/336.6af8b199.chunk.js",
     "static/js/101.9a18fafb.chunk.js": "/gms-2025-scioly/static/js/101.9a18fafb.chunk.js",
     "static/js/370.f677eb31.chunk.js": "/gms-2025-scioly/static/js/370.f677eb31.chunk.js",
     "static/js/488.459eece3.chunk.js": "/gms-2025-scioly/static/js/488.459eece3.chunk.js",
     "index.html": "/gms-2025-scioly/index.html",
     "main.745df8e3.css.map": "/gms-2025-scioly/static/css/main.745df8e3.css.map",
-    "main.869407c8.js.map": "/gms-2025-scioly/static/js/main.869407c8.js.map",
+    "main.27372bea.js.map": "/gms-2025-scioly/static/js/main.27372bea.js.map",
     "488.459eece3.chunk.js.map": "/gms-2025-scioly/static/js/488.459eece3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.745df8e3.css",
-    "static/js/main.869407c8.js"
+    "static/js/main.27372bea.js"
   ]
 }
