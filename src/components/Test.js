@@ -10,7 +10,6 @@ const Test = ({ quizFile, username, db }) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [textAnswer, setTextAnswer] = useState("");
   const [matchingAnswers, setMatchingAnswers] = useState({});
-  const [additionAnswer, setAdditionAnswer] = useState("");
   const [showImage, setShowImage] = useState(false);
 
   useEffect(() => {
@@ -26,6 +25,22 @@ const Test = ({ quizFile, username, db }) => {
 
     loadTestData();
   }, [quizFile]);
+
+  const handleAnswerClick = (option) => {
+    const isCorrect = option === testData[currentQuestion]?.answer;
+    if (isCorrect) setScore(score + 1);
+    setSelectedAnswer(option);
+    setShowImage(true);
+  };
+
+  const handleTextSubmit = () => {
+    const correctAnswer = testData[currentQuestion]?.answer;
+    if (textAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+      setScore(score + 1);
+    }
+    setTextAnswer("");
+    setShowImage(true);
+  };
 
   const handleMatchingChange = (item, selectedMatch) => {
     setMatchingAnswers((prev) => ({
@@ -49,7 +64,6 @@ const Test = ({ quizFile, username, db }) => {
   const handleNextQuestion = () => {
     setSelectedAnswer(null);
     setTextAnswer("");
-    setAdditionAnswer("");
     setMatchingAnswers({});
     setShowImage(false);
     const nextQuestion = currentQuestion + 1;
@@ -82,6 +96,7 @@ const Test = ({ quizFile, username, db }) => {
 
   const current = testData[currentQuestion];
   const isMatching = Array.isArray(current?.options) && current?.options[0]?.item;
+  const isTextAnswer = !isMatching && !current?.options;
 
   return (
     <div className="test-container">
@@ -95,8 +110,12 @@ const Test = ({ quizFile, username, db }) => {
             {testData.map((question, index) => (
               <li key={index}>
                 <strong>Q{index + 1}:</strong> {question.question} <br />
-                {question.image && (
-                  <img src={question.image} alt={`Q${index + 1}`} className="question-image" />
+                {question.imageLink && (
+                  <img
+                    src={question.imageLink}
+                    alt={`Q${index + 1}`}
+                    className="question-image"
+                  />
                 )}
                 <strong>Correct Answer:</strong> {JSON.stringify(question.answer)} <br />
                 {question.referenceLink && (
@@ -114,12 +133,48 @@ const Test = ({ quizFile, username, db }) => {
             <span>Question {currentQuestion + 1}</span>/{testData.length}
           </div>
           <div className="question-text">{current?.question}</div>
-          {current?.image && (
-            <img src={current.image} alt="Question Illustration" className="question-image" />
+          {current?.imageLink && (
+            <img
+              src={current.imageLink}
+              alt="Question Illustration"
+              className="question-image"
+            />
+          )}
+          {!isMatching && !isTextAnswer && (
+            <div className="answer-section">
+              {current?.options?.map((option, index) => (
+                <button
+                  key={index}
+                  className={`answer-option ${
+                    selectedAnswer === option
+                      ? option === current?.answer
+                        ? "correct"
+                        : "incorrect"
+                      : ""
+                  }`}
+                  onClick={() => handleAnswerClick(option)}
+                  disabled={selectedAnswer !== null}
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
+          )}
+          {isTextAnswer && (
+            <div className="text-answer-section">
+              <textarea
+                value={textAnswer}
+                onChange={(e) => setTextAnswer(e.target.value)}
+                placeholder="Type your answer..."
+              />
+              <button onClick={handleTextSubmit} disabled={!textAnswer.trim()}>
+                Submit
+              </button>
+            </div>
           )}
           {isMatching && (
             <div className="matching-section">
-              {current.options.map(({ item, match }, idx) => (
+              {current.options.map(({ item }, idx) => (
                 <div key={idx} className="matching-pair">
                   <span>{item}</span>
                   <select
