@@ -72,5 +72,32 @@ ul li {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
+.prev-button,
+.next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prev-button:disabled,
+.next-button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+.prev-button:hover:not(:disabled),
+.next-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
 

@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
+import { collection, addDoc } from "firebase/firestore"; // Import Firestore methods
 import "../styles/Test.css";
 
-const Test = ({ quizFile }) => {
+const Test = ({ quizFile, username, db }) => {
   const [testData, setTestData] = useState(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [textAnswer, setTextAnswer] = useState("");
+  const [matchingAnswers, setMatchingAnswers] = useState({});
   const [showImage, setShowImage] = useState(false);
-  const [showNext, setShowNext] = useState(false);
 
   // Dynamically load JSON data based on the selected test
   useEffect(() => {
@@ -29,7 +30,6 @@ const Test = ({ quizFile }) => {
   const handleAnswerOptionClick = (option) => {
     setSelectedAnswer(option);
     setShowImage(true);
-    setShowNext(true);
     if (option === testData[currentQuestion].answer) {
       setScore(score + 1);
     }
@@ -37,27 +37,62 @@ const Test = ({ quizFile }) => {
 
   const handleTextSubmit = () => {
     setShowImage(true);
-    setShowNext(true);
     const correctAnswer = testData[currentQuestion]?.answer;
     if (
-      (typeof correctAnswer === "string" && textAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) ||
-      (typeof correctAnswer === "object" && JSON.stringify(correctAnswer).toLowerCase() === JSON.stringify(textAnswer).toLowerCase())
+      (typeof correctAnswer === "string" &&
+        textAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) ||
+      (typeof correctAnswer === "object" &&
+        JSON.stringify(correctAnswer).toLowerCase() ===
+          JSON.stringify(textAnswer).toLowerCase())
     ) {
       setScore(score + 1);
     }
     setTextAnswer("");
   };
 
+  const handleMatchingChange = (structure, selectedFunction) => {
+    setMatchingAnswers((prev) => ({ ...prev, [structure]: selectedFunction }));
+  };
+
+  const handleMatchingSubmit = () => {
+    const correctAnswers = testData[currentQuestion]?.answer;
+    const isCorrect = Object.keys(correctAnswers).every(
+      (key) => correctAnswers[key] === matchingAnswers[key]
+    );
+    if (isCorrect) {
+      setScore(score + 1);
+    }
+    setMatchingAnswers({});
+    setShowImage(true);
+  };
+
   const handleNextQuestion = () => {
     setSelectedAnswer(null);
     setTextAnswer("");
+    setMatchingAnswers({});
     setShowImage(false);
-    setShowNext(false);
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < testData.length) {
       setCurrentQuestion(nextQuestion);
     } else {
       setShowScore(true);
+      submitScore(); // Submit score when test is complete
+    }
+  };
+
+  // Submit score to Firestore
+  const submitScore = async () => {
+    try {
+      await addDoc(collection(db, "Users"), {
+        username,
+        score,
+        quiz: quizFile,
+        timestamp: new Date(),
+      });
+      alert(`Test complete! Your score of ${score} has been submitted.`);
+    } catch (error) {
+      console.error("Error submitting score:", error);
+      alert("Error submitting score. Please try again.");
     }
   };
 
@@ -69,14 +104,22 @@ const Test = ({ quizFile }) => {
     return <div>No questions available for this test.</div>; // Handle case where test data fails to load
   }
 
-  const isTextEntry = !testData[currentQuestion]?.options;
+  const isTextEntry =
+    !testData[currentQuestion]?.options &&
+    typeof testData[currentQuestion]?.answer === "string";
+  const isMatching =
+    Array.isArray(testData[currentQuestion]?.options) &&
+    testData[currentQuestion]?.options[0]?.structure &&
+    typeof testData[currentQuestion?.answer] === "object";
 
   return (
     <div className="test-container">
       {showScore ? (
         <div className="score-section box">
           <h2>Test Complete!</h2>
-          <p>You scored {score} out of {testData.length}</p>
+          <p>
+            You scored {score} out of {testData.length}
+          </p>
           <h3>Answers:</h3>
           <ul>
             {testData.map((question, index) => (
@@ -89,9 +132,14 @@ const Test = ({ quizFile }) => {
                     className="question-image"
                   />
                 )}
-                <strong>Correct Answer:</strong> {JSON.stringify(question.answer)} <br />
+                <strong>Correct Answer:</strong>{" "}
+                {JSON.stringify(question.answer)} <br />
                 {question.reference && (
-                  <a href={question.reference} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={question.reference}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Learn more
                   </a>
                 )}
@@ -110,11 +158,13 @@ const Test = ({ quizFile }) => {
           {showImage && testData[currentQuestion]?.image && (
             <img
               src={testData[currentQuestion].image}
-              alt={`Illustration for ${testData[currentQuestion]?.question || "N/A"}`}
+              alt={`Illustration for ${
+                testData[currentQuestion]?.question || "N/A"
+              }`}
               className="question-image"
             />
           )}
-          {isTextEntry ? (
+          {isTextEntry && (
             <div className="text-entry-section">
               <textarea
                 value={textAnswer}
@@ -125,7 +175,31 @@ const Test = ({ quizFile }) => {
                 Submit
               </button>
             </div>
-          ) : (
+          )}
+          {isMatching && (
+            <div className="matching-section">
+              {testData[currentQuestion].options.map(({ structure }, index) => (
+                <div key={index} className="matching-pair">
+                  <span>{structure}</span>
+                  <select
+                    onChange={(e) => handleMatchingChange(structure, e.target.value)}
+                    value={matchingAnswers[structure] || ""}
+                  >
+                    <option value="">Select function</option>
+                    {testData[currentQuestion].options.map(
+                      ({ function: optionFunc }, i) => (
+                        <option key={i} value={optionFunc}>
+                          {optionFunc}
+                        </option>
+                      )
+                    )}
+                  </select>
+                </div>
+              ))}
+              <button onClick={handleMatchingSubmit}>Submit</button>
+            </div>
+          )}
+          {!isTextEntry && !isMatching && (
             <div className="answer-section">
               {testData[currentQuestion]?.options?.map((option, index) => (
                 <button
@@ -145,11 +219,9 @@ const Test = ({ quizFile }) => {
               ))}
             </div>
           )}
-          {showNext && (
-            <button className="next-button" onClick={handleNextQuestion}>
-              Next
-            </button>
-          )}
+          <button className="next-button" onClick={handleNextQuestion}>
+            Next
+          </button>
           <div className="reference-section">
             {testData[currentQuestion]?.reference && (
               <a

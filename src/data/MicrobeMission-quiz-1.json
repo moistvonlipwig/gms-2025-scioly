@@ -31,19 +31,9 @@
       "image": "https://www.rankred.com/wp-content/uploads/2023/07/Parts-of-a-microscope-2048x1410.jpg"
     },
     {
-      "question": "Match the following structures with their functions.",
-      "options": [
-        { "structure": "Ribosome", "function": "Protein synthesis" },
-        { "structure": "Lysosome", "function": "Waste degradation" },
-        { "structure": "Mitochondrion", "function": "ATP production" },
-        { "structure": "Golgi apparatus", "function": "Protein folding and modification" }
-      ],
-      "answer": {
-        "Ribosome": "Protein synthesis",
-        "Lysosome": "Waste degradation",
-        "Mitochondrion": "ATP production",
-        "Golgi apparatus": "Protein folding and modification"
-      },
+      "question": "Which cellular organelle is responsible for ATP production?",
+      "options": ["Ribosome", "Lysosome", "Mitochondrion", "Golgi apparatus"],
+      "answer": "Mitochondrion",
       "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4865370/"
     },
     {
@@ -85,14 +75,96 @@
     },
     {
       "question": "What process enables bacteria to survive in harsh environmental conditions by forming protective structures?",
-      "options": [
-        "Endospore formation",
-        "Binary fission",
-        "Transformation",
-        "Conjugation"
-      ],
+      "options": ["Endospore formation", "Binary fission", "Transformation", "Conjugation"],
       "answer": "Endospore formation",
       "reference": "https://microbeonline.com/endospore-formation/"
+    },
+    {
+      "question": "What is the function of the lysosome in eukaryotic cells?",
+      "options": ["Protein synthesis", "Waste degradation", "ATP production", "Lipid synthesis"],
+      "answer": "Waste degradation",
+      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4865370/"
+    },
+    {
+      "question": "What structure allows bacteria to transfer genetic material through conjugation?",
+      "options": ["Flagella", "Pili", "Ribosomes", "Cell wall"],
+      "answer": "Pili",
+      "reference": "https://microbewiki.kenyon.edu/index.php/Conjugation"
+    },
+    {
+      "question": "Which bacterial structure helps in adherence to surfaces?",
+      "options": ["Fimbriae", "Capsule", "Cell wall", "Flagella"],
+      "answer": "Fimbriae",
+      "reference": "https://microbenotes.com/fimbriae/"
+    },
+    {
+      "question": "Name a bacterial cell wall component that determines Gram staining properties.",
+      "options": ["Peptidoglycan", "Capsule", "Lipopolysaccharide", "Plasma membrane"],
+      "answer": "Peptidoglycan",
+      "reference": "https://en.wikipedia.org/wiki/Gram_staining"
+    },
+    {
+      "question": "Which method is used to measure bacterial growth indirectly?",
+      "options": ["Optical density", "Colony counting", "Microscopic observation", "Serial dilution"],
+      "answer": "Optical density",
+      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3235073/"
+    },
+    {
+      "question": "What is the typical temperature range for bacterial growth?",
+      "options": ["15-45°C", "0-10°C", "50-80°C", "Above 100°C"],
+      "answer": "15-45°C",
+      "reference": "https://microbenotes.com/temperature-and-bacterial-growth/"
+    },
+    {
+      "question": "Which stain is used to identify Mycobacterium species?",
+      "options": ["Gram stain", "Acid-fast stain", "Endospore stain", "Negative stain"],
+      "answer": "Acid-fast stain",
+      "reference": "https://en.wikipedia.org/wiki/Acid-fast_stain"
+    },
+    {
+      "question": "What are bacterial biofilms?",
+      "answer": "Bacterial biofilms are communities of bacteria embedded in a self-produced matrix of extracellular polymeric substances (EPS).",
+      "reference": "https://en.wikipedia.org/wiki/Biofilm"
+    },
+    {
+      "question": "Name one example of a bacterium that forms endospores.",
+      "answer": "Bacillus anthracis",
+      "reference": "https://microbewiki.kenyon.edu/index.php/Bacillus_anthracis"
+    },
+    {
+      "question": "Which nutrient is most commonly limiting bacterial growth?",
+      "options": ["Nitrogen", "Oxygen", "Carbon", "Phosphorus"],
+      "answer": "Nitrogen",
+      "reference": "https://microbenotes.com/bacterial-nutritional-requirements/"
+    },
+    {
+      "question": "What process do bacteria use to divide?",
+      "options": ["Mitosis", "Binary fission", "Meiosis", "Conjugation"],
+      "answer": "Binary fission",
+      "reference": "https://en.wikipedia.org/wiki/Binary_fission"
+    },
+    {
+      "question": "What type of media is used to grow only Gram-negative bacteria?",
+      "options": ["Selective media", "Differential media", "Enriched media", "Simple media"],
+      "answer": "Selective media",
+      "reference": "https://microbenotes.com/selective-media/"
+    },
+    {
+      "question": "Which molecule is used as the genetic material in most bacteria?",
+      "options": ["DNA", "RNA", "Proteins", "Lipids"],
+      "answer": "DNA",
+      "reference": "https://en.wikipedia.org/wiki/Bacteria"
+    },
+    {
+      "question": "What is quorum sensing in bacteria?",
+      "answer": "Quorum sensing is a cell-to-cell communication process that allows bacteria to coordinate behavior in response to population density.",
+      "reference": "https://en.wikipedia.org/wiki/Quorum_sensing"
+    },
+    {
+      "question": "Which technique is used to visualize live bacterial cells?",
+      "options": ["Phase-contrast microscopy", "SEM", "TEM", "Gram staining"],
+      "answer": "Phase-contrast microscopy",
+      "reference": "https://en.wikipedia.org/wiki/Phase-contrast_microscopy"
     }
   ]
 }
