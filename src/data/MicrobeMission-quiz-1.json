@@ -1,170 +1,99 @@
 {
   "questions": [
     {
-      "question": "What type of microscope is most suitable for observing bacterial flagella?",
+      "type": "labeling",
+      "question": "Label the parts of a bright field light microscope.",
+      "labels": ["Objective lens", "Coarse focus knob", "Condenser", "Stage", "Diaphragm"],
+      "referenceLink": "https://www.microscopeworld.com/t-what-is-a-brightfield-microscope.aspx",
+      "answer": {
+        "Objective lens": "Magnifies the specimen",
+        "Coarse focus knob": "Adjusts the stage height for rough focus",
+        "Condenser": "Focuses light onto the specimen",
+        "Stage": "Holds the slide",
+        "Diaphragm": "Regulates the amount of light on the specimen"
+      },
+      "displayReference": true
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Compare and contrast the images produced by transmission and scanning electron microscopes.",
+      "referenceLink": "https://www.sciencedirect.com/topics/engineering/transmission-electron-microscopy",
+      "answer": "TEM produces 2D images of internal structures; SEM produces 3D images of surface structures.",
+      "displayReference": true
+    },
+    {
+      "type": "calculation",
+      "question": "A micrograph of a bacterium has a scale bar labeled '1 \u00b5m.' The bacterium appears to be 5 times the length of the scale bar. Estimate its actual size.",
+      "referenceLink": "https://microbenotes.com/microscope-calculations/",
+      "answer": "5 \u00b5m",
+      "displayReference": true
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain the structure and function of prions, including their role in disease.",
+      "referenceLink": "https://www.cdc.gov/prions/index.html",
+      "answer": "Prions are misfolded proteins that can induce other normal proteins to misfold, causing diseases like Creutzfeldt-Jakob disease.",
+      "displayReference": true
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Describe the structural differences between viruses and bacteria.",
+      "referenceLink": "https://www.ncbi.nlm.nih.gov/books/NBK21523/",
+      "answer": "Viruses are acellular, lack a cell wall, and require a host for replication; bacteria are cellular, have a cell wall, and can reproduce independently.",
+      "displayReference": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which of the following organisms has a cell wall composed of pseudopeptidoglycan?",
+      "options": ["Bacteria", "Archaea", "Fungi", "Viruses"],
+      "referenceLink": "https://www.nature.com/scitable/topicpage/archaea-extreme-microorganisms-and-keys-to-early-14453510/",
+      "answer": "Archaea",
+      "displayReference": true
+    },
+    {
+      "type": "matching",
+      "question": "Match the microbe to its primary characteristic:",
       "options": [
-        "Light microscope",
-        "Phase-contrast microscope",
-        "Scanning electron microscope",
-        "Transmission electron microscope"
+        { "item": "Prion", "match": "Proteinaceous infectious particle" },
+        { "item": "Virus", "match": "Obligate intracellular parasite" },
+        { "item": "Bacterium", "match": "Prokaryotic organism with peptidoglycan walls" },
+        { "item": "Eukaryotic microbe", "match": "Organisms with membrane-bound organelles" }
       ],
-      "answer": "Phase-contrast microscope",
-      "reference": "https://www.sciencedirect.com/topics/medicine-and-dentistry/phase-contrast-microscope"
-    },
-    {
-      "question": "Name the part of a light microscope that controls the amount of light reaching the slide.",
-      "options": ["Diaphragm", "Eyepiece", "Objective lens", "Coarse focus knob"],
-      "answer": "Diaphragm",
-      "reference": "https://www.microscopemaster.com/microscope-parts.html"
-    },
-    {
-      "question": "Label the parts of the microscope (A–F).",
+      "referenceLink": "https://www.britannica.com/science/microbiology",
       "answer": {
-        "A": "Eyepiece",
-        "B": "Objective lens",
-        "C": "Stage",
-        "D": "Coarse focus knob",
-        "E": "Fine focus knob",
-        "F": "Light source"
+        "Prion": "Proteinaceous infectious particle",
+        "Virus": "Obligate intracellular parasite",
+        "Bacterium": "Prokaryotic organism with peptidoglycan walls",
+        "Eukaryotic microbe": "Organisms with membrane-bound organelles"
       },
-      "reference": "https://www.microscopemaster.com/microscope-parts.html",
-      "image": "https://www.rankred.com/wp-content/uploads/2023/07/Parts-of-a-microscope-2048x1410.jpg"
+      "displayReference": true
     },
     {
-      "question": "Which cellular organelle is responsible for ATP production?",
-      "options": ["Ribosome", "Lysosome", "Mitochondrion", "Golgi apparatus"],
-      "answer": "Mitochondrion",
-      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4865370/"
+      "type": "drawing",
+      "question": "Draw and label the following bacterial shapes: rods (bacilli), spheres (cocci), and spirals (spirochetes).",
+      "imageLink": "https://microbiologyinfo.com/shapes-and-arrangements-of-bacteria/",
+      "answer": "Bacilli are rod-shaped, cocci are spherical, and spirochetes are spiral-shaped bacteria.",
+      "displayReference": true
     },
     {
-      "question": "Identify the bacterial shape and arrangement in the image below.",
-      "answer": {
-        "shape": "Cocci",
-        "arrangement": "Chains"
-      },
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Streptococcus_pyogenes.png"
+      "type": "procedure",
+      "question": "Write out the steps of a Gram stain procedure.",
+      "steps": [
+        "Apply crystal violet (primary stain)",
+        "Add iodine (mordant)",
+        "Decolorize with alcohol/acetone",
+        "Counterstain with safranin"
+      ],
+      "referenceLink": "https://microbeonline.com/gram-staining-principle-procedure-results/",
+      "answer": "The Gram-positive bacteria appear purple, and Gram-negative bacteria appear pink after the procedure.",
+      "displayReference": true
     },
     {
-      "question": "Draw and label the following microbial shapes.",
-      "answer": {
-        "a": "Spirillum",
-        "b": "Diplococci"
-      },
-      "reference": "https://microbenotes.com/bacterial-shapes/"
-    },
-    {
-      "question": "How do spirochetes move?",
-      "options": ["Flagella", "Cilia", "Axial filaments", "Pili"],
-      "answer": "Axial filaments",
-      "reference": "https://microbewiki.kenyon.edu/index.php/Spirochetes"
-    },
-    {
-      "question": "Name and describe the four stages of bacterial growth.",
-      "answer": {
-        "stage1": "Lag phase - Bacteria prepare for growth.",
-        "stage2": "Log phase - Rapid exponential growth occurs.",
-        "stage3": "Stationary phase - Growth slows as resources are depleted.",
-        "stage4": "Death phase - Bacteria die due to lack of nutrients."
-      },
-      "reference": "https://www.ncbi.nlm.nih.gov/books/NBK7961/"
-    },
-    {
-      "question": "Explain why prion diseases are difficult to treat.",
-      "answer": "Prion diseases are caused by misfolded proteins that are resistant to most conventional sterilization methods and lack a specific treatment.",
-      "reference": "https://www.cdc.gov/prions/index.html"
-    },
-    {
-      "question": "What process enables bacteria to survive in harsh environmental conditions by forming protective structures?",
-      "options": ["Endospore formation", "Binary fission", "Transformation", "Conjugation"],
-      "answer": "Endospore formation",
-      "reference": "https://microbeonline.com/endospore-formation/"
-    },
-    {
-      "question": "What is the function of the lysosome in eukaryotic cells?",
-      "options": ["Protein synthesis", "Waste degradation", "ATP production", "Lipid synthesis"],
-      "answer": "Waste degradation",
-      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4865370/"
-    },
-    {
-      "question": "What structure allows bacteria to transfer genetic material through conjugation?",
-      "options": ["Flagella", "Pili", "Ribosomes", "Cell wall"],
-      "answer": "Pili",
-      "reference": "https://microbewiki.kenyon.edu/index.php/Conjugation"
-    },
-    {
-      "question": "Which bacterial structure helps in adherence to surfaces?",
-      "options": ["Fimbriae", "Capsule", "Cell wall", "Flagella"],
-      "answer": "Fimbriae",
-      "reference": "https://microbenotes.com/fimbriae/"
-    },
-    {
-      "question": "Name a bacterial cell wall component that determines Gram staining properties.",
-      "options": ["Peptidoglycan", "Capsule", "Lipopolysaccharide", "Plasma membrane"],
-      "answer": "Peptidoglycan",
-      "reference": "https://en.wikipedia.org/wiki/Gram_staining"
-    },
-    {
-      "question": "Which method is used to measure bacterial growth indirectly?",
-      "options": ["Optical density", "Colony counting", "Microscopic observation", "Serial dilution"],
-      "answer": "Optical density",
-      "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3235073/"
-    },
-    {
-      "question": "What is the typical temperature range for bacterial growth?",
-      "options": ["15-45°C", "0-10°C", "50-80°C", "Above 100°C"],
-      "answer": "15-45°C",
-      "reference": "https://microbenotes.com/temperature-and-bacterial-growth/"
-    },
-    {
-      "question": "Which stain is used to identify Mycobacterium species?",
-      "options": ["Gram stain", "Acid-fast stain", "Endospore stain", "Negative stain"],
-      "answer": "Acid-fast stain",
-      "reference": "https://en.wikipedia.org/wiki/Acid-fast_stain"
-    },
-    {
-      "question": "What are bacterial biofilms?",
-      "answer": "Bacterial biofilms are communities of bacteria embedded in a self-produced matrix of extracellular polymeric substances (EPS).",
-      "reference": "https://en.wikipedia.org/wiki/Biofilm"
-    },
-    {
-      "question": "Name one example of a bacterium that forms endospores.",
-      "answer": "Bacillus anthracis",
-      "reference": "https://microbewiki.kenyon.edu/index.php/Bacillus_anthracis"
-    },
-    {
-      "question": "Which nutrient is most commonly limiting bacterial growth?",
-      "options": ["Nitrogen", "Oxygen", "Carbon", "Phosphorus"],
-      "answer": "Nitrogen",
-      "reference": "https://microbenotes.com/bacterial-nutritional-requirements/"
-    },
-    {
-      "question": "What process do bacteria use to divide?",
-      "options": ["Mitosis", "Binary fission", "Meiosis", "Conjugation"],
-      "answer": "Binary fission",
-      "reference": "https://en.wikipedia.org/wiki/Binary_fission"
-    },
-    {
-      "question": "What type of media is used to grow only Gram-negative bacteria?",
-      "options": ["Selective media", "Differential media", "Enriched media", "Simple media"],
-      "answer": "Selective media",
-      "reference": "https://microbenotes.com/selective-media/"
-    },
-    {
-      "question": "Which molecule is used as the genetic material in most bacteria?",
-      "options": ["DNA", "RNA", "Proteins", "Lipids"],
-      "answer": "DNA",
-      "reference": "https://en.wikipedia.org/wiki/Bacteria"
-    },
-    {
-      "question": "What is quorum sensing in bacteria?",
-      "answer": "Quorum sensing is a cell-to-cell communication process that allows bacteria to coordinate behavior in response to population density.",
-      "reference": "https://en.wikipedia.org/wiki/Quorum_sensing"
-    },
-    {
-      "question": "Which technique is used to visualize live bacterial cells?",
-      "options": ["Phase-contrast microscopy", "SEM", "TEM", "Gram staining"],
-      "answer": "Phase-contrast microscopy",
-      "reference": "https://en.wikipedia.org/wiki/Phase-contrast_microscopy"
+      "type": "shortAnswer",
+      "question": "Explain the key differences between Gram-positive and Gram-negative bacteria.",
+      "referenceLink": "https://asm.org/Articles/2020/March/Gram-Positive-vs-Gram-Negative-Bacteria",
+      "answer": "Gram-positive bacteria have a thick peptidoglycan layer and no outer membrane, while Gram-negative bacteria have a thin peptidoglycan layer and an outer membrane with lipopolysaccharides.",
+      "displayReference": true
     }
   ]
 }
