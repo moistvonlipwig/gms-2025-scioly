@@ -1,139 +1,110 @@
 {
   "questions": [
     {
-      "question": "What is the refractive index of glass?",
-      "options": ["1.33", "1.5", "1.8", "2.0"],
-      "answer": "1.5"
+      "type": "multipleChoice",
+      "question": "Which of the following is NOT an additive primary color?",
+      "options": ["Red", "Green", "Yellow", "Blue"],
+      "answer": "Yellow",
+      "referenceLink": "https://en.wikipedia.org/wiki/Additive_color",
+      "imageLink": "https://slideplayer.com/slide/5952888/20/images/8/Additive+Primary+Colors.jpg"
     },
     {
-      "question": "What type of lens is used to focus light?",
-      "options": ["Concave", "Convex", "Bifocal", "Plano"],
-      "answer": "Convex"
+      "type": "multipleChoice",
+      "question": "What colors are combined to create white light in an additive color system?",
+      "options": ["Cyan, Magenta, Yellow", "Red, Blue, Green", "Red, Yellow, Blue", "Black, White"],
+      "answer": "Red, Blue, Green",
+      "referenceLink": "https://en.wikipedia.org/wiki/RGB_color_model",
+      "imageLink": "https://slideplayer.com/slide/5952888/20/images/8/Additive+Primary+Colors.jpg"
     },
     {
-      "question": "Which part of the eye focuses light onto the retina?",
+      "type": "multipleChoice",
+      "question": "What happens to light that is absorbed by an object?",
+      "options": ["It is reflected", "It is transmitted", "It is converted into heat", "It disappears"],
+      "answer": "It is converted into heat",
+      "referenceLink": "https://en.wikipedia.org/wiki/Absorption_(electromagnetic_radiation)",
+      "imageLink": "https://media.geeksforgeeks.org/wp-content/uploads/20240507174711/Real-Life-Applications-of-Light-Absorption.png"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which part of the eye is responsible for focusing light onto the retina?",
       "options": ["Lens", "Cornea", "Iris", "Optic Nerve"],
-      "answer": "Lens"
+      "answer": "Lens",
+      "referenceLink": "https://en.wikipedia.org/wiki/Eye",
+      "imageLink": "https://kaiserscience.wordpress.com/wp-content/uploads/2015/02/eye-focusing-rays-of-light-figure_10_24_labeled.jpg"
     },
     {
-      "question": "Which type of mirror always produces a virtual, upright image?",
-      "options": ["Convex", "Concave", "Plane", "Parabolic"],
-      "answer": "Convex"
+      "type": "multipleChoice",
+      "question": "Which cells in the retina are responsible for detecting color?",
+      "options": ["Rods", "Cones", "Optic nerve", "Cornea"],
+      "answer": "Cones",
+      "referenceLink": "https://en.wikipedia.org/wiki/Photoreceptor_cell",
+      "imageLink": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/photoreceptors-rods-and-cones"
     },
     {
-      "question": "What is the speed of light in a vacuum?",
-      "options": ["3 x 10^8 m/s", "3 x 10^6 m/s", "3 x 10^5 m/s", "3 x 10^7 m/s"],
-      "answer": "3 x 10^8 m/s"
+      "type": "trueFalse",
+      "question": "The primary subtractive colors are red, blue, and green.",
+      "answer": "false",
+      "referenceLink": "https://en.wikipedia.org/wiki/Subtractive_color"
     },
     {
-      "question": "What phenomenon causes a straw in water to appear bent?",
-      "options": ["Reflection", "Refraction", "Diffraction", "Polarization"],
-      "answer": "Refraction"
+      "type": "trueFalse",
+      "question": "The cornea is responsible for most of the eye’s refraction.",
+      "answer": "true",
+      "referenceLink": "https://en.wikipedia.org/wiki/Cornea"
     },
     {
+      "type": "trueFalse",
+      "question": "Rods are more sensitive to light than cones.",
+      "answer": "true",
+      "referenceLink": "https://en.wikipedia.org/wiki/Rod_cell"
+    },
+    {
+      "type": "trueFalse",
+      "question": "The optic nerve creates a blind spot in the eye.",
+      "answer": "true",
+      "referenceLink": "https://en.wikipedia.org/wiki/Blind_spot_(vision)"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain the difference between additive and subtractive color mixing.",
+      "answer": "Additive color mixing combines light sources (red, green, blue) to make white. Subtractive mixing combines pigments (cyan, magenta, yellow) to absorb light and create black.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Color_mixing"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "If you shine a blue light on a yellow object, what color will the object appear and why?",
+      "answer": "It will appear black or dark because yellow pigment absorbs blue light and reflects red and green light, but since the blue light source provides no red or green, no light is reflected.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Color_theory"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Describe the pathway light follows from the cornea to the optic nerve.",
+      "answer": "Light enters through the cornea, passes through the aqueous humor, pupil, lens, vitreous humor, and is focused onto the retina. The optic nerve then transmits signals to the brain.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Human_eye"
+    },
+    {
+      "type": "multipleChoice",
       "question": "Which color has the shortest wavelength?",
       "options": ["Red", "Blue", "Green", "Violet"],
-      "answer": "Violet"
+      "answer": "Violet",
+      "referenceLink": "https://en.wikipedia.org/wiki/Visible_spectrum",
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1J-IK6PIZV8107EUPLp1hX6q-m6JnXRMvQ&s"
     },
     {
+      "type": "multipleChoice",
       "question": "Which type of lens is thinner at the center than at the edges?",
       "options": ["Convex", "Concave", "Bifocal", "Plano"],
-      "answer": "Concave"
+      "answer": "Concave",
+      "referenceLink": "https://en.wikipedia.org/wiki/Lens_(optics)",
+      "imageLink": "https://www.physics.louisville.edu/cldavis/phys299/notes/lo_tl_typelens.jpg"
     },
     {
-      "question": "What type of spectrum is produced by a heated gas?",
-      "options": ["Continuous Spectrum", "Emission Spectrum", "Absorption Spectrum", "Band Spectrum"],
-      "answer": "Emission Spectrum"
-    },
-    {
-      "question": "What is the unit of the refractive index?",
-      "options": ["None", "Meters", "Seconds", "Joules"],
-      "answer": "None"
-    },
-    {
-      "question": "What is total internal reflection?",
-      "options": [
-        "Light is fully refracted into the second medium",
-        "Light is completely reflected back into the first medium",
-        "Light is absorbed by the material",
-        "Light is partially reflected and refracted"
-      ],
-      "answer": "Light is completely reflected back into the first medium"
-    },
-    {
-      "question": "What type of electromagnetic radiation has the highest frequency?",
-      "options": ["Gamma Rays", "X-rays", "Ultraviolet", "Infrared"],
-      "answer": "Gamma Rays"
-    },
-    {
-      "question": "What type of reflection occurs on a rough surface?",
-      "options": ["Specular", "Diffuse", "Regular", "Refracted"],
-      "answer": "Diffuse"
-    },
-    {
-      "question": "Which optical device uses two convex lenses?",
-      "options": ["Telescope", "Microscope", "Camera", "Periscope"],
-      "answer": "Microscope"
-    },
-    {
-      "question": "Which part of the eye controls the amount of light entering?",
-      "options": ["Iris", "Cornea", "Lens", "Retina"],
-      "answer": "Iris"
-    },
-    {
-      "question": "What is the critical angle for water with a refractive index of 1.33?",
-      "options": ["48.6°", "42°", "57.2°", "36°"],
-      "answer": "48.6°"
-    },
-    {
-      "question": "What is Snell's law?",
-      "options": [
-        "n1sinθ1 = n2sinθ2",
-        "n1sinθ1 = θ2/n2",
-        "sinθ1 = n2/n1",
-        "n1 = n2"
-      ],
-      "answer": "n1sinθ1 = n2sinθ2"
-    },
-    {
-      "question": "What is the wavelength of red light?",
-      "options": ["700 nm", "450 nm", "550 nm", "600 nm"],
-      "answer": "700 nm"
-    },
-    {
-      "question": "Which type of electromagnetic wave is used in night vision goggles?",
-      "options": ["Infrared", "Microwaves", "Gamma Rays", "Ultraviolet"],
-      "answer": "Infrared"
-    },
-    {
-      "question": "What type of image is formed by a plane mirror?",
-      "options": ["Virtual and Upright", "Real and Upright", "Real and Inverted", "Virtual and Inverted"],
-      "answer": "Virtual and Upright"
-    },
-    {
-      "question": "Which phenomenon explains the splitting of white light into a rainbow?",
-      "options": ["Dispersion", "Diffraction", "Refraction", "Interference"],
-      "answer": "Dispersion"
-    },
-    {
-      "question": "What is the focal length of a lens with power +2 diopters?",
-      "options": ["0.5 m", "2 m", "1 m", "0.2 m"],
-      "answer": "0.5 m"
-    },
-    {
-      "question": "What type of lens is used to correct nearsightedness?",
-      "options": ["Concave", "Convex", "Plano", "Cylindrical"],
-      "answer": "Concave"
-    },
-    {
-      "question": "Which property of light is demonstrated by the double-slit experiment?",
-      "options": ["Wave nature", "Particle nature", "Refraction", "Polarization"],
-      "answer": "Wave nature"
-    },
-    {
-      "question": "Which part of the spectrum is most visible to the human eye?",
-      "options": ["Green", "Blue", "Red", "Yellow"],
-      "answer": "Green"
+      "type": "multipleChoice",
+      "question": "Which part of the eye contains the highest concentration of cones, allowing for sharp central vision?",
+      "options": ["Optic nerve", "Fovea", "Cornea", "Aqueous humor"],
+      "answer": "Fovea",
+      "referenceLink": "https://en.wikipedia.org/wiki/Fovea_centralis",
+      "imageLink": "https://s3-us-west-2.amazonaws.com/infinitestudent-images/ckeditor_assets/pictures/500922/original_images.jfif"
     }
   ]
 }

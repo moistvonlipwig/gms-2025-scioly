@@ -96,7 +96,8 @@ const Test = ({ quizFile, username, db }) => {
 
   const current = testData[currentQuestion];
   const isMatching = Array.isArray(current?.options) && current?.options[0]?.item;
-  const isTextAnswer = !isMatching && !current?.options;
+  const isTextAnswer = current?.type == "shortAnswer";
+  const isTrueFalse = current?.type === "trueFalse";
 
   return (
     <div className="test-container">
@@ -140,7 +141,7 @@ const Test = ({ quizFile, username, db }) => {
               className="question-image"
             />
           )}
-          {!isMatching && !isTextAnswer && (
+          {!isMatching && !isTextAnswer && !isTrueFalse && (
             <div className="answer-section">
               {current?.options?.map((option, index) => (
                 <button
@@ -158,6 +159,32 @@ const Test = ({ quizFile, username, db }) => {
                   {option}
                 </button>
               ))}
+            </div>
+          )}
+          {isTrueFalse && (
+            <div className="true-false-section">
+              <label className="block p-2 bg-white rounded-lg shadow-sm hover:bg-gray-200">
+                <input
+                  type="radio"
+                  name={`question-${currentQuestion}`}
+                  value="true"
+                  checked={selectedAnswer === "true"}
+                  onChange={() => handleAnswerClick("true")}
+                  className="mr-2"
+                />
+                True
+              </label>
+              <label className="block p-2 bg-white rounded-lg shadow-sm hover:bg-gray-200">
+                <input
+                  type="radio"
+                  name={`question-${currentQuestion}`}
+                  value="false"
+                  checked={selectedAnswer === "false"}
+                  onChange={() => handleAnswerClick("false")}
+                  className="mr-2"
+                />
+                False
+              </label>
             </div>
           )}
           {isTextAnswer && (
