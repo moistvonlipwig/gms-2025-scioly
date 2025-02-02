@@ -1,248 +1,103 @@
 import React, { useState, useEffect } from "react";
-import { collection, addDoc } from "firebase/firestore";
-import "../styles/Test.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Test from "./components/Test";
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, getDocs } from "firebase/firestore";
+import "./styles/App.css";
 
-const Test = ({ quizFile, username, db }) => {
-  const [testData, setTestData] = useState(null);
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [textAnswer, setTextAnswer] = useState("");
-  const [matchingAnswers, setMatchingAnswers] = useState({});
-  const [showImage, setShowImage] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false); // Toggle to show answer
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBUtDmgr_4miMXI1D_vBf0Fg8ienv_8Cf0",
+  authDomain: "gms-2025-scioly-dcaa4.firebaseapp.com",
+  projectId: "gms-2025-scioly-dcaa4",
+  storageBucket: "gms-2025-scioly-dcaa4.firebasestorage.app",
+  messagingSenderId: "246061368451",
+  appId: "1:246061368451:web:24ea1472559290fbf8c7b6",
+};
 
-  useEffect(() => {
-    const loadTestData = async () => {
-      try {
-        const data = await import(`../data/${quizFile}`);
-        setTestData(data.questions);
-      } catch (error) {
-        console.error(`Failed to load ${quizFile} data:`, error);
-        setTestData([]);
-      }
-    };
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-    loadTestData();
-  }, [quizFile]);
+const App = () => {
+  const [currentQuiz, setCurrentQuiz] = useState("Optics-quiz-1.json");
+  const [username, setUsername] = useState("");
+  const [scores, setScores] = useState([]);
+  const [isUsernameEntered, setIsUsernameEntered] = useState(false);
 
-  const handleAnswerClick = (option) => {
-    const isCorrect = option === testData[currentQuestion]?.answer;
-    if (isCorrect) setScore(score + 1);
-    setSelectedAnswer(option);
-    setShowImage(true);
-    setShowAnswer(true);
+  const handleQuizChange = (selectedQuiz) => {
+    setCurrentQuiz(selectedQuiz);
   };
 
-  const handleTextSubmit = () => {
-    const correctAnswer = testData[currentQuestion]?.answer;
-    if (textAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-      setScore(score + 1);
-    }
-    setTextAnswer("");
-    setShowImage(true);
-    setShowAnswer(true);
-  };
+  const quizList = [
+    { label: "Optics Quiz 1", value: "Optics-quiz-1.json" },
+    { label: "Optics Quiz 2", value: "Optics-quiz-2.json" },
+    { label: "Optics Quiz 3", value: "Optics-quiz-3.json" },
+    { label: "Microbe Mission Quiz-1", value: "MicrobeMission-quiz-1.json" },
+    { label: "Microbe Mission Quiz-2", value: "MicrobeMission-quiz-2.json" },
+  ];
 
-  const handleMatchingChange = (item, selectedMatch) => {
-    setMatchingAnswers((prev) => ({
-      ...prev,
-      [item]: selectedMatch,
-    }));
-  };
-
-  const handleMatchingSubmit = () => {
-    const correctAnswers = testData[currentQuestion]?.answer || {};
-    const isCorrect = Object.keys(correctAnswers).every(
-      (key) => correctAnswers[key] === matchingAnswers[key]
-    );
-    if (isCorrect) {
-      setScore(score + 1);
-    }
-    setMatchingAnswers({});
-    setShowImage(true);
-    setShowAnswer(true);
-  };
-
-  const handleNextQuestion = () => {
-    setSelectedAnswer(null);
-    setTextAnswer("");
-    setMatchingAnswers({});
-    setShowImage(false);
-    setShowAnswer(false);
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < testData.length) {
-      setCurrentQuestion(nextQuestion);
+  const handleUsernameSubmit = () => {
+    if (username.trim()) {
+      setIsUsernameEntered(true);
     } else {
-      setShowScore(true);
-      submitScore();
+      alert("Please enter a valid username.");
     }
   };
-
-  const submitScore = async () => {
-    try {
-      await addDoc(collection(db, "Users"), {
-        username,
-        score,
-        quiz: quizFile,
-        timestamp: new Date(),
-      });
-      alert(`Test complete! Your score of ${score} has been submitted.`);
-    } catch (error) {
-      console.error("Error submitting score:", error);
-      alert("Error submitting score. Please try again.");
-    }
-  };
-
-  if (!testData) return <div>Loading test...</div>;
-
-  if (testData.length === 0) return <div>No questions available for this test.</div>;
-
-  const current = testData[currentQuestion];
-  const isMatching = Array.isArray(current?.options) && current?.options[0]?.item;
-  const isTextAnswer = current?.type === "shortAnswer";
-  const isTrueFalse = current?.type === "trueFalse";
 
   return (
-    <div className="test-container">
-      {showScore ? (
-        <div className="score-section box">
-          <h2>Test Complete!</h2>
-          <p>
-            You scored {score} out of {testData.length}
-          </p>
-          <ul>
-            {testData.map((question, index) => (
-              <li key={index}>
-                <strong>Q{index + 1}:</strong> {question.question} <br />
-                {question.imageLink && (
-                  <img
-                    src={question.imageLink}
-                    alt={`Q${index + 1}`}
-                    className="question-image"
-                  />
-                )}
-                <strong>Correct Answer:</strong> {JSON.stringify(question.answer)} <br />
-                {question.referenceLink && (
-                  <a href={question.referenceLink} target="_blank" rel="noopener noreferrer">
-                    Learn more
-                  </a>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        <div className="question-section box">
-          <div className="question-count">
-            <span>Question {currentQuestion + 1}</span>/{testData.length}
-          </div>
-          <div className="question-text">{current?.question}</div>
-          {current?.imageLink && (
-            <img
-              src={current.imageLink}
-              alt="Question Illustration"
-              className="question-image"
-            />
-          )}
-          {!isMatching && !isTextAnswer && !isTrueFalse && (
-            <div className="answer-section">
-              {current?.options?.map((option, index) => (
-                <button
-                  key={index}
-                  className={`answer-option ${
-                    selectedAnswer === option
-                      ? option === current?.answer
-                        ? "correct"
-                        : "incorrect"
-                      : ""
-                  }`}
-                  onClick={() => handleAnswerClick(option)}
-                  disabled={selectedAnswer !== null}
-                >
-                  {option}
-                </button>
-              ))}
-            </div>
-          )}
-          {isTrueFalse && (
-            <div className="true-false-section">
-              <label className="block p-2 bg-white rounded-lg shadow-sm hover:bg-gray-200">
+    <Router basename="/gms-2025-scioly">
+      <div className="app-container">
+        {!isUsernameEntered ? (
+            <div className="form-container">
+              <h1>GMS Scioly Team</h1>
+              <h2>Enter Your Username</h2>
+              <div className="form-group">
                 <input
-                  type="radio"
-                  name={`question-${currentQuestion}`}
-                  value="true"
-                  checked={selectedAnswer === "true"}
-                  onChange={() => handleAnswerClick("true")}
-                  className="mr-2"
+                  type="text"
+                  id="username"
+                  placeholder="Enter your username"
+                  onChange={(e) => setUsername(e.target.value)}
                 />
-                True
-              </label>
-              <label className="block p-2 bg-white rounded-lg shadow-sm hover:bg-gray-200">
-                <input
-                  type="radio"
-                  name={`question-${currentQuestion}`}
-                  value="false"
-                  checked={selectedAnswer === "false"}
-                  onChange={() => handleAnswerClick("false")}
-                  className="mr-2"
-                />
-                False
-              </label>
-            </div>
-          )}
-          {isTextAnswer && (
-            <div className="text-answer-section">
-              <textarea
-                value={textAnswer}
-                onChange={(e) => setTextAnswer(e.target.value)}
-                placeholder="Type your answer..."
-              />
-              <button onClick={handleTextSubmit} disabled={!textAnswer.trim()}>
+              </div>
+              <button className="submit-button" onClick={handleUsernameSubmit}>
                 Submit
               </button>
             </div>
-          )}
-          {isMatching && (
-            <div className="matching-section">
-              {current.options.map(({ item }, idx) => (
-                <div key={idx} className="matching-pair">
-                  <span>{item}</span>
-                  <select
-                    value={matchingAnswers[item] || ""}
-                    onChange={(e) => handleMatchingChange(item, e.target.value)}
-                  >
-                    <option value="">Select a match</option>
-                    {current.options.map(({ match }, i) => (
-                      <option key={i} value={match}>
-                        {match}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              ))}
-              <button onClick={handleMatchingSubmit}>Submit</button>
+        ) : (
+          <>
+            <h1>Science Olympiad Quizzes</h1>
+            <div className="quiz-selector">
+              <label htmlFor="quiz-dropdown">Select Quiz:</label>
+              <select
+                id="quiz-dropdown"
+                value={currentQuiz}
+                onChange={(e) => handleQuizChange(e.target.value)}
+              >
+                {quizList.map((quiz, index) => (
+                  <option key={index} value={quiz.value}>
+                    {quiz.label}
+                  </option>
+                ))}
+              </select>
             </div>
-          )}
-          <button className="toggle-answer-button" onClick={() => setShowAnswer(!showAnswer)}>
-            {showAnswer ? "Hide Answer" : "Show Answer"}
-          </button>
-          {showAnswer && (
-            <div className="answer-section">
-              <strong>Correct Answer: </strong> {JSON.stringify(current?.answer)}
-              {current?.imageLink && (
-                <img src={current.imageLink} alt="Answer Image" className="answer-image" />
-              )}
-            </div>
-          )}
-          <button className="next-button" onClick={handleNextQuestion}>
-            Next
-          </button>
-        </div>
-      )}
-    </div>
+            <br />
+            <hr />
+
+            <Routes>
+              {/* Default Route */}
+              <Route
+                path="/"
+                element={<Test quizFile={currentQuiz} username={username} db={db} />}
+              />
+
+              {/* Fallback Route */}
+              <Route path="*" element={<div>404: Page Not Found</div>} />
+            </Routes>
+          </>
+        )}
+      </div>
+    </Router>
   );
 };
-
-export default Test;
+export default App;
