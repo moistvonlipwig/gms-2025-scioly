@@ -1,139 +1,88 @@
 {
   "questions": [
     {
-      "question": "What is the refractive index of glass?",
-      "options": ["1.33", "1.5", "1.8", "2.0"],
-      "answer": "1.5"
-    },
-    {
-      "question": "What type of lens is used to focus light?",
-      "options": ["Concave", "Convex", "Bifocal", "Plano"],
-      "answer": "Convex"
-    },
-    {
-      "question": "Which part of the eye focuses light onto the retina?",
-      "options": ["Lens", "Cornea", "Iris", "Optic Nerve"],
-      "answer": "Lens"
-    },
-    {
-      "question": "Which type of mirror always produces a virtual, upright image?",
-      "options": ["Convex", "Concave", "Plane", "Parabolic"],
-      "answer": "Convex"
-    },
-    {
-      "question": "What is the speed of light in a vacuum?",
-      "options": ["3 x 10^8 m/s", "3 x 10^6 m/s", "3 x 10^5 m/s", "3 x 10^7 m/s"],
-      "answer": "3 x 10^8 m/s"
-    },
-    {
-      "question": "What phenomenon causes a straw in water to appear bent?",
-      "options": ["Reflection", "Refraction", "Diffraction", "Polarization"],
-      "answer": "Refraction"
-    },
-    {
-      "question": "Which color has the shortest wavelength?",
-      "options": ["Red", "Blue", "Green", "Violet"],
-      "answer": "Violet"
-    },
-    {
-      "question": "Which type of lens is thinner at the center than at the edges?",
-      "options": ["Convex", "Concave", "Bifocal", "Plano"],
-      "answer": "Concave"
-    },
-    {
-      "question": "What type of spectrum is produced by a heated gas?",
-      "options": ["Continuous Spectrum", "Emission Spectrum", "Absorption Spectrum", "Band Spectrum"],
-      "answer": "Emission Spectrum"
-    },
-    {
-      "question": "What is the unit of the refractive index?",
-      "options": ["None", "Meters", "Seconds", "Joules"],
-      "answer": "None"
-    },
-    {
-      "question": "What is total internal reflection?",
+      "type": "multipleChoice",
+      "question": "Which of the following conditions must be met for total internal reflection to occur?",
       "options": [
-        "Light is fully refracted into the second medium",
-        "Light is completely reflected back into the first medium",
-        "Light is absorbed by the material",
-        "Light is partially reflected and refracted"
+        "Light must be traveling from a medium with a lower index of refraction to a higher one.",
+        "Light must be traveling from a medium with a higher index of refraction to a lower one.",
+        "The angle of incidence must be less than the critical angle.",
+        "The angle of incidence must be exactly 90°."
       ],
-      "answer": "Light is completely reflected back into the first medium"
+      "answer": "Light must be traveling from a medium with a higher index of refraction to a lower one.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Total_internal_reflection"
     },
     {
-      "question": "What type of electromagnetic radiation has the highest frequency?",
-      "options": ["Gamma Rays", "X-rays", "Ultraviolet", "Infrared"],
-      "answer": "Gamma Rays"
-    },
-    {
-      "question": "What type of reflection occurs on a rough surface?",
-      "options": ["Specular", "Diffuse", "Regular", "Refracted"],
-      "answer": "Diffuse"
-    },
-    {
-      "question": "Which optical device uses two convex lenses?",
-      "options": ["Telescope", "Microscope", "Camera", "Periscope"],
-      "answer": "Microscope"
-    },
-    {
-      "question": "Which part of the eye controls the amount of light entering?",
-      "options": ["Iris", "Cornea", "Lens", "Retina"],
-      "answer": "Iris"
-    },
-    {
-      "question": "What is the critical angle for water with a refractive index of 1.33?",
-      "options": ["48.6°", "42°", "57.2°", "36°"],
-      "answer": "48.6°"
-    },
-    {
-      "question": "What is Snell's law?",
+      "type": "multipleChoice",
+      "question": "What is the main reason why fiber optic cables can transmit data efficiently?",
       "options": [
-        "n1sinθ1 = n2sinθ2",
-        "n1sinθ1 = θ2/n2",
-        "sinθ1 = n2/n1",
-        "n1 = n2"
+        "They use total internal reflection to guide light.",
+        "They allow light to travel faster than in a vacuum.",
+        "They absorb and re-emit light at different frequencies.",
+        "They use diffraction to bend light around obstacles."
       ],
-      "answer": "n1sinθ1 = n2sinθ2"
+      "answer": "They use total internal reflection to guide light.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Optical_fiber"
     },
     {
-      "question": "What is the wavelength of red light?",
-      "options": ["700 nm", "450 nm", "550 nm", "600 nm"],
-      "answer": "700 nm"
+      "type": "multipleChoice",
+      "question": "Which of the following phenomena is responsible for the separation of white light into colors when passing through a prism?",
+      "options": [
+        "Reflection",
+        "Diffraction",
+        "Dispersion",
+        "Polarization"
+      ],
+      "answer": "Dispersion",
+      "referenceLink": "https://en.wikipedia.org/wiki/Dispersion_(optics)"
     },
     {
-      "question": "Which type of electromagnetic wave is used in night vision goggles?",
-      "options": ["Infrared", "Microwaves", "Gamma Rays", "Ultraviolet"],
-      "answer": "Infrared"
+      "type": "multipleChoice",
+      "question": "A convex mirror always produces images that are:",
+      "options": [
+        "Real and inverted",
+        "Virtual and upright",
+        "Real and upright",
+        "Virtual and inverted"
+      ],
+      "answer": "Virtual and upright",
+      "referenceLink": "https://en.wikipedia.org/wiki/Mirror"
     },
     {
-      "question": "What type of image is formed by a plane mirror?",
-      "options": ["Virtual and Upright", "Real and Upright", "Real and Inverted", "Virtual and Inverted"],
-      "answer": "Virtual and Upright"
+      "type": "calculation",
+      "question": "A laser beam (λ = 500 nm) enters a glass block (n = 1.5). What is the speed of light in the glass?",
+      "answer": "2.00 × 10^8 m/s",
+      "referenceLink": "https://en.wikipedia.org/wiki/Speed_of_light"
     },
     {
-      "question": "Which phenomenon explains the splitting of white light into a rainbow?",
-      "options": ["Dispersion", "Diffraction", "Refraction", "Interference"],
-      "answer": "Dispersion"
+      "type": "calculation",
+      "question": "A concave mirror has a focal length of 15 cm. An object is placed 25 cm in front of the mirror. Find the image distance and state whether the image is real or virtual.",
+      "answer": "Image distance = 37.5 cm, Real image",
+      "referenceLink": "https://en.wikipedia.org/wiki/Concave_mirror"
     },
     {
-      "question": "What is the focal length of a lens with power +2 diopters?",
-      "options": ["0.5 m", "2 m", "1 m", "0.2 m"],
-      "answer": "0.5 m"
+      "type": "shortAnswer",
+      "question": "Explain why a red apple appears red under white light but would appear black under blue light.",
+      "answer": "A red apple reflects red light and absorbs other colors. Under blue light, no red light is available to reflect, so it appears black.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Color"
     },
     {
-      "question": "What type of lens is used to correct nearsightedness?",
-      "options": ["Concave", "Convex", "Plano", "Cylindrical"],
-      "answer": "Concave"
+      "type": "shortAnswer",
+      "question": "Describe how a rainbow forms, including the roles of refraction, reflection, and dispersion.",
+      "answer": "Rainbows form when sunlight enters water droplets, refracts, internally reflects, and disperses into different colors based on wavelength.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Rainbow"
     },
     {
-      "question": "Which property of light is demonstrated by the double-slit experiment?",
-      "options": ["Wave nature", "Particle nature", "Refraction", "Polarization"],
-      "answer": "Wave nature"
+      "type": "trueFalse",
+      "question": "Light waves can bend around corners due to diffraction.",
+      "answer": "True",
+      "referenceLink": "https://en.wikipedia.org/wiki/Diffraction"
     },
     {
-      "question": "Which part of the spectrum is most visible to the human eye?",
-      "options": ["Green", "Blue", "Red", "Yellow"],
-      "answer": "Green"
+      "type": "trueFalse",
+      "question": "A convex lens can only form virtual images.",
+      "answer": "False",
+      "referenceLink": "https://en.wikipedia.org/wiki/Convex_lens"
     }
   ]
 }
