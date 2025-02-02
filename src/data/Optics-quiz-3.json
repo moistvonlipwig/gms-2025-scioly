@@ -61,6 +61,24 @@
       "referenceLink": "https://en.wikipedia.org/wiki/Concave_mirror"
     },
     {
+      "type": "calculation",
+      "question": "A lens has a power of +4.00 diopters. What is its focal length?",
+      "answer": "0.25 m",
+      "referenceLink": "https://en.wikipedia.org/wiki/Dioptre"
+    },
+    {
+      "type": "calculation",
+      "question": "A light wave has a frequency of 5.0 × 10¹⁴ Hz. What is its wavelength in a vacuum?",
+      "answer": "600 nm",
+      "referenceLink": "https://en.wikipedia.org/wiki/Wavelength"
+    },
+    {
+      "type": "calculation",
+      "question": "A person looks at a fish underwater (n = 1.33) from above the surface (n = 1.00). If the fish appears to be at a depth of 1.2 m, what is the actual depth of the fish?",
+      "answer": "1.60 m",
+      "referenceLink": "https://en.wikipedia.org/wiki/Refraction"
+    },
+    {
       "type": "shortAnswer",
       "question": "Explain why a red apple appears red under white light but would appear black under blue light.",
       "answer": "A red apple reflects red light and absorbs other colors. Under blue light, no red light is available to reflect, so it appears black.",
@@ -73,6 +91,24 @@
       "referenceLink": "https://en.wikipedia.org/wiki/Rainbow"
     },
     {
+      "type": "shortAnswer",
+      "question": "Why are polarized sunglasses effective at reducing glare from the surface of water?",
+      "answer": "They block horizontally polarized light, which is the main component of glare reflected off water and other flat surfaces.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Polarization_(waves)"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Describe the difference between a real and a virtual image. Provide an example of each.",
+      "answer": "A real image is formed when light rays converge (e.g., a projector image on a screen), while a virtual image forms when rays appear to diverge (e.g., a plane mirror reflection).",
+      "referenceLink": "https://en.wikipedia.org/wiki/Real_image"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain why a diamond sparkles more than a piece of glass with a similar shape.",
+      "answer": "Diamonds have a higher refractive index, which results in greater total internal reflection and more dispersion of light into colors.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Dispersion_(optics)"
+    },
+    {
       "type": "trueFalse",
       "question": "Light waves can bend around corners due to diffraction.",
       "answer": "True",
@@ -80,9 +116,45 @@
     },
     {
       "type": "trueFalse",
+      "question": "The law of reflection states that the angle of incidence is always greater than the angle of reflection.",
+      "answer": "False",
+      "referenceLink": "https://en.wikipedia.org/wiki/Reflection_(physics)"
+    },
+    {
+      "type": "trueFalse",
+      "question": "The human eye can see all types of electromagnetic waves.",
+      "answer": "False",
+      "referenceLink": "https://en.wikipedia.org/wiki/Visible_spectrum"
+    },
+    {
+      "type": "trueFalse",
       "question": "A convex lens can only form virtual images.",
       "answer": "False",
       "referenceLink": "https://en.wikipedia.org/wiki/Convex_lens"
+    },
+    {
+      "type": "trueFalse",
+      "question": "The Doppler effect causes a blue shift when an object moves toward the observer.",
+      "answer": "True",
+      "referenceLink": "https://en.wikipedia.org/wiki/Doppler_effect"
+    },
+    {
+      "type": "trueFalse",
+      "question": "The energy of a photon is proportional to its frequency.",
+      "answer": "True",
+      "referenceLink": "https://en.wikipedia.org/wiki/Photon_energy"
+    },
+    {
+      "type": "trueFalse",
+      "question": "Light can travel faster in water than in a vacuum.",
+      "answer": "False",
+      "referenceLink": "https://en.wikipedia.org/wiki/Speed_of_light"
+    },
+    {
+      "type": "trueFalse",
+      "question": "A concave mirror can form both real and virtual images.",
+      "answer": "True",
+      "referenceLink": "https://en.wikipedia.org/wiki/Concave_mirror"
     }
   ]
 }
