@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/gms-2025-scioly/static/css/main.7f0f385d.css",
-    "main.js": "/gms-2025-scioly/static/js/main.8a00de51.js",
+    "main.js": "/gms-2025-scioly/static/js/main.d0b0ac0d.js",
     "static/js/977.e4350dd4.chunk.js": "/gms-2025-scioly/static/js/977.e4350dd4.chunk.js",
     "static/js/932.e6b61b90.chunk.js": "/gms-2025-scioly/static/js/932.e6b61b90.chunk.js",
     "static/js/188.d011624b.chunk.js": "/gms-2025-scioly/static/js/188.d011624b.chunk.js",
     "static/js/336.35e1542a.chunk.js": "/gms-2025-scioly/static/js/336.35e1542a.chunk.js",
     "static/js/101.5301bc35.chunk.js": "/gms-2025-scioly/static/js/101.5301bc35.chunk.js",
-    "static/js/370.f677eb31.chunk.js": "/gms-2025-scioly/static/js/370.f677eb31.chunk.js",
+    "static/js/370.9dd13537.chunk.js": "/gms-2025-scioly/static/js/370.9dd13537.chunk.js",
     "static/js/488.459eece3.chunk.js": "/gms-2025-scioly/static/js/488.459eece3.chunk.js",
     "index.html": "/gms-2025-scioly/index.html",
     "main.7f0f385d.css.map": "/gms-2025-scioly/static/css/main.7f0f385d.css.map",
-    "main.8a00de51.js.map": "/gms-2025-scioly/static/js/main.8a00de51.js.map",
+    "main.d0b0ac0d.js.map": "/gms-2025-scioly/static/js/main.d0b0ac0d.js.map",
     "488.459eece3.chunk.js.map": "/gms-2025-scioly/static/js/488.459eece3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f0f385d.css",
-    "static/js/main.8a00de51.js"
+    "static/js/main.d0b0ac0d.js"
   ]
 }
