@@ -10,7 +10,7 @@ const Test = ({ quizFile, username, db }) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [textAnswer, setTextAnswer] = useState("");
   const [matchingAnswers, setMatchingAnswers] = useState({});
-  const [showImage, setShowImage] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false); // Controls answer visibility
 
   useEffect(() => {
     const loadTestData = async () => {
@@ -30,7 +30,6 @@ const Test = ({ quizFile, username, db }) => {
     const isCorrect = option === testData[currentQuestion]?.answer;
     if (isCorrect) setScore(score + 1);
     setSelectedAnswer(option);
-    setShowImage(true);
   };
 
   const handleTextSubmit = () => {
@@ -39,14 +38,6 @@ const Test = ({ quizFile, username, db }) => {
       setScore(score + 1);
     }
     setTextAnswer("");
-    setShowImage(true);
-  };
-
-  const handleMatchingChange = (item, selectedMatch) => {
-    setMatchingAnswers((prev) => ({
-      ...prev,
-      [item]: selectedMatch,
-    }));
   };
 
   const handleMatchingSubmit = () => {
@@ -58,14 +49,14 @@ const Test = ({ quizFile, username, db }) => {
       setScore(score + 1);
     }
     setMatchingAnswers({});
-    setShowImage(true);
   };
 
   const handleNextQuestion = () => {
     setSelectedAnswer(null);
     setTextAnswer("");
     setMatchingAnswers({});
-    setShowImage(false);
+    setShowAnswer(false); // Reset answer display when moving to the next question
+
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < testData.length) {
       setCurrentQuestion(nextQuestion);
@@ -91,12 +82,11 @@ const Test = ({ quizFile, username, db }) => {
   };
 
   if (!testData) return <div>Loading test...</div>;
-
   if (testData.length === 0) return <div>No questions available for this test.</div>;
 
   const current = testData[currentQuestion];
   const isMatching = Array.isArray(current?.options) && current?.options[0]?.item;
-  const isTextAnswer = current?.type == "shortAnswer";
+  const isTextAnswer = current?.type === "shortAnswer";
   const isTrueFalse = current?.type === "trueFalse";
 
   return (
@@ -104,20 +94,11 @@ const Test = ({ quizFile, username, db }) => {
       {showScore ? (
         <div className="score-section box">
           <h2>Test Complete!</h2>
-          <p>
-            You scored {score} out of {testData.length}
-          </p>
+          <p>You scored {score} out of {testData.length}</p>
           <ul>
             {testData.map((question, index) => (
               <li key={index}>
                 <strong>Q{index + 1}:</strong> {question.question} <br />
-                {question.imageLink && (
-                  <img
-                    src={question.imageLink}
-                    alt={`Q${index + 1}`}
-                    className="question-image"
-                  />
-                )}
                 <strong>Correct Answer:</strong> {JSON.stringify(question.answer)} <br />
                 {question.referenceLink && (
                   <a href={question.referenceLink} target="_blank" rel="noopener noreferrer">
@@ -134,25 +115,13 @@ const Test = ({ quizFile, username, db }) => {
             <span>Question {currentQuestion + 1}</span>/{testData.length}
           </div>
           <div className="question-text">{current?.question}</div>
-          {current?.imageLink && (
-            <img
-              src={current.imageLink}
-              alt="Question Illustration"
-              className="question-image"
-            />
-          )}
+
           {!isMatching && !isTextAnswer && !isTrueFalse && (
             <div className="answer-section">
               {current?.options?.map((option, index) => (
                 <button
                   key={index}
-                  className={`answer-option ${
-                    selectedAnswer === option
-                      ? option === current?.answer
-                        ? "correct"
-                        : "incorrect"
-                      : ""
-                  }`}
+                  className={`answer-option ${selectedAnswer === option ? (option === current?.answer ? "correct" : "incorrect") : ""}`}
                   onClick={() => handleAnswerClick(option)}
                   disabled={selectedAnswer !== null}
                 >
@@ -161,75 +130,44 @@ const Test = ({ quizFile, username, db }) => {
               ))}
             </div>
           )}
+
           {isTrueFalse && (
             <div className="true-false-section">
-              <label className="block p-2 bg-white rounded-lg shadow-sm hover:bg-gray-200">
-                <input
-                  type="radio"
-                  name={`question-${currentQuestion}`}
-                  value="true"
-                  checked={selectedAnswer === "true"}
-                  onChange={() => handleAnswerClick("true")}
-                  className="mr-2"
-                />
-                True
+              <label>
+                <input type="radio" name={`question-${currentQuestion}`} value="true" onChange={() => handleAnswerClick("true")} /> True
               </label>
-              <label className="block p-2 bg-white rounded-lg shadow-sm hover:bg-gray-200">
-                <input
-                  type="radio"
-                  name={`question-${currentQuestion}`}
-                  value="false"
-                  checked={selectedAnswer === "false"}
-                  onChange={() => handleAnswerClick("false")}
-                  className="mr-2"
-                />
-                False
+              <label>
+                <input type="radio" name={`question-${currentQuestion}`} value="false" onChange={() => handleAnswerClick("false")} /> False
               </label>
             </div>
           )}
+
           {isTextAnswer && (
             <div className="text-answer-section">
-              <textarea
-                value={textAnswer}
-                onChange={(e) => setTextAnswer(e.target.value)}
-                placeholder="Type your answer..."
-              />
-              <button onClick={handleTextSubmit} disabled={!textAnswer.trim()}>
-                Submit
-              </button>
+              <textarea value={textAnswer} onChange={(e) => setTextAnswer(e.target.value)} placeholder="Type your answer..." />
+              <button onClick={handleTextSubmit} disabled={!textAnswer.trim()}>Submit</button>
             </div>
           )}
-          {isMatching && (
-            <div className="matching-section">
-              {current.options.map(({ item }, idx) => (
-                <div key={idx} className="matching-pair">
-                  <span>{item}</span>
-                  <select
-                    value={matchingAnswers[item] || ""}
-                    onChange={(e) => handleMatchingChange(item, e.target.value)}
-                  >
-                    <option value="">Select a match</option>
-                    {current.options.map(({ match }, i) => (
-                      <option key={i} value={match}>
-                        {match}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              ))}
-              <button onClick={handleMatchingSubmit}>Submit</button>
-            </div>
-          )}
-          {current.referenceLink && (
-            <div className="reference-section">
-              <a href={current.referenceLink} target="_blank" rel="noopener noreferrer">
-                Learn more about this question
-              </a>
-            </div>
-          )}
-          <button className="next-button" onClick={handleNextQuestion}>
-            Next
+
+          <button className="toggle-answer-button" onClick={() => setShowAnswer(!showAnswer)}>
+            {showAnswer ? "Hide Answer" : "Show Answer"}
           </button>
+
+          {showAnswer && (
+            <div className="answer-section">
+              <strong>Correct Answer: </strong> {JSON.stringify(current?.answer)}
+              {current?.imageLink && (
+                <img src={current.imageLink} alt="Answer Image" className="answer-image" />
+              )}
+              {current?.referenceLink && (
+                <a href={current.referenceLink} target="_blank" rel="noopener noreferrer">
+                  Learn more
+                </a>
+              )}
+            </div>
+          )}
+
+          <button className="next-button" onClick={handleNextQuestion}>Next</button>
         </div>
       )}
     </div>
@@ -237,3 +175,4 @@ const Test = ({ quizFile, username, db }) => {
 };
 
 export default Test;
+

@@ -35,6 +35,7 @@ const App = () => {
     { label: "Optics Quiz 3", value: "Optics-quiz-3.json" },
     { label: "Microbe Mission Quiz-1", value: "MicrobeMission-quiz-1.json" },
     { label: "Microbe Mission Quiz-2", value: "MicrobeMission-quiz-2.json" },
+    { label: "Microbe Mission Quiz-3", value: "MicrobeMission-quiz-3.json" },
   ];
 
   const handleUsernameSubmit = () => {
