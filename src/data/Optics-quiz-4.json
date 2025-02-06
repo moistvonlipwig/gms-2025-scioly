@@ -2,7 +2,7 @@
     "questions": [
         {
             "type": "multipleChoice",
-            "question": "Identify the eye condition that someone with vision like that in Figure 1 is experiencing.",
+            "question": "Eye condition where Gradual loss of peripheral (side) vision, Blurred vision, Halos around lights, Eye pain, and Headache.",
             "options": [
                 "Myopia",
                 "Hyperopia",
@@ -10,6 +10,7 @@
                 "Macular Degeneration"
             ],
             "answer": "Glaucoma",
+            "imageLink":"https://www.milwaukeeeyesurgeons.com/wp-content/uploads/2024/01/53106391_presentation-1920w.webp",
             "referenceLink": "https://en.wikipedia.org/wiki/Optics"
         },
         {
