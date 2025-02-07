@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Test from "./components/Test";
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 import "./styles/App.css";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBUtDmgr_4miMXI1D_vBf0Fg8ienv_8Cf0",
+  apiKey: "AIzaSyBUtDmgr_4miXNI1D_vBf0Fg8ienv_8Cf0",
   authDomain: "gms-2025-scioly-dcaa4.firebaseapp.com",
   projectId: "gms-2025-scioly-dcaa4",
-  storageBucket: "gms-2025-scioly-dcaa4.firebasestorage.app",
+  storageBucket: "gms-2025-scioly-dcaa4.firebaseapp.com",
   messagingSenderId: "246061368451",
   appId: "1:246061368451:web:24ea1472559290fbf8c7b6",
 };
@@ -22,8 +22,16 @@ const db = getFirestore(app);
 const App = () => {
   const [currentQuiz, setCurrentQuiz] = useState("Optics-quiz-1.json");
   const [username, setUsername] = useState("");
-  const [scores, setScores] = useState([]);
   const [isUsernameEntered, setIsUsernameEntered] = useState(false);
+
+  // Load username from local storage when the app starts
+  useEffect(() => {
+    const storedUsername = localStorage.getItem("username");
+    if (storedUsername) {
+      setUsername(storedUsername);
+      setIsUsernameEntered(true);
+    }
+  }, []);
 
   const handleQuizChange = (selectedQuiz) => {
     setCurrentQuiz(selectedQuiz);
@@ -43,6 +51,7 @@ const App = () => {
 
   const handleUsernameSubmit = () => {
     if (username.trim()) {
+      localStorage.setItem("username", username); // Save to local storage
       setIsUsernameEntered(true);
     } else {
       alert("Please enter a valid username.");
@@ -53,21 +62,22 @@ const App = () => {
     <Router basename="/gms-2025-scioly">
       <div className="app-container">
         {!isUsernameEntered ? (
-            <div className="form-container">
-              <h1>GMS Scioly Team</h1>
-              <h2>Enter Your Username</h2>
-              <div className="form-group">
-                <input
-                  type="text"
-                  id="username"
-                  placeholder="Enter your username"
-                  onChange={(e) => setUsername(e.target.value)}
-                />
-              </div>
-              <button className="submit-button" onClick={handleUsernameSubmit}>
-                Submit
-              </button>
+          <div className="form-container">
+            <h1>GMS Scioly Team</h1>
+            <h2>Enter Your Username</h2>
+            <div className="form-group">
+              <input
+                type="text"
+                id="username"
+                placeholder="Enter your username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+              />
             </div>
+            <button className="submit-button" onClick={handleUsernameSubmit}>
+              Submit
+            </button>
+          </div>
         ) : (
           <>
             <h1>Science Olympiad Quizzes</h1>
@@ -104,4 +114,5 @@ const App = () => {
     </Router>
   );
 };
+
 export default App;
