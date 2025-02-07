@@ -23,13 +23,31 @@ const App = () => {
   const [currentQuiz, setCurrentQuiz] = useState("Optics-quiz-1.json");
   const [username, setUsername] = useState("");
   const [isUsernameEntered, setIsUsernameEntered] = useState(false);
+  const [randomGreeting, setRandomGreeting] = useState("");
 
-  // Load username from local storage when the app starts
+  // 🔥 Cool greetings array
+  const coolGreetings = [
+    "🚀 Mission Control Activated",
+    "🎮 Player Loaded",
+    "⚡ Charging Up",
+    "🧠 Brainpower Engaged",
+    "🔬 Experiment Ready",
+    "👨‍🚀 Systems Online",
+    "💡 Genius Mode: ON",
+    "🏆 Leaderboard Updated",
+    "💻 Access Granted",
+    "🔍 Scanning Environment",
+    "🌟 Stardust Synced",
+    "🎭 Welcome to the Simulation"
+  ];
+
+  // Load username & pick a random greeting on mount
   useEffect(() => {
     const storedUsername = localStorage.getItem("username");
     if (storedUsername) {
       setUsername(storedUsername);
       setIsUsernameEntered(true);
+      setRandomGreeting(coolGreetings[Math.floor(Math.random() * coolGreetings.length)]); // Pick random greeting
     }
   }, []);
 
@@ -53,6 +71,7 @@ const App = () => {
     if (username.trim()) {
       localStorage.setItem("username", username); // Save to local storage
       setIsUsernameEntered(true);
+      setRandomGreeting(coolGreetings[Math.floor(Math.random() * coolGreetings.length)]); // Pick random greeting
     } else {
       alert("Please enter a valid username.");
     }
@@ -80,7 +99,8 @@ const App = () => {
           </div>
         ) : (
           <>
-            <h1>Science Olympiad Quizzes</h1>
+            <h1>{randomGreeting}, {username}!</h1>
+            <h2>Science Olympiad Quizzes</h2>
             <div className="quiz-selector">
               <label htmlFor="quiz-dropdown">Select Quiz:</label>
               <select
