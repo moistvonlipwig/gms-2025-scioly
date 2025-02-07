@@ -38,6 +38,7 @@ const App = () => {
     { label: "Microbe Mission Quiz-2", value: "MicrobeMission-quiz-2.json" },
     { label: "Microbe Mission Quiz-3", value: "MicrobeMission-quiz-3.json" },
     { label: "Microbe Mission Quiz-4", value: "MicrobeMission-quiz-4.json" },
+    { label: "Microbe Mission Quiz-5", value: "MicrobeMission-quiz-5.json" },
   ];
 
   const handleUsernameSubmit = () => {
