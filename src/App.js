@@ -20,12 +20,12 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const App = () => {
-  const [currentQuiz, setCurrentQuiz] = useState("Optics-quiz-1.json");
+  const [currentQuiz, setCurrentQuiz] = useState("");
   const [username, setUsername] = useState("");
   const [isUsernameEntered, setIsUsernameEntered] = useState(false);
   const [randomGreeting, setRandomGreeting] = useState("");
+  const [activeTab, setActiveTab] = useState("optics"); // Default to Optics tab
 
-  // Cool Greetings Array
   const coolGreetings = [
     "🚀 Mission Control Activated",
     "🎮 Player Loaded",
@@ -41,12 +41,14 @@ const App = () => {
     "🎭 Welcome to the Simulation",
   ];
 
-  // Quiz List
-  const quizList = [
+  const opticsQuizzes = [
     { label: "Optics Quiz 1", value: "Optics-quiz-1.json" },
     { label: "Optics Quiz 2", value: "Optics-quiz-2.json" },
     { label: "Optics Quiz 3", value: "Optics-quiz-3.json" },
     { label: "Optics Quiz 4", value: "Optics-quiz-4.json" },
+  ];
+
+  const microbeMissionQuizzes = [
     { label: "Microbe Mission Quiz-1", value: "MicrobeMission-quiz-1.json" },
     { label: "Microbe Mission Quiz-2", value: "MicrobeMission-quiz-2.json" },
     { label: "Microbe Mission Quiz-3", value: "MicrobeMission-quiz-3.json" },
@@ -60,11 +62,8 @@ const App = () => {
       const userRef = doc(db, "users", user);
       await setDoc(
         userRef,
-        {
-          username: user,
-          lastVisited: serverTimestamp(), // 🔥 Updates timestamp every visit
-        },
-        { merge: true } // 🔄 Keeps existing data & only updates timestamp
+        { username: user, lastVisited: serverTimestamp() },
+        { merge: true }
       );
       console.log("User visit logged:", user);
     } catch (error) {
@@ -78,27 +77,21 @@ const App = () => {
     if (storedUsername) {
       setUsername(storedUsername);
       setIsUsernameEntered(true);
-      setRandomGreeting(
-        coolGreetings[Math.floor(Math.random() * coolGreetings.length)]
-      );
-      saveUsernameToFirestore(storedUsername); // 🔥 Logs returning user visit
+      setRandomGreeting(coolGreetings[Math.floor(Math.random() * coolGreetings.length)]);
+      saveUsernameToFirestore(storedUsername);
     }
   }, []);
 
-  // Handle Quiz Selection
   const handleQuizChange = (selectedQuiz) => {
     setCurrentQuiz(selectedQuiz);
   };
 
-  // Handle Username Submission
   const handleUsernameSubmit = async () => {
     if (username.trim()) {
       localStorage.setItem("username", username);
       setIsUsernameEntered(true);
-      setRandomGreeting(
-        coolGreetings[Math.floor(Math.random() * coolGreetings.length)]
-      );
-      await saveUsernameToFirestore(username); // 🔥 Logs first-time user visit
+      setRandomGreeting(coolGreetings[Math.floor(Math.random() * coolGreetings.length)]);
+      await saveUsernameToFirestore(username);
     } else {
       alert("Please enter a valid username.");
     }
@@ -127,34 +120,65 @@ const App = () => {
         ) : (
           <>
             <h1>{randomGreeting}, {username}!</h1>
-            <h2>Science Olympiad Quizzes</h2>
+            <h2>Science Olympiad</h2>
 
-            {/* Quiz Selector Dropdown */}
-            <div className="quiz-selector">
-              <label htmlFor="quiz-dropdown">Select Quiz:</label>
-              <select
-                id="quiz-dropdown"
-                value={currentQuiz}
-                onChange={(e) => handleQuizChange(e.target.value)}
-              >
-                {quizList.map((quiz, index) => (
-                  <option key={index} value={quiz.value}>
-                    {quiz.label}
-                  </option>
-                ))}
-              </select>
+            {/* Tab Navigation */}
+            <div className="tabs">
+              <button className={activeTab === "optics" ? "active" : ""} onClick={() => setActiveTab("optics")}>Optics</button>
+              <button className={activeTab === "microbe" ? "active" : ""} onClick={() => setActiveTab("microbe")}>Microbe Mission</button>
+              <button className={activeTab === "leaderboard" ? "active" : ""} onClick={() => setActiveTab("leaderboard")}>Leaderboard</button>
+              <button className={activeTab === "profile" ? "active" : ""} onClick={() => setActiveTab("profile")}>Profile</button>
             </div>
 
-            <br />
-            <hr />
+            {/* Tab Content */}
+            <div className="tab-content">
+              {activeTab === "optics" && (
+                <>
+                  <h3>🔬 Optics Quizzes</h3>
+                  <select value={currentQuiz} onChange={(e) => handleQuizChange(e.target.value)}>
+                    {opticsQuizzes.map((quiz, index) => (
+                      <option key={index} value={quiz.value}>{quiz.label}</option>
+                    ))}
+                  </select>
+                  <Routes>
+                    <Route path="/" element={<Test quizFile={currentQuiz} username={username} db={db} />} />
+                  </Routes>
+                </>
+              )}
 
-            <Routes>
-              <Route
-                path="/"
-                element={<Test quizFile={currentQuiz} username={username} db={db} />}
-              />
-              <Route path="*" element={<div>404: Page Not Found</div>} />
-            </Routes>
+              {activeTab === "microbe" && (
+                <>
+                  <h3>🦠 Microbe Mission Quizzes</h3>
+                  <select value={currentQuiz} onChange={(e) => handleQuizChange(e.target.value)}>
+                    {microbeMissionQuizzes.map((quiz, index) => (
+                      <option key={index} value={quiz.value}>{quiz.label}</option>
+                    ))}
+                  </select>
+                  <Routes>
+                    <Route path="/" element={<Test quizFile={currentQuiz} username={username} db={db} />} />
+                  </Routes>
+                </>
+              )}
+
+              {activeTab === "leaderboard" && (
+                <div>
+                  <h3>🏆 Leaderboard Coming Soon!</h3>
+                  <p>Track your progress against others.</p>
+                </div>
+              )}
+
+              {activeTab === "profile" && (
+                <div>
+                  <h3>👤 Profile</h3>
+                  <p>Username: <strong>{username}</strong></p>
+                  <button onClick={() => {
+                    localStorage.removeItem("username");
+                    setUsername("");
+                    setIsUsernameEntered(false);
+                  }}>Log Out</button>
+                </div>
+              )}
+            </div>
           </>
         )}
       </div>
