@@ -121,7 +121,7 @@ const App = () => {
         ) : (
           <>
             <h1>{randomGreeting}, {username}!</h1>
-            <h2>Science Olympiad</h2>
+            <h2>GMS Science Olympiad</h2>
 
             {/* Tab Navigation */}
             <div className="tabs">
