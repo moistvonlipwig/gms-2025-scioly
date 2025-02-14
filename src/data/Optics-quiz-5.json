@@ -1,0 +1,360 @@
+{
+  "questions": [
+    {
+      "type": "multipleChoice",
+      "question": "In a converging lens, the image of an object located at twice the focal",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The critical angle for total internal reflection depends solely on the re-",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Diffraction occurs prominently when the size of the aperture is compara-",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Polarization of light can only occur through reflection and cannot be",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The resolving power of a microscope depends on the wavelength of the",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Brewster\u2019s angle occurs when light reflects at an angle such that the",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "For a concave mirror, the image of an object placed beyond the center of",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The thin lens equation is valid for lenses of any shape and thickness.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Light passing through a prism always undergoes chromatic dispersion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Snell\u2019s law can be used to describe the behavior of light as it transitions",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The accuracy of a sextant decreases with increasing altitude of the ob-",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What is the magnification of an object placed 10 cm from a converging lens with a\nfocal length of 5 cm?",
+      "options": [
+        "\u22122",
+        "+2",
+        "\u22120.5",
+        "+0.5",
+        ""
+      ],
+      "answer": "",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which of the following phenomena demonstrates the wave nature of light?",
+      "options": [
+        "Diffraction",
+        "Photoelectric effect",
+        "Specular reflection",
+        "Refraction",
+        ""
+      ],
+      "answer": "Diffraction",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "A light ray enters a medium with a refractive index of 1.33 from insulating foam\n(n = 1.02) at an angle of 45\u25e6. What is the angle of refraction?",
+      "options": [
+        "33.3\u25e6",
+        "32.8\u25e6",
+        "50.5\u25e6",
+        "75.1\u25e6",
+        ""
+      ],
+      "answer": "32.8\u25e6",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What is the maximum number of bright fringes that can be observed in a double-\nslit interference experiment with slit separation of 0.1 mm and wavelength of 600 nm?",
+      "options": [
+        "331",
+        "333",
+        "335",
+        "337",
+        ""
+      ],
+      "answer": "333",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The focal length of a convex mirror is \u221210 cm. Where is the image located if the\nobject is placed 15 cm from the mirror?",
+      "options": [
+        "\u22124 cm",
+        "+4 cm",
+        "\u22126 cm",
+        "+6 cm",
+        ""
+      ],
+      "answer": "\u22126 cm",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What happens to light in an optical fiber that results in total internal reflection?",
+      "options": [
+        "Light travels faster in the core than in the cladding",
+        "The core has a higher refractive index than the cladding",
+        "Light slows down when it enters the fiber",
+        "The core and cladding have the same refractive index",
+        ""
+      ],
+      "answer": "The core has a higher refractive index than the cladding",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The critical angle for light traveling from glass (n = 1.5) to water (n = 1.33) is\nclosest to:",
+      "options": [
+        "42.1\u25e6",
+        "48.8\u25e6",
+        "62.5\u25e6",
+        "63.3\u25e6",
+        ""
+      ],
+      "answer": "62.5\u25e6",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which of the following optical instruments uses two convex lenses to form an im-\nage?",
+      "options": [
+        "Telescope",
+        "Periscope",
+        "Microscope",
+        "Camera",
+        ""
+      ],
+      "answer": "Microscope",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "The dispersion of light through a prism causes which of the following phenomena?",
+      "options": [
+        "Polarization",
+        "Chromatic aberration",
+        "Total internal reflection",
+        "Brewster\u2019s angle",
+        ""
+      ],
+      "answer": "Chromatic aberration",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What is the correct relationship between the object distance do, the image distance\ndi, and the focal length f for a convex lens?",
+      "options": [
+        "1\nf =\n1\ndo + 1\ndi",
+        "1\nf = di\ndo",
+        "1\nf = do + di\nPage 4 of 8\n\n--- Page 5 ---",
+        ""
+      ],
+      "answer": "1\nf =\n1\ndo + 1\ndi",
+      "referenceLink": ""
+    },
+    {
+      "type": "multipleChoice",
+      "question": "A sextant is primarily used to measure the angle between two objects, such as\nthe horizon and a celestial body. What is the primary principle that allows the sextant to\nfunction?",
+      "options": [
+        "Polarization of light waves",
+        "Diffraction of light through a narrow slit",
+        "Refraction of light through a prism",
+        "Reflection of light using two mirrors",
+        ""
+      ],
+      "answer": "Reflection of light using two mirrors",
+      "referenceLink": ""
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the magnification of an object placed 10 cm from a converging lens with a"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Which of the following phenomena demonstrates the wave nature of light?"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "A light ray enters a medium with a refractive index of 1.33 from insulating foam"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the maximum number of bright fringes that can be observed in a double-"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "The focal length of a convex mirror is \u221210 cm. Where is the image located if the"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What happens to light in an optical fiber that results in total internal reflection?"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "The critical angle for light traveling from glass (n = 1.5) to water (n = 1.33) is"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Which of the following optical instruments uses two convex lenses to form an im-"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "The dispersion of light through a prism causes which of the following phenomena?"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the correct relationship between the object distance do, the image distance"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "A sextant is primarily used to measure the angle between two objects, such as"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "How does the vector form of the law of reflection apply to anisotropic materials"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "How does the Abbe number affect the dispersion of light in a prism? Calculate the"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explore how additive color theory is applied in modern display technology (e.g.,"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Calculate the reflectance for light at normal incidence on a metal surface, given its"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain how spherical aberration affects vision and how the eye naturally compen-"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Model how the arrangement of photoreceptors in the retina can create blind spots"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain how the lensmaker\u2019s equation can be modified to account for spherical"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain the Rayleigh scattering polarization effect in the context of the Earth\u2019s"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Derive the threshold condition for laser action in terms of population inversion and"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explore how femtosecond lasers can be used in LASIK surgery to correct aberrations"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain the role of laser diffraction in reading information stored in CD/DVD"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "A beam of light enters a prism with a refractive index of 1.6 at an angle of 30\u25e6."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "A plano-convex lens has a radius of curvature of 20 cm. Calculate the focal length,"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Calculate the total internal reflection angle, to the nearest hundredth of a degree,"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "A converging lens has a focal length of 20 cm. An object is placed 30 cm from the"
+    }
+  ]
+}
