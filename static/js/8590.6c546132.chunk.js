@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[8590],{8590:(s,c,e)=>{s.exports=e.p+"static/media/LVScienceOlympiadInvitational2018 Optics.3933cdcb4a6f734d92fe.pdf"}}]);

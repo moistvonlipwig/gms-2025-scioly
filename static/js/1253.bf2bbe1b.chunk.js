@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[1253],{1253:(s,e,c)=>{s.exports=c.p+"static/media/Optics Test and AK.f49f9036bfde6748c549.pdf"}}]);
