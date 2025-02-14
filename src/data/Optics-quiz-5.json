@@ -2,7 +2,7 @@
   "questions": [
     {
       "type": "multipleChoice",
-      "question": "In a converging lens, the image of an object located at twice the focal",
+      "question": "In a converging lens, the image of an object located at twice the focal length is real, inverted, and the same size as the object.",
       "options": [
         "True",
         "False"
@@ -12,7 +12,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "The critical angle for total internal reflection depends solely on the re-",
+      "question": "The critical angle for total internal reflection depends solely on the re-fractive index of the denser medium",
       "options": [
         "True",
         "False"
@@ -22,7 +22,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "Diffraction occurs prominently when the size of the aperture is compara-",
+      "question": "Diffraction occurs prominently when the size of the aperture is compara-ble or smaller than the wavelength of light passing through it.",
       "options": [
         "True",
         "False"
@@ -32,7 +32,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "Polarization of light can only occur through reflection and cannot be",
+      "question": "Polarization of light can only occur through reflection and cannot be achieved by scattering.",
       "options": [
         "True",
         "False"
@@ -42,7 +42,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "The resolving power of a microscope depends on the wavelength of the",
+      "question": "The resolving power of a microscope depends on the wavelength of thelight used and the numerical aperture of the objective lens.  ",
       "options": [
         "True",
         "False"
@@ -52,7 +52,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "Brewster\u2019s angle occurs when light reflects at an angle such that the",
+      "question": "Brewster\u2019s angle occurs when light reflects at an angle such that the reflected and refracted rays are perpendicular to each other.  ",
       "options": [
         "True",
         "False"
@@ -62,7 +62,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "For a concave mirror, the image of an object placed beyond the center of",
+      "question": "For a concave mirror, the image of an object placed beyond the center of curvature is virtual.  ",
       "options": [
         "True",
         "False"
@@ -92,7 +92,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "Snell\u2019s law can be used to describe the behavior of light as it transitions",
+      "question": "Snell\u2019s law can be used to describe the behavior of light as it transitions between two media with the same refractive index.  ",
       "options": [
         "True",
         "False"
@@ -102,7 +102,7 @@
     },
     {
       "type": "multipleChoice",
-      "question": "The accuracy of a sextant decreases with increasing altitude of the ob-",
+      "question": "The accuracy of a sextant decreases with increasing altitude of the ob-served celestial body.  ",
       "options": [
         "True",
         "False"
