@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[2790],{2790:(e,s,c)=>{e.exports=c.p+"static/media/Ichaelm's_Optics_Practice_Test_2011.e0638bef9bbe17e5b775.pdf"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[5656],{5656:(s,t,e)=>{s.exports=e.p+"static/media/2011_JCBooth_optics_test.1053d5b69b098178df45.pdf"}}]);

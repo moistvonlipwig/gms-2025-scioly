@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[753],{753:(s,c,e)=>{s.exports=e.p+"static/media/OpticsB_jewish_regionals_11.b09684cdc3e81ecaf2dc.pdf"}}]);

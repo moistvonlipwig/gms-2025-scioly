@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[9080],{9080:(s,c,e)=>{s.exports=e.p+"static/media/Optics-unknown110115.6a078127c4aa2dbfefdf.pdf"}}]);
