@@ -2,127 +2,127 @@
   "questions": [
     {
       "question": "Which microscope technique provides the highest resolution for internal cellular structures?",
-      "choices": ["Bright-Field", "Phase-Contrast", "Scanning Electron Microscope (SEM)", "Transmission Electron Microscope (TEM)"],
+      "options": ["Bright-Field", "Phase-Contrast", "Scanning Electron Microscope (SEM)", "Transmission Electron Microscope (TEM)"],
       "answer": "Transmission Electron Microscope (TEM)"
     },
     {
       "question": "Which microscope is best for viewing live, unstained bacteria?",
-      "choices": ["Bright-Field", "Dark-Field", "Fluorescence", "Transmission Electron"],
+      "options": ["Bright-Field", "Dark-Field", "Fluorescence", "Transmission Electron"],
       "answer": "Dark-Field"
     },
     {
       "question": "Which stain is used in Gram staining to fix the primary stain to the bacterial cell wall?",
-      "choices": ["Crystal violet", "Safranin", "Iodine", "Alcohol"],
+      "options": ["Crystal violet", "Safranin", "Iodine", "Alcohol"],
       "answer": "Iodine"
     },
     {
       "question": "Which of the following statements is true about Gram-negative bacteria?",
-      "choices": ["They have a thick peptidoglycan layer", "They contain lipopolysaccharides (LPS) in their outer membrane", "They appear purple after Gram staining", "They lack an outer membrane"],
+      "options": ["They have a thick peptidoglycan layer", "They contain lipopolysaccharides (LPS) in their outer membrane", "They appear purple after Gram staining", "They lack an outer membrane"],
       "answer": "They contain lipopolysaccharides (LPS) in their outer membrane"
     },
     {
       "question": "What is the correct order of Gram staining steps?",
-      "choices": ["Crystal violet → Iodine → Alcohol → Safranin", "Iodine → Crystal violet → Alcohol → Safranin", "Safranin → Crystal violet → Alcohol → Iodine", "Alcohol → Crystal violet → Iodine → Safranin"],
+      "options": ["Crystal violet → Iodine → Alcohol → Safranin", "Iodine → Crystal violet → Alcohol → Safranin", "Safranin → Crystal violet → Alcohol → Iodine", "Alcohol → Crystal violet → Iodine → Safranin"],
       "answer": "Crystal violet → Iodine → Alcohol → Safranin"
     },
     {
       "question": "Which bacterial structure is responsible for attachment to surfaces and biofilm formation?",
-      "choices": ["Capsule", "Flagella", "Pili/Fimbriae", "Endospore"],
+      "options": ["Capsule", "Flagella", "Pili/Fimbriae", "Endospore"],
       "answer": "Pili/Fimbriae"
     },
     {
       "question": "Which component is found only in Gram-negative bacteria?",
-      "choices": ["Peptidoglycan", "Lipopolysaccharide (LPS)", "Teichoic Acid", "70S Ribosomes"],
+      "options": ["Peptidoglycan", "Lipopolysaccharide (LPS)", "Teichoic Acid", "70S Ribosomes"],
       "answer": "Lipopolysaccharide (LPS)"
     },
     {
       "question": "What bacterial structure allows some bacteria to survive extreme conditions by forming a dormant state?",
-      "choices": ["Capsule", "Pilus", "Endospore", "Cytoplasm"],
+      "options": ["Capsule", "Pilus", "Endospore", "Cytoplasm"],
       "answer": "Endospore"
     },
     {
       "question": "Which bacterial shape is described as comma-shaped?",
-      "choices": ["Coccus", "Bacillus", "Vibrio", "Spirochete"],
+      "options": ["Coccus", "Bacillus", "Vibrio", "Spirochete"],
       "answer": "Vibrio"
     },
     {
       "question": "What phase of bacterial growth is characterized by rapid cell division?",
-      "choices": ["Lag phase", "Log (Exponential) phase", "Stationary phase", "Death phase"],
+      "options": ["Lag phase", "Log (Exponential) phase", "Stationary phase", "Death phase"],
       "answer": "Log (Exponential) phase"
     },
     {
       "question": "Which virus classification includes single-stranded RNA viruses that must be transcribed into mRNA before translation?",
-      "choices": ["Group I: dsDNA", "Group III: dsRNA", "Group IV: +ssRNA", "Group V: -ssRNA"],
+      "options": ["Group I: dsDNA", "Group III: dsRNA", "Group IV: +ssRNA", "Group V: -ssRNA"],
       "answer": "Group V: -ssRNA"
     },
     {
       "question": "Which of the following correctly describes the lysogenic cycle of a bacteriophage?",
-      "choices": ["The virus immediately replicates and lyses the host cell", "The viral genome integrates into the host chromosome and can remain dormant", "The virus infects only prokaryotic cells", "The viral capsid remains outside the host cell"],
+      "options": ["The virus immediately replicates and lyses the host cell", "The viral genome integrates into the host chromosome and can remain dormant", "The virus infects only prokaryotic cells", "The viral capsid remains outside the host cell"],
       "answer": "The viral genome integrates into the host chromosome and can remain dormant"
     },
     {
       "question": "Which process involves bacterial cells taking up free DNA from their environment?",
-      "choices": ["Conjugation", "Transduction", "Transformation", "Binary Fission"],
+      "options": ["Conjugation", "Transduction", "Transformation", "Binary Fission"],
       "answer": "Transformation"
     },
     {
       "question": "Which of the following statements about retroviruses is true?",
-      "choices": ["They use reverse transcriptase to convert RNA into DNA", "They only infect bacterial cells", "They do not integrate into the host genome", "They are classified as Group I in the Baltimore system"],
+      "options": ["They use reverse transcriptase to convert RNA into DNA", "They only infect bacterial cells", "They do not integrate into the host genome", "They are classified as Group I in the Baltimore system"],
       "answer": "They use reverse transcriptase to convert RNA into DNA"
     },
     {
       "question": "Which horizontal gene transfer method requires direct contact via a pilus?",
-      "choices": ["Transduction", "Transformation", "Conjugation", "Binary fission"],
+      "options": ["Transduction", "Transformation", "Conjugation", "Binary fission"],
       "answer": "Conjugation"
     },
     {
       "question": "Which metabolic pathway allows bacteria to regenerate NAD+ without the electron transport chain?",
-      "choices": ["Aerobic respiration", "Fermentation", "Photosynthesis", "Nitrogen fixation"],
+      "options": ["Aerobic respiration", "Fermentation", "Photosynthesis", "Nitrogen fixation"],
       "answer": "Fermentation"
     },
     {
       "question": "Which type of media is designed to inhibit the growth of certain microbes while allowing others to grow?",
-      "choices": ["Differential media", "Selective media", "Complex media", "Nutrient broth"],
+      "options": ["Differential media", "Selective media", "Complex media", "Nutrient broth"],
       "answer": "Selective media"
     },
     {
       "question": "What term describes a bacterial species that thrives in high-salt environments?",
-      "choices": ["Acidophile", "Halophile", "Thermophile", "Psychrophile"],
+      "options": ["Acidophile", "Halophile", "Thermophile", "Psychrophile"],
       "answer": "Halophile"
     },
     {
       "question": "Which microbial process converts atmospheric nitrogen (N₂) into ammonia (NH₃)?",
-      "choices": ["Oxygenic photosynthesis", "Fermentation", "Nitrogen fixation", "Anaerobic respiration"],
+      "options": ["Oxygenic photosynthesis", "Fermentation", "Nitrogen fixation", "Anaerobic respiration"],
       "answer": "Nitrogen fixation"
     },
     {
       "question": "Which of the following is NOT a product of fermentation?",
-      "choices": ["Lactic acid", "Ethanol", "Oxygen", "Carbon dioxide"],
+      "options": ["Lactic acid", "Ethanol", "Oxygen", "Carbon dioxide"],
       "answer": "Oxygen"
     },
     {
       "question": "Which of the following diseases is caused by a protozoan parasite?",
-      "choices": ["Tuberculosis", "Malaria", "Influenza", "Lyme disease"],
+      "options": ["Tuberculosis", "Malaria", "Influenza", "Lyme disease"],
       "answer": "Malaria"
     },
     {
       "question": "Which of the following microbes is commonly associated with harmful algal blooms (HABs)?",
-      "choices": ["Escherichia coli", "Staphylococcus aureus", "Microcystis aeruginosa", "Plasmodium falciparum"],
+      "options": ["Escherichia coli", "Staphylococcus aureus", "Microcystis aeruginosa", "Plasmodium falciparum"],
       "answer": "Microcystis aeruginosa"
     },
     {
       "question": "Which bacterial species is associated with stomach ulcers?",
-      "choices": ["Escherichia coli", "Helicobacter pylori", "Bacillus anthracis", "Streptococcus pneumoniae"],
+      "options": ["Escherichia coli", "Helicobacter pylori", "Bacillus anthracis", "Streptococcus pneumoniae"],
       "answer": "Helicobacter pylori"
     },
     {
       "question": "Which of the following microbes is an obligate intracellular parasite?",
-      "choices": ["Bacteria", "Archaea", "Viruses", "Fungi"],
+      "options": ["Bacteria", "Archaea", "Viruses", "Fungi"],
       "answer": "Viruses"
     },
     {
       "question": "Which process is responsible for the production of antibiotics by microbes?",
-      "choices": ["Oxygenic photosynthesis", "Secondary metabolism", "Glycolysis", "Conjugation"],
+      "options": ["Oxygenic photosynthesis", "Secondary metabolism", "Glycolysis", "Conjugation"],
       "answer": "Secondary metabolism"
     }
   ]
