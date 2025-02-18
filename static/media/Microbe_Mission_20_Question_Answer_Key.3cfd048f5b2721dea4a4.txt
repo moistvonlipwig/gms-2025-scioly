@@ -1,0 +1,31 @@
+--- Page 1 ---
+Microbe Mission Test Answer Key
+Question 1: Cocci (e.g., Staphylococcus aureus), Bacilli (e.g., Escherichia coli), Spirochetes (e.g., Treponema pallidum).
+Question 2: Fixation, crystal violet stain, iodine treatment, decolorization, safranin counterstain. Gram-positive bacteria
+retain purple color, Gram-negative appear pink.
+Question 3: Lag phase, log phase (exponential growth), stationary phase, death phase.
+Question 4: Lytic: Virus replicates immediately, lysing the host cell. Lysogenic: Virus integrates into the host genome,
+remaining dormant before activation.
+Question 5: a) Bread/beer fermentation, b) Algal biofuels, c) Bioremediation.
+Question 6: Generates a proton gradient across the membrane, driving ATP synthesis via ATP synthase.
+Question 7: Liquid culture (growth in broth) vs. agar plates (solid medium for colony formation).
+Question 8: Attachment, penetration, biosynthesis, maturation, release.
+Question 9: Observation that microscopic counts of bacteria exceed colony counts on plates due to non-culturable
+organisms.
+Question 10: Misfolded proteins that induce abnormal folding in normal proteins, leading to neurodegenerative diseases.
+Question 11: Contribute to cell wall structure and function, aid in ion transport, and provide rigidity.
+Question 12: Organisms thriving in extreme conditions: Halophiles (high salt), thermophiles (high heat), psychrophiles
+(cold).
+Question 13: Bacteria: No nucleus, circular DNA, no organelles. Eukaryotes: Nucleus, linear DNA, organelles.
+Question 14: Catalase breaks down H2O2 into water and oxygen, preventing oxidative damage to cells.
+Question 15: Selective media inhibit certain microbes while allowing others to grow; differential media distinguish
+microbes based on biochemical reactions.
+Question 16: Malaria and cerebral malaria, transmitted by Anopheles mosquitoes.
+Question 17: Sterilization eliminates all microbes; disinfection reduces microbial load but may not eliminate all.
+Question 18: Brightfield microscopy (general observation) and SEM (detailed surface structures).
+Question 19: Use of microbes to degrade pollutants, e.g., Pseudomonas degrading oil spills.
+Question 20: Endospores protect genetic material, enabling bacteria to withstand extreme conditions like heat and
+
+--- Page 2 ---
+desiccation.
+

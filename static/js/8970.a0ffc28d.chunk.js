@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[8970],{8970:(s,c,e)=>{s.exports=e.p+"static/media/Optics_pal_mac_2012_key.6f051b52a8e304152a07.doc"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[6316],{6316:(s,e,_)=>{s.exports=_.p+"static/media/2011_CHS_Div_B_Optics_Test.35ff366ee3022395a0f2.pdf"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[2802],{2802:(s,e,_)=>{s.exports=_.p+"static/media/10-17_MICROBE_SAMPLE1_page7_img3.d3ac21997356e73571ad.png"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[7241],{7241:(e,s,c)=>{e.exports=c.p+"static/media/Microbe Div B Test + Answer Sheet_page3_img6.51f057a1b8c8eb090b3b.png"}}]);

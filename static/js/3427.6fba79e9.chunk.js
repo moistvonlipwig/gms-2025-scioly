@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[3427],{3427:(s,e,_)=>{s.exports=_.p+"static/media/Microbe_Mission__Answer_KEY_page6_img1.334b76d86d3e74bb1af2.png"}}]);

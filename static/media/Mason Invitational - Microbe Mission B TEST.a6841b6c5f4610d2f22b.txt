@@ -1,0 +1,743 @@
+--- Page 1 ---
+Microbe Mission B
+November 16 - 24, 2024
+Instructions:
+➔You will have 50 minutes to complete your exam. At the end of this time period, you must stop working. Partial credit
+will be awarded, so attempt as many questions as you can!
+➔Each team is allowed one 8.5” x 11” note sheet with information on both sides which must be printed. If a sheet
+protector is used, it must be sealed with tape or laminated.
+➔Note that all MCQs have a “best” choice and do not have multiple answers. Multiple-Select Questions are designated
+with an asterisk at the beginning of the question, these will be scored with Scilympiad’s Formula. Free Response
+Questions will be scored in accordance with the scoring guidelines provided on the answer key.
+➔Ties will be broken in accordance with the National Science Olympiad Rules in this order:
+◆
+First: Section D (Molecular Biology) Score
+◆
+Second: Section E (Metabolism & Applications) Score
+◆
+Third: Section A (Microscopy) Score
+School/Team Name: _____________________________________________________________
+Team Number: B - ___
+Written By: Evan Xiang (Shady Side ‘26), Ethan Lomo-Tettey (Marquette University HS ‘26)
+ekxiang@pitt.edu | lomoe5@muhs.edu
+
+--- Page 2 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section A: Microscopy [27 pts]
+These problems cover Section A of the Microbe Mission NSO Rules. Answer them to the best of your ability.
+1.
+Which of the following statements about magnification is correct? Select all that apply. [2]
+a.
+Microscopes are an example of a diffusion-limited system
+b.
+Oil Immersion increases the numerical aperture of the microscope
+c.
+The resolution limit of a microscope is equal to 0.5λ/n where n is the physical aperture and λ is the
+wavelength of light
+d.
+You can resolve two closer points if they are blue than if they are red
+The image above shows the movement of an organism's flagella over time.
+2.
+How do you know that this isn’t fluorescence or electron microscopy. [1]
+3.
+What special tool is used to achieve this type of microscopy? [2]
+a.
+Phase Ring
+b.
+Dichroic Mirror
+c.
+Wollaston Prism
+d.
+Condenser Lens
+e.
+Direct Illumination Block
+4.
+What could be a possible benefit or issue with this type of microscopy, specifically if you were imaging organisms that
+exhibited sensitivity to light? [2]
+Page 2 of 22
+
+--- Page 3 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+You begin your work at Dr. Parth’s office. He tasks you with investigating a new series of Alexa fluorescent markers they are
+developing (Figure below)
+5.
+Of the four fluorescent markers available to you, which pair(s) would NOT be compatible for a FRET experiment? [2]
+6.
+You have only a single laser, but you can set it to any wavelength of your choice. If you wish to visualize two different
+localities in different colors, what wavelength should you set it to? [1]
+7.
+What organelle is DAPI most commonly used to visualize and why? [2]
+8.
+Select all of the following that are true (use the above figure) [2]
+a.
+The condenser is attached to H
+b.
+The usual magnification on part A is 100x
+c.
+A microscope should only be carried by L
+d.
+I handles vertical translation of the stage
+e.
+E is known as the stage claw
+f.
+None of the Above
+9.
+Scanning Electron Microscopy (SEM) would not be appropriate to observe which of the following [2]
+a.
+Studying the motion of Helicobacter pylori
+b.
+Looking at the sulfur bodies of purple sulfur bacteria
+c.
+Visualizing the capsid of Tobacco Mosaic Virus
+Page 3 of 22
+
+--- Page 4 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+d.
+Measuring the function of membrane bound receptors in Giardia
+e.
+Cataloging extracellular receptors on the surface of Saccharomyces cerevisiae
+10. Which of the following is a TRUE statement about the microscope image below? [2]
+a.
+These microscope pictures were taken using a scanning electron microscope (SEM)
+b.
+The organelle represented by “M” in this image can use the glyoxylate cycle
+c.
+The organelle represented by the red arrow will most likely transport the organelle represented by “M” to the
+vacuole
+d.
+The process occurring in this image is common during fasting periods longer than 24 hours
+e.
+If the process above was increased throughout the body, tumorigenesis would be more likely to occur.
+11. Which of the following can you study in a bacteria with a scanning electron microscope (SEM)? [1]
+a.
+Nuclear Pores
+b.
+Cell Membrane
+c.
+Miniature Penguins
+d.
+Fimbriae
+e.
+Glycocalyx
+12. Identify the tool in the below figure [1]
+Page 4 of 22
+
+--- Page 5 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+13. You have a saturated culture of yeast. You wish to perform a 1:1000 dilution using sorbitol. If you want to have a final
+volume of 1mL how much sorbitol do you need? Include units. [2]
+14. Taking that diluted solution from question 13, put it on the device from question 12. If you see the image in the below
+figure, how many cells are shown in the image below that should be counted? [2]
+15. What fraction of the total volume normally counted in the device does this represent? Write your answer as a fraction
+reduced to lowest terms. [1]
+16. Let your answer to question 14 be x. Let your answer to question 15 by y. In terms of x and y, what is the concentration
+of cells in the original saturated solution from question 13?[2]
+Page 5 of 22
+
+--- Page 6 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section B: Structure/Morphology [30 pts]
+Oh no! There has been some sort of outbreak at Mason High School in Mason, Ohio. You, as one of the world’s most famous
+microbiologists, have been tasked to figure out what is the source of this outbreak and what agent is responsible. Below, you are
+given the names of the possible bacterial species involved, along with their gram stain result.
+First, let’s analyze the bacterial cell morphology for each of the following species above:
+A
+B
+C
+For the following questions, select all of the answer choices that apply.
+1. Which bacteria (A-H) have the cell morphology shown in Image A? [1]
+2. Which bacteria (A-H) have the cell morphology shown in Image B? [1]
+3. Which bacteria (A-H) have the cell morphology shown in Image C? [1]
+4. One of your fellow microbiologists has isolated the mysterious bacterial strain and learned that it has a similar morphology as
+the bacteria pictured in the image below. Based on the SHAPE ALONE of the bacteria pictured below, which bacteria species
+(A-H) can be ruled out as a possibility for the mysterious bacterial strain in Mason, OH? [2]
+Page 6 of 22
+A
+Bacillus Anthracis
++
+E
+Vibrio Cholerae
+–
+B
+Staphylococcus Aureus
++
+F
+Streptococcus Pyogenes
++
+C
+Streptococcus Pneumoniae
++
+G
+Bacillus Masonis
+–
+D
+Mycobacterium Tuberculosis
+?
+H
+Diplococcus Validis
+–
+
+--- Page 7 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Now that you have determined the shape of this mysterious bacteria, you still need more information in order to uncover its
+identity. You realize that the next best step to take is to perform a Gram Stain.
+5. In order to begin performing your gram stain, you must first fix your mysterious bacteria to the slide in order to make sure that
+it does not get rinsed off during the procedure. This can be done by 2 main mechanisms: Chemical Fixation and Heat Fixation.
+Describe 1 advantage that Chemical Fixation has on Heat Fixation. [1]
+6. What is the primary stain used in the Gram Staining procedure? What color are the gram negative cells after the addition of this
+primary stain? [2]
+7. What property of crystal violet allows it to bind to the bacterial cell walls? [1]
+8. What is the next reagent used in this procedure? [1]
+9. After the addition of the reagent used in #XX, Ethyl Alcohol is added to the bacteria. What is the purpose of the addition of
+Ethyl Alcohol? What color will the Gram Negative cells appear? [2]
+10. After applying your counterstain, Safranin, you look under the microscope to see the results of your perfect gram stain. You
+notice that none of the bacteria under the microscope appear pink. From the list of remaining possible bacteria, which bacteria
+can you determine is not the mystery bacteria? [1]
+11. Which 2 bacteria are remaining? Briefly describe the differences in their cell wall composition and why they couldn’t be easily
+distinguished by the Gram Stain. Additionally, state what staining procedure can be used to accurately reveal the identification of
+one of the remaining bacteria? [4]
+Page 7 of 22
+
+--- Page 8 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+12. Which of the following structures are common to both eukaryotic and prokaryotic cells? [1]
+a.
+Smooth Endoplasmic Reticulum
+b.
+Ribosomes
+c.
+Mitochondria
+d.
+Nucleoid Region
+13. Which best describes the phospholipids in a bacteria that grows at lower temperatures? [1]
+a.
+Mostly Unsaturated
+b.
+Mostly Saturated
+c.
+Lacking polar phosphate groups
+d.
+Longer fatty acid chains
+14. Which best describes the types of linkages found in the peptidoglycan cell wall of most gram positive bacteria? [1]
+a.
+Tetraglycine Cross-Linkages
+b.
+Tetraserine Cross-Linkages
+c.
+Pentaserine Cross-Linkages
+d.
+Pentaglycine Cross-Linkages
+15. Which of the following structures would only be present in gram positive bacteria? [1]
+a.
+Lipoteichoic Acid
+b.
+Lipopolysaccharide
+c.
+Porins in outer membrane
+d.
+Pilus
+16. According to the Baltimore Virus Classification System, which best describes the genome of a virus with Classification Group
+III? [1]
+a.
+dsDNA virus
+b.
+ssDNA virus
+c.
+dsRNA virus
+d.
+ssRNA virus
+17. Which best explains how viruses attach to host cells in order to infect them? [1]
+a.
+Use surface proteins which bind to receptor molecules on the host cell membrane
+b.
+Synthesize messenger molecules telling the host cell to create a binding site
+c.
+Insert their genome onto the surface of the host cell creating an attachment site
+d.
+They do not need to attach because they originate inside of the host cell
+18. List the steps of viral replication starting with Attachment [7]
+Page 8 of 22
+
+--- Page 9 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Page 9 of 22
+
+--- Page 10 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section C: Culture/Growth [35 pts]
+1.
+You discover a cell line capable of undergoing all major metabolic pathways in animal cells. Four mutants of this cell line
+are known, with each mutant producing only one defective protein. You isolate each mutant (1-4) and grow them on a
+medium without glucose. Then, you add protein, carbohydrate, and fat solution to the media individually and measure
+the relative levels of ATP production by the cell. Protein solution consisted of various amino acids, carbohydrate solution
+consisted of various sugars, and fat solution consisted of triglycerides. In further experiments, you discover that when an
+inhibitor for beta oxidation is added to the animal cell, Mutant 2 no longer metabolizes fats. A “+” indicates high ATP
+production levels while a “-” indicates low ATP production levels. [5] Which of the following is TRUE about your
+experiments?
+a.
+On average, if proteins, carbohydrates, and fats were added to the media of each mutant, ATP production is
+highest in Mutant 1.
+b.
+Fermentation occurs when protein is added to the media of Mutant 2 and Mutant 4.
+c.
+Mutant 2 could produce defective phosphoglyceromutase enzymes.
+d.
+Mutant 3 could produce defective pyruvate dehydrogenase enzymes.
+e.
+Mutant 4 could produce defective aconitase enzymes
+f.
+None of the Above
+Mutant
+Protein
+Carbs
+Fats
+1
++
+-
++
+2
++
++
++
+3
++
+-
+-
+4
++
++
++
+2.
+Which of the following describes a bacterial strain that would be blue in the presence of x-gal. The media is carbon
+restrictive but has lactose. [2]
+a.
+A wild type culture that has completely depleted all the lactose in the culture
+b.
+A mutant with a mutant repressor that is incapable of binding DNA
+c.
+A mutant with a mutant repressor that is incapable of binding allolactose
+d.
+A mutant unable to convert lactose to allolactose
+e.
+A merodiploid that has an extrachromosomal Lac operon with a constitutive promoter but no other genes
+f.
+None of the Above
+3.
+Which of the following describes a bacterial strain that would be blue in the presence of x-gal. The media is carbon rich
+with both glucose and lactose in abundance. [2]
+a.
+A wild type culture that has completely depleted all the glucose in the culture
+b.
+A mutant with a mutant repressor that is incapable of binding DNA
+c.
+A mutant with a constitutively active CAP
+d.
+A mutant unable to convert glucose to any other hexose
+e.
+A merodiploid that has an extrachromosomal Lac operon with a constitutive promoter but no other genes
+Page 10 of 22
+
+--- Page 11 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+f.
+None of the Above
+4.
+Select all of the following that are true about MacConkey Agar [2]
+a.
+The bile salts in MacConkey agar inhibits gram negative bacteria growth
+b.
+It contains crystal violet, acid red, and lactose
+c.
+MacConkey agar is commonly used to assess patients’ skin microbiome
+d.
+Helicobacter colonies have mucoid forms on this medium
+e.
+MacConkey agar is differential but not selective
+f.
+None of the Above
+5.
+Select all of the following that is NOT true about defined media [2]
+a.
+Defined media can include Bovine Serum Albumin
+b.
+Defined media can never be complex
+c.
+Defined Media can include Yeast Extract
+d.
+Defined Media can be selective
+e.
+Defined media can NOT be differential
+f.
+None of the Above
+6.
+Aseptic technique is not needed in which of the following scenarios [2]
+a.
+You are sequencing DNA from a pure culture of bacteria
+b.
+You are replica plating Saccharomyces cerevisiae
+c.
+You are mixing ingredients for media to go into the autoclave
+d.
+You are streaking E. coli on a plate
+e.
+You are performing a gram stain
+Your friend Neil is trying to create mutant bacteria that can survive a mission to the moon. To do so, he enlists your help
+because of your expertise in microbe missions (and he’s more of just an idea guy).
+7.
+What is the specific serotype of the organism that is traditionally used in the Ames test? [1]
+8.
+The organisms used in the Ames test are traditionally auxotrophs for what nutrient? [1]
+9.
+The two most common tester strains used in the Ames test are known as T-1537 and T-1531. Which of the following
+statement(s) are true? Select all that apply [2]
+a.
+The Two strains show the same phenotype on SC-complete medium
+b.
+The two strains show the same phenotype on minimal medium
+c.
+T-1537 is a tester for indel mutations
+d.
+T-1531 is a tester for indel mutations
+10. What are the two Muller Morphs that could be best used to describe the situation where there’s a loss of function
+mutation leading to auxotrophy? [2]
+Page 11 of 22
+
+--- Page 12 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+You review some preliminary work that Neil has done (poorly). He has done a fluctuation Ames test with the strong mutagen
+benzo[a]pyrene as a positive control (Row A) and epsom salt as the negative control (Row H) and no additives in Row G. Then
+in rows B-F he tested increasing concentration of a Mystery Compound. In columns 1-4 a tester strain for single nucleotide
+polymorphisms was tested. In Columns 5-8 a tester for frameshifts was tested. In Columns 9-12 a special strain (Strain X) was
+added that produces large amounts of bicarbonate (a buffer) as a respiratory product instead of CO2 when unmutated but is
+not auxotrophic. The pH indicator in each well changes from purple to yellow when acid is introduced into the environment.
+All wells have media that does not contain histidine and was inoculated with the strains as indicated above. Assume all
+mutagenesis is 100% effective for controls. The figure below shows his results.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+A
+B
+C
+D
+E
+F
+G
+H
+11. An immediately obvious mistake is present in Row A. Benzo[a]pyrene is known to cause transversions which should
+revert the auxotrophy. What did Neil forget to add? What should the actual result of row A look like if Neil had added
+all the right additives? [4]
+12. Row H is the negative control. What is this control telling you here with regards to your experimental lines? [2]
+13. Neil is missing a sterility test in this setup. What is added to a well to conduct a sterility test? What is the purpose of a
+sterility test? [2]
+14. What kind of mutations does the mystery mutagen cause? [2]
+15. If you mixed Strain X and the frameshift tester, which of the following would you expect? Select all that apply [2].
+a.
+This mixture would produce CO2 rather than bicarbonate in respiration
+b.
+A well with this mixture could be yellow in rows B-F
+c.
+A well with this mixture in Row G would be purple
+Page 12 of 22
+
+--- Page 13 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+d.
+This mixture could grow on minimal medium
+Page 13 of 22
+
+--- Page 14 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section D: Molecular Biology [21 pts]
+1. Mr. Microbe is experimenting with the effect of mutations in a bacterial cell and the effect the mutations have on certain
+enzymes involved in DNA replication. He notices that one of the mutations he is studying causes the leading DNA strand to no
+longer be synthesized. Which enzyme was most likely affected by this mutation? [1]
+a.
+DNA Polymerase I
+b.
+DNA Polymerase II
+c.
+DNA Polymerase III
+d.
+DNA Polymerase IV
+2. What is the most likely effect of a mutation in the DNA that produces the enzyme DNA primase? [1]
+a.
+DnaA would not be able to bind to the OriC
+b.
+DNA Polymerase would not be able to add new nucleotides
+c.
+The lagging strand would dissociate from the replication fork
+d.
+Replication would proceed as normal
+3. What bond joins adjacent nucleotides together in a DNA strand? [1]
+a.
+Phosphate Linkage
+b.
+Phosphodiester Bond
+c.
+Hydroxyl Bond
+d.
+Glycosidic Linkage
+4. Which of the following is not a component of the Origin of Replication in Bacteria? [1]
+a.
+DnaA boxes
+b.
+DNA unwinding element
+c.
+Binding sites for initiation proteins
+d.
+Holoenzymes
+*5. The DNA unwinding elements of the bacterial chromosome are mainly composed of which nitrogenous bases? SELECT
+ALL THAT APPLY [2]
+a.
+Adenine
+b.
+Cytosine
+c.
+Guanine
+d.
+Thymine
+6. An important element of bacterial genome replication is the presence of SSBs. What does SSB stand for? What role do they play
+in replication alongside Topoisomerases? [3]
+Page 14 of 22
+
+--- Page 15 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+7. A bacterial genome with dsDNA is sequenced and found to contain 40% Adenine. What percent of Guanine can be found in
+this genome? [1]
+a.
+10%
+b.
+40%
+c.
+50%
+d.
+Not enough information
+8. What is the name of the principle/rule used to answer the previous question? [1]
+9. Now, a viral genome with ssRNA is sequenced and found to contain 40% Adenine. What percent of Guanine can be found in
+this genome? [1]
+a.
+10%
+b.
+40%
+c.
+50%
+d.
+Not enough information
+10. Explain the discrepancy in your answer to the previous question and the answer to #7. [2]
+The following questions refer to the image below.
+11. Identify Letter A [1]
+Page 15 of 22
+
+--- Page 16 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+12. Identify Letter B [1]
+13. Identify Letter C [1]
+14. Identify Letter D [1]
+15. Identify Letter E [1]
+16. Identify Letter F [1]
+17. Identify Letter G [1]
+Page 16 of 22
+
+--- Page 17 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section E: Metabolism/Applications [18 pts]
+You are studying the metabolism of a new species of microbes in outer space (how exciting). After obtaining these microbes, you
+expose them to many different conditions in order to determine and classify their metabolism type. After many years of research,
+you come to the conclusion that you are dealing with a Photolithoheterotroph. Answer the following questions.
+1. What is the energy source of this bacteria? [2]
+2. Where does this bacteria get its source of electrons from? [2]
+3. Will this organism take part in glycolysis? Answer yes or no [1]
+4. If this organism does use glycolysis, where in this organism would glycolysis occur? [1]
+Pictured below is a cyanobacterial cell. Use this diagram to answer the following questions.
+5. Cyanobacteria are photosynthetic organisms. At which location (Give a Letter A-C) would photosynthesis take place in this
+organism? [1]
+6. What is the name of the structure in the previous answer? [1]
+Page 17 of 22
+
+--- Page 18 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+7. Write the net reaction for photosynthesis. (Doesn’t need to be balanced). [3]
+8. What is the main type of fermentation used by microbes that contributes to bread rising? [1]
+a.
+Glycolytic Fermentation
+b.
+Lactic Acid Fermentation
+c.
+Aerobic Fermentation
+d.
+Ethanol Fermentation
+9. What are the 2 main types of microbes (ex. Bacteria, archaea, etc.) involved in bread fermentation? [2]
+10. During bread fermentation, microbes consume sugars and produce gases as byproducts. The production of which gas is the
+main cause of the actual rise of bread during baking? [1]
+a.
+O2
+b.
+CO2
+c.
+H2O (g)
+d.
+CH3COOH (g)
+11. Nannochloropsis, Chlorella, and Dunaliella are all types of which microbe commonly used in biofuels? [1]
+12. What process in the organisms listed above allows them to fix CO2 into carbohydrates and lipids? [1]
+13. Under stress (such as nitrogen starvation), many of these species shift toward storing energy as lipids and oil. What is the
+important role that these lipids and oils can play in industry? [1]
+Page 18 of 22
+
+--- Page 19 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section F: Evolution/Ecology [## pts]
+1.
+Match the extremophiles to their descriptions. 0.5 pts awarded for each match. [3]
+a.
+alkaliphile
+_______ lives underneath rocks in cold deserts
+b.
+capnophile
+_______ optimal growth at a pH greater than 9.0
+c.
+halophile
+_______ lives in microscopic spaces within rocks
+d.
+cryptoendolith
+_______ grows in high concentration of CO2
+e.
+Psychrophile
+_______ optimal growth below 15 C/59 F
+f.
+hypolith
+_______ grows at a concentration of dissolved salts greater than 50 g/L
+2.
+Which method of horizontal gene transfer is used during the replication of lytic and temperate bacteriophages? [1]
+a.
+sexual reproduction
+b.
+conjugation
+c.
+transduction
+d.
+Transformation
+3.
+Which of the following is NOT a limitation of 16S rRNA gene amplicon sequencing? [1]
+a.
+the relative abundance of all bacteria in the sample cannot be determined
+b.
+primers used for amplification will introduce a bias as they bind to regions that aren’t 100% conserved across all
+bacteria
+c.
+bacteria can only be identified to genus level due to high similarity between 16S rRNA gene
+d.
+does not provide information on antibiotic susceptibility
+4.
+Which of the following relationships is an example of syntrophism? [1]
+a.
+plasmodium bacteria living within and exploiting vertebrates
+b.
+lactic acid bacteria inhibiting candida albicans
+c.
+fungi and algae combining to produce algae with the necessary characteristics to survive
+d.
+dust mites living off of human skin flakes
+5.
+State the four pieces of evidence supporting the validity of the endosymbiotic theory. [4]
+Page 19 of 22
+
+--- Page 20 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+Section G: Microbes and Agents [34 pts]
+Identify and answer questions about the following microbes from the 2024-2025 Microbe Mission Microbes and Agents List.
+Image A
+Image B
+Image C
+Image D
+Image E
+Image F
+Image G
+Image H
+1. Identify the Microbe in Image A. [1]
+2. What type of microbe is this? [1]
+3. This microbe is known to be a thermophile. What is a thermophile? [2]
+4. Identify the Microbe in Image B. [1]
+5. What type of microbe is this? [1]
+6. This organism tests positive for a common diagnostic test known as the catalase test. What reagent is added to this organism in
+the catalase test? What would be observed in a positive catalase test when used on this microbe in the lab? [3]
+Page 20 of 22
+
+--- Page 21 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+7. Identify the Microbe in Image C. [1]
+8. What is the name of the disease that this microbe causes? [1]
+9. What are the vectors that are responsible for the transmission of this disease? [1]
+10. Identify the Microbe in Image D. [1]
+11. According to the Baltimore Virus Classification System, what type of virus is this? [1]
+12. What important enzyme is carried by viruses of this classification and what is the function of this enzyme? [3]
+13. Identify the Microbe in Image E. [1]
+14. What is the name of the disease that this microbe causes? [1]
+15. What organ in the human body does this microbe replicate in during infection? [2]
+16. In Image E, what type of stain was used to visualize this microbe? [1]
+17. Identify the Microbe in Image F. [1]
+18. What type of genome does it have? [2]
+Page 21 of 22
+
+--- Page 22 ---
+Mason Invitational 2025
+Microbe Mission
+Team #:______
+19. What is the site of infection of a person infected with this microbe? [2]
+20. Identify the Microbe in Image G. [1]
+21. In Image G, this microbe is being cultured on an agar plate. What are the dots of varying size on the agar plate called? [1]
+22. Identify the Microbe in Image H. [1]
+23. This microbe is known to produce many toxins. Name one of the toxins produced by this microbe. [1]
+24. This microbe is also known to contribute to many HABs. What are HABs and what water conditions usually lead to
+formation of HABs? [3]
+Page 22 of 22
+

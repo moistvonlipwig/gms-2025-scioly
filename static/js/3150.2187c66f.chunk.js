@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[3150],{3150:(e,s,_)=>{e.exports=_.p+"static/media/microbemission_2018_b_kraemer_test_page2_img2.3ee014b25fe1110d16a3.jpeg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[7650],{7650:(s,e,i)=>{s.exports=i.p+"static/media/Microbe Mission, TEST (1)_page5_img4.09a3373c29d3531e7a48.png"}}]);
