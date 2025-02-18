@@ -56,6 +56,7 @@ const App = () => {
     { label: "Microbe Mission Quiz-4", value: "MicrobeMission-quiz-4.json" },
     { label: "Microbe Mission Quiz-5", value: "MicrobeMission-quiz-5.json" },
     { label: "Microbe Mission Quiz-6", value: "MicrobeMission-quiz-6.json" },
+    { label: "Microbe Mission Quiz-7", value: "MicrobeMission-quiz-7.json" },
   ];
 
   // Save user visit to Firestore
