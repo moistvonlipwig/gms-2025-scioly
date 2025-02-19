@@ -1,0 +1,107 @@
+{
+  "questions": [
+    {
+      "type": "multipleChoice",
+      "question": "What is the term for the bending of light as it passes from one medium to another?",
+      "options": ["Reflection", "Refraction", "Diffraction", "Dispersion"],
+      "answer": "Refraction",
+      "referenceLink": "https://en.wikipedia.org/wiki/Refraction",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Snells_law2.svg/800px-Snells_law2.svg.png"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which type of mirror is used in a rearview mirror of a car?",
+      "options": ["Convex mirror", "Concave mirror", "Plane mirror", "Spherical mirror"],
+      "answer": "Convex mirror",
+      "referenceLink": "https://en.wikipedia.org/wiki/Rear-view_mirror",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Convex_mirror_reflection.svg/800px-Convex_mirror_reflection.svg.png"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What is the SI unit of optical power?",
+      "options": ["Diopter", "Watt", "Lux", "Hertz"],
+      "answer": "Diopter",
+      "referenceLink": "https://en.wikipedia.org/wiki/Dioptre",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Converging_and_diverging_lenses.svg/800px-Converging_and_diverging_lenses.svg.png"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What is the critical angle in optics?",
+      "options": [
+        "The angle of incidence at which total internal reflection occurs",
+        "The angle of refraction in a medium",
+        "The angle of reflection from a mirror",
+        "The angle at which diffraction is maximum"
+      ],
+      "answer": "The angle of incidence at which total internal reflection occurs",
+      "referenceLink": "https://en.wikipedia.org/wiki/Total_internal_reflection",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Total_Internal_Reflection.svg/800px-Total_Internal_Reflection.svg.png"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What type of lens is used to correct myopia (nearsightedness)?",
+      "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+      "answer": "Concave lens",
+      "referenceLink": "https://en.wikipedia.org/wiki/Myopia",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Myopia_illustration.svg/800px-Myopia_illustration.svg.png"
+    },
+    {
+      "type": "trueFalse",
+      "question": "A convex lens always forms a real image.",
+      "answer": "False",
+      "referenceLink": "https://en.wikipedia.org/wiki/Lens_(optics)",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lens3types.svg/800px-Lens3types.svg.png"
+    },
+    {
+      "type": "trueFalse",
+      "question": "Total internal reflection can only occur when light travels from a denser medium to a less dense medium.",
+      "answer": "True",
+      "referenceLink": "https://en.wikipedia.org/wiki/Total_internal_reflection",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RefractionReflextion.svg/800px-RefractionReflextion.svg.png"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Describe the phenomenon of chromatic aberration and how it affects optical systems.",
+      "answer": "Chromatic aberration occurs when different wavelengths of light refract at different angles, causing color fringing and blurring in optical systems.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Chromatic_aberration",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Chromatic_aberration_%28comparison%29.svg/800px-Chromatic_aberration_%28comparison%29.svg.png"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Explain why a rainbow forms when sunlight passes through water droplets in the air.",
+      "answer": "A rainbow forms due to dispersion, refraction, and reflection of sunlight within water droplets, separating light into different colors.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Rainbow",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rainbow1.svg/800px-Rainbow1.svg.png"
+    },
+    {
+      "type": "calculation",
+      "question": "A concave mirror has a focal length of 20 cm. If an object is placed 30 cm from the mirror, where is the image located?",
+      "formula": "1/f = 1/do + 1/di",
+      "answer": "Image distance di = 60 cm (real, inverted)",
+      "referenceLink": "https://en.wikipedia.org/wiki/Mirror_equation",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Concave_mirror_ray_diagram.svg/800px-Concave_mirror_ray_diagram.svg.png"
+    },
+    {
+      "type": "calculation",
+      "question": "A light wave has a frequency of 5.0 x 10^14 Hz. What is its wavelength in a vacuum? (c = 3.0 x 10^8 m/s)",
+      "formula": "λ = c / f",
+      "answer": "6.0 x 10^-7 m (600 nm, orange light)",
+      "referenceLink": "https://en.wikipedia.org/wiki/Speed_of_light",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Light_waves.svg/800px-Light_waves.svg.png"
+    },
+    {
+      "type": "extendedResponse",
+      "question": "Explain how polarization is used in 3D movie technology.",
+      "answer": "3D glasses use polarizing filters to separate light intended for each eye. The left and right lenses filter light waves differently, creating depth perception.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Polarized_3D_system",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/3D_projection_glasses.svg/800px-3D_projection_glasses.svg.png"
+    },
+    {
+      "type": "extendedResponse",
+      "question": "Discuss the advantages of fiber optics over traditional copper wiring for transmitting data.",
+      "answer": "Fiber optics provide faster data transmission, less signal loss, greater bandwidth, and immunity to electromagnetic interference.",
+      "referenceLink": "https://en.wikipedia.org/wiki/Optical_fiber",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Fiber_optic_cable.svg/800px-Fiber_optic_cable.svg.png"
+    }
+  ]
+}

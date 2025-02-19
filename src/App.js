@@ -47,6 +47,7 @@ const App = () => {
     { label: "Optics Quiz 3", value: "Optics-quiz-3.json" },
     { label: "Optics Quiz 4", value: "Optics-quiz-4.json" },
     { label: "Optics Quiz 5", value: "Optics-quiz-5.json" },
+    { label: "Optics Quiz 6", value: "Optics-quiz-6.json" },
   ];
 
   const microbeMissionQuizzes = [
