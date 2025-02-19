@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[1075],{1075:(e,s,i)=>{e.exports=i.p+"static/media/ATX SciOly Microbe Mission Answer Key VERY FINAL_page3_img1.3e486e0b7f52556b553f.jpeg"}}]);

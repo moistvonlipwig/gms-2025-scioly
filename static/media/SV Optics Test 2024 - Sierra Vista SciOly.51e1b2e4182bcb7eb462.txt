@@ -1,0 +1,311 @@
+--- Page 1 ---
+Optics B
+Sierra Vista 2024 Invitational
+Written by Andy Chen & Chat GPT
+Team Number and Name:
+1.
+DO NOT OPEN THIS PACKET until you are told to begin. Listen to instructions first.
+2.
+You may rip apart the test, but staple it together again before time is called.
+3.
+Test-taking Tips: If you get stuck on a hard question, move on. Guess on questions
+you don’t know. Cross out answers you know are wrong. Mark questions you want
+to come back to when you’re done.
+4.
+Answer in 3 significant figures
+5.
+Answer scientific notation if there are leading or trailing zeroes
+6.
+Answer in SI units unless otherwise specified
+7.
+Have fun and good luck!
+
+--- Page 2 ---
+Multiple choice (2pts each):
+1. What is the term for the bending of light as it passes from one medium to another?
+a) Reflection
+b) Refraction
+c) Diffraction
+d) Dispersion
+2. Which lens is thicker at the center than at the edges?
+a) Diverging Meniscus
+b) Plano-convex lens
+c) Plano-concave lens
+d) Concave lens
+3. What properties does the image at the focal point of a concave mirror have?
+a) Real and in front of the mirror
+b) Virtual and in front of the mirror
+c) Real and behind the mirror
+d) Virtual and behind the mirror
+4. In the context of optics, which does the term "chromatic aberration" not refer to?
+a) Splitting of light into its component colors
+b) Blurring of the image
+c) Dispersion of light
+d) Distortion of color wavelengths
+5. Which phenomenon causes the formation of a rainbow when sunlight passes
+through raindrops?
+a) Dispersion
+b) Diffraction
+c) Interference
+d) Polarization
+
+--- Page 3 ---
+6. What is the SI unit of optical power?
+a) Diopter
+b) Watt
+c) Lux
+d) Hertz
+7. What is the critical angle in optics?
+a) The angle of incidence at which total internal reflection occurs
+b) The angle of refraction in a medium
+c) The angle of reflection from a mirror
+d) The angle at which diffraction is maximum
+8. Which phenomenon is responsible for the formation of mirages in hot weather?
+a) Total internal reflection
+b) Dispersion
+c) Diffraction
+d) Interference
+9. What is the relationship between the angle of incidence and the angle of reflection
+for a plane mirror?
+a) They are equal
+b) The angle of incidence is greater
+c) The angle of reflection is greater
+d) They are unrelated
+10. Which type of lens is used to correct hypermetropia (farsightedness)?
+a) Convex lens
+b) Concave lens
+c) Bifocal lens
+d) Plano-convex lens
+
+--- Page 4 ---
+11. What happens to the speed of light when it enters a denser medium?
+a) It increases
+b) It remains constant
+c) It decreases
+d) It depends on the color of light
+12. The phenomenon of diffraction is most pronounced when the size of the opening or
+obstacle is comparable to the:
+a) Wavelength of light
+b) Frequency of light
+c) Speed of light
+d) Intensity of light
+13. What is the primary function of a camera lens aperture?
+a) To control focal length
+b) To focus light
+c) To filter colors
+d) To minimize aberrations
+14. Which type of mirror is used in a rearview mirror of a car?
+a) Convex mirror
+b) Concave mirror
+c) Plane mirror
+d) Spherical mirror
+15. What is the phenomenon where light waves cancel each other out, resulting in
+darkness or reduced intensity?
+a) Diffraction
+b) Interference
+c) Refraction
+d) Dispersion
+16. Which of the following materials cannot polarize light?
+
+--- Page 5 ---
+a) Glass
+b) Water
+c) Marble
+d) Copper
+17. The phenomenon of total internal reflection is used in the operation of:
+a) Microscopes
+b) Telescopes
+c) Fiber optics
+d) Cameras
+18. What is the process of separating white light into its component colors called?
+a) Polarization
+b) Dispersion
+c) Refraction
+d) Diffraction
+19. Which color of light deviates the most when passing through a prism?
+a) Red
+b) Blue
+c) Green
+d) Yellow
+20. The image formed by a convex lens for an object beyond its focal point is:
+a) Real and inverted
+b) Real and upright
+c) Virtual and inverted
+d) Virtual and upright
+
+--- Page 6 ---
+21. What is the phenomenon where light waves spread out when passing through a
+small opening or around an obstacle?
+a) Diffraction
+b) Reflection
+c) Refraction
+d) Interference
+22. What is the SI unit of measurement for the wavelength of light?
+a) Hertz
+b) Newton
+c) Meter
+d) Nanometer
+23. The bending of light waves as they pass through a prism is an example of:
+a) Refraction
+b) Reflection
+c) Dispersion
+d) Interference
+24. Which of the following is not a primary color of light?
+a) Red
+b) Green
+c) Blue
+d) Yellow
+25. What type of lens is used in a magnifying glass?
+a) Convex lens
+b) Concave lens
+c) Bifocal lens
+d) Plane lens
+
+--- Page 7 ---
+26. The phenomenon where light changes speed as it passes from one medium to
+another is the cause of which of the following?
+a) Reflection
+b) Refraction
+c) Diffraction
+d) Dispersion
+27. What is the angle of incidence for light that undergoes total internal reflection?
+a) 0 degrees
+b) 90 degrees
+c) Less than the critical angle
+d) Greater than the critical angle
+28. Which of the following is a property of a concave lens?
+a) Converging
+b) Diverging
+c) Thick at the center
+d) Forms real images
+29. What happens to the focal length of a convex lens when it is placed in water?
+a) Increases
+b) Decreases
+c) Remains the same
+d) Becomes infinite
+30. The dispersion of light into its component colors is responsible for the formation of:
+a) Rainbows
+b) Mirages
+c) Shadows
+d) Halos
+
+--- Page 8 ---
+Free Response (5pts each):
+1. Explain how the phenomenon of total internal reflection is utilized in fiber optics
+technology. Provide examples of applications where fiber optics play a crucial role.
+2. Describe the characteristics of a convex lens and explain how it forms images for
+objects placed at different distances. Include discussions on focal points and image
+magnification.
+3. Discuss the factors that contribute to chromatic aberration in optical systems. How
+can this aberration be minimized or corrected in lenses?
+4. Explain the concept of polarization in optics. Provide examples of natural and
+artificial sources of polarized light, and discuss the applications of polarizing filters.
+5. Describe the working principle of a concave mirror and discuss its applications in
+everyday devices. How does the focal point of a concave mirror relate to image
+formation?
+
+--- Page 9 ---
+6. Discuss the role of diffraction in the behavior of light waves. Provide examples of
+situations where diffraction is observed and explain the impact on the resulting light
+patterns.
+7. Explain how a camera aperture affects the exposure of an image. Discuss the
+trade-offs involved in selecting different aperture sizes.
+8. Describe the phenomenon of dispersion in the context of optics. How does a prism
+disperse white light, and what is the order of colors in the spectrum?
+9. Discuss the concept of optical power in lenses. How is it measured, and how does it
+relate to the ability of a lens to converge or diverge light?
+10. Explain the principle behind the operation of a lens in correcting hypermetropia
+(farsightedness). How does the shape of the lens address the focusing issue for
+individuals with hypermetropia?
+
+--- Page 10 ---
+Extended Problems (show work for partial credit):
+Mirror Mirror on the Ball (40 pts)
+In this problem we will investigate the physics of spherical mirrors. In geometric optics,
+there are neat equations governing the position and size of images in curved mirrors. However,
+the equations we will explore in this problem are mere approximations, and real objects with
+finite size will appear slightly different and distorted than the equations suggest. This may be
+considered as a result of spherical aberration, where images appear distorted due to the imperfect
+geometric properties spherical surfaces posess regarding reflection. Assume paraaxial rays (rays
+travelling at a small angle from the center axis) for all parts of this problem. Angles in diagrams
+are greatly exaggerated for clarity.
+a.
+Consider a spherical mirror with its center on the x-axis. A ray of light travels at an angle
+from the x-axis, hits the mirror, and reflects. The radius connecting the center of the
+α
+circle to the point the light hit forms an angle
+with the x-axis. Find the angle
+that the
+γ
+β
+reflected ray forms with the x-axis. Express your answer in terms of
+and . (3 pts)
+α
+γ
+
+--- Page 11 ---
+b. If a point source produces many of these rays, an image will be formed inside the mirror.
+The location of this image is located at the intersection of the x-axis and the ray gotten by
+tracing the reflected ray found in part a backwards. The point source is located at a
+distance
+from the front surface, the image is located at a distance
+behind the front
+𝑜
+𝑖
+surface, and the mirror has a radius . Using small angle approximation for all three
+𝑟
+angles, show that the following equation holds:
+. (8 pts)
+1
+𝑖= 1
+𝑜+ 2
+𝑟
+c.
+Instead of a point source, put a ring of radius
+centered at the same spot, with its center
+ℎ
+axis aligned with the x-axis. If the traditional equations are used for spherical mirrors,
+one can find the radius of the resulting image by applying similar triangles. By using this
+method, find the image radius
+. Express your answer in terms of
+, , and . (4 pts)
+ℎ'
+ℎ𝑜
+𝑟
+
+--- Page 12 ---
+d. In reality, the image radius and position is slightly different. This is because in the part c
+we approximated the ring as a point source, and geometrically extended the argument to
+find its size. What actually happens is that each point on the ring is a point source, and
+the image for each point can be found via the method in part b. Using this new method,
+find the x-position
+of the image. Express your answer in terms of
+, , and . (6 pts)
+𝑖''
+ℎ𝑜
+𝑟
+e.
+Using the same method, find the image radius
+. Express your answer in terms of
+, ,
+ℎ''
+ℎ𝑜𝑟
+, and
+. (4 pts)
+𝑖''
+f.
+Numerically evaluate the percent error of the image position
+for a ring of
+%𝑖= | 𝑖−𝑖''
+𝑖
+|
+radius 5 cm placed 10 cm from the surface of a spherical mirror with a radius 5cm. Do
+the same for the percent error of the image radius
+. (8 pts)
+%ℎ
+
+--- Page 13 ---
+g. A square frame is placed in front of a mirror as shown in the diagram. On the diagram,
+sketch the image formed by the frame as accurately as possible. Assume the frame is
+semi-transparent, so two parts of the frame cannot hide each other. (7 pts)
+

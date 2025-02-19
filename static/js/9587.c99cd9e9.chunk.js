@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[9587],{9587:(s,c,e)=>{s.exports=e.p+"static/media/Exam_Optics_Purdue2025_B.09e1c413d1fdc30a8694.pdf"}}]);

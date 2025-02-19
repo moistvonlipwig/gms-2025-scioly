@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[4224],{4224:(s,e,c)=>{s.exports=c.p+"static/media/Optics_Coolidge-111217_Key.1d08f1b11babe14039a8.pdf"}}]);

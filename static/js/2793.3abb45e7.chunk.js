@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[2793],{2793:(s,e,c)=>{s.exports=c.p+"static/media/2024-12-13-test-key.a63e145a37035c32ed25.docx"}}]);

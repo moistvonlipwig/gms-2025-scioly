@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[4452],{4452:(s,e,c)=>{s.exports=c.p+"static/media/Optics_Answer_Key.41a411793b394ca614f8.pdf"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[1512],{1512:(s,e,t)=>{s.exports=t.p+"static/media/2012_IAE_Optics_test.484eb2869d51d5e1d803.pdf"}}]);

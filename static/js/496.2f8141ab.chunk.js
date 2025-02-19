@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[496],{496:(s,c,a)=>{s.exports=a.p+"static/media/Optics_C_national_exam_11.45f444364d86caf2c21b.pdf"}}]);

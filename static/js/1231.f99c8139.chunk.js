@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[1231],{1231:(s,e,c)=>{s.exports=c.p+"static/media/page4_img1.8c38b84d1bfb3ce4e1b7.png"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[8867],{8867:(s,e,i)=>{s.exports=i.p+"static/media/Black and White Microbe Mission Exam_page15_img1.658a6478ebc555896b98.jpeg"}}]);

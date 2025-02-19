@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[9104],{9104:(s,e,c)=>{s.exports=c.p+"static/media/Optics Div B Test + Answer Sheet_page3_img2.22fabc992ad8e223b17b.png"}}]);

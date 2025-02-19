@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[3256],{3256:(s,e,c)=>{s.exports=c.p+"static/media/Science_Olympiad_Test_Optics_and_Spectroscopy.77ae512d7e7206160bc7.pdf"}}]);

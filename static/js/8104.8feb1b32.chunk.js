@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[8104],{8104:(s,c,e)=>{s.exports=e.p+"static/media/Stoga_optics.919908d6c90450f94764.pdf"}}]);

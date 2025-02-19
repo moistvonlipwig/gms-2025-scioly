@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[3680],{3680:(e,s,_)=>{e.exports=_.p+"static/media/OPTICS_WSU_2012_blank.b5f3be8e0277e447eea3.pdf"}}]);

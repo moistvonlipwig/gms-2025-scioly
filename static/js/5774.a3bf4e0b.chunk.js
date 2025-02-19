@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[5774],{5774:(e,s,i)=>{e.exports=i.p+"static/media/Key_MicrobeMission_Purdue2025_B_page5_img2.dd24f557daeef42515ee.png"}}]);

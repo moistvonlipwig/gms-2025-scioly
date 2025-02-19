@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[9390],{9390:(s,c,e)=>{s.exports=e.p+"static/media/Draksis314's_Optics_Practice_Test.ecb2949da44deca1619d.pdf"}}]);

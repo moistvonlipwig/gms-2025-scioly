@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[7966],{7966:(e,s,_)=>{e.exports=_.p+"static/media/microbemission_2018_b_gopher_test_page2_img1.e6478276a1e71796944e.png"}}]);

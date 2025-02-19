@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[2150],{2150:(s,e,c)=>{s.exports=c.p+"static/media/BO_answers.d5f97bb0862db3afc935.txt"}}]);

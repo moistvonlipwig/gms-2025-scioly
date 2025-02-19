@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[2612],{2612:(s,c,e)=>{s.exports=e.p+"static/media/SV Optics Test 2024 - Sierra Vista SciOly.3fae2082ad1c83d20cd9.pdf"}}]);

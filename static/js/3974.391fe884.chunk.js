@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[3974],{3974:(c,e,s)=>{c.exports=s.p+"static/media/Science_Olympiad_Answer_Key_Optics_and_Spectroscopy.3e6cc478ecf0405aaa36.pdf"}}]);

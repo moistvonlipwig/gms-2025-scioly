@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[782],{782:(s,e,c)=>{s.exports=c.p+"static/media/Optics-Oak11_key.ef140a7cdcb60b6ef83f.pdf"}}]);

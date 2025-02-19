@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[906],{906:(s,c,e)=>{s.exports=e.p+"static/media/ATX_Optics_Exam.af641e053e876b9c5abc.pdf"}}]);

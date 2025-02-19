@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[602],{602:(s,c,e)=>{s.exports=e.p+"static/media/Athens_optics.142f8093f4aca4d1d0dc.pdf"}}]);
