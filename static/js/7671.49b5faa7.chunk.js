@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[7671],{7671:(s,e,t)=>{s.exports=t.p+"static/media/Athens_microbe.b38d3641d94372043a4e.txt"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[6251],{6251:(s,e,i)=>{s.exports=i.p+"static/media/2025 USC Microbe Mission Test_page7_img1.98b0a6c9ad987199e325.png"}}]);

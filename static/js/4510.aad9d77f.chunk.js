@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[4510],{4510:(s,i,e)=>{s.exports=e.p+"static/media/Mason Invitational - Microbe Mission B KEY_page6_img3.48b2869d452c2e462df9.png"}}]);

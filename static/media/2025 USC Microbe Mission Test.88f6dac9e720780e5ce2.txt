@@ -1,0 +1,446 @@
+--- Page 1 ---
+2025 USC Invitational
+Tournament
+Microbe Mission B
+Test Packet
+Welcome to Microbe Mission B! Please wait until instructed to start the test!
+●
+Please do not write on this test packet!
+●
+The test has a total of 4 sections of a mix of multiple choice and short answer questions for a
+total of 54 questions, and you will have 50 minutes to complete it!
+●
+You are allowed two Class II calculators and one 8.5x11” cheat sheet per team
+●
+You may remove the staple, but you must rearrange the test packet in the correct order
+●
+All multiple choice questions are worth 1 point while short answers have specified point values
+●
+Select all that apply questions will have 2-4 answers and are all or nothing
+●
+Tiebreakers Order of Priority: 49, 50, 22, 11, 39, 16, 20, 44, 32, 3
+●
+Good luck and have fun!
+
+--- Page 2 ---
+DO NOT WRITE ON THIS PACKET!
+DO NOT WRITE ON THIS PACKET!
+Page 1
+
+--- Page 3 ---
+DO NOT WRITE ON THIS PACKET!
+Section 1: Microscopes, Staining, and Morphology
+1.
+Which microscopy technique produced the image below?
+A) Bright Field
+B) Dark Field
+C) Phase Contrast
+D) Scanning Electron
+E) Transmission Electron
+2.
+Which microscopy technique produced the image on the right?
+A) Bright Field
+B) Dark Field
+C) Phase Contrast
+D) Scanning Electron
+E) Transmission Electron
+3.
+Comparing the microscopy techniques from the previous two questions, what are notable differences
+between the techniques?
+A) Question 1’s technique creates a bright halo surrounding the cell, while Question 2’s
+technique passes polarized light through a prism, generating two distinct beams of light, which
+are recombined after passing through cells to create a 3D image
+B) Question 1’s technique allows for live cell viewing, while Question 2’s technique requires the
+cells to be fixed
+C) Question 1’s technique funnels electrons into cells to make out organelles, while Question 2’s
+technique funnels light through the specimens on a dark background
+D) Question 1’s technique requires the coating of the cell with an electrical-coating metal like
+gold, while Question 2’s technique utilizes fluorescent staining
+E) Question 1’s allows for live visualization of intracellular organelles while Question 2’s allows
+for visualization of small features, such as flagella, through contrast
+4.
+Select all that apply: which of the following descriptions best describes the bacteria on the right?
+A) Bacillus
+B) Cocci
+C) Vibrio
+D) Staphylococcus
+E) Streptococcus
+DO NOT WRITE ON THIS PACKET!
+Page 2
+
+--- Page 4 ---
+DO NOT WRITE ON THIS PACKET!
+Use the following image of binary fission to answer the following questions.
+5.
+What is the purpose of binary fission?
+A) Development of multicellular organisms from prokaryotes
+B) Endosymbiotic dissolution
+C) Lysis of bacterial cells into two
+D) Metabolism of nucleic acids and proteins
+E) Reproduction of bacteria into two identical daughter cells
+6.
+If a bacteria has a dysfunctional DnaA, what step of binary fission (as numbered in the image) would it
+be paused on?
+A) Step 1
+B) Step 2
+C) Step 3
+D) Step 4
+E) Binary fission would still be functional
+7.
+What step of binary fission (as numbered in the image) is the division septum fully formed by the FtsZ
+complex?
+A) Step 1
+B) Step 2
+C) Step 3
+D) Step 4
+E) Binary fission does not form a division septum
+8.
+What step of binary fission (as numbered in the image) does the mitotic spindle separate chromosomes?
+A) Step 1
+B) Step 2
+C) Step 3
+D) Step 4
+E) Binary fission does not utilize a mitotic spindle
+DO NOT WRITE ON THIS PACKET!
+Page 3
+
+--- Page 5 ---
+DO NOT WRITE ON THIS PACKET!
+Use the image of an embedded organelle in a gram negative bacterial envelope to answer the following questions.
+9.
+What is the embedded organelle depicted in the image?
+A) Eyespot
+B) Fimbria
+C) Flagella
+D) Pilus
+E) Spirochochete
+10. What is the function of this embedded organelle?
+A) Horizontal Gene Transfer
+B) Infectivity
+C) Transmembrane Nutrient Shuttling
+D) Motility
+E) Replication
+11. Select all that apply: what components would not be present in a gram positive bacteria?
+A) Filament
+B) Hook
+C) L ring
+D) Outer Membrane
+E) Peptidoglycan
+12. What component in the image would be significantly thicker in gram positive bacteria?
+A) Cytoplasmic Membrane
+B) L ring
+C) Outer Membrane
+D) Peptidoglycan
+E) P ring
+DO NOT WRITE ON THIS PACKET!
+Page 4
+
+--- Page 6 ---
+DO NOT WRITE ON THIS PACKET!
+Section 2: Spoiled Milk
+You find that your milk in the refrigerator is spoiled due to bacteria. In hopes of identifying the bacterial culprit
+you perform several tests to identify its properties. All questions in this section refer to this scenario.
+13. Based solely on the bacteria’s preference for low temperatures, what term best describes it?
+A) Acidophile
+B) Alkaliphile
+C) Halophile
+D) Psychrophile
+E) Thermophile
+14. What adaptations would you expect this bacteria to have?
+A) Proteins with less alpha helices
+B) Proteins with a larger proportion of beta sheets
+C) Higher unsaturated fatty acid chain proportion in membrane for fluidity
+D) Higher long fatty acid chain proportion in membrane for rigidity
+E) Na+ driven ATP production as opposed to H+
+15. During a gram stain, gram positive bacteria stain ___ and gram negative bacteria stain ___.
+A) pink; pink
+B) pink; purple
+C) purple; pink
+D) purple; purple
+E) colorless; pink
+16. During a gram stain, you accidentally skip the iodine treatment step. Under this incorrect procedure,
+you would expect gram positive bacteria to stain ___ and gram negative bacteria to stain ___.
+A) pink; pink
+B) pink; purple
+C) purple; pink
+D) purple; purple
+E) colorless; pink
+17. You are unsure about the nutritional conditions needed to culture this bacteria, but you hope to grow
+some bacteria to plate. What type of medium should you use to culture the bacteria?
+A) Complex Media
+B) Defined Media
+C) Differential Media
+D) Selective Media
+E) Water
+DO NOT WRITE ON THIS PACKET!
+Page 5
+
+--- Page 7 ---
+DO NOT WRITE ON THIS PACKET!
+18. You use the streak method and an inoculation loop to spread the bacteria on a plate (depicted on the
+right). Between each use, you flame the loop. What is the purpose of this streak and flame method?
+A) Creates neat patterns on the plate
+B) Prewarm the bacteria to increase growth
+C) Sterilize the loop to isolate single colonies
+D) To evenly spread the bacteria
+E) Flaming is incorrect because it kills bacteria between use
+19. After isolating and culturing a single colony, you replate it on a type of MacConkey agar that has beef
+extract, lactose, a pH indicator that turns red in acidic pHs, and crystal violet that inhibits gram positive
+bacteria growth. The agar turns red and colonies grow. What is the bacteria’s metabolic strategy?
+A) Chemoautotroph and Lactic Acid Fermentation
+B) Chemoheterotroph and Lactic Acid Fermentation
+C) Photoautotroph and Photosynthesis
+D) Photoheterotroph and Lactic Acid Fermentation
+E) Gram negative and Photosynthesis
+20. Select all that apply: The MacConkey agar described is an example of what type(s) of media?
+A) Complex Media
+B) Defined Media
+C) Differential Media
+D) Selective Media
+E) Solid Media
+21. Before plating the bacteria, you perform four serial dilutions of 1:10. After plating 0.05 ml you end up
+with 50 colonies. Calculate the colony forming units (CFUs) per ml.
+A) 10,000,000 CFUs/ml
+B) 1,000,000 CFUs/ml
+C) 500,000 CFUs/ml
+D) 10,000 CFUs/ml
+E) 1,000 CFUs/ml
+22. Before plating the bacteria, you perform four serial dilutions of 1:10. After plating 0.05 ml you end up
+with 50 colonies. Calculate the number of colony forming units in 4 ml of media.
+A) 40,000,000 CFUs/ml
+B) 4,000,000 CFUs/ml
+C) 2,500,000 CFUs/ml
+D) 400,000 CFUs/ml
+E) 25,000 CFUs/ml
+DO NOT WRITE ON THIS PACKET!
+Page 6
+
+--- Page 8 ---
+DO NOT WRITE ON THIS PACKET!
+23. Using your knowledge of the bacteria’s metabolic strategy and the image on the right, determine the
+oxygen needs of this bacteria. (The image on the right displays the bacteria in a tube culture exposed to
+oxygen; consider the position and density of the bacteria in the culture tube)
+A) Obligate aerobic (requires oxygen; lack of oxygen is lethal)
+B) Facultative aerobic (oxygen improves growth)
+C) Microaerophilic (low levels of oxygen are needed for growth)
+D) Aerotolerant anaerobic (oxygen has no effect on growth)
+E) Obligate anaerobe (oxygen is harmful to growth)
+24. As you culture the bacteria in a tube, you notice four phases of growth. What are the phases in order?
+A) Lag phase →Stationary phase →Exponential phase →Death phase
+B) Lag phase →Exponential phase →Stationary phase →Death phase
+C) Stationary phase →Exponential phase →Lag phase →Death phase
+D) Stationary phase →Lag phase →Exponential phase →Death phase
+E) Exponential phase →Death phase →Lag phase →Death phase
+25. Upon the addition of maltose (a second sugar) into the initial culture, you notice a second exponential
+phase. What is this phenomenon called?
+A) Binary fission
+B) Cryptic growth
+C) Diauxic growth
+D) Non-uniform growth
+E) Synchronous growth
+26. What is the purpose of 16S amplicon sequencing?
+A) Identify the species of fungi present in a sample
+B) Isolation of bacterial clones
+C) Determine what viral DNA/RNA is present in a sample
+D) Profile microbial communities in terms of diversity, composition, and relative abundance
+E) Proteomics technique to identify protein diversity
+27. If you were to perform 16S amplicon sequencing on the bacteria in the spoiled milk, how would you
+expect the alpha diversity to differ between the milk sample and a single isolated colony culture?
+A) Alpha diversity of the milk sample will be higher
+B) Alpha diversity of the single isolated colony culture will be higher
+C) Alpha diversity of both samples will be equal
+D) Alpha diversity is not obtainable from 16S amplicon sequencing
+E) Not enough information
+DO NOT WRITE ON THIS PACKET!
+Page 7
+
+--- Page 9 ---
+DO NOT WRITE ON THIS PACKET!
+Section 3: Field Work (Metabolism, Evolution, and Ecology)
+28. A bacteria produces bacteriocin to kill neighboring bacteria to increase the nutrients available for itself.
+What best describes this relationship?
+A) Competition
+B) Commensalism
+C) Mutualism
+D) Parasitism
+E) Predation
+29. A rhizosphere bacteria converts ammonia to nitrite. A second rhizosphere bacteria converts nitrite to
+nitrate. What best describes this relationship?
+A) Competition
+B) Commensalism
+C) Mutualism
+D) Parasitism
+E) Predation
+30. A mycobacterium tuberculosis bacterium inhabits and replicates inside macrophage cells. What best
+describes this relationship?
+A) Competition
+B) Commensalism
+C) Mutualism
+D) Parasitism
+E) Predation
+31. In the endosymbiotic theory of organelle evolution, a proto-eukaryote engulfed a proto-mitochondria.
+In this relationship, the proto-eukaryote provided protection while the proto-mitochondria provided
+energy. What best describes this relationship?
+A) Competition
+B) Commensalism
+C) Mutualism
+D) Parasitism
+E) Predation
+DO NOT WRITE ON THIS PACKET!
+Page 8
+
+--- Page 10 ---
+DO NOT WRITE ON THIS PACKET!
+32. Select all that apply: bacteria that live at the bottom of the Mariana trench, the deepest oceanic trench
+on Earth, can be categorized as what type of extremophiles:
+A) Acidophile
+B) Barophile/Piezophile
+C) Halotolerant
+D) Mesophile
+E) Thermophile
+33. What adaptations would you expect from bacteria that reside in acidic mine drainage?
+A) Decreased DNA/protein repair
+B) Inefficient proton pump
+C) Lack of cytoplasmic buffer that sequesters protons
+D) Low proton permeability in the cytoplasmic membrane
+E) Na+ gradient to drive cellular processes
+34. The metabolism of cyanobacteria with chlorophyll that produce oxygen can be categorized as
+A) Anoxygenic fermentation
+B) Anoxygenic photosynthesis
+C) Oxygenic fermentation
+D) Oxygenic photosynthesis
+E) Nitrogen fixation
+35. To fix nitrogen, bacteria use nitrogen gas to form what compound?
+A) Ammonia
+B) Carbon Dioxide
+C) Nitrite
+D) Nitrate
+E) Oxygen
+36. A heterotrophic bacteria that utilizes glycolysis, the citric acid cycle, and electron transport chain
+pathways with a final O2 electron acceptor is best categorized as a:
+A) Aerobic Chemoorganotroph
+B) Anaerobic Chemoorganotroph
+C) Chemolithotroph
+D) Oxygenic Phototroph
+E) Anoxygenic Phototroph
+DO NOT WRITE ON THIS PACKET!
+Page 9
+
+--- Page 11 ---
+DO NOT WRITE ON THIS PACKET!
+In a sample, you notice that bacteria have acquired plasmids carrying antibiotic resistance genes via horizontal
+gene transfer. Use this scenario to answer the following questions on this page.
+37. Which of the following is not a property of horizontal gene transfer?
+A) Always moves genes between direct descendants
+B) Beneficial genes are kept over time
+C) Contributes to pathogen evolution
+D) DNA can be integrated into the recipient genomes
+E) Not constrained between a single species
+38. Select all that apply: you confirm that there is no evidence of virus in your bacterial sample. Which
+methods of horizontal gene transfer are not responsible for the acquired antibiotic resistance?
+A) Conjugation
+B) Transformation
+C) Generalized Transduction
+D) Specialized Transduction
+E) None of the above
+39. Select all that apply: you identify the presence of specialized pili that are involved in the uptake of
+genetic material. Which methods of horizontal gene transfer can use pili?
+A) Conjugation
+B) Transformation
+C) Generalized Transduction
+D) Specialized Transduction
+E) All of the above
+40. Your bacteria lack the competence system. Which horizontal transfer method requires competence?
+A) Conjugation
+B) Transformation
+C) Generalized Transduction
+D) Specialized Transduction
+E) All of the above
+41. Using the results of the previous questions and the presence of F Plasmid, which of the following
+horizontal gene transfer methods are responsible for your bacteria’s acquired antibiotic resistance?
+A) Conjugation
+B) Transformation
+C) Generalized Transduction
+D) Specialized Transduction
+E) None of the above
+DO NOT WRITE ON THIS PACKET!
+Page 10
+
+--- Page 12 ---
+DO NOT WRITE ON THIS PACKET!
+42. In transformation, what protein facilitates recombination of DNA strands into the host genome?
+A) Pilus
+B) ssDNA Binding Proteins
+C) Competence system
+D) Endonuclease
+E) RecA
+43. Lytic viruses contribute most to what method of horizontal gene transfer?
+A) Conjugation
+B) Transformation
+C) Generalized Transduction
+D) Specialized Transduction
+E) None of the above
+44. In conjugation, what must happen to DNA before rolling circle DNA replication is started?
+A) DNA must be ligated
+B) DNA must be nicked
+C) DNA must be recombined
+D) DNA must be transcribed
+E) DNA must be winded up
+DO NOT WRITE ON THIS PACKET!
+Page 11
+
+--- Page 13 ---
+DO NOT WRITE ON THIS PACKET!
+Section 4: Viruses
+The following image depicts a part of the life cycle of bacteriophages
+45. What are the steps of the bacteriophage life cycle depicted in order?
+A) Attachment, tail contraction, landing, penetration, and DNA injection
+B) Attachment, tail contraction, penetration, DNA injection, and landing
+C) Landing, attachment, tail contraction, penetration, and DNA injection
+D) Landing, attachment, penetration, tail contraction, and DNA injection
+E) Landing, tail contraction, attachment, penetration, and DNA injection
+46. During step 2, what feature of the bacteriophage makes contact to grip the cell surface?
+A) Collar
+B) Core
+C) Sheath
+D) Tail pin
+E) Tail fiber
+47. The head of the phage is made of proteins arranged in an icosahedral shape. What is the name of this
+protein shell that surrounds the nucleic acid?
+A) Capsid
+B) Integrase
+C) Lysozyme
+D) Neuraminidase
+E) Spike
+48. What is one difference between the life cycle of eukaryotic viruses differ from bacteriophages?
+A) Bacteriophages inject DNA while eukaryotic viruses inject RNA
+B) Bacteriophages enter host cells through fusion while eukaryotic viruses do not
+C) Bacteriophages do not have capsomeres while eukaryotic viruses do
+D) Eukaryotic viruses can enter the host cell whole while bacteriophages do not
+E) Eukaryotic viruses have helical symmetry while bacteriophages have icosahedral symmetry
+DO NOT WRITE ON THIS PACKET!
+Page 12
+
+--- Page 14 ---
+DO NOT WRITE ON THIS PACKET!
+The image below illustrates two major SARS-CoV-2 pathways used to enter host eukaryotic cells: the endosomal
+and cell surface pathway. In the endosomal pathway, the virus enters the cell by endocytosis after its spike protein
+binds angiotensin converting enzyme 2 (ACE2). In the cell surface pathway, spike protein binds ACE2 similarly,
+but the S2 subunit of the spike protein is cleaved by the host cell’s transmembrane protease serine 2
+(TMPRSS2). Cleavage of S2 allows S2 to facilitate the fusion of the viral membrane to the host cell membrane.
+Use this model to answer the following questions.
+49. Neuron cells do not express TMPRSS2 but express ACE2. However, neurons are capable of being
+infected by SARS-CoV-2. Explain how this is possible. [3 points]
+50. You want to investigate a SARS-CoV-2 variant with mutations on its spike protein that has a
+heightened ability to infect cells. Suggest two hypotheses as to how mutations to the spike protein may
+increase virulence of SARS-CoV-2. [3 points]
+51. A patient has a dysfunctional ACE2 protein that is unable to be expressed on the surface of cells. Will
+SARS-CoV-2 be able to infect them? Explain. [2 points]
+52. SARS-CoV-2 viral particles spread from the throat to the saliva before any symptoms appear. Explain
+why this lack of symptoms might be beneficial for its transmissibility. [2 points]
+53. SARS-CoV-2 is an enveloped plus single stranded RNA (+ssRNA) virus. Does SAR-S-CoV-2 +ssRNA
+require any transcription before translation by ribosomes? Why or why not? [2 points]
+54. Does SARS-CoV-2 integrate into the host genome? Does it have a lytic or lysogenic life cycle? [1 point]
+DO NOT WRITE ON THIS PACKET!
+Page 13
+

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[9034],{9034:(s,e,i)=>{s.exports=i.p+"static/media/Microbe_Mission_20_Question_Test.9752f3f23bd78d0b14da.txt"}}]);
