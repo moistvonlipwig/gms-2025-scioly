@@ -36,7 +36,11 @@ def extract_text_and_images(pdf_path, output_dir='extracted_content'):
 
         # Extract text
         page_text = page.get_text("text")
-        all_text.append(f"--- Page {page_index + 1} ---\n{page_text}\n")
+        import re
+
+        # Remove non-printable Unicode characters (like <202D>)
+        clean_text = re.sub(r'[\u202A-\u202E]', '', page_text)
+        all_text.append(f"--- Page {page_index + 1} ---\n{clean_text}\n")
 
         # Extract images
         image_list = page.get_images(full=True)

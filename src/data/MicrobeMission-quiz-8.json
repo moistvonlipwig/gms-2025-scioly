@@ -1,215 +1,162 @@
-[1;39m{
-    [0m[1;34m"questions"[0m[1;39m: [0m[1;39m[
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"labeling"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Label the parts of a bright field light microscope."[0m[1;39m,
-            [0m[1;34m"labels"[0m[1;39m: [0m[1;39m[
-                [0;32m"Objective lens"[0m[1;39m,
-                [0;32m"Coarse focus knob"[0m[1;39m,
-                [0;32m"Condenser"[0m[1;39m,
-                [0;32m"Stage"[0m[1;39m,
-                [0;32m"Diaphragm"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"referenceLink"[0m[1;39m: [0m[0;32m"https://www.microscopeworld.com/t-what-is-a-brightfield-microscope.aspx"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[1;39m{
-                [0m[1;34m"Objective lens"[0m[1;39m: [0m[0;32m"Magnifies the specimen"[0m[1;39m,
-                [0m[1;34m"Coarse focus knob"[0m[1;39m: [0m[0;32m"Adjusts the stage height for rough focus"[0m[1;39m,
-                [0m[1;34m"Condenser"[0m[1;39m: [0m[0;32m"Focuses light onto the specimen"[0m[1;39m,
-                [0m[1;34m"Stage"[0m[1;39m: [0m[0;32m"Holds the slide"[0m[1;39m,
-                [0m[1;34m"Diaphragm"[0m[1;39m: [0m[0;32m"Regulates the amount of light on the specimen"[0m[1;39m
-            [1;39m}[0m[1;39m,
-            [0m[1;34m"displayReference"[0m[1;39m: [0m[0;39mtrue[0m[1;39m,
-            [0m[1;34m"imageLink"[0m[1;39m: [0m[0;32m"https://image.slidesharecdn.com/macroscopicandmicroscopicexaminationinbacteriology-141102063159-conversion-gate02/95/macroscopic-and-microscopic-examination-in-bacteriology-14-638.jpg?cb=1414910001"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Compare and contrast the images produced by transmission and scanning electron microscopes."[0m[1;39m,
-            [0m[1;34m"referenceLink"[0m[1;39m: [0m[0;32m"https://www.sciencedirect.com/topics/engineering/transmission-electron-microscopy"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"TEM produces 2D images of internal structures; SEM produces 3D images of surface structures."[0m[1;39m,
-            [0m[1;34m"displayReference"[0m[1;39m: [0m[0;39mtrue[0m[1;39m,
-            [0m[1;34m"imageLink"[0m[1;39m: [0m[0;32m"https://d10lpgp6xz60nq.cloudfront.net/physics_images/FM_BIO_XI_SP_01_E01_021_S01.png"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"calculation"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"A micrograph of a bacterium has a scale bar labeled '1 μm.' The bacterium appears to be 5 times the length of the scale bar. Estimate its actual size."[0m[1;39m,
-            [0m[1;34m"referenceLink"[0m[1;39m: [0m[0;32m"https://microbenotes.com/microscope-calculations/"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"5 μm"[0m[1;39m,
-            [0m[1;34m"displayReference"[0m[1;39m: [0m[0;39mtrue[0m[1;39m,
-            [0m[1;34m"imageLink"[0m[1;39m: [0m[0;32m"https://image3.slideserve.com/6710166/calculating-image-size-using-scale-bar-l.jpg"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which microscopy technique is best for viewing live, unstained specimens?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"Bright-field"[0m[1;39m,
-                [0;32m"Dark-field"[0m[1;39m,
-                [0;32m"Phase contrast"[0m[1;39m,
-                [0;32m"TEM"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Phase contrast"[0m[1;39m,
-            [0m[1;34m"explanation"[0m[1;39m: [0m[0;32m"Phase contrast allows viewing of live, unstained specimens by converting differences in refractive index to differences in brightness."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"What is the main advantage of electron microscopy over light microscopy?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Electron microscopy provides much higher magnification and resolution than light microscopy, allowing visualization of very small structures."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"labeling"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Label the parts of an electron microscope."[0m[1;39m,
-            [0m[1;34m"labels"[0m[1;39m: [0m[1;39m[
-                [0;32m"Electron gun"[0m[1;39m,
-                [0;32m"Condenser lens"[0m[1;39m,
-                [0;32m"Specimen"[0m[1;39m,
-                [0;32m"Objective lens"[0m[1;39m,
-                [0;32m"Projector lens"[0m[1;39m,
-                [0;32m"Viewing screen"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[1;39m{
-                [0m[1;34m"Electron gun"[0m[1;39m: [0m[0;32m"Generates beam of electrons"[0m[1;39m,
-                [0m[1;34m"Condenser lens"[0m[1;39m: [0m[0;32m"Focuses electron beam onto specimen"[0m[1;39m,
-                [0m[1;34m"Specimen"[0m[1;39m: [0m[0;32m"Sample being examined"[0m[1;39m,
-                [0m[1;34m"Objective lens"[0m[1;39m: [0m[0;32m"Forms initial magnified image"[0m[1;39m,
-                [0m[1;34m"Projector lens"[0m[1;39m: [0m[0;32m"Further magnifies image"[0m[1;39m,
-                [0m[1;34m"Viewing screen"[0m[1;39m: [0m[0;32m"Displays final image"[0m[1;39m
-            [1;39m}[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"What is the function of the condenser lens in a light microscope?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"The condenser lens focuses light from the illumination source onto the specimen."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"calculation"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"If a microscope has a 10x eyepiece and a 40x objective lens, what is the total magnification?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"400x"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which microscopy technique produces a bright image on a dark background?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"Bright-field"[0m[1;39m,
-                [0;32m"Dark-field"[0m[1;39m,
-                [0;32m"Phase contrast"[0m[1;39m,
-                [0;32m"Fluorescence"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Dark-field"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"How does phase contrast microscopy work?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Phase contrast converts small differences in refractive index and cell density into differences in light intensity, allowing unstained cells to be viewed."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which type of microscope would be best for studying the surface structure of a bacterial cell?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"Light microscope"[0m[1;39m,
-                [0;32m"TEM"[0m[1;39m,
-                [0;32m"SEM"[0m[1;39m,
-                [0;32m"Fluorescence microscope"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"SEM"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"What is the resolving power of a microscope?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"The resolving power is the ability to distinguish between two closely spaced objects as separate entities."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"calculation"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"A microscope has a resolving power of 0.2 μm. What is the smallest bacterial cell it could resolve?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"0.2 μm"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which staining technique is commonly used to differentiate bacterial cell types?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"Simple stain"[0m[1;39m,
-                [0;32m"Negative stain"[0m[1;39m,
-                [0;32m"Gram stain"[0m[1;39m,
-                [0;32m"Acid-fast stain"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Gram stain"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"What is the purpose of oil immersion in light microscopy?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Oil immersion increases the numerical aperture and resolving power by reducing light refraction between the specimen and objective lens."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which microscopy technique requires the specimen to be coated with a thin layer of metal?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"TEM"[0m[1;39m,
-                [0;32m"SEM"[0m[1;39m,
-                [0;32m"Fluorescence"[0m[1;39m,
-                [0;32m"Phase contrast"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"SEM"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"How does fluorescence microscopy work?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Fluorescence microscopy uses fluorescent dyes or proteins that emit light when excited by specific wavelengths, allowing visualization of labeled structures."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"calculation"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"If a bacterial cell is 2 μm long in a micrograph with a scale bar of 5 μm = 1 cm, what is the magnification?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"25,000x"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which part of a light microscope controls the amount of light reaching the specimen?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"Objective lens"[0m[1;39m,
-                [0;32m"Eyepiece"[0m[1;39m,
-                [0;32m"Diaphragm"[0m[1;39m,
-                [0;32m"Stage"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Diaphragm"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"What is the difference between depth of field and depth of focus in microscopy?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Depth of field is the thickness of the specimen in focus, while depth of focus is the distance the image can be moved while remaining in focus."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which type of electron microscope produces images by scanning the surface with a focused electron beam?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"TEM"[0m[1;39m,
-                [0;32m"SEM"[0m[1;39m,
-                [0;32m"STEM"[0m[1;39m,
-                [0;32m"Cryo-EM"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"SEM"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"What is the working principle of atomic force microscopy (AFM)?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"AFM uses a very fine probe to scan the surface of a sample, measuring forces between the probe and sample to create a topographical image."[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"calculation"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"A light microscope has a numerical aperture of 1.4 and uses light with a wavelength of 550 nm. What is its theoretical resolution limit?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"196 nm"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"multipleChoice"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"Which microscopy technique is best suited for studying the internal ultrastructure of cells?"[0m[1;39m,
-            [0m[1;34m"options"[0m[1;39m: [0m[1;39m[
-                [0;32m"Bright-field"[0m[1;39m,
-                [0;32m"SEM"[0m[1;39m,
-                [0;32m"TEM"[0m[1;39m,
-                [0;32m"Dark-field"[0m[1;39m
-            [1;39m][0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"TEM"[0m[1;39m
-        [1;39m}[0m[1;39m,
-        [1;39m{
-            [0m[1;34m"type"[0m[1;39m: [0m[0;32m"shortAnswer"[0m[1;39m,
-            [0m[1;34m"question"[0m[1;39m: [0m[0;32m"How does confocal microscopy differ from conventional fluorescence microscopy?"[0m[1;39m,
-            [0m[1;34m"answer"[0m[1;39m: [0m[0;32m"Confocal microscopy uses point illumination and a pinhole to eliminate out-of-focus light, allowing optical sectioning and 3D reconstruction."[0m[1;39m
-        [1;39m}[0m[1;39m
-    [1;39m][0m[1;39m
-[1;39m}[0m
+{
+  "questions": [
+    {
+      "type": "labeling",
+      "question": "Label the parts of a bright field light microscope.",
+      "labels": ["Objective lens", "Coarse focus knob", "Condenser", "Stage", "Diaphragm"],
+      "referenceLink": "https://www.microscopeworld.com/t-what-is-a-brightfield-microscope.aspx",
+      "answer": {
+        "Objective lens": "Magnifies the specimen",
+        "Coarse focus knob": "Adjusts the stage height for rough focus", 
+        "Condenser": "Focuses light onto the specimen",
+        "Stage": "Holds the slide",
+        "Diaphragm": "Regulates the amount of light on the specimen"
+      },
+      "displayReference": true,
+      "imageLink": "https://image.slidesharecdn.com/macroscopicandmicroscopicexaminationinbacteriology-141102063159-conversion-gate02/95/macroscopic-and-microscopic-examination-in-bacteriology-14-638.jpg?cb=1414910001"
+    },
+    {
+      "type": "shortAnswer", 
+      "question": "Compare and contrast the images produced by transmission and scanning electron microscopes.",
+      "referenceLink": "https://www.sciencedirect.com/topics/engineering/transmission-electron-microscopy",
+      "answer": "TEM produces 2D images of internal structures; SEM produces 3D images of surface structures.",
+      "displayReference": true,
+      "imageLink": "https://d10lpgp6xz60nq.cloudfront.net/physics_images/FM_BIO_XI_SP_01_E01_021_S01.png"
+    },
+    {
+      "type": "calculation",
+      "question": "A micrograph of a bacterium has a scale bar labeled '1 μm.' The bacterium appears to be 5 times the length of the scale bar. Estimate its actual size.",
+      "referenceLink": "https://microbenotes.com/microscope-calculations/", 
+      "answer": "5 μm",
+      "displayReference": true,
+      "imageLink": "https://image3.slideserve.com/6710166/calculating-image-size-using-scale-bar-l.jpg"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which microscopy technique is best for viewing live, unstained specimens?",
+      "options": ["Bright-field", "Dark-field", "Phase contrast", "TEM"],
+      "answer": "Phase contrast",
+      "explanation": "Phase contrast allows viewing of live, unstained specimens by converting differences in refractive index to differences in brightness."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the main advantage of electron microscopy over light microscopy?",
+      "answer": "Electron microscopy provides much higher magnification and resolution than light microscopy, allowing visualization of very small structures."
+    },
+    {
+      "type": "labeling",
+      "question": "Label the parts of an electron microscope.",
+      "labels": ["Electron gun", "Condenser lens", "Specimen", "Objective lens", "Projector lens", "Viewing screen"],
+      "answer": {
+        "Electron gun": "Generates beam of electrons",
+        "Condenser lens": "Focuses electron beam onto specimen",
+        "Specimen": "Sample being examined",
+        "Objective lens": "Forms initial magnified image",
+        "Projector lens": "Further magnifies image",
+        "Viewing screen": "Displays final image"
+      }
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the function of the condenser lens in a light microscope?",
+      "answer": "The condenser lens focuses light from the illumination source onto the specimen."
+    },
+    {
+      "type": "calculation", 
+      "question": "If a microscope has a 10x eyepiece and a 40x objective lens, what is the total magnification?",
+      "answer": "400x"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which microscopy technique produces a bright image on a dark background?",
+      "options": ["Bright-field", "Dark-field", "Phase contrast", "Fluorescence"],
+      "answer": "Dark-field"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "How does phase contrast microscopy work?",
+      "answer": "Phase contrast converts small differences in refractive index and cell density into differences in light intensity, allowing unstained cells to be viewed."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which type of microscope would be best for studying the surface structure of a bacterial cell?",
+      "options": ["Light microscope", "TEM", "SEM", "Fluorescence microscope"],
+      "answer": "SEM"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the resolving power of a microscope?",
+      "answer": "The resolving power is the ability to distinguish between two closely spaced objects as separate entities."
+    },
+    {
+      "type": "calculation",
+      "question": "A microscope has a resolving power of 0.2 μm. What is the smallest bacterial cell it could resolve?",
+      "answer": "0.2 μm"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which staining technique is commonly used to differentiate bacterial cell types?",
+      "options": ["Simple stain", "Negative stain", "Gram stain", "Acid-fast stain"],
+      "answer": "Gram stain"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the purpose of oil immersion in light microscopy?",
+      "answer": "Oil immersion increases the numerical aperture and resolving power by reducing light refraction between the specimen and objective lens."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which microscopy technique requires the specimen to be coated with a thin layer of metal?",
+      "options": ["TEM", "SEM", "Fluorescence", "Phase contrast"],
+      "answer": "SEM"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "How does fluorescence microscopy work?",
+      "answer": "Fluorescence microscopy uses fluorescent dyes or proteins that emit light when excited by specific wavelengths, allowing visualization of labeled structures."
+    },
+    {
+      "type": "calculation",
+      "question": "If a bacterial cell is 2 μm long in a micrograph with a scale bar of 5 μm = 1 cm, what is the magnification?",
+      "answer": "25,000x"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which part of a light microscope controls the amount of light reaching the specimen?",
+      "options": ["Objective lens", "Eyepiece", "Diaphragm", "Stage"],
+      "answer": "Diaphragm"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the difference between depth of field and depth of focus in microscopy?",
+      "answer": "Depth of field is the thickness of the specimen in focus, while depth of focus is the distance the image can be moved while remaining in focus."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which type of electron microscope produces images by scanning the surface with a focused electron beam?",
+      "options": ["TEM", "SEM", "STEM", "Cryo-EM"],
+      "answer": "SEM"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "What is the working principle of atomic force microscopy (AFM)?",
+      "answer": "AFM uses a very fine probe to scan the surface of a sample, measuring forces between the probe and sample to create a topographical image."
+    },
+    {
+      "type": "calculation",
+      "question": "A light microscope has a numerical aperture of 1.4 and uses light with a wavelength of 550 nm. What is its theoretical resolution limit?",
+      "answer": "196 nm"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Which microscopy technique is best suited for studying the internal ultrastructure of cells?",
+      "options": ["Bright-field", "SEM", "TEM", "Dark-field"],
+      "answer": "TEM"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "How does confocal microscopy differ from conventional fluorescence microscopy?",
+      "answer": "Confocal microscopy uses point illumination and a pinhole to eliminate out-of-focus light, allowing optical sectioning and 3D reconstruction."
+    }
+  ]
+}
