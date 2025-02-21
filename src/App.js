@@ -51,6 +51,7 @@ const App = () => {
   ];
 
   const microbeMissionQuizzes = [
+    { label: "Microbe Mission Microscope Questions", value: "MicrobeMission-quiz-8.json" },
     { label: "Microbe Mission Quiz-1", value: "MicrobeMission-quiz-1.json" },
     { label: "Microbe Mission Quiz-2", value: "MicrobeMission-quiz-2.json" },
     { label: "Microbe Mission Quiz-3", value: "MicrobeMission-quiz-3.json" },
