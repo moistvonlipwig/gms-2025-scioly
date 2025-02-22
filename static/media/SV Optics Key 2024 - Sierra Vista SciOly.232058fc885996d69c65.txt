@@ -1,0 +1,183 @@
+--- Page 1 ---
+Answer Key (160pts total):
+MCQ (2pts each):
+1.
+B
+2.
+B
+3.
+A
+4.
+D
+5.
+A
+6.
+A
+7.
+A
+8.
+A
+9.
+A
+10. A
+11. C
+12. A
+13. D
+14. A
+15. B
+16. C
+17. C
+18. B
+19. B
+20. A
+21. A
+22. C
+23. A
+24. D
+25. A
+26. B
+27. D
+28. B
+29. A
+30. A
+FRQ (5pts each, award partial credit based on how thorough their explanations are, below are some
+sample explanations):
+1.
+Fiber optics utilize the principle of total internal reflection to transmit light signals through thin
+strands of glass or plastic. Total internal reflection occurs when light traveling in a medium with
+a higher refractive index encounters a boundary with a lower refractive index at an angle greater
+than the critical angle. Applications include telecommunications, medical imaging, and data
+transmission.
+2.
+A convex lens is thicker at the center than at the edges. It converges parallel rays of light to a
+focal point. The distance between the lens and the focal point is the focal length. For objects
+beyond the focal point, real and inverted images are formed. As objects move closer, the image
+becomes virtual, upright, and magnified.
+3.
+Chromatic aberration occurs due to the dispersion of light into its component colors. It results in
+color fringing in images. This can be minimized by using achromatic lenses that combine multiple
+lens elements to focus different colors at the same point, reducing the effect of dispersion.
+4.
+Polarization refers to the orientation of light waves. Natural sources include sunlight reflecting
+off surfaces. Artificial sources include polaroid filters. Polarizing filters are used to reduce glare,
+enhance contrast, and improve visibility in certain conditions, such as photography or
+sunglasses.
+
+--- Page 2 ---
+5.
+A concave mirror is curved inward and forms real, inverted images. Applications include shaving
+mirrors, satellite dishes, and reflectors in headlights. The focal point is located in front of the
+mirror. Image size depends on the object's distance from the mirror.
+6.
+Diffraction is the bending of light waves around obstacles or through openings. It's noticeable
+when the size of the opening is comparable to the wavelength of light. Examples include the
+spreading of light around door edges or the interference pattern produced by a narrow slit.
+7.
+The camera aperture controls the amount of light entering the camera. A wider aperture (smaller
+f-number) allows more light, affecting exposure. However, it also impacts depth of field.
+Choosing the right aperture involves a trade-off between exposure and depth of field.
+8.
+Dispersion is the separation of white light into its component colors. A prism accomplishes this
+by refracting different colors by different amounts. The order of colors in the spectrum is red,
+orange, yellow, green, blue, indigo, and violet (ROYGBIV).
+9.
+Optical power measures a lens's ability to converge or diverge light. It is measured in diopters.
+Converging lenses have positive power, while diverging lenses have negative power. The
+formula for optical power (P) is P = 1/f, where f is the focal length in meters.
+10. A convex lens is used to correct hypermetropia by converging incoming light before it reaches
+the retina. This compensates for the short focal length of the hypermetropic eye. The corrected
+lens allows the eye to focus on near objects more effectively.
+Extended Problem (40pts total, award partial credit based on how much work they show that is relevant
+and correct in the context of the problem, award full points if any part matches the answer no matter
+how much work is shown, sample solution shown below):
+a.
+Use geometry angle tracing and the law of reflection. (3pts)
+β = α + 2γ
+b. By small angle approximation, write each angle as a ratio of the height between the
+x-axis and the point of reflection, and the distance along the x-axis to the point of
+reflection. (8pts)
+α = ℎ
+𝑜, β = ℎ
+𝑖, γ = ℎ
+𝑟
+Plug this into the equation in part a.
+ℎ
+𝑖= ℎ
+𝑜+ 2ℎ
+𝑟
+1
+𝑖= 1
+𝑜+ 2
+𝑟
+c.
+Set up similar triangles to form a ratio. (4pts)
+ℎ
+𝑜= ℎ'
+𝑖
+ℎ' = ℎ𝑖
+𝑜= ℎ
+𝑟
+𝑟+2𝑜
+d. Use Pythagorean theorem to find the object distance of a point on the ring. (6pts)
+
+--- Page 3 ---
+𝑜'' =
+(𝑜+ 𝑟)
+2 + ℎ
+2 −𝑟
+Plug into the equation from part b to find image distance.
+𝑖'' =
+𝑜''𝑟
+𝑟+2𝑜'' = ( (𝑜+𝑟)
+2+ℎ
+2−𝑟)𝑟
+2 (𝑜+𝑟)
+2+ℎ
+2−𝑟
+e.
+Set up similar triangles between the object and image. (4pts)
+ℎ
+𝑜''+𝑟=
+ℎ''
+𝑟−𝑖''
+ℎ'' = ℎ𝑟−𝑖''
+𝑜''+𝑟= ℎ
+𝑟
+2 (𝑜+𝑟)
+2+ℎ
+2−𝑟
+f.
+Plug in the numbers to find image distance. Then find error. (8pts)
+𝑖=
+1
+1
+10 + 2
+5
+= 2𝑐𝑚
+%𝑖= |
+2−( (10+5)
+2+5
+2−5)5
+2 (10+5)
+2+5
+2−5
+2
+| = 0. 015
+ℎ' = 5 *
+5
+5+2*10 = 1𝑐𝑚
+%ℎ= |
+1−5*
+5
+2 (10+5)
+2+5
+2−5
+1
+| = 0. 061
+Note the error is very small, even in an extreme case like this one.
+g. Draw the four corners first as points along the connection between each corner to the
+sphere’s center, then fill in the edges to the best of your intuition. Make sure no point is
+further than halfway between the sphere’s surface and center. The front and back edges
+should also curve outwards, getting closer to the sphere’s surface when approaching the
+horizontal axis. (7pts)
+

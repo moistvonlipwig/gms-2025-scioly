@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[2011],{2011:(s,e,_)=>{s.exports=_.p+"static/media/optics_2024_bc_ssss--seasa1ted-_key_page6_img2.6e95421edd580120bf19.jpeg"}}]);

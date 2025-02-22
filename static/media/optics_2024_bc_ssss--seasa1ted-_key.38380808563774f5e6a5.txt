@@ -1,0 +1,345 @@
+--- Page 1 ---
+SSSS OPTICS
+ANSWER KEY
+Time: 50 Minutes
+Written by: -SeaSa1ted-
+
+--- Page 2 ---
+SECTION 1: Multiple Choice
+1.
+Which part of the eye is primarily responsible for focusing light on the retina?
+a.
+Lens
+b.
+Rods
+c.
+Cones
+d.
+Pupil
+2.
+Which part of the eye is responsible for the detection of color?
+a.
+Lens
+b.
+Rods
+c.
+Cones
+d.
+Pupil
+3.
+When combining the wavelengths of 550 nm and 650 nm, what is the resulting color?
+a.
+Cyan
+b.
+Magenta
+c.
+Yellow
+d.
+Orange
+4. What element is displayed in this absorption spectrum?
+a.
+Neon
+b.
+Helium
+c.
+Oxygen
+d.
+Hydrogen
+5. What image is formed when the object is between the focus and the center of curvature of
+a concave mirror?
+a.
+Virtual and Erect
+b.
+Virtual and Inverted
+c.
+Real and Erect
+d.
+Real and Inverted
+6. Who was the first confirmed person to build a telescope?
+a.
+Galileo
+b.
+Isaac Newton
+c.
+Hans Lepperhey
+d.
+Christian Huygens
+
+--- Page 3 ---
+7. Where is the image formed when an object is placed at the focal point of a convex lens?
+a.
+At the focal point (F) behind the lens
+b.
+Beyond 2F
+c.
+At infinity
+d.
+Between 2F and the focal point
+8. A leaf has the absorption graph as such:
+What color is being shown by the leaf?
+a.
+Bluish-Green
+b.
+Reddish-Green
+c.
+Blue
+d.
+Red
+9. In a Gregorian telescope, the two mirrors that make up the inside of the telescope are:
+a.
+Primary: Convex, Secondary: Concave
+b.
+Primary: Concave, Secondary: Convex
+c.
+Primary: Convex, Secondary: Convex
+d.
+Primary: Concave, Secondary: Concave
+10. In a compound optical microscope, what type of image is formed using the objective
+lens (NOT THE OCULAR LENS)?
+a.
+Virtual and Erect
+b.
+Virtual and Inverted
+c.
+Real and Erect
+d.
+Real and Inverted
+
+--- Page 4 ---
+11. The Hubble Space Telescope, responsible for the images below, is an example of what
+type of telescope?
+(Not Used for Testing Purposes, Just Thought these Pictures Looked Cool :D)
+a.
+Ritchey-Chrétien
+b.
+Newtonian
+c.
+Herschelian
+d.
+Gregorian
+12. What are the primary colors?
+a.
+Yellow, Red, Blue
+b.
+Green, Red, Blue
+c.
+Blue, Orange, Red
+d.
+Purple, Red, Yellow
+13. For a camera, as the focal length increases, the magnification ________ and as the
+focal length decreases, the magnification ________.
+a.
+increases, decreases
+b.
+increases, increases,
+c.
+decreases, increases
+d.
+decreases, decreases
+14. The index of refraction for green light is _____ than the index of refraction of red light
+a.
+higher
+b.
+lower
+
+--- Page 5 ---
+Questions 15 - 20 comprise of True or False Questions:
+15. True or false: A diverging lens is used to correct myopia?
+a.
+True
+b.
+False
+16. The Opponent Processing Theory comprises the opposing color pair: red vs blue,
+green vs yellow, and black vs white.
+a.
+True
+b.
+False
+17. Circular polarized light consists of two perpendicular electromagnetic plane waves of
+equal amplitude and a 90o difference in phase
+a.
+True
+b.
+False
+18. In a convex lens, an object at the focal point is magnified.
+a.
+True
+b.
+False
+19. A pinhole camera relies on the small aperture of its lens to focus light on one focal
+point and display an inverted image.
+a.
+True
+b.
+False
+20. Chromatic aberration was first corrected by decreasing the focal length of a lens.
+a.
+True
+b.
+False
+
+--- Page 6 ---
+SECTION 2: FREE RESPONSE
+1.
+In the diagram below, a ray of light strikes a plane mirror at the angle
+i = 35o. What
+θ
+angle is the resulting reflected light,
+r, in degrees?
+θ
+r = 35o
+θ
+2.
+What phenomenon describes why the sky is blue?
+Rayleigh Scattering
+3.
+Using ray tracing, draw where the resulting image of the object will be for this concave
+lens.
+Answer:
+4.
+Describe the image formed:
+Virtual, Erect, and Diminished/Shrunken
+
+--- Page 7 ---
+5.
+Using ray tracing, draw where the resulting image of the object will be for this concave
+mirror.
+Answer
+6.
+Describe the image formed:
+Real, Upside down, and Diminished/Shrunken
+7.
+What is the eye condition caused by aging, leading to the diminishing ability for a person
+to focus on near objects?
+Presbyopia
+8.
+What eye condition causes the loss of the lens of the eye?
+Aphakia
+9.
+What is the smallest angle in which total reflection would occur if a beam of light were to
+travel from olive oil (n = 1.47) to water (n = 1.33)?
+θ = arcsin(n2/n1)
+θ = arcsin(1.33/1.47)
+θ = 64.8o
+10. What property defines an ideal "matte" or diffusely reflecting surface?
+Lambertian Reflectance
+11. What is the optical power of a lens, in diopters, given that its focal length is 50 mm?
+50 mm = 0.05 m
+O = 1/f
+O = 1/0.05
+20 D
+12. Briefly explain the concept of spherical aberration.
+A beam of light passing through a lens does not exactly meet at the focal point.
+
+--- Page 8 ---
+13. A ray of light travels from water (n = 1.33) into a diamond (n = 2.42), at what angle,
+in
+θ
+degrees, must the ray of light be traveling at for the light to be fully linearly polarized?
+θ = arctan(n2/n1)
+θ = arctan(2.42/1.33)
+= 61.2o
+θ
+14. Which muscle controls the accommodation of the lens of the eye?
+Ciliary Muscle
+Questions 15 and 16 relate to one another:
+15. If a beam of unpolarised light coming from the sun with an irradiance,
+0 = 340 W/m2,
+𝐼
+passes through a perfect polarizer, what is the resulting irradiance of light?
+𝐼
+𝐼𝑜= 1
+2
+𝐼= 1
+2 (340)
+170 W/m2
+16. The polarized light from Question 6 is yet again passed through another filter with an
+angle of orientation at
+= 60o, what is the resulting irradiance of light?
+θ
+42.5 W/m2
+Carry-over points can be awarded as long as the equation:
+is used
+𝐼= 𝐼0𝑐𝑜𝑠
+2θ𝑖
+Questions 17 and 18 relate to one another:
+17. If an object is placed 6 meters in front of a concave mirror with a focal length of
+= 10
+𝑓
+meters, where would the image be formed (in meters) relative to the mirror?
+15 meters away
+a.
+This image is (real / virtual)
+18. What is the magnification of the image?
+2.5x
+a.
+This image is (erect / inverted)
+
+--- Page 9 ---
+Questions 19 and 20 relate to one another:
+19. Using the principles of geometry and Snell’s Law, what is the angle of reflection, θr , for
+the ray of light in red given that the mirrors are plane mirrors?
+θr = 65o
+20. Whoops! In a moment of unbridled excitement, a puppy bumped into mirror 2, causing
+it to lean forward 15o. What is the angle of reflection, θr , now?
+θr = 50o
+
+--- Page 10 ---
+21. The following glass lens has a negligible diameter. If the refractive index of glass is
+n = 1.5, what is the focal length of the lens, in meters?
+1
+𝑓≈(𝑛−1)( 1
+𝑅1 −
+1
+𝑅2 )
+1
+𝑓≈(1. 5 −1)(
+1
+0.22𝑚−
+1
+0.28𝑚)
+1
+𝑓≈0. 49 𝑚
+𝑓≈2. 05 𝑚
+
+--- Page 11 ---
+22.Using the diagram below, find the size of the image formed by the concave lens in
+meters.
+Finding Distance of Image Formed by the Concave Lens
+1
+𝑓=
+1
+𝑠𝑖+
+1
+𝑠𝑜
+1
+2 =
+1
+𝑠𝑖+ 1
+6
+(distance of image formed by convex lens)
+𝑠𝑖= 3𝑚
+12m - 3m = 9m (distance of 1st image from the concave lens)
+−1
+1 =
+1
+𝑠𝑖+ 1
+9
+𝑠𝑖=−1. 125𝑚
+Finding the Size of the Image Formed by the Concave Lens
+𝑚 =
+−𝑠𝑖
+𝑠𝑜 
+x
+𝑚= −(3)
+6
+=−1
+2
+Image size after convex lens = 4(0.5) = 2
+x
+𝑚= −(−1.125)
+9
+= 0. 125
+Image size after concave lens = 2(0.125) = 0.25 m
+So the size of the image formed by the concave lens is 0.25 meters.
+

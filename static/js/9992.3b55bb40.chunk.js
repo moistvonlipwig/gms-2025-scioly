@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[9992],{9992:(s,e,t)=>{s.exports=t.p+"static/media/2025 USC Optics Test.a823e6be64e2112a1435.txt"}}]);

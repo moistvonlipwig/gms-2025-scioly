@@ -1,0 +1,3557 @@
+--- Page 1 ---
+USC Invitational
+18 January 2025
+Optics B KEY
+Directions:
+• You will have 50 minutes to complete this test along with the lab portion of the event.
+• All electronic devices, except up to two stand-alone calculators, must be put away.
+• If work is shown for FRQs, partial credit may be awarded for incorrect answers.
+• Round answers reasonably. No deductions will be made for incorrect significant figures,
+but they may used for tiebreaking.
+• Use SI units unless specifically stated otherwise.
+• Useful constant: c = 3.00 × 108 m/s
+• Any provided diagrams may not be to scale unless specified.
+• For ray-tracing questions, full credit will be awarded for at least 2 rays per lens/mirror
+and all objects and images correctly drawn. The diagram does not need to be to scale,
+but must roughly show the locations of objects and images in relation to lenses/mirrors
+
+--- Page 2 ---
+Optics B
+KEY
+USC Invitational
+1
+Multiple Choice
+1 point per question.
+1. C
+2. D
+3. A
+4. C
+5. B
+6. D
+7. A
+8. D
+9. C
+10. C
+11. B
+12. B
+13. A
+14. C
+15. B
+16. A
+17. A
+18. B
+19. C
+20. A
+21. B
+22. D
+23. B
+24. A
+25. B
+26. A
+27. A
+28. A
+29. A
+30. B
+2
+Free Response
+1. (11 points)
+(a) (2 points) Jeffrey uses a magnifying glass to look at a bug. He places the magnifying glass 5 cm
+above the bug, and he sees that the bug looks upright and magnified 2x. What is the focal length
+of the magnifying glass?
+Solution:
++2pt for answer: 10 cm
+OR
++1pt for correct writing the lens equation and attempting to use the magnification relationship
+M = −si/so as a constraint.
+(b) (3 points) He then places another identical magnifying glass directly in between the first magnifying
+glass and the bug, 2.5 cm between each object. Complete the ray tracing diagram in your answer
+sheet
+Solution:
+
+--- Page 3 ---
+Optics B
+KEY
+USC Invitational
++0.5pt for each correct ray (up to +2) for partial credit. This means you get +1pt for correctly
+tracing the first intermediate image.
+(c) (4 points) Is the resulting image real or virtual? Where is the resulting image?
+Solution:
++1pt: Virtual
+AND
++3pt for location: 14 cm behind the original lens (or equivalent)
+OR
++1pt for correctly applying the lens equation the first time with object distance 2.5 cm and
+focal length 10 cm
++1pt for correctly setting up the lens equation the second time with object distance 2.5 + 3.33
+cm and focal length 10 cm
+(d) (2 points) What is the magnification of this lens system?
+Solution:
++2pt for answer: 3.2
+OR +1pt for getting magnification of first lens: 3.33/2.5 = 1.33
+2. (2 points) The “infrared window” is a window of wavelengths between 8 and 14 microns (refer to figure
+??) in the Earth’s atmosphere that is crucial in regulating its temperatures and preventing warming.
+Why?
+Solution:
++1pt: Atmosphere transmits a lot of this radiation outwards, as evidenced by the spectrum
++1pt: Infrared light contributes to a lot of the heating of earth, so allowing it to escape in controlled
+amounts has a large impact on the earth’s temperature
+3. (4 points) A light ray enters a prism with an apex angle of 60◦and a refractive index of 1.6. The angle
+of incidence is 40◦. If the ray emerges symmetrically, calculate the angle of deviation.
+Solution:
++1pt: Correctly sets up the problem, identifying r1 = r2 = A
+2 due to symmetry, and using Snell’s
+law sin i = n sin r1 to calculate r1.
++1pt: Applies Snell’s law correctly to calculate sin r1 = sin 40◦
+1.6
+and determines r1.
++1pt: Uses the deviation formula δ = 2i −A and substitutes the correct values (i = 40◦, A = 60◦).
++1pt: Correctly calculates the angle of deviation as δ = 20◦.
+4. (2 points) Provide one example each of an everyday item that uses additive and subtractive color theory.
+Solution:
+Additive Color Theory (1 point possible):
+• Example: TV/Computer screens, projectors, digital displays, or VR/AR devices that use red,
+green, and blue light to create colors.
+Page 2
+
+--- Page 4 ---
+Optics B
+KEY
+USC Invitational
+Subtractive Color Theory (1 point possible):
+• Example: Color printers, paint mixing, or film photography that use cyan, magenta, yellow,
+and black (CMYK) pigments to produce colors.
+5. (2 points) Hypothetically, a shirt that appeared to be blue under white light had a red light shone upon
+it. What color would the shirt appear to be now, and why?
+Solution:
++1pt: Correctly states that the shirt would appear black or dark.
++1pt: Explains that the shirt reflects blue light under white light, but under red light, there are no
+blue wavelengths to reflect, so the shirt absorbs the red light and appears black.
+6. (3 points) Describe the role of the aperture, lens, and sensor in a camera.
+Solution:
++1pt: The aperture controls the amount of light entering the camera by adjusting its size. A larger
+aperture allows more light in, while a smaller aperture reduces the amount of light.
++1pt: The lens focuses light onto the camera sensor by bending and directing the light rays to form
+a sharp image.
++1pt: The sensor captures the incoming light and converts it into an electronic signal, creating the
+digital image.
+7. (3 points) What type of telescope is a Schmidt–Cassegrain telescope? Why is it popular among ama-
+teur astronomers? (3 points: 1 point for identifying the type of telescope, 2 points for explaining its
+popularity.)
+Solution:
++1pt: A Schmidt–Cassegrain telescope is a type of catadioptric telescope that combines mirrors and
+lenses in its design.
++2pt: It is popular among amateur astronomers because it combines the long focal length of a
+refracting telescope with the lower cost per aperture of a reflecting telescope.
+Its compact and
+portable design makes it easy to transport and ideal for its given aperture, adding to its appeal for
+amateurs.
+8. (5 points) Advanced optical designs like the Ritchey–Chr´etien telescope are commonly used in profes-
+sional astronomy.
+Describe the design of a Ritchey–Chr´etien telescope, including its unique optical
+elements and the advantages it provides over simpler designs. Why is it particularly suitable for as-
+trophotography and large observatories? (5 points)
+Solution:
++2pt: The Ritchey–Chr´etien telescope is a type of reflecting telescope that uses a hyperbolic pri-
+mary mirror and a hyperbolic secondary mirror. This combination eliminates coma and spherical
+aberration, providing sharp images across a wide field of view.
+Page 3
+
+--- Page 5 ---
+Optics B
+KEY
+USC Invitational
++1pt: Unlike simpler designs, it does not require a corrector plate and has no chromatic aberration,
+making it ideal for professional applications.
++1pt: Its wide field of view and ability to produce diffraction-limited images make it particularly
+suitable for astrophotography and observing faint objects in the deep sky.
++1pt: The design is scalable, allowing for large apertures without significant loss of optical quality,
+which is essential for large observatories and space telescopes.
+Page 4
+
+--- Page 1 ---
+USC Invitational
+18 January 2025
+Optics B TEST
+Directions:
+• You will have 50 minutes to complete this test along with the lab portion of the event.
+• All electronic devices, except up to two stand-alone calculators, must be put away.
+• If work is shown for FRQs, partial credit may be awarded for incorrect answers.
+• Round answers reasonably. No deductions will be made for incorrect significant figures,
+but they may used for tiebreaking.
+• Use SI units unless specifically stated otherwise.
+• Useful constant: c = 3.00 × 108 m/s
+• Any provided diagrams may not be to scale unless specified.
+• For ray-tracing questions, full credit will be awarded for at least 2 rays per lens/mirror
+and all objects and images correctly drawn. The diagram does not need to be to scale,
+but must roughly show the locations of objects and images in relation to lenses/mirrors
+
+--- Page 2 ---
+Optics B
+TEST
+USC Invitational
+1
+Multiple Choice
+1 point per question.
+1. Identify the eye condition that someone with vi-
+sion like that in Figure 1 is experiencing.
+A. Myopia
+B. Hyperopia
+C. Glaucoma
+D. Macular Degeneration
+2. As a person ages, what ability of their eye tends
+to diminish the most?
+A. Identifying faraway objects
+B. Peripheral vision
+C. Contracting ciliary muscles to decrease
+lens power
+D. Contracting ciliary muscles to increase
+lens power
+3. What part of the eye has the highest optical
+power?
+A. Cornea
+B. Lens
+C. Aqueous Humor
+D. Sclera
+4. Dave’s eye ranges from an optical power of 47.0
+to 52.0. For simplicity, you can model his eye as
+one lens focusing light onto the retina, which is
+20 mm away from the lens. What is the closest
+object to his eye that he can see clearly?
+A. 16 cm
+B. 25 cm
+C. 50 cm
+D. 75 cm
+5. What condition does Dave definitely suffer from?
+A. Myopia
+B. Hyperopia
+C. Astigmatism
+D. Cataracts
+6. Suppose that ideally, Dave should be able to see
+objects 20 cm in front of him clearly. What is
+the optical power of a lens that his doctor should
+prescribe him?
+A. -2.0
+B. -3.0
+C. +2.0
+D. +3.0
+7. If Dave instead receives laser surgery to adjust
+his eye, what part of his eye will be altered?
+A. Cornea
+B. Lens
+C. Iris
+D. Retina
+8. If Dave’s cornea has an optical power of 43 D,
+what will be its optical power after the surgery?
+You can consider his eye as two thin lenses placed
+close to each other: the cornea and the lens. The
+cornea cannot accommodate its focal length to
+different objects but the lens can.
+A. 40 D
+B. 43 D
+C. 45 D
+D. 46 D
+9. Some patients report seeing “halos” after receiv-
+ing laser eye surgery. What type of aberration in
+the eye can cause this effect?
+A. Chromatic
+B. Comatic
+C. Spherical
+D. Astigmatism
+10. The Balmer series for Hydrogen atoms is a se-
+ries of emission lines for Hydrogen atoms that
+are concentrated in the visible spectrum. Using
+the Rydberg formula, where 1.097∗107m−1, what
+is the wavelength of the H-β line, which corre-
+sponds to a jump from quantum number 4 to
+quantum number 2?
+A. 97 nm
+B. 364 nm
+C. 486 nm
+D. 656 nm
+
+--- Page 3 ---
+Optics B
+TEST
+USC Invitational
+11. What is the energy in joules associated with a
+single photon of H-β?
+A. 3.03 ∗10−19J
+B. 4.09 ∗10−19J
+C. 5.44 ∗10−19J
+D. 6.11 ∗10−19J
+12. We observe an emission spectrum from a distant
+star with a H-β line with slightly lower wave-
+length than expected. What could be the cause
+of this?
+A. The star is moving away from us
+B. The star is moving towards us
+C. There is matter between us and the star
+causing gravitational lensing
+D. The universe is expanding
+13. A dye has the absorption spectrum shown in Fig-
+ure 2. What is its color?
+A. Red
+B. Yellow
+C. Green
+D. Blue
+14. Ayushi is 5.00 feet tall and looks at her reflection
+in a plane mirror that is angled 5 degrees away
+from the vertical. How tall is her image?
+A. 4.96 feet
+B. 4.98 feet
+C. 5.00 feet
+D. 5.02 feet
+15. The speed of light in a material is 2 × 108 m/s.
+What is the material’s index of refraction?
+A. 1.2
+B. 1.5
+C. 2.0
+D. 0.75
+16. A light ray strikes a mirror at an angle of 35◦to
+the normal. What is the angle of reflection?
+A. 35◦
+B. 30◦
+C. 45◦
+D. 55◦
+17. Why do you see a clear image of yourself in a
+polished metal mirror but not on a white sheet
+of paper, even though both reflect light?
+A. Light is reflected uniformly by the mir-
+ror, but scattered by the paper.
+B. The paper absorbs most of the light,
+while the mirror reflects nearly all of it
+in a specific direction.
+C. Mirrors transmit some light in addition
+to reflection, whereas the paper does
+not.
+D. Mirrors are brighter than paper be-
+cause they reflect light more efficiently
+and in a specific way.
+18. What type of lens is used in glasses to correct
+nearsightedness (myopia)?
+A. Convex lens
+B. Concave lens
+C. Cylindrical lens
+D. Bifocal lens
+19. Which of the following is corrected using cylin-
+drical lenses in glasses?
+A. Myopia
+B. Hyperopia
+C. Astigmatism
+D. Presbyopia
+20. In a simple periscope, how are the mirrors posi-
+tioned to allow light to travel through the device?
+A. At a 45◦angle to the horizontal, facing
+each other.
+B. At a 90◦angle to the horizontal, paral-
+lel to each other.
+C. At a 45◦angle to the horizontal, back-
+to-back.
+D. At a 30◦angle to the horizontal, facing
+away from each other.
+21. What is the ”index error” in the context of using
+instruments like a sextant?
+A. It is the error caused by the improper
+handling of the sextant.
+B. It is the error due to the incorrect align-
+ment of the instrument’s index mirror
+and horizon mirror.
+C. It is the error caused by measuring an-
+gles with a non-standard unit.
+D. It is the error that occurs when the sex-
+tant is used in a moving environment.
+Page 2
+
+--- Page 4 ---
+Optics B
+TEST
+USC Invitational
+22. How can the index error of a sextant be cor-
+rected?
+A. By measuring the angle between two
+distant objects multiple times and av-
+eraging the results.
+B. By recalibrating the sextant using a
+standard angular reference tool.
+C. By ensuring the sextant is used only at
+sea level under clear conditions.
+D. By adjusting the horizon mirror until
+it aligns with the index mirror.
+23. A fish is swimming 2 meters below the surface of
+water (n = 1.33). At what angle to the normal
+must light exit the water surface to refract at 45◦
+in air?
+A. 29.54.00◦
+B. 32.12◦
+C. 35.71◦
+D. 38.04◦
+24. Say you try to hit the fish with a spear, aiming
+directly at the fish. Will you hit it?
+A. No, because light refracts at the water
+surface, making the fish appear higher
+than it actually is.
+B. Yes, because the light travels straight
+through the water without bending.
+C. No, because water magnifies the fish,
+making it appear larger and closer.
+D. Yes, because the apparent position of
+the fish matches its real position.
+25. What are the primary colors of light in the addi-
+tive color model?
+A. Red, Yellow, Blue
+B. Red, Green, Blue
+C. Cyan, Magenta, Yellow
+D. Blue, Yellow, Green
+26. In the additive color model, what are the three
+secondary colors formed by combining the pri-
+mary colors of light?
+A. Cyan, Magenta, Yellow
+B. Red, Green, Blue
+C. Orange, Purple, Green
+D. Yellow, Green, Blue
+27. Why does a yellow piece of paper look yellow un-
+der white light?
+A. The paper absorbs blue light and re-
+flects red and green light, which com-
+bine to appear yellow.
+B. The paper absorbs red and green light
+and reflects blue light, giving it a yellow
+appearance.
+C. The paper emits yellow light when illu-
+minated by white light.
+D. The paper absorbs all other colors ex-
+cept yellow, which it reflects.
+28. How does changing the focal length of a camera
+lens affect the image?
+A. Increasing the focal length magnifies
+the subject and narrows the field of
+view.
+B. Increasing the focal length reduces the
+subject size and broadens the field of
+view.
+C. Decreasing the focal length magnifies
+the subject and narrows the field of
+view.
+D. Decreasing the focal length has no ef-
+fect on the magnification or field of
+view.
+29. Why are compound microscopes typically used
+instead of simple microscopes for high magnifica-
+tions?
+A. Compound microscopes combine the
+magnification of two lenses, allowing
+for greater total magnification.
+B. Compound
+microscopes
+use
+larger
+lenses, which produce higher magnifi-
+cations than smaller lenses.
+C. Compound
+microscopes
+reduce
+the
+amount of light needed for high mag-
+nification.
+D. Compound microscopes require less
+alignment, making them easier to use
+for high magnifications.
+Page 3
+
+--- Page 5 ---
+Optics B
+TEST
+USC Invitational
+30. What is Snell’s Law?
+A. The angle of incidence equals the angle
+of reflection.
+B. The product of the refractive index and
+the sine of the angle of incidence is con-
+stant across the boundary between two
+media.
+C. The refractive index is proportional to
+the wavelength of light passing through
+a medium.
+D. Light bends only when passing from a
+denser medium to a less dense medium.
+2
+Free Response
+1. (11 points)
+(a) (2 points) Jeffrey uses a magnifying glass to look at a bug. He places the magnifying glass 5 cm
+above the bug, and he sees that the bug looks upright and magnified 2x. What is the focal length
+of the magnifying glass?
+(b) (3 points) He then places another identical magnifying glass directly in between the first magnifying
+glass and the bug, 2.5 cm between each object. Complete the ray tracing diagram in your answer
+sheet
+(c) (4 points) Is the resulting image real or virtual? Where is the resulting image?
+(d) (2 points) What is the magnification of this lens system?
+2. (2 points) The “infrared window” is a window of wavelengths between 8 and 14 microns (refer to figure
+3) in the Earth’s atmosphere that is crucial in regulating its temperatures and preventing warming.
+Why?
+3. (4 points) A light ray enters a prism with an apex angle of 60◦and a refractive index of 1.6. The angle
+of incidence is 40◦. If the ray emerges symmetrically, calculate the angle of deviation.
+4. (2 points) Provide one example each of an everyday item that uses additive and subtractive color theory.
+5. (2 points) Hypothetically, a shirt that appeared to be blue under white light had a red light shone upon
+it. What color would the shirt appear to be now, and why?
+6. (3 points) Describe the role of the aperture, lens, and sensor in a camera.
+7. (3 points) What type of telescope is a Schmidt–Cassegrain telescope? Why is it popular among ama-
+teur astronomers? (3 points: 1 point for identifying the type of telescope, 2 points for explaining its
+popularity.)
+8. (5 points) Advanced optical designs like the Ritchey–Chr´etien telescope are commonly used in profes-
+sional astronomy.
+Describe the design of a Ritchey–Chr´etien telescope, including its unique optical
+elements and the advantages it provides over simpler designs. Why is it particularly suitable for as-
+trophotography and large observatories? (5 points)
+Page 4
+
+--- Page 6 ---
+Optics B
+TEST
+USC Invitational
+3
+Images
+Figure 1: Figure for MCQ 1
+Figure 2: Figure for MCQ 13
+Figure 3: Figure for FRQ 2
+Page 5
+
+--- Page 1 ---
+University of Texas at Austin 2024 Invitational
+Optics B/C Exam
+Directions:
+• This is a class set, DO NOT WRITE
+• Write all answers on the answer sheets; any marks elsewhere will not be scored. If additional
+space is needed on a question, clearly mark the question number and your team
+number on the top left of the page and attach to your test.
+• There is no penalty for wrong answers. Answer as many questions as possible, even if you
+aren’t sure if you’re correct. For questions with parts that build on one another, points will
+be awarded for correct answers on parts regardless of previous part completion.
+• Units are required whenever giving a numerical answer. Don’t worry about significant figures.
+• Good luck on the test!
+Page 1 of 17
+
+--- Page 2 ---
+Section 1
+Circle True or False
+1. True
+False
+In a converging lens, the image of an object located at twice the focal
+length is real, inverted, and the same size as the object.
+2. True
+False
+The critical angle for total internal reflection depends solely on the re-
+fractive index of the denser medium.
+3. True
+False
+Diffraction occurs prominently when the size of the aperture is compara-
+ble or smaller than the wavelength of light passing through it.
+4. True
+False
+Polarization of light can only occur through reflection and cannot be
+achieved by scattering.
+5. True
+False
+The resolving power of a microscope depends on the wavelength of the
+light used and the numerical aperture of the objective lens.
+6. True
+False
+Brewster’s angle occurs when light reflects at an angle such that the
+reflected and refracted rays are perpendicular to each other.
+7. True
+False
+For a concave mirror, the image of an object placed beyond the center of
+curvature is virtual.
+8. True
+False
+The thin lens equation is valid for lenses of any shape and thickness.
+9. True
+False
+Light passing through a prism always undergoes chromatic dispersion.
+10. True
+False
+Snell’s law can be used to describe the behavior of light as it transitions
+between two media with the same refractive index.
+11. True
+False
+The accuracy of a sextant decreases with increasing altitude of the ob-
+served celestial body.
+Page 2 of 17
+
+--- Page 3 ---
+Section 2
+Circle the correct answer
+1. (3 points) What is the magnification of an object placed 10 cm from a converging lens with a
+focal length of 5 cm?
+A. −2
+B. +2
+C. −0.5
+D. +0.5
+E. None of the above
+2. (3 points) Which of the following phenomena demonstrates the wave nature of light?
+A. Diffraction
+B. Photoelectric effect
+C. Specular reflection
+D. Refraction
+E. None of the above
+3. (3 points) A light ray enters a medium with a refractive index of 1.33 from insulating foam
+(n = 1.02) at an angle of 45◦. What is the angle of refraction?
+A. 33.3◦
+B. 32.8◦
+C. 50.5◦
+D. 75.1◦
+E. None of the above
+4. (3 points) What is the maximum number of bright fringes that can be observed in a double-
+slit interference experiment with slit separation of 0.1 mm and wavelength of 600 nm?
+A. 331
+B. 333
+C. 335
+D. 337
+E. None of the above
+5. (3 points) The focal length of a convex mirror is −10 cm. Where is the image located if the
+object is placed 15 cm from the mirror?
+A. −4 cm
+B. +4 cm
+C. −6 cm
+Page 3 of 17
+
+--- Page 4 ---
+D. +6 cm
+E. None of the above
+6. (3 points) What happens to light in an optical fiber that results in total internal reflection?
+A. Light travels faster in the core than in the cladding
+B. The core has a higher refractive index than the cladding
+C. Light slows down when it enters the fiber
+D. The core and cladding have the same refractive index
+E. None of the above
+7. (3 points) The critical angle for light traveling from glass (n = 1.5) to water (n = 1.33) is
+closest to:
+A. 42.1◦
+B. 48.8◦
+C. 62.5◦
+D. 63.3◦
+E. None of the above
+8. (3 points) Which of the following optical instruments uses two convex lenses to form an im-
+age?
+A. Telescope
+B. Periscope
+C. Microscope
+D. Camera
+E. None of the above
+9. (3 points) The dispersion of light through a prism causes which of the following phenomena?
+A. Polarization
+B. Chromatic aberration
+C. Total internal reflection
+D. Brewster’s angle
+E. None of the above
+10. (3 points) What is the correct relationship between the object distance do, the image distance
+di, and the focal length f for a convex lens?
+A.
+1
+f =
+1
+do + 1
+di
+B.
+1
+f = di
+do
+C.
+1
+f = do + di
+Page 4 of 17
+
+--- Page 5 ---
+D.
+1
+f = dodi
+E. None of the above
+11. (3 points) A sextant is primarily used to measure the angle between two objects, such as
+the horizon and a celestial body. What is the primary principle that allows the sextant to
+function?
+A. Polarization of light waves
+B. Diffraction of light through a narrow slit
+C. Refraction of light through a prism
+D. Reflection of light using two mirrors
+E. None of the above
+Page 5 of 17
+
+--- Page 6 ---
+Section 3
+Write out a short response to the following questions
+1. (4 points) How does the vector form of the law of reflection apply to anisotropic materials
+where the surface properties change with direction?
+Answer: The law of reflection can be adjusted to consider anisotropic materials by incor-
+porating the directional dependence of surface properties, which leads to different reflection
+behaviors based on the material’s orientation. In anisotropic materials, surface properties
+such as the refractive index can vary depending on the direction of light. [2] The vector
+form of the law of reflection still holds, but it requires modification to account for the
+variation in reflection depending on the direction. This means that the angle of reflection
+is no longer uniform across the surface, as it is influenced by the anisotropic nature of the
+material. [2]
+2. (4 points) How does the Abbe number affect the dispersion of light in a prism? Calculate the
+chromatic aberration for a prism made of crown glass with an Abbe number of 60 when light
+enters at an angle of 45°.
+Answer: The Abbe number is a measure of how much dispersion (the spreading of light
+into its component colors) a material exhibits. A higher Abbe number indicates lower
+dispersion, meaning that the material causes less chromatic aberration. [2] For crown glass
+with an Abbe number of 60, the dispersion is relatively low. Chromatic aberration can be
+calculated by examining the difference in the refractive index of the material for different
+wavelengths of light. When light enters the prism at an angle of 45°, the dispersion across
+wavelengths leads to slight differences in how each color bends, resulting in chromatic
+aberration. [2]
+3. (4 points) Explore how additive color theory is applied in modern display technology (e.g.,
+OLED) and compare it with subtractive color theory in high-quality printing.
+Answer: Additive color theory is used in modern display technologies such as OLED
+screens. In this theory, colors are created by combining different intensities of red, green,
+and blue (RGB) light. When these colors are mixed together in varying proportions, they
+can produce almost any color. For example, combining all three in equal intensity results
+in white light. [2] In contrast, subtractive color theory is used in high-quality printing.
+This theory involves mixing pigments that absorb certain wavelengths of light and reflect
+others.
+The primary colors in subtractive color theory are cyan, magenta, and yellow
+(CMY), and mixing these pigments results in the absorption of more light, thus producing
+darker colors. When all three pigments are combined, they ideally absorb all light and
+create black. [2]
+4. (4 points) Calculate the reflectance for light at normal incidence on a metal surface, given its
+complex refractive index. Discuss how this affects the perception of color for different metals
+(e.g., gold, silver).
+Page 6 of 17
+
+--- Page 7 ---
+Answer: The reflectance for light at normal incidence on a metal surface can be calcu-
+lated using the Fresnel equations, which take into account the material’s complex refractive
+index. This complex refractive index includes both the real part, representing how light
+slows down in the material, and the imaginary part, representing how much light is ab-
+sorbed by the material. [2] The amount of light reflected at the surface affects how we
+perceive the color of metals. For instance, gold appears yellow because it reflects red and
+yellow wavelengths more efficiently while absorbing blue and green. Silver, on the other
+hand, reflects nearly all wavelengths of visible light, giving it its shiny, white appearance.
+[2]
+5. (4 points) Explain how spherical aberration affects vision and how the eye naturally compen-
+sates for this. Discuss the limitations of this compensation in aging populations.
+Answer: Spherical aberration occurs when light rays passing through the periphery of a
+lens (such as the eye’s lens) are focused at different points than light rays passing through
+the center, causing a blurred image. This effect leads to a decrease in image sharpness. [2]
+The eye compensates for spherical aberration naturally by constricting the pupil, which
+reduces the amount of light entering through the periphery and allows more focused central
+rays to dominate. However, as individuals age, the ability to constrict the pupil diminishes,
+and the eye’s lens becomes less flexible, reducing the effectiveness of this compensation
+and leading to more pronounced visual distortions. [2]
+6. (4 points) Model how the arrangement of photoreceptors in the retina can create blind spots
+and why our brains typically don’t notice these spots in normal vision.
+Answer: The arrangement of photoreceptors in the retina creates a natural blind spot
+at the location where the optic nerve exits the eye because there are no photoreceptors
+(rods or cones) in that region. [2] Despite this blind spot, the brain uses information
+from the other eye and surrounding visual data to ”fill in” the gap, making the blind
+spot essentially unnoticeable in normal vision.
+This process is part of how the brain
+compensates for missing visual information to create a seamless visual experience. [2]
+7. (4 points) Explain how the lensmaker’s equation can be modified to account for spherical
+aberration in high-precision optical systems.
+Answer: The lensmaker’s equation, which is typically used to calculate the focal length of
+a lens based on its curvature and refractive index, can be modified to account for spherical
+aberration by including higher-order terms that correct for the varying focal lengths of
+peripheral rays versus central rays. [2] In high-precision optical systems, spherical aber-
+ration is reduced by altering the lens shape to aspheric profiles, which can help focus all
+incoming rays at a single point, regardless of their position on the lens. [1] Additionally,
+multi-element lens systems can be designed to counteract aberrations, where different lens
+surfaces work together to eliminate distortion. [1]
+8. (4 points) Explain the Rayleigh scattering polarization effect in the context of the Earth’s
+atmosphere. How does the degree of polarization vary with the angle of observation?
+Page 7 of 17
+
+--- Page 8 ---
+Answer: Rayleigh scattering occurs when sunlight interacts with the small gas molecules
+in Earth’s atmosphere, scattering shorter wavelengths of light (such as blue) more than
+longer wavelengths. This scattering effect causes the sky to appear blue. [1] The polar-
+ization of light increases as a result of Rayleigh scattering because light waves oscillate
+in a specific direction when scattered, which leads to partial polarization of the scattered
+light. [1] The degree of polarization depends on the angle of observation: it is maximized
+at a 90-degree angle from the sun (perpendicular to the light source) and decreases when
+looking directly toward or away from the sun. [2]
+9. (4 points) Derive the threshold condition for laser action in terms of population inversion and
+discuss the impact of cavity design on laser coherence length.
+Answer: For laser action to occur, the population inversion must reach a threshold where
+the number of atoms in an excited state exceeds the number in the ground state, en-
+abling stimulated emission to dominate over absorption. This threshold condition can be
+expressed as a gain coefficient exceeding the losses in the laser cavity. [2] The design of
+the cavity affects the coherence length of the laser, with longer cavities generally leading
+to longer coherence lengths. This is because the cavity supports fewer modes, allowing
+for more coherent light emission. [1] Additionally, mirror reflectivity at the ends of the
+cavity influences the coherence length; highly reflective mirrors help maintain coherence
+over longer distances. [1]
+10. (4 points) Explore how femtosecond lasers can be used in LASIK surgery to correct aberrations
+in the human eye. Include a discussion of wavefront-guided techniques.
+Answer: Femtosecond lasers are used in LASIK surgery to create precise, controlled
+corneal flaps with minimal damage to surrounding tissues.
+The extremely short pulse
+duration of the femtosecond laser allows for highly accurate cuts, reducing the risk of
+complications and improving the healing process. [2] In addition to reshaping the cornea,
+femtosecond lasers are employed in wavefront-guided LASIK, which maps the unique im-
+perfections (or higher-order aberrations) of a patient’s eye. [1] These aberrations are then
+corrected with customized laser ablation, providing improved visual outcomes compared
+to traditional LASIK techniques. [1]
+11. (4 points) Explain the role of laser diffraction in reading information stored in CD/DVD
+media, and discuss how error correction algorithms help in compensating for optical imperfec-
+tions.
+Answer: Laser diffraction is key in reading information stored in CD/DVD media. A
+laser beam is focused onto the disc surface, and the reflected light is diffracted by the pits
+and lands encoded on the disc. These differences in reflection are interpreted as binary
+data, which the reading system converts into digital information. [2] Due to imperfections
+on the disc’s surface, such as scratches or dust, the readout may not be perfect. Error
+correction algorithms, such as Reed-Solomon coding, are used to detect and correct small
+errors in the data by adding redundancy and error-checking mechanisms to the encoded
+Page 8 of 17
+
+--- Page 9 ---
+information, ensuring accurate data retrieval even in the presence of optical imperfections.
+[2]
+Page 9 of 17
+
+--- Page 10 ---
+Section 4
+Write out your work and answer to the following questions
+1. (4 points) A beam of light enters a prism with a refractive index of 1.6 at an angle of 30◦.
+Calculate the angle of refraction, to the nearest hundredth of a degree, inside the prism.
+Answer:
+Using Snell’s law, we have:
+n1 sin θ1 = n2 sin θ2
+where n1 = 1 (for air), θ1 = 30◦, and n2 = 1.6 (for the prism). Solving for θ2:
+1 × sin 30◦= 1.6 × sin θ2
+sin θ2 = sin 30◦
+1.6
+= 0.5
+1.6 = 0.3125
+θ2 = sin−1(0.3125) ≈18.21◦
+Thus, the angle of refraction inside the prism is approximately 18.21◦.
+2. (4 points) A plano-convex lens has a radius of curvature of 20 cm. Calculate the focal length,
+to the nearest tenth of a centimeter, of the lens if it is made of glass with a refractive index of
+1.5.
+Answer:
+The focal length of a plano-convex lens is given by the lensmaker’s equation:
+1
+f = (n −1)
+ 1
+R1
+−1
+R2
+
+For a plano-convex lens, R1 = 20 cm and R2 = ∞(because one surface is flat). The
+refractive index n = 1.5. Substituting into the equation:
+1
+f = (1.5 −1)
+ 1
+20 −1
+∞
+
+1
+f = 0.5 × 1
+20 = 0.5
+20 = 0.025
+f =
+1
+0.025 = 40 cm
+Thus, the focal length of the lens is 40.0 cm .
+3. (4 points) Calculate the total internal reflection angle, to the nearest hundredth of a degree,
+for light moving from water (n = 1.33) to air.
+Page 10 of 17
+
+--- Page 11 ---
+Answer:
+The critical angle for total internal reflection can be calculated using the
+formula:
+sin θc = n2
+n1
+where n1 = 1.33 (for water) and n2 = 1 (for air). Solving for θc:
+sin θc =
+1
+1.33 = 0.7519
+θc = sin−1(0.7519) ≈48.75◦
+Thus, the total internal reflection angle is approximately 48.75◦.
+4. (4 points) A converging lens has a focal length of 20 cm. An object is placed 30 cm from the
+lens. Calculate the position relative to the lens, to the nearest tenth of a centimeter, and the
+nature (real or virtual, magnified or diminished) of the image.
+Answer:
+Using the lens formula:
+1
+f = 1
+do
++ 1
+di
+where f = 20 cm (focal length) and do = 30 cm (object distance). Solving for di (image
+distance):
+1
+di
+= 1
+f −1
+do
+= 1
+20 −1
+30 = 3 −2
+60
+= 1
+60
+di = 60 cm
+Since the image distance is positive, the image is real. To determine the magnification
+(M):
+M = −di
+do
+= −60
+30 = −2
+The negative magnification indicates that the image is inverted. Therefore, the image is
+real, inverted, and magnified by a factor of 2. Thus, the image is located 60.0 cm from
+the lens, and it is real and magnified.
+5. (4 points) A beam of light passes through a double slit, with slit separation of 0.5 mm, and
+produces an interference pattern on a screen placed 1.5 meters away. If the wavelength of light
+is 600 nm, calculate the distance, to the nearest tenth of a millimeter, between the central
+bright fringe and the first-order bright fringe.
+Answer:
+The distance between the central bright fringe and the first-order bright fringe
+can be calculated using the formula for double-slit interference:
+y = mλL
+d
+Page 11 of 17
+
+--- Page 12 ---
+where: - m = 1 (for the first-order fringe), - λ = 600 nm = 600 × 10−9 m (wavelength of
+light), - L = 1.5 m (distance to the screen), - d = 0.5 mm = 0.5 × 10−3 m (slit separation).
+Substituting the values:
+y = 1 × 600 × 10−9 × 1.5
+0.5 × 10−3
+= 900 × 10−9
+0.5 × 10−3 = 1.8 × 10−3 m = 1.8 mm
+Thus, the distance between the central bright fringe and the first-order bright fringe is
+approximately 1.8 mm .
+6. (4 points) Light of wavelength 500 nm passes through a diffraction grating with 104 lines per
+centimeter. Calculate the angle, to the nearest hundredth of a degree, where the second-order
+maximum occurs.
+Answer:
+The angle of the second-order maximum can be found using the diffraction
+grating formula:
+d sin θ = mλ
+where: - m = 2 (second-order maximum), - λ = 500 nm = 500 × 10−9 m (wavelength of
+light), - d =
+1
+104 lines/cm =
+1
+106 lines/m = 10−6 m (grating spacing).
+Substituting the values:
+10−6 sin θ = 2 × 500 × 10−9
+sin θ = 1000 × 10−9
+10−6
+= 1
+Since sin θ = 1, θ = 90◦.
+Thus, the second-order maximum occurs at 90.00◦.
+7. (4 points) A telescope’s objective lens has a focal length of 2 meters, and its eyepiece has
+a focal length of 10 cm. Calculate the magnification produced by this telescope, assuming
+normal adjustment.
+Answer:
+The magnification M of a telescope is given by the formula:
+M = fobjective
+feyepiece
+where fobjective = 2 meters = 200 cm and feyepiece = 10 cm.
+Substituting the values:
+M = 200
+10 = 20
+Thus, the magnification produced by the telescope is 20 .
+8. (4 points) A monochromatic light source has a wavelength of 400 nm in air. If the light enters
+water, which has a refractive index of 1.33, calculate the new wavelength of the light in water,
+to the nearest nanometer.
+Page 12 of 17
+
+--- Page 13 ---
+Answer:
+The wavelength of light in a medium is given by:
+λmedium = λair
+n
+where λair = 400 nm and n = 1.33 (refractive index of water).
+Substituting the values:
+λmedium = 400
+1.33 ≈300.75 nm
+Rounding to the nearest nanometer, the new wavelength of the light in water is 301 nm .
+9. (4 points) A concave lens has a focal length of −20 cm. If an object is placed 15 cm from the
+lens, calculate the image distance, to the nearest hundredth of a centimeter, and describe the
+nature (real or virtual, magnified or diminished) of the image.
+Answer:
+Using the lens formula:
+1
+f = 1
+do
++ 1
+di
+where f = −20 cm and do = 15 cm. Solving for di (image distance):
+1
+di
+= 1
+f −1
+do
+=
+1
+−20 −1
+15 = −3 −4
+60
+= −7
+60
+di = 60
+−7 ≈−8.57 cm
+The negative sign indicates that the image is virtual. Since the absolute value of di is less
+than do, the image is also diminished. Thus, the image is located at −8.57 cm , and it is
+virtual and diminished.
+10. (4 points) A light ray traveling through glass (refractive index 1.5) strikes a glass-to-air bound-
+ary at an angle of incidence of 40◦. Calculate the angle of refraction, to the nearest hundredth
+of a degree, of the light as it passes into the air.
+Answer:
+Using Snell’s law:
+n1 sin θ1 = n2 sin θ2
+where n1 = 1.5 (refractive index of glass), θ1 = 40◦(angle of incidence), and n2 = 1
+(refractive index of air). Solving for θ2 (angle of refraction):
+1.5 × sin 40◦= 1 × sin θ2
+sin θ2 = 1.5 × 0.6428 = 0.9642
+θ2 = sin−1(0.9642) ≈74.62◦
+Page 13 of 17
+
+--- Page 14 ---
+Thus, the angle of refraction is approximately 74.62◦.
+11. (4 points) In a double-slit experiment, the distance between the slits is 0.13 mm, and the
+distance to the screen is 1 meter. If the second-order bright fringe is observed at a position
+12 mm away from the central maximum, calculate the wavelength of the light, to the nearest
+nanometer.
+Answer:
+The position of the m-th order bright fringe in a double-slit experiment is given
+by:
+y = mλL
+d
+where:
+• y = 12 mm = 12 × 10−3 m (position of the second-order bright fringe)
+• m = 2 (second-order)
+• L = 1 m (distance to the screen)
+• d = 0.13 mm = 0.13 × 10−3 m (slit separation)
+Substituting the values:
+12 × 10−3 =
+2 × λ × 1
+0.13 × 10−3
+λ = 12 × 10−3 × 0.13 × 10−3
+2 × 1
+= 780 × 10−9 m = 780 nm
+Thus, the wavelength of the light is 780 nm .
+12. (4 points) A certain telescope has an angular resolution of 1.22× λ
+D, where λ is the wavelength
+of light and D is the diameter of the objective lens. If the telescope’s objective lens has a
+diameter of 1 meter and the wavelength of light is 500 nm, calculate the angular resolution to
+the nearest thousandth of an arcsecond.
+Answer:
+The formula for angular resolution is:
+θ = 1.22 × λ
+D
+where λ = 500 nm = 500 × 10−9 m and D = 1 m.
+Substituting the values:
+θ = 1.22 × 500 × 10−9
+1
+= 6.1 × 10−7 radians
+To convert this to arcseconds, recall that 1 radian = 206, 265 arcseconds:
+θ = 6.1 × 10−7 × 206, 265 ≈0.126 arcseconds
+Page 14 of 17
+
+--- Page 15 ---
+Thus, the angular resolution is approximately 0.126 arcseconds .
+13. (4 points) A laser emits light with a power of 2 mW and a wavelength of 650 nm. Calculate
+the energy, in joules, of a single photon emitted by the laser.
+Answer:
+The energy of a single photon is given by the formula:
+E = hc
+λ
+where: - h = 6.626 × 10−34 J · s (Planck’s constant), - c = 3.0 × 108 m/s (speed of light), -
+λ = 650 nm = 650 × 10−9 m (wavelength of the laser light).
+Substituting the values:
+E = 6.626 × 10−34 × 3.0 × 108
+650 × 10−9
+= 1.9878 × 10−25
+650 × 10−9
+≈3.058 × 10−19 J
+Thus, the energy of a single photon is approximately 3.06 × 10−19 J .
+14. (4 points) A concave mirror has a focal length of 12 cm. Calculate the magnification of the
+image if the object is placed 8 cm from the mirror.
+Answer:
+First, we use the mirror equation to find the image distance:
+1
+f = 1
+do
++ 1
+di
+where:
+• f = 12 cm (focal length of the concave mirror)
+• do = 8 cm (object distance)
+Solving for di (image distance):
+1
+12 = 1
+8 + 1
+di
+1
+di
+= 1
+12 −1
+8 = 2 −3
+24
+= −1
+24
+di = −24 cm
+Now, the magnification M is given by:
+M = −di
+do
+= −−24
+8
+= 3
+Page 15 of 17
+
+--- Page 16 ---
+Thus, the magnification of the image is 3 , meaning the image is magnified and virtual
+(since the image distance is negative).
+15. (8 points) Prove that when light is incident at Brewster’s angle, the reflected light is completely
+polarized perpendicular to the plane of incidence. Hint: Start by using Fresnel’s equations and
+prove that the reflection coefficient for light polarized parallel to the plane of incidence goes to
+zero at Brewster’s angle.
+Answer:
+Brewster’s angle, denoted as θB, is the angle of incidence at which light, when
+reflected from the boundary between two media, becomes fully polarized perpendicular to
+the plane of incidence. The condition for Brewster’s angle is given by:
+θB = tan−1
+n2
+n1
+
+where:
+• n1 is the refractive index of the first medium,
+• n2 is the refractive index of the second medium.
+At Brewster’s angle, the reflected and refracted rays are perpendicular, meaning:
+θr + θt = 90◦
+where θr is the reflection angle and θt is the refraction angle.
+To describe the reflection and transmission of light at the boundary, we use Fresnel’s
+equations for the reflection coefficients of parallel and perpendicular polarizations.
+• For parallel-polarized light (r∥):
+r∥= n2 cos θi −n1 cos θt
+n2 cos θi + n1 cos θt
+• For perpendicular-polarized light (r⊥):
+r⊥= n1 cos θi −n2 cos θt
+n1 cos θi + n2 cos θt
+where:
+• θi is the angle of incidence
+• θt is the angle of refraction, related by Snell’s law: n1 sin θi = n2 sin θt
+At Brewster’s angle, the reflected light is completely polarized perpendicular to the plane
+of incidence. This implies that the reflection coefficient for the parallel component r∥must
+be zero. Let’s prove that this is true.
+Page 16 of 17
+
+--- Page 17 ---
+We know that at Brewster’s angle:
+θr + θt = 90◦
+⇒
+θt = 90◦−θB
+Using Snell’s law:
+n1 sin θB = n2 sin θt = n2 cos θB
+Substituting this into Fresnel’s equation for r∥:
+r∥= n2 cos θB −n1 cos(90◦−θB)
+n2 cos θB + n1 cos(90◦−θB)
+Since cos(90◦−θB) = sin θB, we get:
+r∥= n2 cos θB −n1 sin θB
+n2 cos θB + n1 sin θB
+At Brewster’s angle, tan θB = n2
+n1, or equivalently, n1 tan θB = n2, which implies:
+n1 sin θB = n2 cos θB
+Substituting this into the equation for r∥:
+r∥= n2 cos θB −n2 cos θB
+n2 cos θB + n2 cos θB
+= 0
+Thus, at Brewster’s angle, the reflection coefficient for parallel-polarized light is zero,
+meaning no parallel-polarized light is reflected.
+Since r∥= 0 at Brewster’s angle, no light polarized parallel to the plane of incidence is
+reflected. Therefore, the reflected light is fully polarized perpendicular to the plane of
+incidence (s-polarized). ■
+Page 17 of 17
+
+--- Page 1 ---
+University of Texas at Austin 2024 Invitational
+Optics B/C Exam
+Directions:
+• This is a class set, DO NOT WRITE
+• Write all answers on the answer sheets; any marks elsewhere will not be scored. If additional
+space is needed on a question, clearly mark the question number and your team
+number on the top left of the page and attach to your test.
+• There is no penalty for wrong answers. Answer as many questions as possible, even if you
+aren’t sure if you’re correct. For questions with parts that build on one another, points will
+be awarded for correct answers on parts regardless of previous part completion.
+• Units are required whenever giving a numerical answer. Don’t worry about significant figures.
+• Good luck on the test!
+Page 1 of 8
+
+--- Page 2 ---
+Section 1
+Circle True or False
+1. True
+False
+In a converging lens, the image of an object located at twice the focal
+length is real, inverted, and the same size as the object.
+2. True
+False
+The critical angle for total internal reflection depends solely on the re-
+fractive index of the denser medium.
+3. True
+False
+Diffraction occurs prominently when the size of the aperture is compara-
+ble or smaller than the wavelength of light passing through it.
+4. True
+False
+Polarization of light can only occur through reflection and cannot be
+achieved by scattering.
+5. True
+False
+The resolving power of a microscope depends on the wavelength of the
+light used and the numerical aperture of the objective lens.
+6. True
+False
+Brewster’s angle occurs when light reflects at an angle such that the
+reflected and refracted rays are perpendicular to each other.
+7. True
+False
+For a concave mirror, the image of an object placed beyond the center of
+curvature is virtual.
+8. True
+False
+The thin lens equation is valid for lenses of any shape and thickness.
+9. True
+False
+Light passing through a prism always undergoes chromatic dispersion.
+10. True
+False
+Snell’s law can be used to describe the behavior of light as it transitions
+between two media with the same refractive index.
+11. True
+False
+The accuracy of a sextant decreases with increasing altitude of the ob-
+served celestial body.
+Page 2 of 8
+
+--- Page 3 ---
+Section 2
+Circle the correct answer
+1. (3 points) What is the magnification of an object placed 10 cm from a converging lens with a
+focal length of 5 cm?
+A. −2
+B. +2
+C. −0.5
+D. +0.5
+E. None of the above
+2. (3 points) Which of the following phenomena demonstrates the wave nature of light?
+A. Diffraction
+B. Photoelectric effect
+C. Specular reflection
+D. Refraction
+E. None of the above
+3. (3 points) A light ray enters a medium with a refractive index of 1.33 from insulating foam
+(n = 1.02) at an angle of 45◦. What is the angle of refraction?
+A. 33.3◦
+B. 32.8◦
+C. 50.5◦
+D. 75.1◦
+E. None of the above
+4. (3 points) What is the maximum number of bright fringes that can be observed in a double-
+slit interference experiment with slit separation of 0.1 mm and wavelength of 600 nm?
+A. 331
+B. 333
+C. 335
+D. 337
+E. None of the above
+5. (3 points) The focal length of a convex mirror is −10 cm. Where is the image located if the
+object is placed 15 cm from the mirror?
+A. −4 cm
+B. +4 cm
+C. −6 cm
+Page 3 of 8
+
+--- Page 4 ---
+D. +6 cm
+E. None of the above
+6. (3 points) What happens to light in an optical fiber that results in total internal reflection?
+A. Light travels faster in the core than in the cladding
+B. The core has a higher refractive index than the cladding
+C. Light slows down when it enters the fiber
+D. The core and cladding have the same refractive index
+E. None of the above
+7. (3 points) The critical angle for light traveling from glass (n = 1.5) to water (n = 1.33) is
+closest to:
+A. 42.1◦
+B. 48.8◦
+C. 62.5◦
+D. 63.3◦
+E. None of the above
+8. (3 points) Which of the following optical instruments uses two convex lenses to form an im-
+age?
+A. Telescope
+B. Periscope
+C. Microscope
+D. Camera
+E. None of the above
+9. (3 points) The dispersion of light through a prism causes which of the following phenomena?
+A. Polarization
+B. Chromatic aberration
+C. Total internal reflection
+D. Brewster’s angle
+E. None of the above
+10. (3 points) What is the correct relationship between the object distance do, the image distance
+di, and the focal length f for a convex lens?
+A.
+1
+f =
+1
+do + 1
+di
+B.
+1
+f = di
+do
+C.
+1
+f = do + di
+Page 4 of 8
+
+--- Page 5 ---
+D.
+1
+f = dodi
+E. None of the above
+11. (3 points) A sextant is primarily used to measure the angle between two objects, such as
+the horizon and a celestial body. What is the primary principle that allows the sextant to
+function?
+A. Polarization of light waves
+B. Diffraction of light through a narrow slit
+C. Refraction of light through a prism
+D. Reflection of light using two mirrors
+E. None of the above
+Page 5 of 8
+
+--- Page 6 ---
+Section 3
+Write out a short response to the following questions
+1. (4 points) How does the vector form of the law of reflection apply to anisotropic materials
+where the surface properties change with direction?
+2. (4 points) How does the Abbe number affect the dispersion of light in a prism? Calculate the
+chromatic aberration for a prism made of crown glass with an Abbe number of 60 when light
+enters at an angle of 45°.
+3. (4 points) Explore how additive color theory is applied in modern display technology (e.g.,
+OLED) and compare it with subtractive color theory in high-quality printing.
+4. (4 points) Calculate the reflectance for light at normal incidence on a metal surface, given its
+complex refractive index. Discuss how this affects the perception of color for different metals
+(e.g., gold, silver).
+5. (4 points) Explain how spherical aberration affects vision and how the eye naturally compen-
+sates for this. Discuss the limitations of this compensation in aging populations.
+6. (4 points) Model how the arrangement of photoreceptors in the retina can create blind spots
+and why our brains typically don’t notice these spots in normal vision.
+7. (4 points) Explain how the lensmaker’s equation can be modified to account for spherical
+aberration in high-precision optical systems.
+8. (4 points) Explain the Rayleigh scattering polarization effect in the context of the Earth’s
+atmosphere. How does the degree of polarization vary with the angle of observation?
+9. (4 points) Derive the threshold condition for laser action in terms of population inversion and
+discuss the impact of cavity design on laser coherence length.
+10. (4 points) Explore how femtosecond lasers can be used in LASIK surgery to correct aberrations
+in the human eye. Include a discussion of wavefront-guided techniques.
+11. (4 points) Explain the role of laser diffraction in reading information stored in CD/DVD
+media, and discuss how error correction algorithms help in compensating for optical imperfec-
+tions.
+Page 6 of 8
+
+--- Page 7 ---
+Section 4
+Write out your work and answer to the following questions
+1. (4 points) A beam of light enters a prism with a refractive index of 1.6 at an angle of 30◦.
+Calculate the angle of refraction, to the nearest hundredth of a degree, inside the prism.
+2. (4 points) A plano-convex lens has a radius of curvature of 20 cm. Calculate the focal length,
+to the nearest tenth of a centimeter, of the lens if it is made of glass with a refractive index of
+1.5.
+3. (4 points) Calculate the total internal reflection angle, to the nearest hundredth of a degree,
+for light moving from water (n = 1.33) to air.
+4. (4 points) A converging lens has a focal length of 20 cm. An object is placed 30 cm from the
+lens. Calculate the position relative to the lens, to the nearest tenth of a centimeter, and the
+nature (real or virtual, magnified or diminished) of the image.
+5. (4 points) A beam of light passes through a double slit, with slit separation of 0.5 mm, and
+produces an interference pattern on a screen placed 1.5 meters away. If the wavelength of light
+is 600 nm, calculate the distance, to the nearest tenth of a millimeter, between the central
+bright fringe and the first-order bright fringe.
+6. (4 points) Light of wavelength 500 nm passes through a diffraction grating with 104 lines per
+centimeter. Calculate the angle, to the nearest hundredth of a degree, where the second-order
+maximum occurs.
+7. (4 points) A telescope’s objective lens has a focal length of 2 meters, and its eyepiece has
+a focal length of 10 cm. Calculate the magnification produced by this telescope, assuming
+normal adjustment.
+8. (4 points) A monochromatic light source has a wavelength of 400 nm in air. If the light enters
+water, which has a refractive index of 1.33, calculate the new wavelength of the light in water,
+to the nearest nanometer.
+9. (4 points) A concave lens has a focal length of −20 cm. If an object is placed 15 cm from the
+lens, calculate the image distance, to the nearest hundredth of a centimeter, and describe the
+nature (real or virtual, magnified or diminished) of the image.
+10. (4 points) A light ray traveling through glass (refractive index 1.5) strikes a glass-to-air bound-
+ary at an angle of incidence of 40◦. Calculate the angle of refraction, to the nearest hundredth
+of a degree, of the light as it passes into the air.
+11. (4 points) In a double-slit experiment, the distance between the slits is 0.13 mm, and the
+distance to the screen is 1 meter. If the second-order bright fringe is observed at a position
+12 mm away from the central maximum, calculate the wavelength of the light, to the nearest
+nanometer.
+Page 7 of 8
+
+--- Page 8 ---
+12. (4 points) A certain telescope has an angular resolution of 1.22× λ
+D, where λ is the wavelength
+of light and D is the diameter of the objective lens. If the telescope’s objective lens has a
+diameter of 1 meter and the wavelength of light is 500 nm, calculate the angular resolution to
+the nearest thousandth of an arcsecond.
+13. (4 points) A laser emits light with a power of 2 mW and a wavelength of 650 nm. Calculate
+the energy, in joules, of a single photon emitted by the laser.
+14. (4 points) A concave mirror has a focal length of 12 cm. Calculate the magnification of the
+image if the object is placed 8 cm from the mirror.
+15. (8 points) Prove that when light is incident at Brewster’s angle, the reflected light is completely
+polarized perpendicular to the plane of incidence. Hint: Start by using Fresnel’s equations and
+prove that the reflection coefficient for light polarized parallel to the plane of incidence goes to
+zero at Brewster’s angle.
+Page 8 of 8
+
+--- Page 1 ---
+Purdue Science
+Olympiad Invitational
+2025
+Optics: Division B
+Team Name: _________________
+Team Members: ______________
+Team Number: _______________
+
+--- Page 2 ---
+Human Eye (2 points each)
+Fill in the blank with the corresponding eye structure.
+1                                                                                                                             5
+2                                                                                                                             6
+3                                                                                                                             7
+4                                                                                                                             8
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+--- Page 3 ---
+Reflection and Refraction (18 points)
+1) In around one sentence, describe the main difference between specular and diffuse
+reflection. (2 points)
+2) When a beam of light travels from a medium of higher index of refraction to a medium of
+lower index of refraction, does the angle of refraction increase or decrease? Briefly use
+mathematics to show how/why this is the case. (4 points)
+3) If a beam of light is moving from a medium of higher index of refraction to a medium of
+lower index of refraction, at what minimum angle, in degrees, will the beam of light need
+to hit the surface between the two mediums in order to remain trapped inside the first
+medium? You may leave your answer as an expression. (2 points) Tiebreaker 3
+
+--- Page 4 ---
+4) Perform a simple mathematical derivation for the equation used to solve the previous
+question. (4 points)
+5) At what angle, in degrees, will a beam of light propagating through ice (n = 1.31) need to
+strike a plate of plexiglass (n = 1.49) in order to achieve maximum polarization? (2
+points)
+a) 41.25
+b) 48.68
+c) 52.43
+d) 56.09
+Mirrors and Lenses (19 points)
+1) For a flat mirror, by what factor does the distance between an object and its image
+change if the object is moved from 10 cm away from the mirror to 5 cm away from the
+mirror? (1 point)
+a) 1
+b) 2
+c) ½
+d) ¼
+2) Calculate the lateral magnification of an object of height 3 inches placed 12 inches in
+front of a 7 inch tall flat mirror. (2 points)
+
+--- Page 5 ---
+3) Which of the following best describes the images formed by a concave mirror when the
+object is located between the focal point and the mirror? (1 point)
+a) Real, inverted, and diminished
+b) Virtual, upright, and magnified
+c) Real, upright, and magnified
+d) Virtual, inverted, and diminished
+4) Complete the following ray diagram for a concave mirror using at least 3 distinct rays.
+Draw the image at its approximate image point with the right orientation and state
+whether it is real or virtual. (4 points)
+5) Calculate the image distance and magnification given that the focal length of the mirror
+is 5 cm and the object distance is 12 cm. (2 points)
+
+--- Page 6 ---
+6) Repeat the process in questions 4 and 5 for the following diagram of a convex mirror. (6
+points) Tiebreaker 2
+7) Classify each of the following lenses as either converging or diverging. (3 points)
+a) Bi-convex
+b) Plano-convex
+c) Convex meniscus
+d) Bi-concave
+e) Plano-concave
+f) Concave-meniscus
+
+--- Page 7 ---
+Color theory (10 points)
+1) When light is absorbed by a material, what happens to the electrons in the atoms of that
+material? (2 points)
+a) They lose energy and move closer to the nucleus
+b) They gain energy, become excited, and move to a higher energy level
+c) They emit photons without changing their energy level
+d) They are released from the atom entirely
+2) Which phenomenon causes the colors we see in objects? (2 points)
+a) Selective absorption and reflection of certain wavelengths
+b) Complete absorption of all wavelengths
+c) Equal transmission of all wavelengths
+d) Reflection of only one wavelength
+3) Sheets of which of the following fundamental colors of the subtractive model can overlay
+to produce blue light when placed in front of a white light? (2 points)
+a) Blue only
+b) Blue, green and magenta
+c) Cyan and magenta
+d) Red and green
+4) Which of the following correctly describes how a green filter affects light? (2 points)
+a) It allows only green light to pass through and absorbs other colors
+b) It reflects green light and allows all other colors to pass through
+c) It converts green light into red light
+d) It blocks green light completely
+5) What color of light is absorbed when white light passes through a cyan filter? (2 points)
+a) Blue
+b) Green
+c) Red
+d) Yellow
+
+--- Page 8 ---
+Absorption (6 points)
+1) What are the respective wavelengths (in nm) a spectrometer should be set to to measure
+absorbance most accurately? (4 points)
+Chlorophyll A:                                 Chlorophyll B:
+Tiebreaker 1: What are the colors of the wavelengths for Chlorophyll A and B?
+2) What is the relationship between absorbance and concentration of a solution (i.e. what
+happens to the amount of light absorbed by a solution as the particles dissolved in the solution
+increases)? (2 points)
+a) Absorbance increases exponentially as concentration increases
+b) Absorbance decreases exponentially as concentration increases
+c) Absorbance increases linearly as concentration increases
+d) Absorbance decreases linearly as concentration increases
+
+--- Page 1 ---
+Purdue Science
+Olympiad Invitational
+2025
+Optics: Division B
+Team Name: _________________
+Team Members: ______________
+Team Number: _______________
+
+--- Page 2 ---
+Human Eye (2 points each)
+Fill in the blank with the corresponding eye structure.
+1                                                                                                                             5
+2                                                                                                                             6
+3                                                                                                                             7
+4                                                                                                                             8
+1. _Cornea__
+2. __Lens___
+3. ___Pupil___
+4. __Iris___
+5. _Schlera_
+6. Vitreous Humour
+7. __Optic Nerve__
+8. __Retina___
+Reflection and Refraction (18 points)
+1) In around one sentence, describe the main difference between specular and diffuse
+reflection. (2 points)
+
+--- Page 3 ---
+Specular reflection is reflection where the reflected rays are all parallel to
+each other, whereas diffuse reflection is reflection where the reflected rays all
+travel in random directions.
+2) When a beam of light travels from a medium of higher index of refraction to a medium of
+lower index of refraction, does the angle of refraction increase or decrease? Briefly use
+mathematics to show how/why this is the case. (4 points)
+Increases
+Snell’s law: n₁*sin θ₁=n₂*sin θ₂, simple rearranging or explanation of how
+ratios of indices of refraction on either side of the equation compare
+3) If a beam of light is moving from a medium of higher index of refraction to a medium of
+lower index of refraction, at what minimum angle, in degrees, will the beam of light need
+to hit the surface between the two mediums in order to remain trapped inside the first
+medium? You may leave your answer as an expression. (2 points)
+θ = inverse sin n₂/n₁
+4) Perform a simple mathematical derivation for the equation used to solve the previous
+question. (4 points)
+Applying Snell’s Law to calculate the critical angle:
+n₁*sin θ₁ = n₂ * sin 90
+n₁* sin θ₁ = n₂ * 1
+sin θ₁ = n₂/n₁
+sin θ₁ = sin(critical angle)
+θ₁ = inverse sin n₂/n₁
+Where n₁>n₂
+5) At what angle, in degrees, will a beam of light propagating through ice (n = 1.31) need to
+strike a plate of plexiglass (n = 1.49) in order to achieve maximum polarization? (2
+points)
+a) 41.25
+b) 48.68
+c) 52.43
+d) 56.09
+b
+
+--- Page 4 ---
+Brewster’s angle:
+Mirrors and Lenses (19 points)
+1) For a flat mirror, by what factor does the distance between an object and its image
+change if the object is moved from 10 cm away from the mirror to 5 cm away from the
+mirror? (1 point)
+a) 1
+b) 2
+c) ½
+d) ¼
+c
+2) Calculate the lateral magnification of an object of height 3 inches placed 12 inches in
+front of a 7 inch tall flat mirror. (2 points)
+1, always 1 for a flat mirror
+3) Which of the following best describes the images formed by a concave mirror when the
+object is located between the focal point and the mirror? (1 point)
+a) Real, inverted, and diminished
+b) Virtual, upright, and magnified
+c) Real, upright, and magnified
+d) Virtual, inverted, and diminished
+b
+4) Complete the following ray diagram for a concave mirror using at least 3 distinct rays.
+Draw the image at its approximate image point with the right orientation and state
+whether it is real or virtual. (4 points)
+
+--- Page 5 ---
+Something like this, no need to label u
+-
+Real, inverted, diminished image
+5) Calculate the image distance and magnification given that the focal length of the mirror
+is 5 cm and the object distance is 12 cm. (2 points)
+Image distance = 8.57 cm, magnification = -0.71 (full credit only if sign is correct)
+6) Repeat the process in questions 4 and 5 for the following diagram of a convex mirror. (6
+points)
+
+--- Page 6 ---
+Something like this, if it is done with 2 rays instead of 3 that is honestly fine, give
+full credit
+-
+Virtual, upright, diminished image
+-
+Magnification will be positive sign here
+7) Classify each of the following lenses as either converging or diverging. (3 points)
+a) Bi-convex
+b) Plano-convex
+c) Convex meniscus
+d) Bi-concave
+e) Plano-concave
+f) Concave-meniscus
+Converging, converging, converging, diverging, diverging, diverging
+
+--- Page 7 ---
+Color theory (10 points)
+1) When light is absorbed by a material, what happens to the electrons in the atoms of that
+material? (2 points)
+a) They lose energy and move closer to the nucleus
+b) They gain energy, become excited, and move to a higher energy level
+c) They emit photons without changing their energy level
+d) They are released from the atom entirely
+b
+2) Which phenomenon causes the colors we see in objects? (2 points)
+a) Selective absorption and reflection of certain wavelengths
+b) Complete absorption of all wavelengths
+c) Equal transmission of all wavelengths
+d) Reflection of only one wavelength
+a
+3) Sheets of which of the following fundamental colors of the subtractive model can overlay
+to produce blue light when placed in front of a white light? (2 points)
+a) Blue only
+b) Blue, green and magenta
+c) Cyan and magenta
+d) Red and green
+c
+4) Which of the following correctly describes how a green filter affects light? (2 points)
+a) It allows only green light to pass through and absorbs other colors
+b) It reflects green light and allows all other colors to pass through
+c) It converts green light into red light
+d) It blocks green light completely
+a
+5) What color of light is absorbed when white light passes through a cyan filter? (2 points)
+
+--- Page 8 ---
+a) Blue
+b) Green
+c) Red
+d) Yellow
+c
+Absorption (6 points)
+1) What are the respective wavelengths (in nm) a spectrometer should be set to to measure
+absorbance most accurately? (4 points)
+Chlorophyll A:650-700
+Chlorophyll B:450-500
+Tiebreaker: What are the colors of the wavelengths for Chlorophyll A and B?
+Chlorophyll A - Blue     Chlorophyll B - Red
+
+--- Page 9 ---
+2) What is the relationship between absorbance and concentration of a solution (i.e. what
+happens to the amount of light absorbed by a solution as the particles dissolved in the solution
+increases)? (2 points)
+a) Absorbance increases exponentially as concentration increases
+b) Absorbance decreases exponentially as concentration increases
+c) Absorbance increases linearly as concentration increases
+d) Absorbance decreases linearly as concentration increases
+
+--- Page 1 ---
+SSSS OPTICS
+ANSWER KEY
+Time: 50 Minutes
+Written by: -SeaSa1ted-
+
+--- Page 2 ---
+SECTION 1: Multiple Choice
+1.
+Which part of the eye is primarily responsible for focusing light on the retina?
+a.
+Lens
+b.
+Rods
+c.
+Cones
+d.
+Pupil
+2.
+Which part of the eye is responsible for the detection of color?
+a.
+Lens
+b.
+Rods
+c.
+Cones
+d.
+Pupil
+3.
+When combining the wavelengths of 550 nm and 650 nm, what is the resulting color?
+a.
+Cyan
+b.
+Magenta
+c.
+Yellow
+d.
+Orange
+4. What element is displayed in this absorption spectrum?
+a.
+Neon
+b.
+Helium
+c.
+Oxygen
+d.
+Hydrogen
+5. What image is formed when the object is between the focus and the center of curvature of
+a concave mirror?
+a.
+Virtual and Erect
+b.
+Virtual and Inverted
+c.
+Real and Erect
+d.
+Real and Inverted
+6. Who was the first confirmed person to build a telescope?
+a.
+Galileo
+b.
+Isaac Newton
+c.
+Hans Lepperhey
+d.
+Christian Huygens
+
+--- Page 3 ---
+7. Where is the image formed when an object is placed at the focal point of a convex lens?
+a.
+At the focal point (F) behind the lens
+b.
+Beyond 2F
+c.
+At infinity
+d.
+Between 2F and the focal point
+8. A leaf has the absorption graph as such:
+What color is being shown by the leaf?
+a.
+Bluish-Green
+b.
+Reddish-Green
+c.
+Blue
+d.
+Red
+9. In a Gregorian telescope, the two mirrors that make up the inside of the telescope are:
+a.
+Primary: Convex, Secondary: Concave
+b.
+Primary: Concave, Secondary: Convex
+c.
+Primary: Convex, Secondary: Convex
+d.
+Primary: Concave, Secondary: Concave
+10. In a compound optical microscope, what type of image is formed using the objective
+lens (NOT THE OCULAR LENS)?
+a.
+Virtual and Erect
+b.
+Virtual and Inverted
+c.
+Real and Erect
+d.
+Real and Inverted
+
+--- Page 4 ---
+11. The Hubble Space Telescope, responsible for the images below, is an example of what
+type of telescope?
+(Not Used for Testing Purposes, Just Thought these Pictures Looked Cool :D)
+a.
+Ritchey-Chrétien
+b.
+Newtonian
+c.
+Herschelian
+d.
+Gregorian
+12. What are the primary colors?
+a.
+Yellow, Red, Blue
+b.
+Green, Red, Blue
+c.
+Blue, Orange, Red
+d.
+Purple, Red, Yellow
+13. For a camera, as the focal length increases, the magnification ________ and as the
+focal length decreases, the magnification ________.
+a.
+increases, decreases
+b.
+increases, increases,
+c.
+decreases, increases
+d.
+decreases, decreases
+14. The index of refraction for green light is _____ than the index of refraction of red light
+a.
+higher
+b.
+lower
+
+--- Page 5 ---
+Questions 15 - 20 comprise of True or False Questions:
+15. True or false: A diverging lens is used to correct myopia?
+a.
+True
+b.
+False
+16. The Opponent Processing Theory comprises the opposing color pair: red vs blue,
+green vs yellow, and black vs white.
+a.
+True
+b.
+False
+17. Circular polarized light consists of two perpendicular electromagnetic plane waves of
+equal amplitude and a 90o difference in phase
+a.
+True
+b.
+False
+18. In a convex lens, an object at the focal point is magnified.
+a.
+True
+b.
+False
+19. A pinhole camera relies on the small aperture of its lens to focus light on one focal
+point and display an inverted image.
+a.
+True
+b.
+False
+20. Chromatic aberration was first corrected by decreasing the focal length of a lens.
+a.
+True
+b.
+False
+
+--- Page 6 ---
+SECTION 2: FREE RESPONSE
+1.
+In the diagram below, a ray of light strikes a plane mirror at the angle
+i = 35o. What
+θ
+angle is the resulting reflected light,
+r, in degrees?
+θ
+r = 35o
+θ
+2.
+What phenomenon describes why the sky is blue?
+Rayleigh Scattering
+3.
+Using ray tracing, draw where the resulting image of the object will be for this concave
+lens.
+Answer:
+4.
+Describe the image formed:
+Virtual, Erect, and Diminished/Shrunken
+
+--- Page 7 ---
+5.
+Using ray tracing, draw where the resulting image of the object will be for this concave
+mirror.
+Answer
+6.
+Describe the image formed:
+Real, Upside down, and Diminished/Shrunken
+7.
+What is the eye condition caused by aging, leading to the diminishing ability for a person
+to focus on near objects?
+Presbyopia
+8.
+What eye condition causes the loss of the lens of the eye?
+Aphakia
+9.
+What is the smallest angle in which total reflection would occur if a beam of light were to
+travel from olive oil (n = 1.47) to water (n = 1.33)?
+θ = arcsin(n2/n1)
+θ = arcsin(1.33/1.47)
+θ = 64.8o
+10. What property defines an ideal "matte" or diffusely reflecting surface?
+Lambertian Reflectance
+11. What is the optical power of a lens, in diopters, given that its focal length is 50 mm?
+50 mm = 0.05 m
+O = 1/f
+O = 1/0.05
+20 D
+12. Briefly explain the concept of spherical aberration.
+A beam of light passing through a lens does not exactly meet at the focal point.
+
+--- Page 8 ---
+13. A ray of light travels from water (n = 1.33) into a diamond (n = 2.42), at what angle,
+in
+θ
+degrees, must the ray of light be traveling at for the light to be fully linearly polarized?
+θ = arctan(n2/n1)
+θ = arctan(2.42/1.33)
+= 61.2o
+θ
+14. Which muscle controls the accommodation of the lens of the eye?
+Ciliary Muscle
+Questions 15 and 16 relate to one another:
+15. If a beam of unpolarised light coming from the sun with an irradiance,
+0 = 340 W/m2,
+𝐼
+passes through a perfect polarizer, what is the resulting irradiance of light?
+𝐼
+𝐼𝑜= 1
+2
+𝐼= 1
+2 (340)
+170 W/m2
+16. The polarized light from Question 6 is yet again passed through another filter with an
+angle of orientation at
+= 60o, what is the resulting irradiance of light?
+θ
+42.5 W/m2
+Carry-over points can be awarded as long as the equation:
+is used
+𝐼= 𝐼0𝑐𝑜𝑠
+2θ𝑖
+Questions 17 and 18 relate to one another:
+17. If an object is placed 6 meters in front of a concave mirror with a focal length of
+= 10
+𝑓
+meters, where would the image be formed (in meters) relative to the mirror?
+15 meters away
+a.
+This image is (real / virtual)
+18. What is the magnification of the image?
+2.5x
+a.
+This image is (erect / inverted)
+
+--- Page 9 ---
+Questions 19 and 20 relate to one another:
+19. Using the principles of geometry and Snell’s Law, what is the angle of reflection, θr , for
+the ray of light in red given that the mirrors are plane mirrors?
+θr = 65o
+20. Whoops! In a moment of unbridled excitement, a puppy bumped into mirror 2, causing
+it to lean forward 15o. What is the angle of reflection, θr , now?
+θr = 50o
+
+--- Page 10 ---
+21. The following glass lens has a negligible diameter. If the refractive index of glass is
+n = 1.5, what is the focal length of the lens, in meters?
+1
+𝑓≈(𝑛−1)( 1
+𝑅1 −
+1
+𝑅2 )
+1
+𝑓≈(1. 5 −1)(
+1
+0.22𝑚−
+1
+0.28𝑚)
+1
+𝑓≈0. 49 𝑚
+𝑓≈2. 05 𝑚
+
+--- Page 11 ---
+22.Using the diagram below, find the size of the image formed by the concave lens in
+meters.
+Finding Distance of Image Formed by the Concave Lens
+1
+𝑓=
+1
+𝑠𝑖+
+1
+𝑠𝑜
+1
+2 =
+1
+𝑠𝑖+ 1
+6
+(distance of image formed by convex lens)
+𝑠𝑖= 3𝑚
+12m - 3m = 9m (distance of 1st image from the concave lens)
+−1
+1 =
+1
+𝑠𝑖+ 1
+9
+𝑠𝑖=−1. 125𝑚
+Finding the Size of the Image Formed by the Concave Lens
+𝑚 =
+−𝑠𝑖
+𝑠𝑜 
+x
+𝑚= −(3)
+6
+=−1
+2
+Image size after convex lens = 4(0.5) = 2
+x
+𝑚= −(−1.125)
+9
+= 0. 125
+Image size after concave lens = 2(0.125) = 0.25 m
+So the size of the image formed by the concave lens is 0.25 meters.
+
+--- Page 1 ---
+SSSS 2023 Optics Key
+Timanana
+Introduction
+On behalf of Optics Air, the world’s premier airline, we would like to welcome
+you aboard this flight. We know you have many choices when it comes to
+selecting carriers, and we sincerely appreciate you choosing to fly with us
+today. Your safety and comfort are our top priorities, and we are committed to
+providing you with the best possible travel experience. Today’s flight will be a
+short 50 minutes, with 100 points in Optics Air Reward Miles available.
+This flight was sponsored by SSSS. Please refrain from flying with any other
+sponsor (don’t use this test or questions as part of any official tournament).
+Remember to show all work for partial credit. Unless otherwise specified, use
+appropriate SI units and round to three significant digits.
+Every question here involves a laser or the interaction with light and matter,
+so clearly, they are all on-topic.
+This is the answer key.
+
+--- Page 2 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+Off-topic Light Trivia
+1. (3 points) You shoot a laser in a vacuum.
+a. What is the speed of that light (give the exact value)?
+b. How could that be calculated from the permittivity and permeability of
+free space?
+c. The laser is not aimed at your eye. Can you still see the beam as it travels
+through space? Why or why not?
+1. (Answer)
+a. The speed of light in a vacuum is defined to be c = 299 792 458 meters per
+second.
+b. This speed may be calculated by
+q
+1
+ε0µ0, where ε0 and µ0 are the
+permittivity and permeability of free space, respectively.
+c. Contrary to Star Wars and other science fiction movies, you can not see a
+beam of light in a vacuum with no particles to scatter light and redirect it
+back to you. You might see the source of the light, and you might see it
+after it reflects off something else, but not where the light is not
+interacting with anything else. (Half credit is awarded for particles
+scattering light.)
+2. (4 points) Now, you shine a white laser.
+a. Wait, what? Is a white laser even possible? Explain, via the internal
+workings of a laser, why this is or is not feasible.
+b. What does the color white mean in terms of the distribution of photon
+frequencies?
+c. What is the D65 definition of white light?
+d. How is white light generated by a computer?
+2. (Answer)
+a. In general, typical lasers only produce monochromatic light. Lasers work
+by exciting a bunch of atoms, which then emit a photon of a constant
+wavelength when they drop back into the ground state. However, by
+
+--- Page 3 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+choosing a particular combination of atoms, it is possible to create an
+effect that appears like white light, and indeed, white lasers have been
+demonstrated.
+b. White is not a spectral color, so the wave has a range of frequencies in a
+continuum, not just one.
+c. One definition of white light is the black-body radiation emitted at 6504
+Kelvin, which closely approximates what we perceive as white.
+d. White light in computers is generated by shining (roughly) equal
+intensities of red, green, and blue light, which our eyes perceive as white.
+3. (3 points) You have a lamp that emits light uniformly in all directions for
+one second. A wall is one meter away.
+a. If you were instead two meters away from the wall but kept the lamp for a
+period of three seconds, what percent of the original energy would reach
+the wall?
+b. What is this relation called?
+c. There are actually a few more walls, and they collectively form a cube.
+What fraction of the lamps energy does each cube receive?
+3. (Answer)
+a.
+3
+22 = 3
+4 = 75% percent of the energy reaches the wall.
+b. The distance in the denominator must be squared because the energy
+received follows an inverse-square law.
+c. There are 6 walls, each receiving the same amount of energy, so each
+wall receives a sixth of the energy.
+4. (3 points) You shine a (harmless) laser into someone else’s eyes.
+a. For what range of frequencies would they see that light?
+b. How do the cornea, pupil, lens, retina, rods, cones, aqueous humor, and
+vitreous humour interact with light entering the eye? Describe their
+functions as well.
+4. (Answer)
+
+--- Page 4 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+a. They can see light between 400 and 700 THz.
+b. As light travels through the eye, it first hits the cornea, which refracts the
+light and protects the eye. After that, light passes through the aqueous
+humor, which also refracts to some degree. The light then goes through
+the pupil, a black dot in the middle of our eyes. Following this, it is
+refracted by the lens, passes through the vitreous humour (which
+supports the retina), and hits the retina, which captures the light and
+sends a signal to the brain using rods and cones, which are specialized
+photoreceptor cells. Rods detect general light and are sensitive at low
+levels of light, while cones detect color.
+5. (2 points) You spray paint a white wall so that, when illuminated by white
+light, it now appears red.
+a. What is physically different about the wall that causes you to see the color
+red?
+b. If you instead illuminated the white wall with red light, the wall would still
+appear red. How do the two ways of making the wall red differ?
+5. (Answer)
+a. Your action creates a layer of spray paint on top of the wall that only
+reflects red light while absorbing all the other colors. Thus, only the color
+red is visible to your eye.
+b. On the other hand, your second action simply adds red light while
+removing the white light, so you also only see red light reflected off the
+wall.
+6. (3 points) The sun illuminates a mist of suspended water droplets, and this
+forms a rainbow.
+a. Does the rainbow form in front or behind the water droplets, and why?
+b. Is it possible for two rainbows to be formed?
+c. Over there is a snake. It can eat you even in complete darkness because of
+its pit organs, which can sense temperature. But it also likes rainbows.
+When a snake looks at a rainbow, which color appears at the top of the
+primary bow?
+6. (Answer)
+
+--- Page 5 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+a. Neither. The rainbow does not have a definite position. The rainbow light
+originates from above and is refracted and reflected inside the droplets
+themselves, and then shines toward you. However, the image appears to
+originate from behind the water droplets, as that is where the rays of
+rainbow light converge.
+b. It is possible. Sometimes, two rainbows are seen because of light that
+refracts or reflects more than once or is scattered (e.g., diffraction) in
+some secondary process.
+c. Infrared appears on the top because snakes see infrared (the question
+tells you that they sense temperature, so they must therefore see in the
+infrared).
+7. (3 points) For movies in 3D, the projector shines two beams of light
+intended to be viewed by different eyes. The two lenses in a pair of 3D glasses
+determine which beam goes to which eye. Why might the glasses prefer
+circular over linear polarization?
+7. (Answer) 3D glasses attempt to serve different images into the two eyes,
+and here, the screen creates two images, polarized in different modes, and
+each glass only allows one mode through. If linear polarizers were used, then
+simply tilting one’s head or leaning to the side might lead to the wrong
+mode because linear polarization can take on an entire unit circle of values.
+However, circular polarization only has two values, right and left-handed, so
+there is more leeway in what a person can do with their glasses.
+8. (0.5 points per part) Answer the following true or false questions.
+a. Humans emit visible radiation differently from how lasers function.
+b. Laser light can bend around objects only via gravitational lensing.
+c. Shadows can occur when dark matter interacts with laser light.
+d. A light year is the distance light (laser or otherwise) would travel, in
+standard temperature and pressure water, during one Julian year.
+e. Laser light exhibits properties of both waves and massive particles.
+f. The wavelength of visible laser light is huge (a few hundred millimeters),
+which is why our eyes are able to see it, and why other animals are
+sensitive to different ranges of the electromagnetic spectrum.
+8. (Answer) a. true, b. false, c. false, d. false, e. false, f. false.
+
+--- Page 6 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+Reflection
+9. (3 points) Again, you are shining a laser at a wall one meter away from you.
+a. In fact, the laser light happens to be green, with λ = 5 × 10−7 meters. What
+phase shift would be observed between the wave sent and the wave
+received? Express your answer in radians.
+b. Now, assume the mirror is the black line in the diagram below (and you
+are at the point labeled You). Outline the area that you can see using the
+mirror. (It may be helpful to know that the second point is where you see
+your reflection in the mirror.)
+You
+9. (Answer)
+a. The phase shift is π radians. While the light does not experience a
+change in phase from the path itself (the path length is a multiple of the
+wavelength), it still does experience a reversal in phase when it reflects
+off the mirror.
+b. Let your reflection be point R. Then, if there was no mirror, all rays of light
+previously reflecting off the mirror to you would instead hit point R. Thus,
+we can draw lines from point R to the edges of the mirror, which
+becomes the outline.
+You
+
+--- Page 7 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+10. (4 points) The laser is now oriented to match the diagram below.
+1 meter
+1 meter
+You
+a. What is the angle of reflection?
+b. It is also possible that the mirror is not quite smooth.
+a. What phenomenon would that be called, and where does the light go?
+b. How do we define smoothness in the first place?
+(Bonus 5 points if you can derive the criterion.)
+10. (Answer)
+a. The angle of reflection would be 45◦by the law of reflection.
+b.
+a. This would be called diffuse reflection, and light would spread out
+instead of staying in a beam.
+b. Smoothness is defined by requiring that the mirror satisfy Rayleigh’s
+Roughness Criterion h <
+λ
+8 cos θ, where h is the maximum height
+difference between two points, λ is the incident light, and θ is the
+angle of incidence.
+• This is derived by finding the phase difference between two
+reflected rays of light. If the phase difference of light in the
+specularly reflected direction is less than π
+2, then most of the light
+constructively interferes.
+• The phase difference is the extra distance traveled by one of the
+rays. If the angle of incidence (and therefore the angle of reflection)
+is γ, and the height difference is h, then the extra distance traveled
+is ∆φ = 2h cos γ, which is found by drawing perpendiculars to the
+paths of light and expressing the difference in path length with
+trigonometry.
+• After multiplying by the conversion factor, the phase difference
+becomes k∆φ = 2kh cos γ, where k = 2π
+λ is the wavenumber of the
+wave.
+• Solving for h leads to the above representation.
+
+--- Page 8 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+Color
+11. (3 points) The wall is now a transparent green color.
+a. If you shine a cyan light through the green glass, what color would be
+seen on the other side, assuming no other illumination, pure light, and a
+thick enough glass?
+b. Why are those assumptions necessary?
+c. What about shining red light through the glass?
+11. (Answer)
+a. The only light seen would be green, as the blue light is filtered out.
+b. These assumptions are necessary because, without them, some other
+light would still be seen, tainting the color. Furthermore, not having thick
+glass would mean that some light might still, against the odds, pass
+through the glass.
+c. However, shining red light through the glass would make it appear black
+because no light passes through.
+12. (3 points) If you instead shone white light through colorless glass (see
+the diagram below), what would happen to the colors? What order would the
+colors be in, and why?
+You
+12. (Answer) The colors would disperse into a spectrum of spectral colors.
+Red would be on the bottom because it has the lowest refractive indices of
+all the visible colors, and that means less deviation. On the other hand,
+higher wavelengths such as blue or violet would be at the top.
+13. (3 points) Purple, violet, and indigo all look the same, but two of them are
+spectral colors, and one of them is not.
+a. Identify the imposter.
+
+--- Page 9 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+b. How do spectral colors relate to lasers?
+13. (Answer) Purple is the non-spectral color, which means that a
+monochromatic laser could not create the color purple.
+14. (2 points) When you shine orange or green light at a band-pass filter, they
+go through, but if you shine indigo light, it does not go through. Next to each
+of the following colors, put T if the color is necessarily transmitted, an A if the
+color is necessarily attenuated, and an IDK if there is not enough information.
+a. Red
+b. Orange
+c. Yellow
+d. Green
+e. Blue
+f. Indigo
+g. Violet
+14. (Answer) Each part is worth 0.5 points, except for parts b., d., and f.
+(award no points for those parts, regardless of the answer). a. IDK, b. T, c. T,
+d. T, e. IDK, f. A, g. A.
+15. (2 points) When you shine light through a tube of hot hydrogen gas, the
+wavelength 486 nanometers shows up in its emission spectra.
+a. Identify that color and its energy in electronvolts.
+b. What does this tell you about the composition of Hydrogen?
+15. (Answer) That wavelength corresponds to a blue (cyan is acceptable)
+color and has an energy of 2.551 eV (electronvolts). This means that there is a
+jump in the energy levels of electrons in the Hydrogen atom with an energy
+difference equal to 2.551 eV.
+
+--- Page 10 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+Refraction
+16. (3 points) You now shine at a block of glass. If you shine with some angle
+θ above the horizontal, the light goes through the glass and refracts. After the
+light comes out, what angle does it make to the normal?
+16. (Answer) The angle is 90 −θ, because the refractive indices on the
+medium (presumably air) on both sides of the glass are the same, and
+anything inside does not matter. However, we now need to find the angle to
+the normal, so we take the complement of θ.
+17. (3 points) The glass is shaped into an isosceles triangular prism.
+a. Define the angle of the prism and the angle of deviation in this context.
+b. Why does the light bend upon entering the prism, and how would you
+quantify the bending?
+c. Given the angle of the prism and the angles of incidence and refraction at
+the first point of incidence, how would you determine the second pair of
+angles, the angle of deviation, and the ratio of the refractive indices?
+17. (Answer) The angle of the prism is the angle at the top of the prism (e.g.,
+assuming we have a two-dimensional triangular, the top angle). When light
+passes through the prism, it bends twice, and the sum of this bending is the
+angle of deviation.
+Refraction is the bending of a wave as it is transmitted due to a change in
+the electric and magnetic fields induced by oscillations of charged particles
+in that new medium. The bending is determined by Snell’s Law, which states
+that if light travels from a medium with a refractive index of n1 travels into n2,
+and the angle of incidence is θ1, and the angle of refraction is θ2, then
+n1 sin θ1 = n2 sin θ2.
+Let the angle of the prism be A, the angle of deviation be d, and the ratio of
+refractive indices (nprism
+nair ) be n. Additionally, define the first pair of angles of
+incidence and reflection to be θi1 and θr1, and the second pair to be θi2 and
+θr2, respectively. By the equation sin θi1 = n sin θr1, we can find n. From the
+
+--- Page 11 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+triangle formed by the two intersection points and the point with angle A,
+we have A + (90 −θr1) + (90 −θi2) = 180, so θr1 = A −θi2. Thus, n sin θi2 = sin θr2,
+and we can deduce that d = θi1 −θr1 + θr2 −θi2.
+18. (3 points) The prism morphs into a biconcave lens with a focal length of
+30 centimeters. An object is half a meter away from the pole of the lens and 10
+centimeters above the axis.
+a. What is the power of the lens in diopters? Answer to 20 significant figures.
+b. Where is the image formed? What is its magnification? Is it real or virtual?
+Is it upright or inverted?
+c. How would you derive the thin lens and magnification equations through
+ray diagrams?
+d. Is that biconcave lens used in glasses for myopic or hyperopic people, and
+why?
+18. (Answer) The power is given by the reciprocal of the focal length, so it is
+1
+0.3 meters = 3. 333 · · · 33
+|
+{z
+}
+19 3’s
+diopters (significant figures are required).
+By the thin lens equation, 1
+f = 1
+o + 1
+i, so the distance to the image is 75
+centimeters, a virtual image, implying it is also upright. Furthermore, by the
+magnification equation, the image is 15 centimeters high.
+Both are derived through similar right triangles, formed by a ray parallel to
+the axis and the ray straight through the center of the pole of the lens. Let
+the height of the object be ho, the height of the image be hi, the focal length
+be f, the distance to the object be o, and the distance to the image be i. For
+the magnification equation, we use ho (measured at the object) and o as one
+triangle, and hi and i as the second triangle. For the thin lens equation, we
+use ho (measured at the pole) and f (to the right of the lens) as one triangle,
+and hi and i −f as the second triangle. Solving, we get the thin lens equation
+too.
+A biconcave lens will diverge light, allowing light in the eyes of a myopic
+person (which converges in front of the retina) to focus farther back instead.
+19. (3 points) You shine a laser into an optical system. This optical system
+can be described by one of the terms catoptric, catadioptric, or dioptric. Give
+an example and a brief etymology for each.
+19. (Answer) A catoptric system uses solely mirrors and is based on the
+Greek word meaning reflection (or mirror). An example is a convex rearview
+
+--- Page 12 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+mirror. A dioptric system uses solely lenses and is based on the Greek word
+meaning binocular (or refraction). An example is a simple binocular. A
+catadioptric system combines elements of both. Examples include certain
+complicated telescopes.
+20. (3 points) A laser in one medium is shone at a second, transparent
+medium. Normally, light can refract, but when the angle of incidence is
+greater than the critical angle, the light is too oblique for refraction to occur.
+This phenomenon is known as total internal reflection.
+a. Explain why there could ever be a case where refraction is impossible, and
+using this, derive the value of the critical angle.
+b. Explain why certain cases of frustrated total internal reflection show
+comparisons to quantum tunneling.
+20. (Answer)
+a. The angle of refraction is θr = sin−1 
+n1
+n2 sin θi
+
+. But arcsin is not defined for
+inputs greater than 1, and if n1 were sufficiently greater than n2, that
+might occur. Specifically, the critical angle is when n1
+n2 sin θi = 1, so it must
+be sin−1 n2
+n1.
+b. Light only TIRs for certain media. So let’s say we have a medium, and
+light currently TIRs into a second medium. Well, if we put a third medium
+so that they exactly touch, and the third medium has a high enough
+refractive index such that no TIR occurs, then the light will simply
+transmit. So there’s an intermediate phase if the two media are only
+slightly separated by a few wavelengths. Then, even though the light is
+supposed to TIR because it first hits the low refractive index medium, it
+can sense that there’s a third medium close by and still be transmitted.
+This is like quantum tunneling, where a particle can sense that there is a
+place of low potential just beyond a barrier and go through it. Indeed,
+both involve exponential decay probabilities.
+21. (2 points) The sun illuminates a sign saying Objects in Mirror Are Closer
+Than They Appear. What does it mean, and aside from in the rear-view
+mirrors of vehicles, where else might this label make sense?
+21. (Answer) Rear-view mirrors are convex, meaning that the images of
+objects appear smaller and farther away — they smush the entire road
+behind the vehicle into one small mirror image. Convex mirrors also appear
+in security mirrors or near blind-turns so that people can see around corners.
+
+--- Page 13 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+22. (4 points) You shine a light toward a concave mirror, and it happens to
+have a focal length.
+a. Is this focal length positive or negative?
+b. How do you define the focal length of a parabola?
+c. Can any other shapes have a focal length?
+22. (Answer)
+a. Being a concave mirror, it would need to have a positive focal length.
+b. The focal length of a parabola is the distance from the focus to the vertex
+of the parabola. The focus is the point where all rays parallel to the axis of
+the parabola will meet after reflecting off of the parabola.
+c. No other shape has a focus, and so no other shape has a focal length.
+However, spheres can approximate parabolas and therefore can also be
+said to have a focal length.
+23. (1 point) If the radius of curvature of a mirror in a specific orientation is
+−0.2 meters, find the focal length of that mirror after it is rotated π radians in a
+direction perpendicular to the axis of the mirror.
+23. (Answer) 10 centimeters.
+24. (1 point per part) For each of the following, write the definition or
+associated equation.
+a. Thin lens
+b. Thin lens equation
+c. Aberration
+d. Positive meniscus
+e. Diverging mirror
+f. Magnification equation
+g. Cartesian Sign Convention
+h. Lensmaker’s Formula
+i. Nodal point
+
+--- Page 14 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+j. Surface vertex
+24. (Answer)
+a. Thin lens — A lens that is approximated to have zero thickness, applying
+to lenses that are thin relative to the radius of curvature
+b. Thin lens equation — The equation 1
+i = 1
+f + 1
+o, where i is the distance to
+the image, f is the focal length, and o is the object distance (other
+versions of the equation are also acceptable); the equation only applies
+to thin lenses.
+c. Aberration — When something goes wrong with the image (e.g.,
+chromatic aberration)
+d. Positive meniscus — A convex lens with one radius of curvature being
+positive, and the other negative, but the positive one being smaller than
+the negative one
+e. Diverging lens — A concave lens, which diverges light (sends them away
+from each other)
+f. Magnification equation — The equation i
+o = −hi
+ho, where hi and ho are the
+heights of the image and object, resspectively
+g. Cartesian Sign Convention — A convention on the signs of distances in
+optical diagrams; light travels from the left to the right, and any distance
+measured rightward is positive
+h. Lensmaker’s Formula — The equation
+P = n −n0
+n0
+ 1
+R1
+−1
+R2
+
+,
+where P is the power of a lens, n is the refractive index of the material of
+the lens, n0 is the refractive index of the material surrounding the lens, R1
+is the radius of curvature of the right edge of the lens, and R2 is the radius
+of curvature of the left edge of the lens
+i. Nodal point — There are two nodal points in a lens, and if light is shot at
+one nodal point, it will exit appearing as if it were shot at the other nodal
+point
+j. Surface vertex — The two points where the refractive surfaces cross the
+optical axis
+
+--- Page 15 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+Optical Devices
+25. (3 points) To illuminate a specimen, a microscope shines a light from
+below the specimen. Describe the path of the light after, and name the parts
+of the microscope it interacts with.
+25. (Answer) The light first travels through the specimen. Some light is
+absorbed or scattered, which allows the details of the specimen to be
+observed (this part is important; if a response skips straight to the objective
+lens, dock points). The light is then magnified through the objective lens,
+which then travels to the back of the microscope toward the eyepiece. The
+eyepiece further magnifies the image and projects it toward the retina of the
+observer’s eye.
+26. (3 points) A rangefinder or telemeter is an optical device that measures
+the distance from an observer to a certain target. One type of rangefinder is
+known as a laser rangefinder, which shoots a laser and hopes it comes back.
+a. Describe why a laser rangefinder might fail (both practically and
+physically).
+b. A stadiametric rangefinder is an alternative, and a hint at its operation is
+shown below. Fully explain how it works.
+y = 1
+x
+c. Based on its name, describe how a stereoscopic rangefinder works.
+Remember that a stereoscope is a device that creates an apparently
+three-dimensional image by showing different images to the two eyes.
+26. (Answer)
+a. (Answer) Obviously, a laser rangefinder requires batteries. The path of
+light might also not reflect off the target or be deflected by some other
+obstacle or wind or refraction. Furthermore, this does not take into account
+the curvature of the Earth, where you can see the target from refraction, but
+the target is actually over the horizon. Finally, the beam might spread out or
+travel at different speeds if the medium is not a perfect vacuum.
+
+--- Page 16 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+b. (Answer) The stadiametric rangefinder works by similar triangles. These
+generally contain a series of markings in a hyperbolic shape (e.g., the
+positive portion of the curve 1
+x) with known radial distances from a baseline.
+Then, given the height of a distant object, its distance may be determined by
+how much radial distance it takes up. This device also works backward, e.g.,
+finding a height based on an object’s distance.
+c. (Answer) A stereoscopic rangefinder is composed of two eyepieces (e.g.,
+with binoculars). They (lenses) are angled such that a point a certain
+distance away will converge perfectly (when this convergent point is away
+from the target, double images of the target will be seen). The angle is then
+adjusted until there are no double images, and then the degree of rotation
+will determine the distance.
+27. (2 points) MRI, CT, and PET scans all use electromagnetic waves to image
+the body.
+a. What ranges of the electromagnetic spectrum are used, and why?
+b. Specific to CT and PET scans, what is being measured and why does that
+give information about the position of bones and other body parts?
+27. (Answer)
+a. Radio waves, X-rays, and gamma rays are used because they are
+uniquely able to penetrate the body.
+b. For CT and PET scans, bones contain calcium, which attenuates X-rays
+and gamma rays well, unlike other internal organs.
+28. (1 point) Is a true one-way mirror, which reflects light in one direction,
+but transmits light in the other direction, impossible, without an external
+energy source controlling the mirror? Why or why not?
+28. (Answer) It is impossible. If the temperature on the transmitting side is
+low, but the temperature on the reflecting side is high, then the cold side
+would get even colder, while the hot side even hotter. This decreases the
+entropy of the system. Since there is no external energy source to
+compensate for this loss of entropy, this would violate the second law of
+thermodynamics.
+
+--- Page 17 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+Math
+29. (1 point) A 50-watt monochromatic light source emits 1020 photons every
+second. What is the frequency of those photons?
+29. (Answer) 755 THz.
+30. (2 points) You have a cool infinity mirror setup. The mirror in front of you
+is currently 5 meters away, and the mirror behind you is currently 15 meters
+away. If you are walking at a speed of one meter per second forward, at what
+speed (possibly negative) are you and the 25th closest reflection of you
+approaching each other?
+30. (Answer) 2 meters per second.
+31. (6 points) You shine a light at a wall with two small holes, and behind the
+wall is a screen. But instead of seeing two bright spots on the screen, you see
+a whole bunch of bright spots, all aligned along a line.
+a. What is causing these bright spots?
+b. What is the distance between any two consecutive bright spots in terms
+of any necessary variables?
+c. What approximations did you use in creating your formula (list as many as
+you can)?
+31. (Answer)
+a. The bright spots are caused by interference of the two beams of light
+because light can exhibit wave properties.
+b. If the wavelength of light is λ, the distance between the wall and the
+screen is D, and the distance between the two slits is d, then the distance
+between any two consecutive bright spots is λD
+d .
+c. We used many approximations.
+• The light must be monochromatic.
+• The screen must be parallel to the wall.
+• The slits must have a size similar to the wavelength of the light.
+• The distance between the slits must be small compared to the
+distance between the wall and the screen.
+• The small angle approximation was used to derive the formula.
+
+--- Page 18 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+32. (6 points) A common “paradox” in polarization is known as the
+three-polarizer paradox. You shine unpolarized light of intensity I0 through
+three linear polarizers, with axes of angles 0, 45, and 90◦to the horizontal (in
+that order).
+a. What is the resulting intensity in terms of I0?
+b. What is the resulting intensity if the middle polarizer (45◦) is removed?
+c. Why is this considered a paradox?
+d. We can generalize this result to the n-polarizer paradox. There, n polarizers
+have angles equally spaced from 0 to 90◦inclusive. What is the least
+integer value of n such that the resulting intensity is greater than I0
+3 ?
+e. As n approaches infinity, what does the resulting intensity approach?
+Justification via calculus is not necessary, but its inclusion would be
+helpful. (Hint: for calculus approaches, use the double angle formula
+cos 2θ = 2 cos2 θ −1 and later the Taylor expansion cos θ = 1−θ2
+2! + θ4
+4! −θ6
+6! + · · · .)
+32. (Answer)
+a. (Answer) I0
+8 . The intensity is halved by all three polarizers, and
+ 1
+2
+3 = 1
+8.
+b. (Answer) 0. The first and third polarizers are otherwise perpendicular, and
+so no energy is transmitted. Light comes through the first polarizer, and
+although half is attenuated, the other half becomes polarized along its axis.
+This means that the light is then perpendicular to the second polarizer, and
+this clearly means complete attenuation.
+c. (Answer) Intuitively, adding more filters should decrease the intensity.
+d. (Answer) We build a function f(n) to describe the ratio of the resulting
+intensity over I0.
+f(n) = 1
+2
+
+cos2
+π
+2
+1
+n −1
+n−1
+.
+The angular difference between two adjacent polarizers is π
+2
+1
+n−1, and by
+Malus’s Law, the intensity drop is the square of the cosine of that difference.
+We then take this to the power of n −1, because each of the last n −1 filters
+decreases the intensity by this much, while the first one halves the intensity
+regardless. Now, we can check this for a few small values of n, and see that
+f(7) ≈0.330 < 1
+3 < f(8) ≈0.350. Thus, 8 polarizers are necessary.
+
+--- Page 19 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Key
+ANSWER KEY
+e. (Answer) First, we should think that the multiplicative effect of the later
+filters should approach 1. While there are infinitely many of them, each only
+attenuates a tiny fraction of incident light. Furthermore, by the paradox
+itself, it is believable that the intensity should be a strictly increasing
+function. But we can prove this with calculus too. Restating the double angle
+formula, we have for any θ, that
+cos2 θ = 1 + cos 2θ
+2
+,
+so our function is equivalent to
+1
+2
+1 + cos
+π
+n−1
+2
+n−1
+.
+Now, note that the Taylor Expansion of cos θ is
+cos θ = 1 −θ2
+2! + θ4
+4! −θ6
+6! + · · · .
+We can, for sake of simplicity, let x = n −1, to find
+1
+2
+1 + cos π
+x
+2
+x
+,
+which seems cleaner (this is valid because both approach ∞. Then,
+expanding cos π
+x, our limit is
+lim
+x→∞
+1
+2
+ 
+1 + 1 −
+π2
+2!x2 +
+π4
+4!x4 −
+π6
+6!x6 + · · ·
+2
+!x
+,
+or equivalently,
+lim
+x→∞
+1
+2
+ 
+1 + −π2
+2!x2 +
+π4
+4!x4 −
+π6
+6!x6 + · · ·
+2
+!x
+.
+Assuming x to be an integer, the only terms in the full expansion that do not
+contain an x in the denominator is when we select the 1 term every time.
+Thus, we have
+lim
+x→∞
+1
+2
+
+1 + O
+ 1
+x2
+
+= 1
+2.
+
+--- Page 1 ---
+SSSS 2023 Optics Test
+Timanana
+Do not begin until instructed to do so.
+Introduction
+On behalf of Optics Air, the world’s premier airline, we would like to welcome
+you aboard this flight. We know you have many choices when it comes to
+selecting carriers, and we sincerely appreciate you choosing to fly with us
+today. Your safety and comfort are our top priorities, and we are committed to
+providing you with the best possible travel experience. Today’s flight will be a
+short 50 minutes, with 100 points in Optics Air Reward Miles available.
+This flight was sponsored by SSSS. Please refrain from flying with any other
+sponsor (don’t use this test or questions as part of any official tournament).
+Remember to show all work for partial credit. Unless otherwise specified, use
+appropriate SI units and round to three significant digits.
+Every question here involves a laser or the interaction with light and matter,
+so clearly, they are all on-topic.
+Name(s):
+Score
+
+100 points
+
+--- Page 2 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+Off-topic Light Trivia
+1. (3 points) You shoot a laser in a vacuum.
+a. What is the speed of that light (give the exact value)?
+b. How could that be calculated from the permittivity and permeability of
+free space?
+c. The laser is not aimed at your eye. Can you still see the beam as it travels
+through space? Why or why not?
+2. (4 points) Now, you shine a white laser.
+a. Wait, what? Is a white laser even possible? Explain, via the internal
+workings of a laser, why this is or is not feasible.
+b. What does the color white mean in terms of the distribution of photon
+frequencies?
+c. What is the D65 definition of white light?
+d. How is white light generated by a computer?
+3. (3 points) You have a lamp that emits light uniformly in all directions for
+one second. A wall is one meter away.
+a. If you were instead two meters away from the wall but kept the lamp for a
+period of three seconds, what percent of the original energy would reach
+the wall?
+
+--- Page 3 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+b. What is this relation called?
+c. There are actually a few more walls, and they collectively form a cube.
+What fraction of the lamps energy does each cube receive?
+4. (3 points) You shine a (harmless) laser into someone else’s eyes.
+a. For what range of frequencies would they see that light?
+b. How do the cornea, pupil, lens, retina, rods, cones, aqueous humor, and
+vitreous humour interact with light entering the eye? Describe their
+functions as well.
+5. (2 points) You spray paint a white wall so that, when illuminated by white
+light, it now appears red.
+a. What is physically different about the wall that causes you to see the color
+red?
+b. If you instead illuminated the white wall with red light, the wall would still
+appear red. How do the two ways of making the wall red differ?
+6. (3 points) The sun illuminates a mist of suspended water droplets, and this
+forms a rainbow.
+a. Does the rainbow form in front or behind the water droplets, and why?
+b. Is it possible for two rainbows to be formed?
+
+--- Page 4 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+c. Over there is a snake. It can eat you even in complete darkness because of
+its pit organs, which can sense temperature. But it also likes rainbows.
+When a snake looks at a rainbow, which color appears at the top of the
+primary bow?
+7. (3 points) For movies in 3D, the projector shines two beams of light
+intended to be viewed by different eyes. The two lenses in a pair of 3D glasses
+determine which beam goes to which eye. Why might the glasses prefer
+circular over linear polarization?
+8. (0.5 points per part) Answer the following true or false questions.
+a. Humans emit visible radiation differently from how lasers function.
+b. Laser light can bend around objects only via gravitational lensing.
+c. Shadows can occur when dark matter interacts with laser light.
+d. A light year is the distance light (laser or otherwise) would travel, in
+standard temperature and pressure water, during one Julian year.
+e. Laser light exhibits properties of both waves and massive particles.
+f. The wavelength of visible laser light is huge (a few hundred millimeters),
+which is why our eyes are able to see it, and why other animals are
+sensitive to different ranges of the electromagnetic spectrum.
+
+--- Page 5 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+Reflection
+9. (3 points) Again, you are shining a laser at a wall one meter away from you.
+a. In fact, the laser light happens to be green, with λ = 5 × 10−7 meters. What
+phase shift would be observed between the wave sent and the wave
+received? Express your answer in radians.
+b. Now, assume the mirror is the black line in the diagram below (and you
+are at the point labeled You). Outline the area that you can see using the
+mirror. (It may be helpful to know that the second point is where you see
+your reflection in the mirror.)
+You
+10. (4 points) The laser is now oriented to match the diagram below.
+1 meter
+1 meter
+You
+a. What is the angle of reflection?
+b. It is also possible that the mirror is not quite smooth.
+a. What phenomenon would that be called, and where does the light go?
+b. How do we define smoothness in the first place?
+(Bonus 5 points if you can derive the criterion.)
+
+--- Page 6 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+Color
+11. (3 points) The wall is now a transparent green color.
+a. If you shine a cyan light through the green glass, what color would be
+seen on the other side, assuming no other illumination, pure light, and a
+thick enough glass?
+b. Why are those assumptions necessary?
+c. What about shining red light through the glass?
+12. (3 points) If you instead shone white light through colorless glass (see
+the diagram below), what would happen to the colors? What order would the
+colors be in, and why?
+You
+13. (3 points) Purple, violet, and indigo all look the same, but two of them are
+spectral colors, and one of them is not.
+a. Identify the imposter.
+b. How do spectral colors relate to lasers?
+14. (2 points) When you shine orange or green light at a band-pass filter, they
+
+--- Page 7 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+go through, but if you shine indigo light, it does not go through. Next to each
+of the following colors, put T if the color is necessarily transmitted, an A if the
+color is necessarily attenuated, and an IDK if there is not enough information.
+a. Red
+b. Orange
+c. Yellow
+d. Green
+e. Blue
+f. Indigo
+g. Violet
+15. (2 points) When you shine light through a tube of hot hydrogen gas, the
+wavelength 486 nanometers shows up in its emission spectra.
+a. Identify that color and its energy in electronvolts.
+b. What does this tell you about the composition of Hydrogen?
+
+--- Page 8 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+Refraction
+16. (3 points) You now shine at a block of glass. If you shine with some angle
+θ above the horizontal, the light goes through the glass and refracts. After the
+light comes out, what angle does it make to the normal?
+17. (3 points) The glass is shaped into an isosceles triangular prism.
+a. Define the angle of the prism and the angle of deviation in this context.
+b. Why does the light bend upon entering the prism, and how would you
+quantify the bending?
+c. Given the angle of the prism and the angles of incidence and refraction at
+the first point of incidence, how would you determine the second pair of
+angles, the angle of deviation, and the ratio of the refractive indices?
+18. (3 points) The prism morphs into a biconcave lens with a focal length of
+30 centimeters. An object is half a meter away from the pole of the lens and 10
+centimeters above the axis.
+a. What is the power of the lens in diopters? Answer to 20 significant figures.
+b. Where is the image formed? What is its magnification? Is it real or virtual?
+Is it upright or inverted?
+c. How would you derive the thin lens and magnification equations through
+ray diagrams?
+
+--- Page 9 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+d. Is that biconcave lens used in glasses for myopic or hyperopic people, and
+why?
+19. (3 points) You shine a laser into an optical system. This optical system
+can be described by one of the terms catoptric, catadioptric, or dioptric. Give
+an example and a brief etymology for each.
+20. (3 points) A laser in one medium is shone at a second, transparent
+medium. Normally, light can refract, but when the angle of incidence is
+greater than the critical angle, the light is too oblique for refraction to occur.
+This phenomenon is known as total internal reflection.
+a. Explain why there could ever be a case where refraction is impossible, and
+using this, derive the value of the critical angle.
+b. Explain why certain cases of frustrated total internal reflection show
+comparisons to quantum tunneling.
+21. (2 points) The sun illuminates a sign saying Objects in Mirror Are Closer
+Than They Appear. What does it mean, and aside from in the rear-view
+mirrors of vehicles, where else might this label make sense?
+22. (4 points) You shine a light toward a concave mirror, and it happens to
+have a focal length.
+a. Is this focal length positive or negative?
+b. How do you define the focal length of a parabola?
+
+--- Page 10 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+c. Can any other shapes have a focal length?
+23. (1 point) If the radius of curvature of a mirror in a specific orientation is
+−0.2 meters, find the focal length of that mirror after it is rotated π radians in a
+direction perpendicular to the axis of the mirror.
+24. (1 point per part) For each of the following, write the definition or
+associated equation.
+a. Thin lens
+b. Thin lens equation
+c. Aberration
+d. Positive meniscus
+e. Diverging mirror
+f. Magnification equation
+g. Cartesian Sign Convention
+h. Lensmaker’s Formula
+i. Nodal point
+j. Surface vertex
+
+--- Page 11 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+Optical Devices
+25. (3 points) To illuminate a specimen, a microscope shines a light from
+below the specimen. Describe the path of the light after, and name the parts
+of the microscope it interacts with.
+26. (3 points) A rangefinder or telemeter is an optical device that measures
+the distance from an observer to a certain target. One type of rangefinder is
+known as a laser rangefinder, which shoots a laser and hopes it comes back.
+a. Describe why a laser rangefinder might fail (both practically and
+physically).
+b. A stadiametric rangefinder is an alternative, and a hint at its operation is
+shown below. Fully explain how it works.
+y = 1
+x
+c. Based on its name, describe how a stereoscopic rangefinder works.
+Remember that a stereoscope is a device that creates an apparently
+three-dimensional image by showing different images to the two eyes.
+27. (2 points) MRI, CT, and PET scans all use electromagnetic waves to image
+the body.
+a. What ranges of the electromagnetic spectrum are used, and why?
+b. Specific to CT and PET scans, what is being measured and why does that
+give information about the position of bones and other body parts?
+
+--- Page 12 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+28. (1 point) Is a true one-way mirror, which reflects light in one direction,
+but transmits light in the other direction, impossible, without an external
+energy source controlling the mirror? Why or why not?
+
+--- Page 13 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+Math
+29. (1 point) A 50-watt monochromatic light source emits 1020 photons every
+second. What is the frequency of those photons?
+30. (2 points) You have a cool infinity mirror setup. The mirror in front of you
+is currently 5 meters away, and the mirror behind you is currently 15 meters
+away. If you are walking at a speed of one meter per second forward, at what
+speed (possibly negative) are you and the 25th closest reflection of you
+approaching each other?
+31. (6 points) You shine a light at a wall with two small holes, and behind the
+wall is a screen. But instead of seeing two bright spots on the screen, you see
+a whole bunch of bright spots, all aligned along a line.
+a. What is causing these bright spots?
+b. What is the distance between any two consecutive bright spots in terms
+of any necessary variables?
+c. What approximations did you use in creating your formula (list as many as
+you can)?
+32. (6 points) A common “paradox” in polarization is known as the
+three-polarizer paradox. You shine unpolarized light of intensity I0 through
+three linear polarizers, with axes of angles 0, 45, and 90◦to the horizontal (in
+that order).
+a. What is the resulting intensity in terms of I0?
+b. What is the resulting intensity if the middle polarizer (45◦) is removed?
+
+--- Page 14 ---
+Timanana’s Science Olympiad Summer Study Session 2023 Optics Test
+c. Why is this considered a paradox?
+d. We can generalize this result to the n-polarizer paradox. There, n polarizers
+have angles equally spaced from 0 to 90◦inclusive. What is the least
+integer value of n such that the resulting intensity is greater than I0
+3 ?
+e. As n approaches infinity, what does the resulting intensity approach?
+Justification via calculus is not necessary, but its inclusion would be
+helpful. (Hint: for calculus approaches, use the double angle formula
+cos 2θ = 2 cos2 θ −1 and later the Taylor expansion cos θ = 1−θ2
+2! + θ4
+4! −θ6
+6! + · · · .)
+
+--- Page 1 ---
+Answer Key (160pts total):
+MCQ (2pts each):
+1.
+B
+2.
+B
+3.
+A
+4.
+D
+5.
+A
+6.
+A
+7.
+A
+8.
+A
+9.
+A
+10. A
+11. C
+12. A
+13. D
+14. A
+15. B
+16. C
+17. C
+18. B
+19. B
+20. A
+21. A
+22. C
+23. A
+24. D
+25. A
+26. B
+27. D
+28. B
+29. A
+30. A
+FRQ (5pts each, award partial credit based on how thorough their explanations are, below are some
+sample explanations):
+1.
+Fiber optics utilize the principle of total internal reflection to transmit light signals through thin
+strands of glass or plastic. Total internal reflection occurs when light traveling in a medium with
+a higher refractive index encounters a boundary with a lower refractive index at an angle greater
+than the critical angle. Applications include telecommunications, medical imaging, and data
+transmission.
+2.
+A convex lens is thicker at the center than at the edges. It converges parallel rays of light to a
+focal point. The distance between the lens and the focal point is the focal length. For objects
+beyond the focal point, real and inverted images are formed. As objects move closer, the image
+becomes virtual, upright, and magnified.
+3.
+Chromatic aberration occurs due to the dispersion of light into its component colors. It results in
+color fringing in images. This can be minimized by using achromatic lenses that combine multiple
+lens elements to focus different colors at the same point, reducing the effect of dispersion.
+4.
+Polarization refers to the orientation of light waves. Natural sources include sunlight reflecting
+off surfaces. Artificial sources include polaroid filters. Polarizing filters are used to reduce glare,
+enhance contrast, and improve visibility in certain conditions, such as photography or
+sunglasses.
+
+--- Page 2 ---
+5.
+A concave mirror is curved inward and forms real, inverted images. Applications include shaving
+mirrors, satellite dishes, and reflectors in headlights. The focal point is located in front of the
+mirror. Image size depends on the object's distance from the mirror.
+6.
+Diffraction is the bending of light waves around obstacles or through openings. It's noticeable
+when the size of the opening is comparable to the wavelength of light. Examples include the
+spreading of light around door edges or the interference pattern produced by a narrow slit.
+7.
+The camera aperture controls the amount of light entering the camera. A wider aperture (smaller
+f-number) allows more light, affecting exposure. However, it also impacts depth of field.
+Choosing the right aperture involves a trade-off between exposure and depth of field.
+8.
+Dispersion is the separation of white light into its component colors. A prism accomplishes this
+by refracting different colors by different amounts. The order of colors in the spectrum is red,
+orange, yellow, green, blue, indigo, and violet (ROYGBIV).
+9.
+Optical power measures a lens's ability to converge or diverge light. It is measured in diopters.
+Converging lenses have positive power, while diverging lenses have negative power. The
+formula for optical power (P) is P = 1/f, where f is the focal length in meters.
+10. A convex lens is used to correct hypermetropia by converging incoming light before it reaches
+the retina. This compensates for the short focal length of the hypermetropic eye. The corrected
+lens allows the eye to focus on near objects more effectively.
+Extended Problem (40pts total, award partial credit based on how much work they show that is relevant
+and correct in the context of the problem, award full points if any part matches the answer no matter
+how much work is shown, sample solution shown below):
+a.
+Use geometry angle tracing and the law of reflection. (3pts)
+β = α + 2γ
+b. By small angle approximation, write each angle as a ratio of the height between the
+x-axis and the point of reflection, and the distance along the x-axis to the point of
+reflection. (8pts)
+α = ℎ
+𝑜, β = ℎ
+𝑖, γ = ℎ
+𝑟
+Plug this into the equation in part a.
+ℎ
+𝑖= ℎ
+𝑜+ 2ℎ
+𝑟
+1
+𝑖= 1
+𝑜+ 2
+𝑟
+c.
+Set up similar triangles to form a ratio. (4pts)
+ℎ
+𝑜= ℎ'
+𝑖
+ℎ' = ℎ𝑖
+𝑜= ℎ
+𝑟
+𝑟+2𝑜
+d. Use Pythagorean theorem to find the object distance of a point on the ring. (6pts)
+
+--- Page 3 ---
+𝑜'' =
+(𝑜+ 𝑟)
+2 + ℎ
+2 −𝑟
+Plug into the equation from part b to find image distance.
+𝑖'' =
+𝑜''𝑟
+𝑟+2𝑜'' = ( (𝑜+𝑟)
+2+ℎ
+2−𝑟)𝑟
+2 (𝑜+𝑟)
+2+ℎ
+2−𝑟
+e.
+Set up similar triangles between the object and image. (4pts)
+ℎ
+𝑜''+𝑟=
+ℎ''
+𝑟−𝑖''
+ℎ'' = ℎ𝑟−𝑖''
+𝑜''+𝑟= ℎ
+𝑟
+2 (𝑜+𝑟)
+2+ℎ
+2−𝑟
+f.
+Plug in the numbers to find image distance. Then find error. (8pts)
+𝑖=
+1
+1
+10 + 2
+5
+= 2𝑐𝑚
+%𝑖= |
+2−( (10+5)
+2+5
+2−5)5
+2 (10+5)
+2+5
+2−5
+2
+| = 0. 015
+ℎ' = 5 *
+5
+5+2*10 = 1𝑐𝑚
+%ℎ= |
+1−5*
+5
+2 (10+5)
+2+5
+2−5
+1
+| = 0. 061
+Note the error is very small, even in an extreme case like this one.
+g. Draw the four corners first as points along the connection between each corner to the
+sphere’s center, then fill in the edges to the best of your intuition. Make sure no point is
+further than halfway between the sphere’s surface and center. The front and back edges
+should also curve outwards, getting closer to the sphere’s surface when approaching the
+horizontal axis. (7pts)
+
+--- Page 1 ---
+Optics B
+Sierra Vista 2024 Invitational
+Written by Andy Chen & Chat GPT
+Team Number and Name:
+1.
+DO NOT OPEN THIS PACKET until you are told to begin. Listen to instructions first.
+2.
+You may rip apart the test, but staple it together again before time is called.
+3.
+Test-taking Tips: If you get stuck on a hard question, move on. Guess on questions
+you don’t know. Cross out answers you know are wrong. Mark questions you want
+to come back to when you’re done.
+4.
+Answer in 3 significant figures
+5.
+Answer scientific notation if there are leading or trailing zeroes
+6.
+Answer in SI units unless otherwise specified
+7.
+Have fun and good luck!
+
+--- Page 2 ---
+Multiple choice (2pts each):
+1. What is the term for the bending of light as it passes from one medium to another?
+a) Reflection
+b) Refraction
+c) Diffraction
+d) Dispersion
+2. Which lens is thicker at the center than at the edges?
+a) Diverging Meniscus
+b) Plano-convex lens
+c) Plano-concave lens
+d) Concave lens
+3. What properties does the image at the focal point of a concave mirror have?
+a) Real and in front of the mirror
+b) Virtual and in front of the mirror
+c) Real and behind the mirror
+d) Virtual and behind the mirror
+4. In the context of optics, which does the term "chromatic aberration" not refer to?
+a) Splitting of light into its component colors
+b) Blurring of the image
+c) Dispersion of light
+d) Distortion of color wavelengths
+5. Which phenomenon causes the formation of a rainbow when sunlight passes
+through raindrops?
+a) Dispersion
+b) Diffraction
+c) Interference
+d) Polarization
+
+--- Page 3 ---
+6. What is the SI unit of optical power?
+a) Diopter
+b) Watt
+c) Lux
+d) Hertz
+7. What is the critical angle in optics?
+a) The angle of incidence at which total internal reflection occurs
+b) The angle of refraction in a medium
+c) The angle of reflection from a mirror
+d) The angle at which diffraction is maximum
+8. Which phenomenon is responsible for the formation of mirages in hot weather?
+a) Total internal reflection
+b) Dispersion
+c) Diffraction
+d) Interference
+9. What is the relationship between the angle of incidence and the angle of reflection
+for a plane mirror?
+a) They are equal
+b) The angle of incidence is greater
+c) The angle of reflection is greater
+d) They are unrelated
+10. Which type of lens is used to correct hypermetropia (farsightedness)?
+a) Convex lens
+b) Concave lens
+c) Bifocal lens
+d) Plano-convex lens
+
+--- Page 4 ---
+11. What happens to the speed of light when it enters a denser medium?
+a) It increases
+b) It remains constant
+c) It decreases
+d) It depends on the color of light
+12. The phenomenon of diffraction is most pronounced when the size of the opening or
+obstacle is comparable to the:
+a) Wavelength of light
+b) Frequency of light
+c) Speed of light
+d) Intensity of light
+13. What is the primary function of a camera lens aperture?
+a) To control focal length
+b) To focus light
+c) To filter colors
+d) To minimize aberrations
+14. Which type of mirror is used in a rearview mirror of a car?
+a) Convex mirror
+b) Concave mirror
+c) Plane mirror
+d) Spherical mirror
+15. What is the phenomenon where light waves cancel each other out, resulting in
+darkness or reduced intensity?
+a) Diffraction
+b) Interference
+c) Refraction
+d) Dispersion
+16. Which of the following materials cannot polarize light?
+
+--- Page 5 ---
+a) Glass
+b) Water
+c) Marble
+d) Copper
+17. The phenomenon of total internal reflection is used in the operation of:
+a) Microscopes
+b) Telescopes
+c) Fiber optics
+d) Cameras
+18. What is the process of separating white light into its component colors called?
+a) Polarization
+b) Dispersion
+c) Refraction
+d) Diffraction
+19. Which color of light deviates the most when passing through a prism?
+a) Red
+b) Blue
+c) Green
+d) Yellow
+20. The image formed by a convex lens for an object beyond its focal point is:
+a) Real and inverted
+b) Real and upright
+c) Virtual and inverted
+d) Virtual and upright
+
+--- Page 6 ---
+21. What is the phenomenon where light waves spread out when passing through a
+small opening or around an obstacle?
+a) Diffraction
+b) Reflection
+c) Refraction
+d) Interference
+22. What is the SI unit of measurement for the wavelength of light?
+a) Hertz
+b) Newton
+c) Meter
+d) Nanometer
+23. The bending of light waves as they pass through a prism is an example of:
+a) Refraction
+b) Reflection
+c) Dispersion
+d) Interference
+24. Which of the following is not a primary color of light?
+a) Red
+b) Green
+c) Blue
+d) Yellow
+25. What type of lens is used in a magnifying glass?
+a) Convex lens
+b) Concave lens
+c) Bifocal lens
+d) Plane lens
+
+--- Page 7 ---
+26. The phenomenon where light changes speed as it passes from one medium to
+another is the cause of which of the following?
+a) Reflection
+b) Refraction
+c) Diffraction
+d) Dispersion
+27. What is the angle of incidence for light that undergoes total internal reflection?
+a) 0 degrees
+b) 90 degrees
+c) Less than the critical angle
+d) Greater than the critical angle
+28. Which of the following is a property of a concave lens?
+a) Converging
+b) Diverging
+c) Thick at the center
+d) Forms real images
+29. What happens to the focal length of a convex lens when it is placed in water?
+a) Increases
+b) Decreases
+c) Remains the same
+d) Becomes infinite
+30. The dispersion of light into its component colors is responsible for the formation of:
+a) Rainbows
+b) Mirages
+c) Shadows
+d) Halos
+
+--- Page 8 ---
+Free Response (5pts each):
+1. Explain how the phenomenon of total internal reflection is utilized in fiber optics
+technology. Provide examples of applications where fiber optics play a crucial role.
+2. Describe the characteristics of a convex lens and explain how it forms images for
+objects placed at different distances. Include discussions on focal points and image
+magnification.
+3. Discuss the factors that contribute to chromatic aberration in optical systems. How
+can this aberration be minimized or corrected in lenses?
+4. Explain the concept of polarization in optics. Provide examples of natural and
+artificial sources of polarized light, and discuss the applications of polarizing filters.
+5. Describe the working principle of a concave mirror and discuss its applications in
+everyday devices. How does the focal point of a concave mirror relate to image
+formation?
+
+--- Page 9 ---
+6. Discuss the role of diffraction in the behavior of light waves. Provide examples of
+situations where diffraction is observed and explain the impact on the resulting light
+patterns.
+7. Explain how a camera aperture affects the exposure of an image. Discuss the
+trade-offs involved in selecting different aperture sizes.
+8. Describe the phenomenon of dispersion in the context of optics. How does a prism
+disperse white light, and what is the order of colors in the spectrum?
+9. Discuss the concept of optical power in lenses. How is it measured, and how does it
+relate to the ability of a lens to converge or diverge light?
+10. Explain the principle behind the operation of a lens in correcting hypermetropia
+(farsightedness). How does the shape of the lens address the focusing issue for
+individuals with hypermetropia?
+
+--- Page 10 ---
+Extended Problems (show work for partial credit):
+Mirror Mirror on the Ball (40 pts)
+In this problem we will investigate the physics of spherical mirrors. In geometric optics,
+there are neat equations governing the position and size of images in curved mirrors. However,
+the equations we will explore in this problem are mere approximations, and real objects with
+finite size will appear slightly different and distorted than the equations suggest. This may be
+considered as a result of spherical aberration, where images appear distorted due to the imperfect
+geometric properties spherical surfaces posess regarding reflection. Assume paraaxial rays (rays
+travelling at a small angle from the center axis) for all parts of this problem. Angles in diagrams
+are greatly exaggerated for clarity.
+a.
+Consider a spherical mirror with its center on the x-axis. A ray of light travels at an angle
+from the x-axis, hits the mirror, and reflects. The radius connecting the center of the
+α
+circle to the point the light hit forms an angle
+with the x-axis. Find the angle
+that the
+γ
+β
+reflected ray forms with the x-axis. Express your answer in terms of
+and . (3 pts)
+α
+γ
+
+--- Page 11 ---
+b. If a point source produces many of these rays, an image will be formed inside the mirror.
+The location of this image is located at the intersection of the x-axis and the ray gotten by
+tracing the reflected ray found in part a backwards. The point source is located at a
+distance
+from the front surface, the image is located at a distance
+behind the front
+𝑜
+𝑖
+surface, and the mirror has a radius . Using small angle approximation for all three
+𝑟
+angles, show that the following equation holds:
+. (8 pts)
+1
+𝑖= 1
+𝑜+ 2
+𝑟
+c.
+Instead of a point source, put a ring of radius
+centered at the same spot, with its center
+ℎ
+axis aligned with the x-axis. If the traditional equations are used for spherical mirrors,
+one can find the radius of the resulting image by applying similar triangles. By using this
+method, find the image radius
+. Express your answer in terms of
+, , and . (4 pts)
+ℎ'
+ℎ𝑜
+𝑟
+
+--- Page 12 ---
+d. In reality, the image radius and position is slightly different. This is because in the part c
+we approximated the ring as a point source, and geometrically extended the argument to
+find its size. What actually happens is that each point on the ring is a point source, and
+the image for each point can be found via the method in part b. Using this new method,
+find the x-position
+of the image. Express your answer in terms of
+, , and . (6 pts)
+𝑖''
+ℎ𝑜
+𝑟
+e.
+Using the same method, find the image radius
+. Express your answer in terms of
+, ,
+ℎ''
+ℎ𝑜𝑟
+, and
+. (4 pts)
+𝑖''
+f.
+Numerically evaluate the percent error of the image position
+for a ring of
+%𝑖= | 𝑖−𝑖''
+𝑖
+|
+radius 5 cm placed 10 cm from the surface of a spherical mirror with a radius 5cm. Do
+the same for the percent error of the image radius
+. (8 pts)
+%ℎ
+
+--- Page 13 ---
+g. A square frame is placed in front of a mirror as shown in the diagram. On the diagram,
+sketch the image formed by the frame as accurately as possible. Assume the frame is
+semi-transparent, so two parts of the frame cannot hide each other. (7 pts)
+

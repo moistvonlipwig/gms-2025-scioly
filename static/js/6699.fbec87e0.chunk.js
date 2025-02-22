@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[6699],{6699:(s,e,i)=>{s.exports=i.p+"static/media/Exam_MicrobeMission_Purdue2025_B_page5_img1.20f85726b57a3b114882.png"}}]);

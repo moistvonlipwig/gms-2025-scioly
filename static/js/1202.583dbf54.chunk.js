@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[1202],{1202:(s,c,e)=>{s.exports=e.p+"static/media/ATX_Optics_Answers.9d0a84480f56d46c8cfa.txt"}}]);

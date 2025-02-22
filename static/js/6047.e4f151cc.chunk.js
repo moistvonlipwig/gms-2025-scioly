@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[6047],{6047:(s,c,e)=>{s.exports=e.p+"static/media/2025 USC Optics Test_page6_img1.c903886e0c90d09f45cd.png"}}]);

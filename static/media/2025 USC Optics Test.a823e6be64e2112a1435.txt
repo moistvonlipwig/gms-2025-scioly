@@ -1,0 +1,347 @@
+--- Page 1 ---
+USC Invitational
+18 January 2025
+Optics B TEST
+Directions:
+• You will have 50 minutes to complete this test along with the lab portion of the event.
+• All electronic devices, except up to two stand-alone calculators, must be put away.
+• If work is shown for FRQs, partial credit may be awarded for incorrect answers.
+• Round answers reasonably. No deductions will be made for incorrect significant figures,
+but they may used for tiebreaking.
+• Use SI units unless specifically stated otherwise.
+• Useful constant: c = 3.00 × 108 m/s
+• Any provided diagrams may not be to scale unless specified.
+• For ray-tracing questions, full credit will be awarded for at least 2 rays per lens/mirror
+and all objects and images correctly drawn. The diagram does not need to be to scale,
+but must roughly show the locations of objects and images in relation to lenses/mirrors
+
+--- Page 2 ---
+Optics B
+TEST
+USC Invitational
+1
+Multiple Choice
+1 point per question.
+1. Identify the eye condition that someone with vi-
+sion like that in Figure 1 is experiencing.
+A. Myopia
+B. Hyperopia
+C. Glaucoma
+D. Macular Degeneration
+2. As a person ages, what ability of their eye tends
+to diminish the most?
+A. Identifying faraway objects
+B. Peripheral vision
+C. Contracting ciliary muscles to decrease
+lens power
+D. Contracting ciliary muscles to increase
+lens power
+3. What part of the eye has the highest optical
+power?
+A. Cornea
+B. Lens
+C. Aqueous Humor
+D. Sclera
+4. Dave’s eye ranges from an optical power of 47.0
+to 52.0. For simplicity, you can model his eye as
+one lens focusing light onto the retina, which is
+20 mm away from the lens. What is the closest
+object to his eye that he can see clearly?
+A. 16 cm
+B. 25 cm
+C. 50 cm
+D. 75 cm
+5. What condition does Dave definitely suffer from?
+A. Myopia
+B. Hyperopia
+C. Astigmatism
+D. Cataracts
+6. Suppose that ideally, Dave should be able to see
+objects 20 cm in front of him clearly. What is
+the optical power of a lens that his doctor should
+prescribe him?
+A. -2.0
+B. -3.0
+C. +2.0
+D. +3.0
+7. If Dave instead receives laser surgery to adjust
+his eye, what part of his eye will be altered?
+A. Cornea
+B. Lens
+C. Iris
+D. Retina
+8. If Dave’s cornea has an optical power of 43 D,
+what will be its optical power after the surgery?
+You can consider his eye as two thin lenses placed
+close to each other: the cornea and the lens. The
+cornea cannot accommodate its focal length to
+different objects but the lens can.
+A. 40 D
+B. 43 D
+C. 45 D
+D. 46 D
+9. Some patients report seeing “halos” after receiv-
+ing laser eye surgery. What type of aberration in
+the eye can cause this effect?
+A. Chromatic
+B. Comatic
+C. Spherical
+D. Astigmatism
+10. The Balmer series for Hydrogen atoms is a se-
+ries of emission lines for Hydrogen atoms that
+are concentrated in the visible spectrum. Using
+the Rydberg formula, where 1.097∗107m−1, what
+is the wavelength of the H-β line, which corre-
+sponds to a jump from quantum number 4 to
+quantum number 2?
+A. 97 nm
+B. 364 nm
+C. 486 nm
+D. 656 nm
+
+--- Page 3 ---
+Optics B
+TEST
+USC Invitational
+11. What is the energy in joules associated with a
+single photon of H-β?
+A. 3.03 ∗10−19J
+B. 4.09 ∗10−19J
+C. 5.44 ∗10−19J
+D. 6.11 ∗10−19J
+12. We observe an emission spectrum from a distant
+star with a H-β line with slightly lower wave-
+length than expected. What could be the cause
+of this?
+A. The star is moving away from us
+B. The star is moving towards us
+C. There is matter between us and the star
+causing gravitational lensing
+D. The universe is expanding
+13. A dye has the absorption spectrum shown in Fig-
+ure 2. What is its color?
+A. Red
+B. Yellow
+C. Green
+D. Blue
+14. Ayushi is 5.00 feet tall and looks at her reflection
+in a plane mirror that is angled 5 degrees away
+from the vertical. How tall is her image?
+A. 4.96 feet
+B. 4.98 feet
+C. 5.00 feet
+D. 5.02 feet
+15. The speed of light in a material is 2 × 108 m/s.
+What is the material’s index of refraction?
+A. 1.2
+B. 1.5
+C. 2.0
+D. 0.75
+16. A light ray strikes a mirror at an angle of 35◦to
+the normal. What is the angle of reflection?
+A. 35◦
+B. 30◦
+C. 45◦
+D. 55◦
+17. Why do you see a clear image of yourself in a
+polished metal mirror but not on a white sheet
+of paper, even though both reflect light?
+A. Light is reflected uniformly by the mir-
+ror, but scattered by the paper.
+B. The paper absorbs most of the light,
+while the mirror reflects nearly all of it
+in a specific direction.
+C. Mirrors transmit some light in addition
+to reflection, whereas the paper does
+not.
+D. Mirrors are brighter than paper be-
+cause they reflect light more efficiently
+and in a specific way.
+18. What type of lens is used in glasses to correct
+nearsightedness (myopia)?
+A. Convex lens
+B. Concave lens
+C. Cylindrical lens
+D. Bifocal lens
+19. Which of the following is corrected using cylin-
+drical lenses in glasses?
+A. Myopia
+B. Hyperopia
+C. Astigmatism
+D. Presbyopia
+20. In a simple periscope, how are the mirrors posi-
+tioned to allow light to travel through the device?
+A. At a 45◦angle to the horizontal, facing
+each other.
+B. At a 90◦angle to the horizontal, paral-
+lel to each other.
+C. At a 45◦angle to the horizontal, back-
+to-back.
+D. At a 30◦angle to the horizontal, facing
+away from each other.
+21. What is the ”index error” in the context of using
+instruments like a sextant?
+A. It is the error caused by the improper
+handling of the sextant.
+B. It is the error due to the incorrect align-
+ment of the instrument’s index mirror
+and horizon mirror.
+C. It is the error caused by measuring an-
+gles with a non-standard unit.
+D. It is the error that occurs when the sex-
+tant is used in a moving environment.
+Page 2
+
+--- Page 4 ---
+Optics B
+TEST
+USC Invitational
+22. How can the index error of a sextant be cor-
+rected?
+A. By measuring the angle between two
+distant objects multiple times and av-
+eraging the results.
+B. By recalibrating the sextant using a
+standard angular reference tool.
+C. By ensuring the sextant is used only at
+sea level under clear conditions.
+D. By adjusting the horizon mirror until
+it aligns with the index mirror.
+23. A fish is swimming 2 meters below the surface of
+water (n = 1.33). At what angle to the normal
+must light exit the water surface to refract at 45◦
+in air?
+A. 29.54.00◦
+B. 32.12◦
+C. 35.71◦
+D. 38.04◦
+24. Say you try to hit the fish with a spear, aiming
+directly at the fish. Will you hit it?
+A. No, because light refracts at the water
+surface, making the fish appear higher
+than it actually is.
+B. Yes, because the light travels straight
+through the water without bending.
+C. No, because water magnifies the fish,
+making it appear larger and closer.
+D. Yes, because the apparent position of
+the fish matches its real position.
+25. What are the primary colors of light in the addi-
+tive color model?
+A. Red, Yellow, Blue
+B. Red, Green, Blue
+C. Cyan, Magenta, Yellow
+D. Blue, Yellow, Green
+26. In the additive color model, what are the three
+secondary colors formed by combining the pri-
+mary colors of light?
+A. Cyan, Magenta, Yellow
+B. Red, Green, Blue
+C. Orange, Purple, Green
+D. Yellow, Green, Blue
+27. Why does a yellow piece of paper look yellow un-
+der white light?
+A. The paper absorbs blue light and re-
+flects red and green light, which com-
+bine to appear yellow.
+B. The paper absorbs red and green light
+and reflects blue light, giving it a yellow
+appearance.
+C. The paper emits yellow light when illu-
+minated by white light.
+D. The paper absorbs all other colors ex-
+cept yellow, which it reflects.
+28. How does changing the focal length of a camera
+lens affect the image?
+A. Increasing the focal length magnifies
+the subject and narrows the field of
+view.
+B. Increasing the focal length reduces the
+subject size and broadens the field of
+view.
+C. Decreasing the focal length magnifies
+the subject and narrows the field of
+view.
+D. Decreasing the focal length has no ef-
+fect on the magnification or field of
+view.
+29. Why are compound microscopes typically used
+instead of simple microscopes for high magnifica-
+tions?
+A. Compound microscopes combine the
+magnification of two lenses, allowing
+for greater total magnification.
+B. Compound
+microscopes
+use
+larger
+lenses, which produce higher magnifi-
+cations than smaller lenses.
+C. Compound
+microscopes
+reduce
+the
+amount of light needed for high mag-
+nification.
+D. Compound microscopes require less
+alignment, making them easier to use
+for high magnifications.
+Page 3
+
+--- Page 5 ---
+Optics B
+TEST
+USC Invitational
+30. What is Snell’s Law?
+A. The angle of incidence equals the angle
+of reflection.
+B. The product of the refractive index and
+the sine of the angle of incidence is con-
+stant across the boundary between two
+media.
+C. The refractive index is proportional to
+the wavelength of light passing through
+a medium.
+D. Light bends only when passing from a
+denser medium to a less dense medium.
+2
+Free Response
+1. (11 points)
+(a) (2 points) Jeffrey uses a magnifying glass to look at a bug. He places the magnifying glass 5 cm
+above the bug, and he sees that the bug looks upright and magnified 2x. What is the focal length
+of the magnifying glass?
+(b) (3 points) He then places another identical magnifying glass directly in between the first magnifying
+glass and the bug, 2.5 cm between each object. Complete the ray tracing diagram in your answer
+sheet
+(c) (4 points) Is the resulting image real or virtual? Where is the resulting image?
+(d) (2 points) What is the magnification of this lens system?
+2. (2 points) The “infrared window” is a window of wavelengths between 8 and 14 microns (refer to figure
+3) in the Earth’s atmosphere that is crucial in regulating its temperatures and preventing warming.
+Why?
+3. (4 points) A light ray enters a prism with an apex angle of 60◦and a refractive index of 1.6. The angle
+of incidence is 40◦. If the ray emerges symmetrically, calculate the angle of deviation.
+4. (2 points) Provide one example each of an everyday item that uses additive and subtractive color theory.
+5. (2 points) Hypothetically, a shirt that appeared to be blue under white light had a red light shone upon
+it. What color would the shirt appear to be now, and why?
+6. (3 points) Describe the role of the aperture, lens, and sensor in a camera.
+7. (3 points) What type of telescope is a Schmidt–Cassegrain telescope? Why is it popular among ama-
+teur astronomers? (3 points: 1 point for identifying the type of telescope, 2 points for explaining its
+popularity.)
+8. (5 points) Advanced optical designs like the Ritchey–Chr´etien telescope are commonly used in profes-
+sional astronomy.
+Describe the design of a Ritchey–Chr´etien telescope, including its unique optical
+elements and the advantages it provides over simpler designs. Why is it particularly suitable for as-
+trophotography and large observatories? (5 points)
+Page 4
+
+--- Page 6 ---
+Optics B
+TEST
+USC Invitational
+3
+Images
+Figure 1: Figure for MCQ 1
+Figure 2: Figure for MCQ 13
+Figure 3: Figure for FRQ 2
+Page 5
+

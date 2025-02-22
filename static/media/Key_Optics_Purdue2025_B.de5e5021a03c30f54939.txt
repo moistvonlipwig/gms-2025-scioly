@@ -1,0 +1,165 @@
+--- Page 1 ---
+Purdue Science
+Olympiad Invitational
+2025
+Optics: Division B
+Team Name: _________________
+Team Members: ______________
+Team Number: _______________
+
+--- Page 2 ---
+Human Eye (2 points each)
+Fill in the blank with the corresponding eye structure.
+1                                                                                                                             5
+2                                                                                                                             6
+3                                                                                                                             7
+4                                                                                                                             8
+1. _Cornea__
+2. __Lens___
+3. ___Pupil___
+4. __Iris___
+5. _Schlera_
+6. Vitreous Humour
+7. __Optic Nerve__
+8. __Retina___
+Reflection and Refraction (18 points)
+1) In around one sentence, describe the main difference between specular and diffuse
+reflection. (2 points)
+
+--- Page 3 ---
+Specular reflection is reflection where the reflected rays are all parallel to
+each other, whereas diffuse reflection is reflection where the reflected rays all
+travel in random directions.
+2) When a beam of light travels from a medium of higher index of refraction to a medium of
+lower index of refraction, does the angle of refraction increase or decrease? Briefly use
+mathematics to show how/why this is the case. (4 points)
+Increases
+Snell’s law: n₁*sin θ₁=n₂*sin θ₂, simple rearranging or explanation of how
+ratios of indices of refraction on either side of the equation compare
+3) If a beam of light is moving from a medium of higher index of refraction to a medium of
+lower index of refraction, at what minimum angle, in degrees, will the beam of light need
+to hit the surface between the two mediums in order to remain trapped inside the first
+medium? You may leave your answer as an expression. (2 points)
+θ = inverse sin n₂/n₁
+4) Perform a simple mathematical derivation for the equation used to solve the previous
+question. (4 points)
+Applying Snell’s Law to calculate the critical angle:
+n₁*sin θ₁ = n₂ * sin 90
+n₁* sin θ₁ = n₂ * 1
+sin θ₁ = n₂/n₁
+sin θ₁ = sin(critical angle)
+θ₁ = inverse sin n₂/n₁
+Where n₁>n₂
+5) At what angle, in degrees, will a beam of light propagating through ice (n = 1.31) need to
+strike a plate of plexiglass (n = 1.49) in order to achieve maximum polarization? (2
+points)
+a) 41.25
+b) 48.68
+c) 52.43
+d) 56.09
+b
+
+--- Page 4 ---
+Brewster’s angle:
+Mirrors and Lenses (19 points)
+1) For a flat mirror, by what factor does the distance between an object and its image
+change if the object is moved from 10 cm away from the mirror to 5 cm away from the
+mirror? (1 point)
+a) 1
+b) 2
+c) ½
+d) ¼
+c
+2) Calculate the lateral magnification of an object of height 3 inches placed 12 inches in
+front of a 7 inch tall flat mirror. (2 points)
+1, always 1 for a flat mirror
+3) Which of the following best describes the images formed by a concave mirror when the
+object is located between the focal point and the mirror? (1 point)
+a) Real, inverted, and diminished
+b) Virtual, upright, and magnified
+c) Real, upright, and magnified
+d) Virtual, inverted, and diminished
+b
+4) Complete the following ray diagram for a concave mirror using at least 3 distinct rays.
+Draw the image at its approximate image point with the right orientation and state
+whether it is real or virtual. (4 points)
+
+--- Page 5 ---
+Something like this, no need to label u
+-
+Real, inverted, diminished image
+5) Calculate the image distance and magnification given that the focal length of the mirror
+is 5 cm and the object distance is 12 cm. (2 points)
+Image distance = 8.57 cm, magnification = -0.71 (full credit only if sign is correct)
+6) Repeat the process in questions 4 and 5 for the following diagram of a convex mirror. (6
+points)
+
+--- Page 6 ---
+Something like this, if it is done with 2 rays instead of 3 that is honestly fine, give
+full credit
+-
+Virtual, upright, diminished image
+-
+Magnification will be positive sign here
+7) Classify each of the following lenses as either converging or diverging. (3 points)
+a) Bi-convex
+b) Plano-convex
+c) Convex meniscus
+d) Bi-concave
+e) Plano-concave
+f) Concave-meniscus
+Converging, converging, converging, diverging, diverging, diverging
+
+--- Page 7 ---
+Color theory (10 points)
+1) When light is absorbed by a material, what happens to the electrons in the atoms of that
+material? (2 points)
+a) They lose energy and move closer to the nucleus
+b) They gain energy, become excited, and move to a higher energy level
+c) They emit photons without changing their energy level
+d) They are released from the atom entirely
+b
+2) Which phenomenon causes the colors we see in objects? (2 points)
+a) Selective absorption and reflection of certain wavelengths
+b) Complete absorption of all wavelengths
+c) Equal transmission of all wavelengths
+d) Reflection of only one wavelength
+a
+3) Sheets of which of the following fundamental colors of the subtractive model can overlay
+to produce blue light when placed in front of a white light? (2 points)
+a) Blue only
+b) Blue, green and magenta
+c) Cyan and magenta
+d) Red and green
+c
+4) Which of the following correctly describes how a green filter affects light? (2 points)
+a) It allows only green light to pass through and absorbs other colors
+b) It reflects green light and allows all other colors to pass through
+c) It converts green light into red light
+d) It blocks green light completely
+a
+5) What color of light is absorbed when white light passes through a cyan filter? (2 points)
+
+--- Page 8 ---
+a) Blue
+b) Green
+c) Red
+d) Yellow
+c
+Absorption (6 points)
+1) What are the respective wavelengths (in nm) a spectrometer should be set to to measure
+absorbance most accurately? (4 points)
+Chlorophyll A:650-700
+Chlorophyll B:450-500
+Tiebreaker: What are the colors of the wavelengths for Chlorophyll A and B?
+Chlorophyll A - Blue     Chlorophyll B - Red
+
+--- Page 9 ---
+2) What is the relationship between absorbance and concentration of a solution (i.e. what
+happens to the amount of light absorbed by a solution as the particles dissolved in the solution
+increases)? (2 points)
+a) Absorbance increases exponentially as concentration increases
+b) Absorbance decreases exponentially as concentration increases
+c) Absorbance increases linearly as concentration increases
+d) Absorbance decreases linearly as concentration increases
+

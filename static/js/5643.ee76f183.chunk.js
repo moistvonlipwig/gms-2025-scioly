@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[5643],{5643:(s,t,e)=>{s.exports=e.p+"static/media/2025_tests.da4f25ff75f16706412b.txt"}}]);

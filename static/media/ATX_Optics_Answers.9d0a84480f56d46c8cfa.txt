@@ -1,0 +1,652 @@
+--- Page 1 ---
+University of Texas at Austin 2024 Invitational
+Optics B/C Exam
+Directions:
+• This is a class set, DO NOT WRITE
+• Write all answers on the answer sheets; any marks elsewhere will not be scored. If additional
+space is needed on a question, clearly mark the question number and your team
+number on the top left of the page and attach to your test.
+• There is no penalty for wrong answers. Answer as many questions as possible, even if you
+aren’t sure if you’re correct. For questions with parts that build on one another, points will
+be awarded for correct answers on parts regardless of previous part completion.
+• Units are required whenever giving a numerical answer. Don’t worry about significant figures.
+• Good luck on the test!
+Page 1 of 17
+
+--- Page 2 ---
+Section 1
+Circle True or False
+1. True
+False
+In a converging lens, the image of an object located at twice the focal
+length is real, inverted, and the same size as the object.
+2. True
+False
+The critical angle for total internal reflection depends solely on the re-
+fractive index of the denser medium.
+3. True
+False
+Diffraction occurs prominently when the size of the aperture is compara-
+ble or smaller than the wavelength of light passing through it.
+4. True
+False
+Polarization of light can only occur through reflection and cannot be
+achieved by scattering.
+5. True
+False
+The resolving power of a microscope depends on the wavelength of the
+light used and the numerical aperture of the objective lens.
+6. True
+False
+Brewster’s angle occurs when light reflects at an angle such that the
+reflected and refracted rays are perpendicular to each other.
+7. True
+False
+For a concave mirror, the image of an object placed beyond the center of
+curvature is virtual.
+8. True
+False
+The thin lens equation is valid for lenses of any shape and thickness.
+9. True
+False
+Light passing through a prism always undergoes chromatic dispersion.
+10. True
+False
+Snell’s law can be used to describe the behavior of light as it transitions
+between two media with the same refractive index.
+11. True
+False
+The accuracy of a sextant decreases with increasing altitude of the ob-
+served celestial body.
+Page 2 of 17
+
+--- Page 3 ---
+Section 2
+Circle the correct answer
+1. (3 points) What is the magnification of an object placed 10 cm from a converging lens with a
+focal length of 5 cm?
+A. −2
+B. +2
+C. −0.5
+D. +0.5
+E. None of the above
+2. (3 points) Which of the following phenomena demonstrates the wave nature of light?
+A. Diffraction
+B. Photoelectric effect
+C. Specular reflection
+D. Refraction
+E. None of the above
+3. (3 points) A light ray enters a medium with a refractive index of 1.33 from insulating foam
+(n = 1.02) at an angle of 45◦. What is the angle of refraction?
+A. 33.3◦
+B. 32.8◦
+C. 50.5◦
+D. 75.1◦
+E. None of the above
+4. (3 points) What is the maximum number of bright fringes that can be observed in a double-
+slit interference experiment with slit separation of 0.1 mm and wavelength of 600 nm?
+A. 331
+B. 333
+C. 335
+D. 337
+E. None of the above
+5. (3 points) The focal length of a convex mirror is −10 cm. Where is the image located if the
+object is placed 15 cm from the mirror?
+A. −4 cm
+B. +4 cm
+C. −6 cm
+Page 3 of 17
+
+--- Page 4 ---
+D. +6 cm
+E. None of the above
+6. (3 points) What happens to light in an optical fiber that results in total internal reflection?
+A. Light travels faster in the core than in the cladding
+B. The core has a higher refractive index than the cladding
+C. Light slows down when it enters the fiber
+D. The core and cladding have the same refractive index
+E. None of the above
+7. (3 points) The critical angle for light traveling from glass (n = 1.5) to water (n = 1.33) is
+closest to:
+A. 42.1◦
+B. 48.8◦
+C. 62.5◦
+D. 63.3◦
+E. None of the above
+8. (3 points) Which of the following optical instruments uses two convex lenses to form an im-
+age?
+A. Telescope
+B. Periscope
+C. Microscope
+D. Camera
+E. None of the above
+9. (3 points) The dispersion of light through a prism causes which of the following phenomena?
+A. Polarization
+B. Chromatic aberration
+C. Total internal reflection
+D. Brewster’s angle
+E. None of the above
+10. (3 points) What is the correct relationship between the object distance do, the image distance
+di, and the focal length f for a convex lens?
+A.
+1
+f =
+1
+do + 1
+di
+B.
+1
+f = di
+do
+C.
+1
+f = do + di
+Page 4 of 17
+
+--- Page 5 ---
+D.
+1
+f = dodi
+E. None of the above
+11. (3 points) A sextant is primarily used to measure the angle between two objects, such as
+the horizon and a celestial body. What is the primary principle that allows the sextant to
+function?
+A. Polarization of light waves
+B. Diffraction of light through a narrow slit
+C. Refraction of light through a prism
+D. Reflection of light using two mirrors
+E. None of the above
+Page 5 of 17
+
+--- Page 6 ---
+Section 3
+Write out a short response to the following questions
+1. (4 points) How does the vector form of the law of reflection apply to anisotropic materials
+where the surface properties change with direction?
+Answer: The law of reflection can be adjusted to consider anisotropic materials by incor-
+porating the directional dependence of surface properties, which leads to different reflection
+behaviors based on the material’s orientation. In anisotropic materials, surface properties
+such as the refractive index can vary depending on the direction of light. [2] The vector
+form of the law of reflection still holds, but it requires modification to account for the
+variation in reflection depending on the direction. This means that the angle of reflection
+is no longer uniform across the surface, as it is influenced by the anisotropic nature of the
+material. [2]
+2. (4 points) How does the Abbe number affect the dispersion of light in a prism? Calculate the
+chromatic aberration for a prism made of crown glass with an Abbe number of 60 when light
+enters at an angle of 45°.
+Answer: The Abbe number is a measure of how much dispersion (the spreading of light
+into its component colors) a material exhibits. A higher Abbe number indicates lower
+dispersion, meaning that the material causes less chromatic aberration. [2] For crown glass
+with an Abbe number of 60, the dispersion is relatively low. Chromatic aberration can be
+calculated by examining the difference in the refractive index of the material for different
+wavelengths of light. When light enters the prism at an angle of 45°, the dispersion across
+wavelengths leads to slight differences in how each color bends, resulting in chromatic
+aberration. [2]
+3. (4 points) Explore how additive color theory is applied in modern display technology (e.g.,
+OLED) and compare it with subtractive color theory in high-quality printing.
+Answer: Additive color theory is used in modern display technologies such as OLED
+screens. In this theory, colors are created by combining different intensities of red, green,
+and blue (RGB) light. When these colors are mixed together in varying proportions, they
+can produce almost any color. For example, combining all three in equal intensity results
+in white light. [2] In contrast, subtractive color theory is used in high-quality printing.
+This theory involves mixing pigments that absorb certain wavelengths of light and reflect
+others.
+The primary colors in subtractive color theory are cyan, magenta, and yellow
+(CMY), and mixing these pigments results in the absorption of more light, thus producing
+darker colors. When all three pigments are combined, they ideally absorb all light and
+create black. [2]
+4. (4 points) Calculate the reflectance for light at normal incidence on a metal surface, given its
+complex refractive index. Discuss how this affects the perception of color for different metals
+(e.g., gold, silver).
+Page 6 of 17
+
+--- Page 7 ---
+Answer: The reflectance for light at normal incidence on a metal surface can be calcu-
+lated using the Fresnel equations, which take into account the material’s complex refractive
+index. This complex refractive index includes both the real part, representing how light
+slows down in the material, and the imaginary part, representing how much light is ab-
+sorbed by the material. [2] The amount of light reflected at the surface affects how we
+perceive the color of metals. For instance, gold appears yellow because it reflects red and
+yellow wavelengths more efficiently while absorbing blue and green. Silver, on the other
+hand, reflects nearly all wavelengths of visible light, giving it its shiny, white appearance.
+[2]
+5. (4 points) Explain how spherical aberration affects vision and how the eye naturally compen-
+sates for this. Discuss the limitations of this compensation in aging populations.
+Answer: Spherical aberration occurs when light rays passing through the periphery of a
+lens (such as the eye’s lens) are focused at different points than light rays passing through
+the center, causing a blurred image. This effect leads to a decrease in image sharpness. [2]
+The eye compensates for spherical aberration naturally by constricting the pupil, which
+reduces the amount of light entering through the periphery and allows more focused central
+rays to dominate. However, as individuals age, the ability to constrict the pupil diminishes,
+and the eye’s lens becomes less flexible, reducing the effectiveness of this compensation
+and leading to more pronounced visual distortions. [2]
+6. (4 points) Model how the arrangement of photoreceptors in the retina can create blind spots
+and why our brains typically don’t notice these spots in normal vision.
+Answer: The arrangement of photoreceptors in the retina creates a natural blind spot
+at the location where the optic nerve exits the eye because there are no photoreceptors
+(rods or cones) in that region. [2] Despite this blind spot, the brain uses information
+from the other eye and surrounding visual data to ”fill in” the gap, making the blind
+spot essentially unnoticeable in normal vision.
+This process is part of how the brain
+compensates for missing visual information to create a seamless visual experience. [2]
+7. (4 points) Explain how the lensmaker’s equation can be modified to account for spherical
+aberration in high-precision optical systems.
+Answer: The lensmaker’s equation, which is typically used to calculate the focal length of
+a lens based on its curvature and refractive index, can be modified to account for spherical
+aberration by including higher-order terms that correct for the varying focal lengths of
+peripheral rays versus central rays. [2] In high-precision optical systems, spherical aber-
+ration is reduced by altering the lens shape to aspheric profiles, which can help focus all
+incoming rays at a single point, regardless of their position on the lens. [1] Additionally,
+multi-element lens systems can be designed to counteract aberrations, where different lens
+surfaces work together to eliminate distortion. [1]
+8. (4 points) Explain the Rayleigh scattering polarization effect in the context of the Earth’s
+atmosphere. How does the degree of polarization vary with the angle of observation?
+Page 7 of 17
+
+--- Page 8 ---
+Answer: Rayleigh scattering occurs when sunlight interacts with the small gas molecules
+in Earth’s atmosphere, scattering shorter wavelengths of light (such as blue) more than
+longer wavelengths. This scattering effect causes the sky to appear blue. [1] The polar-
+ization of light increases as a result of Rayleigh scattering because light waves oscillate
+in a specific direction when scattered, which leads to partial polarization of the scattered
+light. [1] The degree of polarization depends on the angle of observation: it is maximized
+at a 90-degree angle from the sun (perpendicular to the light source) and decreases when
+looking directly toward or away from the sun. [2]
+9. (4 points) Derive the threshold condition for laser action in terms of population inversion and
+discuss the impact of cavity design on laser coherence length.
+Answer: For laser action to occur, the population inversion must reach a threshold where
+the number of atoms in an excited state exceeds the number in the ground state, en-
+abling stimulated emission to dominate over absorption. This threshold condition can be
+expressed as a gain coefficient exceeding the losses in the laser cavity. [2] The design of
+the cavity affects the coherence length of the laser, with longer cavities generally leading
+to longer coherence lengths. This is because the cavity supports fewer modes, allowing
+for more coherent light emission. [1] Additionally, mirror reflectivity at the ends of the
+cavity influences the coherence length; highly reflective mirrors help maintain coherence
+over longer distances. [1]
+10. (4 points) Explore how femtosecond lasers can be used in LASIK surgery to correct aberrations
+in the human eye. Include a discussion of wavefront-guided techniques.
+Answer: Femtosecond lasers are used in LASIK surgery to create precise, controlled
+corneal flaps with minimal damage to surrounding tissues.
+The extremely short pulse
+duration of the femtosecond laser allows for highly accurate cuts, reducing the risk of
+complications and improving the healing process. [2] In addition to reshaping the cornea,
+femtosecond lasers are employed in wavefront-guided LASIK, which maps the unique im-
+perfections (or higher-order aberrations) of a patient’s eye. [1] These aberrations are then
+corrected with customized laser ablation, providing improved visual outcomes compared
+to traditional LASIK techniques. [1]
+11. (4 points) Explain the role of laser diffraction in reading information stored in CD/DVD
+media, and discuss how error correction algorithms help in compensating for optical imperfec-
+tions.
+Answer: Laser diffraction is key in reading information stored in CD/DVD media. A
+laser beam is focused onto the disc surface, and the reflected light is diffracted by the pits
+and lands encoded on the disc. These differences in reflection are interpreted as binary
+data, which the reading system converts into digital information. [2] Due to imperfections
+on the disc’s surface, such as scratches or dust, the readout may not be perfect. Error
+correction algorithms, such as Reed-Solomon coding, are used to detect and correct small
+errors in the data by adding redundancy and error-checking mechanisms to the encoded
+Page 8 of 17
+
+--- Page 9 ---
+information, ensuring accurate data retrieval even in the presence of optical imperfections.
+[2]
+Page 9 of 17
+
+--- Page 10 ---
+Section 4
+Write out your work and answer to the following questions
+1. (4 points) A beam of light enters a prism with a refractive index of 1.6 at an angle of 30◦.
+Calculate the angle of refraction, to the nearest hundredth of a degree, inside the prism.
+Answer:
+Using Snell’s law, we have:
+n1 sin θ1 = n2 sin θ2
+where n1 = 1 (for air), θ1 = 30◦, and n2 = 1.6 (for the prism). Solving for θ2:
+1 × sin 30◦= 1.6 × sin θ2
+sin θ2 = sin 30◦
+1.6
+= 0.5
+1.6 = 0.3125
+θ2 = sin−1(0.3125) ≈18.21◦
+Thus, the angle of refraction inside the prism is approximately 18.21◦.
+2. (4 points) A plano-convex lens has a radius of curvature of 20 cm. Calculate the focal length,
+to the nearest tenth of a centimeter, of the lens if it is made of glass with a refractive index of
+1.5.
+Answer:
+The focal length of a plano-convex lens is given by the lensmaker’s equation:
+1
+f = (n −1)
+ 1
+R1
+−1
+R2
+
+For a plano-convex lens, R1 = 20 cm and R2 = ∞(because one surface is flat). The
+refractive index n = 1.5. Substituting into the equation:
+1
+f = (1.5 −1)
+ 1
+20 −1
+∞
+
+1
+f = 0.5 × 1
+20 = 0.5
+20 = 0.025
+f =
+1
+0.025 = 40 cm
+Thus, the focal length of the lens is 40.0 cm .
+3. (4 points) Calculate the total internal reflection angle, to the nearest hundredth of a degree,
+for light moving from water (n = 1.33) to air.
+Page 10 of 17
+
+--- Page 11 ---
+Answer:
+The critical angle for total internal reflection can be calculated using the
+formula:
+sin θc = n2
+n1
+where n1 = 1.33 (for water) and n2 = 1 (for air). Solving for θc:
+sin θc =
+1
+1.33 = 0.7519
+θc = sin−1(0.7519) ≈48.75◦
+Thus, the total internal reflection angle is approximately 48.75◦.
+4. (4 points) A converging lens has a focal length of 20 cm. An object is placed 30 cm from the
+lens. Calculate the position relative to the lens, to the nearest tenth of a centimeter, and the
+nature (real or virtual, magnified or diminished) of the image.
+Answer:
+Using the lens formula:
+1
+f = 1
+do
++ 1
+di
+where f = 20 cm (focal length) and do = 30 cm (object distance). Solving for di (image
+distance):
+1
+di
+= 1
+f −1
+do
+= 1
+20 −1
+30 = 3 −2
+60
+= 1
+60
+di = 60 cm
+Since the image distance is positive, the image is real. To determine the magnification
+(M):
+M = −di
+do
+= −60
+30 = −2
+The negative magnification indicates that the image is inverted. Therefore, the image is
+real, inverted, and magnified by a factor of 2. Thus, the image is located 60.0 cm from
+the lens, and it is real and magnified.
+5. (4 points) A beam of light passes through a double slit, with slit separation of 0.5 mm, and
+produces an interference pattern on a screen placed 1.5 meters away. If the wavelength of light
+is 600 nm, calculate the distance, to the nearest tenth of a millimeter, between the central
+bright fringe and the first-order bright fringe.
+Answer:
+The distance between the central bright fringe and the first-order bright fringe
+can be calculated using the formula for double-slit interference:
+y = mλL
+d
+Page 11 of 17
+
+--- Page 12 ---
+where: - m = 1 (for the first-order fringe), - λ = 600 nm = 600 × 10−9 m (wavelength of
+light), - L = 1.5 m (distance to the screen), - d = 0.5 mm = 0.5 × 10−3 m (slit separation).
+Substituting the values:
+y = 1 × 600 × 10−9 × 1.5
+0.5 × 10−3
+= 900 × 10−9
+0.5 × 10−3 = 1.8 × 10−3 m = 1.8 mm
+Thus, the distance between the central bright fringe and the first-order bright fringe is
+approximately 1.8 mm .
+6. (4 points) Light of wavelength 500 nm passes through a diffraction grating with 104 lines per
+centimeter. Calculate the angle, to the nearest hundredth of a degree, where the second-order
+maximum occurs.
+Answer:
+The angle of the second-order maximum can be found using the diffraction
+grating formula:
+d sin θ = mλ
+where: - m = 2 (second-order maximum), - λ = 500 nm = 500 × 10−9 m (wavelength of
+light), - d =
+1
+104 lines/cm =
+1
+106 lines/m = 10−6 m (grating spacing).
+Substituting the values:
+10−6 sin θ = 2 × 500 × 10−9
+sin θ = 1000 × 10−9
+10−6
+= 1
+Since sin θ = 1, θ = 90◦.
+Thus, the second-order maximum occurs at 90.00◦.
+7. (4 points) A telescope’s objective lens has a focal length of 2 meters, and its eyepiece has
+a focal length of 10 cm. Calculate the magnification produced by this telescope, assuming
+normal adjustment.
+Answer:
+The magnification M of a telescope is given by the formula:
+M = fobjective
+feyepiece
+where fobjective = 2 meters = 200 cm and feyepiece = 10 cm.
+Substituting the values:
+M = 200
+10 = 20
+Thus, the magnification produced by the telescope is 20 .
+8. (4 points) A monochromatic light source has a wavelength of 400 nm in air. If the light enters
+water, which has a refractive index of 1.33, calculate the new wavelength of the light in water,
+to the nearest nanometer.
+Page 12 of 17
+
+--- Page 13 ---
+Answer:
+The wavelength of light in a medium is given by:
+λmedium = λair
+n
+where λair = 400 nm and n = 1.33 (refractive index of water).
+Substituting the values:
+λmedium = 400
+1.33 ≈300.75 nm
+Rounding to the nearest nanometer, the new wavelength of the light in water is 301 nm .
+9. (4 points) A concave lens has a focal length of −20 cm. If an object is placed 15 cm from the
+lens, calculate the image distance, to the nearest hundredth of a centimeter, and describe the
+nature (real or virtual, magnified or diminished) of the image.
+Answer:
+Using the lens formula:
+1
+f = 1
+do
++ 1
+di
+where f = −20 cm and do = 15 cm. Solving for di (image distance):
+1
+di
+= 1
+f −1
+do
+=
+1
+−20 −1
+15 = −3 −4
+60
+= −7
+60
+di = 60
+−7 ≈−8.57 cm
+The negative sign indicates that the image is virtual. Since the absolute value of di is less
+than do, the image is also diminished. Thus, the image is located at −8.57 cm , and it is
+virtual and diminished.
+10. (4 points) A light ray traveling through glass (refractive index 1.5) strikes a glass-to-air bound-
+ary at an angle of incidence of 40◦. Calculate the angle of refraction, to the nearest hundredth
+of a degree, of the light as it passes into the air.
+Answer:
+Using Snell’s law:
+n1 sin θ1 = n2 sin θ2
+where n1 = 1.5 (refractive index of glass), θ1 = 40◦(angle of incidence), and n2 = 1
+(refractive index of air). Solving for θ2 (angle of refraction):
+1.5 × sin 40◦= 1 × sin θ2
+sin θ2 = 1.5 × 0.6428 = 0.9642
+θ2 = sin−1(0.9642) ≈74.62◦
+Page 13 of 17
+
+--- Page 14 ---
+Thus, the angle of refraction is approximately 74.62◦.
+11. (4 points) In a double-slit experiment, the distance between the slits is 0.13 mm, and the
+distance to the screen is 1 meter. If the second-order bright fringe is observed at a position
+12 mm away from the central maximum, calculate the wavelength of the light, to the nearest
+nanometer.
+Answer:
+The position of the m-th order bright fringe in a double-slit experiment is given
+by:
+y = mλL
+d
+where:
+• y = 12 mm = 12 × 10−3 m (position of the second-order bright fringe)
+• m = 2 (second-order)
+• L = 1 m (distance to the screen)
+• d = 0.13 mm = 0.13 × 10−3 m (slit separation)
+Substituting the values:
+12 × 10−3 =
+2 × λ × 1
+0.13 × 10−3
+λ = 12 × 10−3 × 0.13 × 10−3
+2 × 1
+= 780 × 10−9 m = 780 nm
+Thus, the wavelength of the light is 780 nm .
+12. (4 points) A certain telescope has an angular resolution of 1.22× λ
+D, where λ is the wavelength
+of light and D is the diameter of the objective lens. If the telescope’s objective lens has a
+diameter of 1 meter and the wavelength of light is 500 nm, calculate the angular resolution to
+the nearest thousandth of an arcsecond.
+Answer:
+The formula for angular resolution is:
+θ = 1.22 × λ
+D
+where λ = 500 nm = 500 × 10−9 m and D = 1 m.
+Substituting the values:
+θ = 1.22 × 500 × 10−9
+1
+= 6.1 × 10−7 radians
+To convert this to arcseconds, recall that 1 radian = 206, 265 arcseconds:
+θ = 6.1 × 10−7 × 206, 265 ≈0.126 arcseconds
+Page 14 of 17
+
+--- Page 15 ---
+Thus, the angular resolution is approximately 0.126 arcseconds .
+13. (4 points) A laser emits light with a power of 2 mW and a wavelength of 650 nm. Calculate
+the energy, in joules, of a single photon emitted by the laser.
+Answer:
+The energy of a single photon is given by the formula:
+E = hc
+λ
+where: - h = 6.626 × 10−34 J · s (Planck’s constant), - c = 3.0 × 108 m/s (speed of light), -
+λ = 650 nm = 650 × 10−9 m (wavelength of the laser light).
+Substituting the values:
+E = 6.626 × 10−34 × 3.0 × 108
+650 × 10−9
+= 1.9878 × 10−25
+650 × 10−9
+≈3.058 × 10−19 J
+Thus, the energy of a single photon is approximately 3.06 × 10−19 J .
+14. (4 points) A concave mirror has a focal length of 12 cm. Calculate the magnification of the
+image if the object is placed 8 cm from the mirror.
+Answer:
+First, we use the mirror equation to find the image distance:
+1
+f = 1
+do
++ 1
+di
+where:
+• f = 12 cm (focal length of the concave mirror)
+• do = 8 cm (object distance)
+Solving for di (image distance):
+1
+12 = 1
+8 + 1
+di
+1
+di
+= 1
+12 −1
+8 = 2 −3
+24
+= −1
+24
+di = −24 cm
+Now, the magnification M is given by:
+M = −di
+do
+= −−24
+8
+= 3
+Page 15 of 17
+
+--- Page 16 ---
+Thus, the magnification of the image is 3 , meaning the image is magnified and virtual
+(since the image distance is negative).
+15. (8 points) Prove that when light is incident at Brewster’s angle, the reflected light is completely
+polarized perpendicular to the plane of incidence. Hint: Start by using Fresnel’s equations and
+prove that the reflection coefficient for light polarized parallel to the plane of incidence goes to
+zero at Brewster’s angle.
+Answer:
+Brewster’s angle, denoted as θB, is the angle of incidence at which light, when
+reflected from the boundary between two media, becomes fully polarized perpendicular to
+the plane of incidence. The condition for Brewster’s angle is given by:
+θB = tan−1
+n2
+n1
+
+where:
+• n1 is the refractive index of the first medium,
+• n2 is the refractive index of the second medium.
+At Brewster’s angle, the reflected and refracted rays are perpendicular, meaning:
+θr + θt = 90◦
+where θr is the reflection angle and θt is the refraction angle.
+To describe the reflection and transmission of light at the boundary, we use Fresnel’s
+equations for the reflection coefficients of parallel and perpendicular polarizations.
+• For parallel-polarized light (r∥):
+r∥= n2 cos θi −n1 cos θt
+n2 cos θi + n1 cos θt
+• For perpendicular-polarized light (r⊥):
+r⊥= n1 cos θi −n2 cos θt
+n1 cos θi + n2 cos θt
+where:
+• θi is the angle of incidence
+• θt is the angle of refraction, related by Snell’s law: n1 sin θi = n2 sin θt
+At Brewster’s angle, the reflected light is completely polarized perpendicular to the plane
+of incidence. This implies that the reflection coefficient for the parallel component r∥must
+be zero. Let’s prove that this is true.
+Page 16 of 17
+
+--- Page 17 ---
+We know that at Brewster’s angle:
+θr + θt = 90◦
+⇒
+θt = 90◦−θB
+Using Snell’s law:
+n1 sin θB = n2 sin θt = n2 cos θB
+Substituting this into Fresnel’s equation for r∥:
+r∥= n2 cos θB −n1 cos(90◦−θB)
+n2 cos θB + n1 cos(90◦−θB)
+Since cos(90◦−θB) = sin θB, we get:
+r∥= n2 cos θB −n1 sin θB
+n2 cos θB + n1 sin θB
+At Brewster’s angle, tan θB = n2
+n1, or equivalently, n1 tan θB = n2, which implies:
+n1 sin θB = n2 cos θB
+Substituting this into the equation for r∥:
+r∥= n2 cos θB −n2 cos θB
+n2 cos θB + n2 cos θB
+= 0
+Thus, at Brewster’s angle, the reflection coefficient for parallel-polarized light is zero,
+meaning no parallel-polarized light is reflected.
+Since r∥= 0 at Brewster’s angle, no light polarized parallel to the plane of incidence is
+reflected. Therefore, the reflected light is fully polarized perpendicular to the plane of
+incidence (s-polarized). ■
+Page 17 of 17
+

@@ -1,0 +1,170 @@
+--- Page 1 ---
+USC Invitational
+18 January 2025
+Optics B KEY
+Directions:
+• You will have 50 minutes to complete this test along with the lab portion of the event.
+• All electronic devices, except up to two stand-alone calculators, must be put away.
+• If work is shown for FRQs, partial credit may be awarded for incorrect answers.
+• Round answers reasonably. No deductions will be made for incorrect significant figures,
+but they may used for tiebreaking.
+• Use SI units unless specifically stated otherwise.
+• Useful constant: c = 3.00 × 108 m/s
+• Any provided diagrams may not be to scale unless specified.
+• For ray-tracing questions, full credit will be awarded for at least 2 rays per lens/mirror
+and all objects and images correctly drawn. The diagram does not need to be to scale,
+but must roughly show the locations of objects and images in relation to lenses/mirrors
+
+--- Page 2 ---
+Optics B
+KEY
+USC Invitational
+1
+Multiple Choice
+1 point per question.
+1. C
+2. D
+3. A
+4. C
+5. B
+6. D
+7. A
+8. D
+9. C
+10. C
+11. B
+12. B
+13. A
+14. C
+15. B
+16. A
+17. A
+18. B
+19. C
+20. A
+21. B
+22. D
+23. B
+24. A
+25. B
+26. A
+27. A
+28. A
+29. A
+30. B
+2
+Free Response
+1. (11 points)
+(a) (2 points) Jeffrey uses a magnifying glass to look at a bug. He places the magnifying glass 5 cm
+above the bug, and he sees that the bug looks upright and magnified 2x. What is the focal length
+of the magnifying glass?
+Solution:
++2pt for answer: 10 cm
+OR
++1pt for correct writing the lens equation and attempting to use the magnification relationship
+M = −si/so as a constraint.
+(b) (3 points) He then places another identical magnifying glass directly in between the first magnifying
+glass and the bug, 2.5 cm between each object. Complete the ray tracing diagram in your answer
+sheet
+Solution:
+
+--- Page 3 ---
+Optics B
+KEY
+USC Invitational
++0.5pt for each correct ray (up to +2) for partial credit. This means you get +1pt for correctly
+tracing the first intermediate image.
+(c) (4 points) Is the resulting image real or virtual? Where is the resulting image?
+Solution:
++1pt: Virtual
+AND
++3pt for location: 14 cm behind the original lens (or equivalent)
+OR
++1pt for correctly applying the lens equation the first time with object distance 2.5 cm and
+focal length 10 cm
++1pt for correctly setting up the lens equation the second time with object distance 2.5 + 3.33
+cm and focal length 10 cm
+(d) (2 points) What is the magnification of this lens system?
+Solution:
++2pt for answer: 3.2
+OR +1pt for getting magnification of first lens: 3.33/2.5 = 1.33
+2. (2 points) The “infrared window” is a window of wavelengths between 8 and 14 microns (refer to figure
+??) in the Earth’s atmosphere that is crucial in regulating its temperatures and preventing warming.
+Why?
+Solution:
++1pt: Atmosphere transmits a lot of this radiation outwards, as evidenced by the spectrum
++1pt: Infrared light contributes to a lot of the heating of earth, so allowing it to escape in controlled
+amounts has a large impact on the earth’s temperature
+3. (4 points) A light ray enters a prism with an apex angle of 60◦and a refractive index of 1.6. The angle
+of incidence is 40◦. If the ray emerges symmetrically, calculate the angle of deviation.
+Solution:
++1pt: Correctly sets up the problem, identifying r1 = r2 = A
+2 due to symmetry, and using Snell’s
+law sin i = n sin r1 to calculate r1.
++1pt: Applies Snell’s law correctly to calculate sin r1 = sin 40◦
+1.6
+and determines r1.
++1pt: Uses the deviation formula δ = 2i −A and substitutes the correct values (i = 40◦, A = 60◦).
++1pt: Correctly calculates the angle of deviation as δ = 20◦.
+4. (2 points) Provide one example each of an everyday item that uses additive and subtractive color theory.
+Solution:
+Additive Color Theory (1 point possible):
+• Example: TV/Computer screens, projectors, digital displays, or VR/AR devices that use red,
+green, and blue light to create colors.
+Page 2
+
+--- Page 4 ---
+Optics B
+KEY
+USC Invitational
+Subtractive Color Theory (1 point possible):
+• Example: Color printers, paint mixing, or film photography that use cyan, magenta, yellow,
+and black (CMYK) pigments to produce colors.
+5. (2 points) Hypothetically, a shirt that appeared to be blue under white light had a red light shone upon
+it. What color would the shirt appear to be now, and why?
+Solution:
++1pt: Correctly states that the shirt would appear black or dark.
++1pt: Explains that the shirt reflects blue light under white light, but under red light, there are no
+blue wavelengths to reflect, so the shirt absorbs the red light and appears black.
+6. (3 points) Describe the role of the aperture, lens, and sensor in a camera.
+Solution:
++1pt: The aperture controls the amount of light entering the camera by adjusting its size. A larger
+aperture allows more light in, while a smaller aperture reduces the amount of light.
++1pt: The lens focuses light onto the camera sensor by bending and directing the light rays to form
+a sharp image.
++1pt: The sensor captures the incoming light and converts it into an electronic signal, creating the
+digital image.
+7. (3 points) What type of telescope is a Schmidt–Cassegrain telescope? Why is it popular among ama-
+teur astronomers? (3 points: 1 point for identifying the type of telescope, 2 points for explaining its
+popularity.)
+Solution:
++1pt: A Schmidt–Cassegrain telescope is a type of catadioptric telescope that combines mirrors and
+lenses in its design.
++2pt: It is popular among amateur astronomers because it combines the long focal length of a
+refracting telescope with the lower cost per aperture of a reflecting telescope.
+Its compact and
+portable design makes it easy to transport and ideal for its given aperture, adding to its appeal for
+amateurs.
+8. (5 points) Advanced optical designs like the Ritchey–Chr´etien telescope are commonly used in profes-
+sional astronomy.
+Describe the design of a Ritchey–Chr´etien telescope, including its unique optical
+elements and the advantages it provides over simpler designs. Why is it particularly suitable for as-
+trophotography and large observatories? (5 points)
+Solution:
++2pt: The Ritchey–Chr´etien telescope is a type of reflecting telescope that uses a hyperbolic pri-
+mary mirror and a hyperbolic secondary mirror. This combination eliminates coma and spherical
+aberration, providing sharp images across a wide field of view.
+Page 3
+
+--- Page 5 ---
+Optics B
+KEY
+USC Invitational
++1pt: Unlike simpler designs, it does not require a corrector plate and has no chromatic aberration,
+making it ideal for professional applications.
++1pt: Its wide field of view and ability to produce diffraction-limited images make it particularly
+suitable for astrophotography and observing faint objects in the deep sky.
++1pt: The design is scalable, allowing for large apertures without significant loss of optical quality,
+which is essential for large observatories and space telescopes.
+Page 4
+

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[5390],{5390:(s,e,t)=>{s.exports=t.p+"static/media/optics_2024_bc_ssss-timanana_key.b22165d9502d90817e3f.txt"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgms_2025_scioly=self.webpackChunkgms_2025_scioly||[]).push([[5317],{5317:(e,s,_)=>{e.exports=_.p+"static/media/Key_Optics_Purdue2025_B_page5_img2.59b3a933e408e0b2ddab.png"}}]);
