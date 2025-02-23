@@ -20,7 +20,6 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const App = () => {
-  const [currentQuiz, setCurrentQuiz] = useState("");
   const [username, setUsername] = useState("");
   const [isUsernameEntered, setIsUsernameEntered] = useState(false);
   const [randomGreeting, setRandomGreeting] = useState("");
@@ -42,24 +41,15 @@ const App = () => {
   ];
 
   const opticsQuizzes = [
-    { label: "Optics Quiz 1", value: "Optics-quiz-1.json" },
-    { label: "Optics Quiz 2", value: "Optics-quiz-2.json" },
-    { label: "Optics Quiz 3", value: "Optics-quiz-3.json" },
-    { label: "Optics Quiz 4", value: "Optics-quiz-4.json" },
-    { label: "Optics Quiz 5", value: "Optics-quiz-5.json" },
-    { label: "Optics Quiz 6", value: "Optics-quiz-6.json" },
+    { label: "Select a test", value: "------" },
+    { label: "Optics-1", value: "Final-optics-1.json" },
   ];
 
   const microbeMissionQuizzes = [
-    { label: "Microscope Questions", value: "MicrobeMission-quiz-8.json" },
-    { label: "Microbe Mission Quiz-1", value: "MicrobeMission-quiz-1.json" },
-    { label: "Microbe Mission Quiz-2", value: "MicrobeMission-quiz-2.json" },
-    { label: "Microbe Mission Quiz-3", value: "MicrobeMission-quiz-3.json" },
-    { label: "Microbe Mission Quiz-4", value: "MicrobeMission-quiz-4.json" },
-    { label: "Microbe Mission Quiz-5", value: "MicrobeMission-quiz-5.json" },
-    { label: "Microbe Mission Quiz-6", value: "MicrobeMission-quiz-6.json" },
-    { label: "Microbe Mission Quiz-7", value: "MicrobeMission-quiz-7.json" },
+    { label: "Select a test", value: "------" },
+    { label: "Microbe-Mission-1", value: "Final-micro-mission-1.json" },
   ];
+  const [currentQuiz, setCurrentQuiz] = useState(opticsQuizzes[0].value);
 
   // Save user visit to Firestore
   const saveUsernameToFirestore = async (user) => {
