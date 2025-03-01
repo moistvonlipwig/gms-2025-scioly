@@ -1,0 +1,118 @@
+### **Challenging Optics Test for Science Olympiad Team**
+#### **Instructions:**
+- You have **50 minutes** to complete this test.
+- **Show all work** for full credit; partial credit will be awarded.
+- Round numerical answers to **three significant figures**.
+- **Use SI units** unless otherwise specified.
+- **No calculators with pre-stored physics equations** are allowed.
+- The test is **divided into sections** covering various optics topics.
+
+---
+
+## **Section 1: Multiple Choice (2 points each)**
+Circle the correct answer.
+
+1. A beam of light passes from water (n = 1.33) into diamond (n = 2.42). What happens to the speed of light?
+   - A) Increases
+   - B) Decreases
+   - C) Stays the same
+   - D) Cannot be determined
+
+2. Which of the following scenarios would result in **total internal reflection**?
+   - A) Light traveling from air to glass at Brewster’s angle
+   - B) Light traveling from water to diamond at an angle greater than the critical angle
+   - C) Light traveling from glass to water at an angle greater than the critical angle
+   - D) Light traveling from vacuum to water at any angle
+
+3. A concave mirror forms a **real, inverted, and reduced** image. Which of the following must be true about the object placement?
+   - A) The object is between the focal point and the mirror.
+   - B) The object is beyond twice the focal length.
+   - C) The object is exactly at the focal point.
+   - D) The object is between the focal point and twice the focal length.
+
+4. Which of the following correctly describes **spherical aberration** in mirrors?
+   - A) It occurs because parallel light rays do not converge at a single focal point.
+   - B) It occurs due to the separation of different colors of light.
+   - C) It occurs when light waves interfere and cancel out.
+   - D) It is caused by multiple reflections inside an optical fiber.
+
+5. A person with **myopia** can see objects clearly at short distances but not at long distances. Which type of lens is used to correct their vision?
+   - A) Convex lens
+   - B) Concave lens
+   - C) Cylindrical lens
+   - D) Bifocal lens
+
+---
+
+## **Section 2: Short Answer (5 points each)**
+
+6. **Ray Diagram Challenge**:  
+   - Draw a ray diagram for an **object located between F and 2F** in a **convex lens**.
+   - Label the object, principal axis, focal points, and the final image.
+   - State whether the image is **real or virtual, magnified or reduced, upright or inverted**.
+
+7. **Color Theory**:  
+   - A **cyan** filter and a **yellow** filter are placed in front of a white light source.  
+     - What color light emerges after passing through both filters?  
+     - Explain your answer using the **subtractive color model**.
+
+8. **Critical Angle Calculation**:  
+   - Light travels from a **glass block (n = 1.50) into air (n = 1.00)**.  
+   - Find the **critical angle** for total internal reflection to occur.
+
+9. **Diffraction and Resolution**:  
+   - A microscope uses **blue light (λ = 450 nm)**. The numerical aperture (NA) of the objective lens is **0.90**.  
+   - What is the **smallest resolvable detail size** using this microscope? Use the formula:
+     \[
+     d = \frac{1.22 \lambda}{NA}
+     \]
+
+10. **Telescope Optics**:  
+   - A telescope has an **objective lens with a focal length of 1.2 m** and an **eyepiece with a focal length of 25 mm**.  
+   - What is the **angular magnification** of this telescope?
+
+---
+
+## **Section 3: Advanced Problems (10 points each)**  
+**Show all steps for full credit.**
+
+11. **Polarization and Brewster’s Angle**:  
+   - Light from air (n = 1.00) strikes the surface of **glass (n = 1.52)** at Brewster’s angle.
+   - **Find the Brewster’s angle** using the formula:
+     \[
+     \tan(\theta_B) = \frac{n_2}{n_1}
+     \]
+
+12. **Lensmaker’s Equation**:  
+   - A **biconvex lens** has radii of curvature **R1 = 20 cm** and **R2 = -30 cm**.
+   - The lens is made of a material with **n = 1.60**.
+   - Find the **focal length** using the **Lensmaker’s Equation**:
+     \[
+     \frac{1}{f} = (n - 1) \left(\frac{1}{R_1} - \frac{1}{R_2} \right)
+     \]
+
+13. **Interference and Fringe Spacing**:  
+   - In a **double-slit experiment**, the slits are **0.25 mm apart**, and the screen is **2.5 m away**.
+   - The wavelength of the laser is **650 nm**.
+   - Find the **distance between adjacent bright fringes**.
+
+14. **Fiber Optics and Total Internal Reflection**:  
+   - A **fiber optic cable** consists of a core (n = 1.48) and a cladding (n = 1.40).
+   - What is the **maximum angle** a light ray can enter the core (relative to the axis) and still undergo **total internal reflection**?
+
+15. **Quantum Optics**:  
+   - A **red laser (λ = 650 nm)** emits **photons** with an energy given by:
+     \[
+     E = \frac{hc}{\lambda}
+     \]
+   - Given that **h = 6.626 × 10⁻³⁴ J·s** and **c = 3.00 × 10⁸ m/s**,  
+     - Calculate the **energy of a single photon in Joules**.
+
+---
+
+### **Scoring and Tiebreakers:**
+- Tiebreaker problems: **Questions 8, 12, and 14.**
+- The highest total score **wins**.
+- In case of a tie, the **fastest team to complete the test** with the highest accuracy wins.
+
+Good luck! 🚀
