@@ -43,11 +43,13 @@ const App = () => {
   const opticsQuizzes = [
     { label: "Select a test", value: "------" },
     { label: "Optics-1", value: "Final-optics-1.json" },
+    { label: "Optics-2", value: "Final-optics-2.json" },
   ];
 
   const microbeMissionQuizzes = [
     { label: "Select a test", value: "------" },
     { label: "Microbe-Mission-1", value: "Final-micro-mission-1.json" },
+    { label: "Microbe-Mission-2", value: "Final-micro-mission-2.json" },
   ];
   const [currentQuiz, setCurrentQuiz] = useState(opticsQuizzes[0].value);
 

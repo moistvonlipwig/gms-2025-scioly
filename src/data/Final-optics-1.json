@@ -1,279 +1,46 @@
 {
-  "examTitle": "Optics Science Olympiad Practice Test",
-  "sections": [
+  "test": [
     {
-      "sectionTitle": "Reflection (including special cases)",
+      "section": "Multiple Choice",
+      "points": 2,
       "questions": [
-        {
-          "question": "A light ray strikes a plane mirror at an angle of 30° to the normal. What is the angle of reflection?",
-          "options": [
-            "30°",
-            "60°",
-            "45°",
-            "90°"
-          ],
-          "answer": "30°"
-        },
-        {
-          "question": "What is the minimum number of plane mirrors needed to produce an image that is not reversed left to right?",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": "2"
-        },
-        {
-          "question": "In total internal reflection, the critical angle θc is given by the equation:",
-          "options": [
-            "sin θc = n2/n1",
-            "cos θc = n2/n1",
-            "tan θc = n2/n1",
-            "cot θc = n2/n1"
-          ],
-          "answer": "sin θc = n2/n1"
-        },
-        {
-          "question": "A light ray travels from air (n=1) into water (n=1.33). If the angle of incidence is 45°, what is the angle of refraction? (Round to the nearest degree)",
-          "options": [
-            "32°",
-            "58°",
-            "45°",
-            "60°"
-          ],
-          "answer": "32°"
-        },
-        {
-          "question": "Which of the following is NOT an application of total internal reflection?",
-          "options": [
-            "Fiber optics",
-            "Binoculars",
-            "Diamond cutting",
-            "X-ray machines"
-          ],
-          "answer": "X-ray machines"
-        }
+        {"question": "What is the primary difference between specular and diffuse reflection?", "options": ["Specular reflection scatters light in many directions, while diffuse reflection follows the law of reflection.", "Specular reflection occurs on smooth surfaces, while diffuse reflection occurs on rough surfaces.", "Diffuse reflection is seen in mirrors, while specular reflection is seen on walls.", "Specular reflection occurs only with colored light, while diffuse reflection occurs with white light."], "answer": 1},
+        {"question": "When light enters a medium with a higher index of refraction, how does the speed of light change?", "options": ["It increases", "It decreases", "It remains the same", "It depends on the wavelength of light"], "answer": 1},
+        {"question": "A convex lens is also known as a:", "options": ["Diverging lens", "Converging lens", "Flat lens", "Cylindrical lens"], "answer": 1},
+        {"question": "Which type of mirror always forms virtual, upright, and reduced images?", "options": ["Plane mirror", "Concave mirror", "Convex mirror", "None of the above"], "answer": 2},
+        {"question": "A prism separates white light into its component colors because of:", "options": ["Reflection", "Refraction", "Diffraction", "Interference"], "answer": 1},
+        {"question": "The focal length of a concave lens is always:", "options": ["Positive", "Negative", "Zero", "Infinite"], "answer": 1},
+        {"question": "Which of the following statements about real images is correct?", "options": ["Real images are always inverted.", "Real images cannot be projected onto a screen.", "Real images can only be formed by convex lenses.", "Real images are always smaller than the object."], "answer": 0},
+        {"question": "The human eye uses which part to change its focus between near and far objects?", "options": ["Cornea", "Lens", "Retina", "Optic nerve"], "answer": 1},
+        {"question": "What happens to the image when an object is placed between the focal point and a concave mirror?", "options": ["The image is real and inverted.", "The image is virtual and upright.", "The image is virtual and inverted.", "The image is real and upright."], "answer": 1},
+        {"question": "What is the relationship between the focal length of a lens and its curvature?", "options": ["Focal length increases with curvature.", "Focal length decreases with curvature.", "Focal length is independent of curvature.", "Curvature has no effect on lens performance."], "answer": 1}
       ]
     },
     {
-      "sectionTitle": "Refraction; index of refraction, prism and lens (deviation & dispersion)",
+      "section": "Short Answer",
+      "points": 4,
       "questions": [
-        {
-          "question": "The refractive index of a material is 1.5. What is the speed of light in this material? (c = 3.00 × 10^8 m/s)",
-          "options": [
-            "2.00 × 10^8 m/s",
-            "4.50 × 10^8 m/s",
-            "1.50 × 10^8 m/s",
-            "3.00 × 10^8 m/s"
-          ],
-          "answer": "2.00 × 10^8 m/s"
-        },
-        {
-          "question": "A prism with an apex angle of 60° is made of glass with a refractive index of 1.5. What is the angle of minimum deviation? (Round to the nearest degree)",
-          "options": [
-            "37°",
-            "45°",
-            "30°",
-            "60°"
-          ],
-          "answer": "37°"
-        },
-        {
-          "question": "Which of the following correctly describes dispersion in a prism?",
-          "options": [
-            "Red light bends more than blue light",
-            "Blue light bends more than red light",
-            "All colors bend equally",
-            "Only green light bends"
-          ],
-          "answer": "Blue light bends more than red light"
-        },
-        {
-          "question": "The power of a lens is +2.5 diopters. What is its focal length in centimeters?",
-          "options": [
-            "40 cm",
-            "25 cm",
-            "50 cm",
-            "100 cm"
-          ],
-          "answer": "40 cm"
-        },
-        {
-          "question": "What is the Abbe number used to measure in optical materials?",
-          "options": [
-            "Refractive index",
-            "Dispersion",
-            "Absorption",
-            "Reflection"
-          ],
-          "answer": "Dispersion"
-        }
+        {"question": "Explain the principle of total internal reflection and its applications.", "answer": "Total internal reflection occurs when light traveling in a denser medium hits the boundary with a less dense medium at an angle greater than the critical angle, causing it to reflect entirely back into the denser medium. Applications include fiber optics and binoculars."},
+        {"question": "Describe how a concave mirror forms an image when an object is placed at its focal point.", "answer": "When an object is placed at the focal point of a concave mirror, the reflected rays become parallel and do not converge to form a real image. Instead, the image appears infinitely far away."},
+        {"question": "Why does the sky appear blue during the day but red at sunset?", "answer": "The sky appears blue due to Rayleigh scattering, where shorter (blue) wavelengths scatter more than longer (red) wavelengths. At sunset, the light path through the atmosphere is longer, scattering more blue light out and allowing red and orange hues to dominate."},
+        {"question": "Explain how the human eye focuses light on the retina.", "answer": "The cornea provides most of the eye’s refraction, while the lens fine-tunes the focus by changing shape (accommodation). The ciliary muscles contract or relax to adjust the lens curvature, ensuring light converges onto the retina."},
+        {"question": "Describe the process of chromatic dispersion in a prism.", "answer": "Chromatic dispersion occurs when different wavelengths of light refract at different angles due to varying speeds in a medium. In a prism, shorter wavelengths (blue) bend more than longer wavelengths (red), creating a spectrum."}
       ]
     },
     {
-      "sectionTitle": "Mirrors & Lenses: convex, concave, planar; real images; focal length; absorption & reflection",
+      "section": "Numerical Problems",
+      "points": 5,
       "questions": [
-        {
-          "question": "An object is placed 30 cm in front of a concave mirror with a focal length of 20 cm. Where is the image formed?",
-          "options": [
-            "60 cm in front of the mirror",
-            "60 cm behind the mirror",
-            "40 cm in front of the mirror",
-            "40 cm behind the mirror"
-          ],
-          "answer": "60 cm in front of the mirror"
-        },
-        {
-          "question": "Which type of mirror always produces a virtual, upright, and diminished image?",
-          "options": [
-            "Plane mirror",
-            "Concave mirror",
-            "Convex mirror",
-            "Parabolic mirror"
-          ],
-          "answer": "Convex mirror"
-        },
-        {
-          "question": "The magnification of an image formed by a lens is -2. This means the image is:",
-          "options": [
-            "Real, inverted, and twice as large as the object",
-            "Virtual, upright, and twice as large as the object",
-            "Real, inverted, and half the size of the object",
-            "Virtual, upright, and half the size of the object"
-          ],
-          "answer": "Real, inverted, and twice as large as the object"
-        },
-        {
-          "question": "What is the focal length of a converging lens if an object placed 15 cm from the lens produces a real image 30 cm from the lens on the opposite side?",
-          "options": [
-            "10 cm",
-            "20 cm",
-            "30 cm",
-            "45 cm"
-          ],
-          "answer": "10 cm"
-        },
-        {
-          "question": "Which of the following is true about the image formed by a plane mirror?",
-          "options": [
-            "It is always real",
-            "It is always virtual",
-            "Its size depends on the distance from the mirror",
-            "It is always inverted"
-          ],
-          "answer": "It is always virtual"
-        }
-      ]
-    },
-    {
-      "sectionTitle": "Color theory: additive & subtractive; primary & secondary colors; airy disk; wave crest; inverted objects & images",
-      "questions": [
-        {
-          "question": "In additive color mixing, what color is produced when red and green light are combined?",
-          "options": [
-            "Yellow",
-            "Cyan",
-            "Magenta",
-            "White"
-          ],
-          "answer": "Yellow"
-        },
-        {
-          "question": "Which of the following is NOT a primary color in subtractive color mixing?",
-          "options": [
-            "Cyan",
-            "Magenta",
-            "Yellow",
-            "Green"
-          ],
-          "answer": "Green"
-        },
-        {
-          "question": "The Airy disk is related to:",
-          "options": [
-            "Color mixing",
-            "Diffraction limit of optical systems",
-            "Polarization of light",
-            "Dispersion in prisms"
-          ],
-          "answer": "Diffraction limit of optical systems"
-        },
-        {
-          "question": "In a wave, the distance between two consecutive crests is called:",
-          "options": [
-            "Amplitude",
-            "Frequency",
-            "Wavelength",
-            "Period"
-          ],
-          "answer": "Wavelength"
-        },
-        {
-          "question": "When an object is inverted by a lens, which of the following is true?",
-          "options": [
-            "The image is always real",
-            "The image is always virtual",
-            "The image is always larger than the object",
-            "The image can be either real or virtual, depending on the object's position"
-          ],
-          "answer": "The image is always real"
-        }
-      ]
-    },
-    {
-      "sectionTitle": "Structure and function of the human eye",
-      "questions": [
-        {
-          "question": "Which part of the eye is responsible for focusing light onto the retina?",
-          "options": [
-            "Cornea",
-            "Iris",
-            "Lens",
-            "Pupil"
-          ],
-          "answer": "Cornea"
-        },
-        {
-          "question": "The fovea centralis is located in which part of the eye?",
-          "options": [
-            "Cornea",
-            "Retina",
-            "Lens",
-            "Iris"
-          ],
-          "answer": "Retina"
-        },
-        {
-          "question": "Which cells in the retina are responsible for color vision?",
-          "options": [
-            "Rods",
-            "Cones",
-            "Ganglion cells",
-            "Bipolar cells"
-          ],
-          "answer": "Cones"
-        },
-        {
-          "question": "What is the function of the ciliary muscles in the eye?",
-          "options": [
-            "Control pupil size",
-            "Adjust lens shape for focusing",
-            "Produce tears",
-            "Detect light intensity"
-          ],
-          "answer": "Adjust lens shape for focusing"
-        },
-        {
-          "question": "Myopia (nearsightedness) is typically corrected using:",
-          "options": [
-            "Convex lenses",
-            "Concave lenses",
-            "Cylindrical lenses",
-            "Bifocal lenses"
-          ],
-          "answer": "Concave lenses"
-        }
+        {"question": "A concave mirror has a focal length of 15 cm. If an object is placed 30 cm away, calculate the image distance and magnification.", "answer": "Using the mirror equation, image distance = 30 cm, magnification = -1 (real, inverted, same size)."},
+        {"question": "A convex lens has a focal length of 20 cm. If an object is placed 50 cm from the lens, determine the image location and its characteristics.", "answer": "Using the lens equation, image distance = 33.3 cm, real and inverted."},
+        {"question": "A beam of light strikes a glass surface (n = 1.6) at an angle of 30°. Calculate the angle of refraction inside the glass.", "answer": "Using Snell’s Law, angle of refraction = 18.6°."},
+        {"question": "A prism with an apex angle of 60° has a refractive index of 1.5. Determine the deviation angle for a light ray incident at 40°.", "answer": "Deviation angle = 37.1°."},
+        {"question": "A magnifying glass has a focal length of 10 cm. Calculate the angular magnification when an object is viewed at its near point (25 cm).", "answer": "Using M = 1 + (25/f), magnification = 3.5x."},
+        {"question": "A fiber optic cable uses total internal reflection. If the core has n = 1.55 and the cladding has n = 1.45, determine the critical angle.", "answer": "Using θc = sin⁻¹(n2/n1), critical angle = 75.5°."},
+        {"question": "A camera lens has a focal length of 50 mm. Calculate the image distance when an object is 1 m away.", "answer": "Using the lens equation, image distance = 52.63 mm."},
+        {"question": "A spectrometer measures the wavelength of light diffracted at 30° using a grating with 600 lines/mm. Calculate the wavelength.", "answer": "Wavelength = 500 nm."},
+        {"question": "A microscope has an objective lens of focal length 4 mm and an eyepiece of 25 mm. Calculate the total magnification when the tube length is 160 mm.", "answer": "Magnification = 100x."},
+        {"question": "A laser beam passes through a double slit with a separation of 0.5 mm and projects an interference pattern on a screen 2 m away. If the first bright fringe is observed 2 mm from the center, determine the wavelength of the laser light.", "answer": "Wavelength = 500 nm."}
       ]
     }
   ]

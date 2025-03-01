@@ -4,22 +4,16 @@ import "../styles/Test.css";
 
 const Test = ({ quizFile, username, db }) => {
   const [testData, setTestData] = useState(null);
-  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [responses, setResponses] = useState({});
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [textAnswer, setTextAnswer] = useState("");
-  const [matchingAnswers, setMatchingAnswers] = useState({});
-  const [showAnswer, setShowAnswer] = useState(false); // Controls answer visibility
+  const [showAnswers, setShowAnswers] = useState(false); // State to toggle answer visibility
 
   useEffect(() => {
     const loadTestData = async () => {
       try {
-        // Assumes the quiz file exports an object with a "sections" property:
-        // { sections: [ { sectionTitle: "...", questions: [ ... ] }, ... ] }
         const data = await import(`../data/${quizFile}`);
-        setTestData(data.sections);
+        setTestData(data.test);
       } catch (error) {
         console.error(`Failed to load ${quizFile} data:`, error);
         setTestData([]);
@@ -32,71 +26,53 @@ const Test = ({ quizFile, username, db }) => {
   if (!testData) return <div>Loading test...</div>;
   if (testData.length === 0) return <div>No sections available for this test.</div>;
 
-  const currentSection = testData[currentSectionIndex];
-  const questions = currentSection.questions;
-  const currentQuestion = questions[currentQuestionIndex];
-
-  const isMatching = Array.isArray(currentQuestion?.options) && currentQuestion?.options[0]?.item;
-  const isTextAnswer = currentQuestion?.type === "shortAnswer";
-  const isTrueFalse = currentQuestion?.type === "trueFalse";
-
-  const handleAnswerClick = (option) => {
-    const isCorrect = option === currentQuestion?.answer;
-    if (isCorrect) setScore(score + 1);
-    setSelectedAnswer(option);
+  const handleChange = (sectionIndex, questionIndex, value) => {
+    setResponses({
+      ...responses,
+      [`${sectionIndex}-${questionIndex}`]: value
+    });
   };
 
-  const handleTextSubmit = () => {
-    const correctAnswer = currentQuestion?.answer;
-    if (textAnswer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-      setScore(score + 1);
-    }
-    setTextAnswer("");
-  };
+  const handleSubmit = async () => {
+    let calculatedScore = 0;
 
-  const handleMatchingSubmit = () => {
-    const correctAnswers = currentQuestion?.answer || {};
-    const isCorrect = Object.keys(correctAnswers).every(
-      (key) => correctAnswers[key] === matchingAnswers[key]
-    );
-    if (isCorrect) {
-      setScore(score + 1);
-    }
-    setMatchingAnswers({});
-  };
+    testData.forEach((section, sectionIndex) => {
+      section.questions.forEach((question, questionIndex) => {
+        const responseKey = `${sectionIndex}-${questionIndex}`;
+        const userAnswer = responses[responseKey];
 
-  const handleNextQuestion = () => {
-    setSelectedAnswer(null);
-    setTextAnswer("");
-    setMatchingAnswers({});
-    setShowAnswer(false); // Reset answer display when moving to the next question
+        if (section.section === "Multiple Choice" && userAnswer !== undefined) {
+          if (question.options[userAnswer] === question.options[question.answer]) {
+            calculatedScore += section.points;
+          }
+        }
 
-    const nextQuestionIndex = currentQuestionIndex + 1;
-    if (nextQuestionIndex < questions.length) {
-      setCurrentQuestionIndex(nextQuestionIndex);
-    } else {
-      // End of current section; move to the next section if available
-      const nextSectionIndex = currentSectionIndex + 1;
-      if (nextSectionIndex < testData.length) {
-        setCurrentSectionIndex(nextSectionIndex);
-        setCurrentQuestionIndex(0);
-      } else {
-        // Entire test complete
-        setShowScore(true);
-        submitScore();
-      }
-    }
-  };
+        if (section.section === "Numerical Problems" && userAnswer !== undefined) {
+          if (parseFloat(userAnswer) === parseFloat(question.answer.match(/[\d.]+/)[0])) {
+            calculatedScore += section.points;
+          }
+        }
 
-  const submitScore = async () => {
+        if (section.section === "Short Answer" && userAnswer !== undefined) {
+          if (userAnswer.trim().toLowerCase() === question.answer.trim().toLowerCase()) {
+            calculatedScore += section.points;
+          }
+        }
+      });
+    });
+
+    setScore(calculatedScore);
+    setShowScore(true);
+
     try {
       await addDoc(collection(db, "Users"), {
         username,
-        score,
+        score: calculatedScore,
         quiz: quizFile,
+        responses,
         timestamp: new Date(),
       });
-      alert(`Test complete! Your score of ${score} has been submitted.`);
+      alert(`Test complete! Your score of ${calculatedScore} has been submitted.`);
     } catch (error) {
       console.error("Error submitting score:", error);
       alert("Error submitting score. Please try again.");
@@ -109,139 +85,95 @@ const Test = ({ quizFile, username, db }) => {
         <div className="score-section box">
           <h2>Test Complete!</h2>
           <p>
-            You scored{" "}
-            {score} out of{" "}
-            {testData.reduce((acc, section) => acc + section.questions.length, 0)}
+            You scored {score} out of{" "}
+            {testData.reduce((acc, section) => acc + section.questions.length * section.points, 0)}
           </p>
-          <ul>
-            {testData.map((section, secIndex) => (
-              <li key={secIndex}>
-                <strong>
-                  Section {secIndex + 1} - {section.sectionTitle}:
-                </strong>
-                <ul>
-                  {section.questions.map((question, qIndex) => (
-                    <li key={qIndex}>
-                      <strong>Q{qIndex + 1}:</strong> {question.question} <br />
-                      <strong>Correct Answer:</strong> {JSON.stringify(question.answer)}{" "}
-                      <br />
-                      {question.referenceLink && (
-                        <a
-                          href={question.referenceLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Learn more
-                        </a>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        <div className="question-section box">
-          <div className="section-title">
-            <h2>{currentSection.sectionTitle}</h2>
-          </div>
-          <div className="question-count">
-            <span>
-              Question {currentQuestionIndex + 1} of {questions.length} in Section{" "}
-              {currentSectionIndex + 1} of {testData.length}
-            </span>
-          </div>
-          <div className="question-text">{currentQuestion?.question}</div>
+          <button className="show-answers-button" onClick={() => setShowAnswers(!showAnswers)}>
+            {showAnswers ? "Hide Answers" : "Show Answers"}
+          </button>
 
-          {!isMatching && !isTextAnswer && !isTrueFalse && (
-            <div className="answer-section">
-              {currentQuestion?.options?.map((option, index) => (
-                <button
-                  key={index}
-                  className={`answer-option ${
-                    selectedAnswer === option
-                      ? option === currentQuestion?.answer
-                        ? "correct"
-                        : "incorrect"
-                      : ""
-                  }`}
-                  onClick={() => handleAnswerClick(option)}
-                  disabled={selectedAnswer !== null}
-                >
-                  {option}
-                </button>
+          {showAnswers && (
+            <div className="answer-review">
+              {testData.map((section, sectionIndex) => (
+                <div key={sectionIndex} className="test-section box">
+                  <h2>{section.section}</h2>
+
+                  {section.questions.map((question, questionIndex) => {
+                    const responseKey = `${sectionIndex}-${questionIndex}`;
+                    const userAnswer = responses[responseKey];
+                    return (
+                      <div key={questionIndex} className="question-block">
+                        <p><strong>Question:</strong> {question.question}</p>
+                        <p><strong>Your Answer:</strong> {userAnswer || "No Answer"}</p>
+                        <p><strong>Correct Answer:</strong> {section.section === "Multiple Choice"
+                          ? question.options[question.answer]
+                          : question.answer}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
               ))}
             </div>
           )}
+        </div>
+      ) : (
+        <div className="test-content">
+          {testData.map((section, sectionIndex) => (
+            <div key={sectionIndex} className="test-section box">
+              <h2>{section.section}</h2>
 
-          {isTrueFalse && (
-            <div className="true-false-section">
-              <label>
-                <input
-                  type="radio"
-                  name={`question-${currentQuestionIndex}`}
-                  value="true"
-                  onChange={() => handleAnswerClick("true")}
-                />{" "}
-                True
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name={`question-${currentQuestionIndex}`}
-                  value="false"
-                  onChange={() => handleAnswerClick("false")}
-                />{" "}
-                False
-              </label>
+              {section.questions.map((question, questionIndex) => (
+                <div key={questionIndex} className="question-block">
+                  <p>{question.question}</p>
+
+                  {section.section === "Multiple Choice" && (
+                    <div className="answer-section">
+                      {question.options.map((option, index) => (
+                        <button
+                          key={index}
+                          className={`answer-option ${
+                            responses[`${sectionIndex}-${questionIndex}`] === index
+                              ? index === question.answer
+                                ? "correct"
+                                : "incorrect"
+                              : ""
+                          }`}
+                          onClick={() => handleChange(sectionIndex, questionIndex, index)}
+                          disabled={responses[`${sectionIndex}-${questionIndex}`] !== undefined}
+                        >
+                          {option}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+
+                  {section.section === "Short Answer" && (
+                    <input
+                      type="text"
+                      className="short-answer-input"
+                      placeholder="Type your answer..."
+                      value={responses[`${sectionIndex}-${questionIndex}`] || ""}
+                      onChange={(e) => handleChange(sectionIndex, questionIndex, e.target.value)}
+                    />
+                  )}
+
+                  {section.section === "Numerical Problems" && (
+                    <input
+                      type="number"
+                      className="numerical-answer-input"
+                      placeholder="Enter numeric answer..."
+                      value={responses[`${sectionIndex}-${questionIndex}`] || ""}
+                      onChange={(e) => handleChange(sectionIndex, questionIndex, e.target.value)}
+                    />
+                  )}
+                </div>
+              ))}
             </div>
-          )}
+          ))}
 
-          {isTextAnswer && (
-            <div className="text-answer-section">
-              <textarea
-                value={textAnswer}
-                onChange={(e) => setTextAnswer(e.target.value)}
-                placeholder="Type your answer..."
-              />
-              <button onClick={handleTextSubmit} disabled={!textAnswer.trim()}>
-                Submit
-              </button>
-            </div>
-          )}
-
-          <button
-            className="toggle-answer-button"
-            onClick={() => setShowAnswer(!showAnswer)}
-          >
-            {showAnswer ? "Hide Answer" : "Show Answer"}
-          </button>
-
-          {showAnswer && (
-            <div className="answer-section">
-              <strong>Correct Answer: </strong> {JSON.stringify(currentQuestion?.answer)}
-              {currentQuestion?.imageLink && (
-                <img
-                  src={currentQuestion.imageLink}
-                  alt="Answer Image"
-                  className="answer-image"
-                />
-              )}
-              {currentQuestion?.referenceLink && (
-                <a
-                  href={currentQuestion.referenceLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn more
-                </a>
-              )}
-            </div>
-          )}
-
-          <button className="next-button" onClick={handleNextQuestion}>
-            Next
+          <button className="submit-button" onClick={handleSubmit}>
+            Submit Test
           </button>
         </div>
       )}

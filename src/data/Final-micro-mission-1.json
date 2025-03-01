@@ -12,7 +12,8 @@
         {
           "question": "Identify the major components of a bright-field light microscope (ocular lens, objective lenses, stage, diaphragm, focus knobs) and explain the function of each in obtaining a clear image.",
           "type":"shortAnswer",
-          "answer": ""
+          "answer": "",
+          "imageLink":"https://microbenotes.com/wp-content/uploads/2020/03/Parts-of-Brightfield-Microscope-Compound-Light-Microscope-1536x1042.jpeg"
         },
         {
           "question": "How would you use a scale bar or field-of-view diameter to estimate the actual size of a microbe? Provide a step-by-step explanation.",
@@ -22,7 +23,8 @@
         {
           "question": "Compare transmission electron microscopy (TEM) and scanning electron microscopy (SEM): What types of images do they produce, and how does the specimen preparation differ between them?",
           "type":"shortAnswer",
-          "answer": ""
+          "answer": "",
+          "imageLink":"https://d10lpgp6xz60nq.cloudfront.net/physics_images/FM_BIO_XI_SP_01_E01_021_S01.png"
         },
         {
           "question": "When presented with a micrograph that appears to have enhanced internal contrast without staining, what microscopy technique would you suspect was used, and why?",
