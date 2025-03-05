@@ -1,0 +1,182 @@
+{
+  "test": [
+    {
+      "section": "Multiple Choice",
+      "points": 2,
+      "questions": [
+        {
+          "question": "When parallel rays of light hit a smooth, reflective surface at a shallow angle, which of the following statements best describes the reflection?",
+          "options": [
+            "The rays scatter in many directions equally.",
+            "The angle of reflection is always 90° from the angle of incidence.",
+            "The angle of reflection equals the angle of incidence.",
+            "No light is reflected; it is fully absorbed."
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which of the following is an example of diffuse rather than specular reflection?",
+          "options": [
+            "Light bouncing off a mirror.",
+            "Light reflecting from the calm surface of a lake.",
+            "Light scattering from a sheet of white paper.",
+            "Light reflecting inside a telescope tube."
+          ],
+          "answer": 2
+        },
+        {
+          "question": "When light travels from water (n ≈ 1.33) to air (n ≈ 1.00), does the refracted ray bend toward or away from the normal?",
+          "options": [
+            "Toward the normal",
+            "Away from the normal",
+            "Exactly along the normal",
+            "At a 90° angle to the surface"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A ray of white light passing through a typical glass prism disperses into different colors. Which color typically refracts the most?",
+          "options": [
+            "Red",
+            "Green",
+            "Yellow",
+            "Violet"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Which type of mirror is often used as a security mirror in stores because it provides a wide field of view?",
+          "options": [
+            "Plane mirror",
+            "Concave mirror",
+            "Convex mirror",
+            "Two-way mirror"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A convex lens is also known as:",
+          "options": [
+            "A diverging lens",
+            "A converging lens",
+            "A negative focal length lens",
+            "None of the above"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "In additive color mixing, which set of colors is considered 'primary'?",
+          "options": [
+            "Red, Green, Blue",
+            "Yellow, Cyan, Magenta",
+            "Red, Yellow, Blue",
+            "Green, Orange, Purple"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "If an object appears green under white light, which explanation is most accurate?",
+          "options": [
+            "It absorbs green and reflects other colors.",
+            "It reflects green and absorbs other colors.",
+            "It emits green light of its own.",
+            "The object is unaffected by the light; our eyes only see green."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Which part of the human eye has the highest refractive power, focusing most of the incoming light?",
+          "options": [
+            "Lens",
+            "Cornea",
+            "Iris",
+            "Vitreous humor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "In myopia (nearsightedness), light from distant objects focuses:",
+          "options": [
+            "Behind the retina",
+            "Exactly on the retina",
+            "In front of the retina",
+            "Within the lens itself"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "section": "Short Answer",
+      "points": 4,
+      "questions": [
+        {
+          "question": "Why does a reflection from a plane mirror produce an image with left and right reversed, even though it preserves top-to-bottom orientation?",
+          "answer": "A plane mirror reverses the object front-to-back with respect to the mirror surface. To an observer, this appears to be a left-right swap. Vertically, the image remains the same because the mirror is oriented vertically."
+        },
+        {
+          "question": "Give one real-world example of retroreflection and briefly explain what makes the reflector special.",
+          "answer": "Road signs or bike reflectors use corner-cube designs that send incoming light back toward the source, greatly improving visibility."
+        },
+        {
+          "question": "Define the index of refraction of a medium. Why is it always greater than or equal to 1?",
+          "answer": "The index of refraction n = c / v, where c is the speed of light in vacuum and v is its speed in the medium. Light is always slower in matter than in vacuum, so n ≥ 1."
+        },
+        {
+          "question": "Compare the roles of a prism vs. a lens in bending light. How are their shapes and goals different?",
+          "answer": "A prism has flat, angled faces and is primarily for dispersion (splitting white light into colors). A lens is curved and primarily focuses or diverges light for image formation."
+        },
+        {
+          "question": "Explain why a concave (converging) mirror can produce a real, inverted image when the object is placed beyond the focal length.",
+          "answer": "Converging mirrors reflect parallel rays to a real focus in front of the mirror. When the object is farther than the focal distance, the reflected rays converge to form an inverted, real image."
+        },
+        {
+          "question": "In a simple setup, how do you determine whether the image formed by a convex lens is real or virtual?",
+          "answer": "Use the thin-lens equation. If the calculated image distance is positive (opposite side of the lens from the object), it's real; if negative, it's virtual."
+        },
+        {
+          "question": "Define subtractive color mixing and give one everyday example.",
+          "answer": "Subtractive color mixing uses pigments or filters that absorb specific wavelengths of light. Examples include mixing paints or the CMY inks in printers."
+        },
+        {
+          "question": "What is an Airy disk in optics, and how is it related to diffraction?",
+          "answer": "It's the bright central region in the diffraction pattern from a circular aperture. It represents the fundamental limit to resolution due to wave diffraction."
+        },
+        {
+          "question": "Explain why the pupil changes size in different lighting conditions, and name the part of the eye that controls it.",
+          "answer": "The iris adjusts pupil size; in bright light, it constricts to reduce incoming light; in dim light, it dilates to let in more light."
+        },
+        {
+          "question": "Name one function of rod cells and one function of cone cells in the retina.",
+          "answer": "Rods provide night vision in low light. Cones enable color vision and detail under brighter conditions."
+        }
+      ]
+    },
+    {
+      "section": "Numerical Problems",
+      "points": 5,
+      "questions": [
+        {
+          "question": "A beam of light strikes a flat mirror at a 30° angle to the normal. 1) Determine its reflection angle. 2) If the beam is rotated to 45° incidence, what is the new reflection angle?",
+          "answer": "1) 30°  2) 45°. By the law of reflection, reflection angle = incidence angle."
+        },
+        {
+          "question": "A ray of light enters a rectangular glass block (n = 1.50) at a 30° incidence. 1) Calculate the angle of refraction inside the glass. 2) Briefly explain why the emerging ray is parallel if the exit face is also parallel to the entry face.",
+          "answer": "Using Snell’s Law, the refracted angle is ≈ 19.47°. Parallel faces cause identical bending in and out, so the exiting ray is parallel to its original path."
+        },
+        {
+          "question": "A converging lens has a focal length of 10 cm. An object is placed 25 cm from the lens. 1) Solve for the image distance. 2) Calculate the magnification and indicate whether the image is upright or inverted.",
+          "answer": "1) di ≈ 16.7 cm. 2) Magnification ≈ -0.67 (inverted, reduced)."
+        },
+        {
+          "question": "White light passes through a cyan filter, then a yellow filter, before hitting a screen. 1) Which colors does each filter absorb? 2) Predict which color reaches the screen.",
+          "answer": "Cyan absorbs red, yellow absorbs blue, so green is transmitted."
+        },
+        {
+          "question": "A person can see objects clearly at 25 cm, but needs to read at 20 cm. 1) What lens type is used for correction? 2) Estimate the lens power (in diopters).",
+          "answer": "1) A converging (positive) lens. 2) 1 D. (P = 1/0.20m - 1/0.25m = 5 - 4 = +1 diopter)."
+        }
+      ]
+    }
+  ]
+}
