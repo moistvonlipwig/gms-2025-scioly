@@ -1,0 +1,312 @@
+{
+  "test": [
+    {
+      "section": "Multiple Choice",
+      "points": 2,
+      "questions": [
+        {
+          "question": "Reflection #1: Which statement best describes how specular reflection differs from diffuse reflection?",
+          "options": [
+            "Specular reflection absorbs light completely, while diffuse reflection partially transmits it.",
+            "Specular reflection occurs only at normal incidence, while diffuse reflection can occur at any angle.",
+            "Specular reflection reflects light in a single direction, while diffuse reflection scatters it in many directions.",
+            "Specular reflection does not obey the law of reflection, while diffuse reflection does."
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Reflection #6: Which type of reflection occurs when light scatters from a rough surface?",
+          "options": [
+            "Specular reflection",
+            "Diffuse reflection",
+            "Polarized reflection",
+            "Total internal reflection"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Reflection #10: When light reflects from a very rough or uneven surface, which of the following best describes the resulting reflection?",
+          "options": [
+            "Light rays focus into a single beam.",
+            "Light rays scatter randomly in many directions.",
+            "Light is perfectly transmitted, no reflection occurs.",
+            "Light is absorbed completely."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Refraction #1: Which phenomenon occurs when light crosses between two media and changes its direction of travel?",
+          "options": [
+            "Reflection",
+            "Refraction",
+            "Diffraction",
+            "Dispersion"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Refraction #4: When a beam of light moves from a higher-index medium to a lower-index medium, at an angle below the critical angle, what typically happens to the refracted ray?",
+          "options": [
+            "It disappears entirely.",
+            "It bends toward the normal.",
+            "It bends away from the normal.",
+            "It remains at the same angle as incidence."
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Refraction #8: Which condition leads to total internal reflection?",
+          "options": [
+            "Light travels from a higher-index medium to a lower-index medium at an angle greater than the critical angle.",
+            "Light travels from a lower-index medium to a higher-index medium at any angle.",
+            "Light crosses media with the same refractive index.",
+            "Light traveling parallel to the interface between two media."
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Mirrors & Lenses #1: Which type of spherical mirror converges incoming parallel light rays to a focal point?",
+          "options": [
+            "Plane mirror",
+            "Convex mirror",
+            "Concave mirror",
+            "Two-way mirror"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mirrors & Lenses #4: Which type of lens is thicker in the middle than at its edges?",
+          "options": [
+            "Concave lens",
+            "Convex lens",
+            "Cylindrical lens",
+            "None of the above"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mirrors & Lenses #8: When a lens is immersed in a medium with a similar refractive index, what happens to its effective focal length?",
+          "options": [
+            "It becomes much shorter.",
+            "It increases (the lens becomes weaker).",
+            "It remains exactly the same.",
+            "It becomes negative."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Color Theory #1: Which set of colors are the primary colors in additive color mixing?",
+          "options": [
+            "Red, Green, Blue",
+            "Cyan, Magenta, Yellow",
+            "Red, Yellow, Blue",
+            "Green, Orange, Purple"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Color Theory #4: If an object strongly reflects yellow wavelengths and absorbs others, which color do we see?",
+          "options": [
+            "Yellow",
+            "Green",
+            "Blue",
+            "White"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Color Theory #8: In subtractive color mixing, which statement is correct about a perfectly black filter?",
+          "options": [
+            "It transmits all wavelengths equally.",
+            "It reflects all wavelengths equally.",
+            "It absorbs essentially all light and transmits none.",
+            "It allows only infrared light to pass."
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Human Eye #1: Which part of the eye provides the majority of its refractive power?",
+          "options": [
+            "Cornea",
+            "Lens",
+            "Iris",
+            "Retina"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Human Eye #4: Which type of lens is used to correct myopia (nearsightedness)?",
+          "options": [
+            "Convex (converging)",
+            "Concave (diverging)",
+            "Cylindrical lens",
+            "Bifocal lens"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Human Eye #8: Which part of the eye changes the pupil size to regulate incoming light?",
+          "options": [
+            "Iris",
+            "Sclera",
+            "Optic nerve",
+            "Vitreous humor"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "section": "Short Answer",
+      "points": 4,
+      "questions": [
+        {
+          "question": "Reflection #2: Give one example each of specular reflection and diffuse reflection.",
+          "answer": "Specular: A mirror reflecting a clear image. Diffuse: A white wall scattering light in all directions."
+        },
+        {
+          "question": "Reflection #3: How does a mirror’s reflection differ from the reflection off paper?",
+          "answer": "Mirrors reflect light in a uniform direction (specular), while paper scatters it (diffuse)."
+        },
+        {
+          "question": "Reflection #5: Why do periscopes use two mirrors at 45° angles?",
+          "answer": "So that light rays can be redirected vertically, letting a viewer see over obstacles."
+        },
+        {
+          "question": "Reflection #8: Why do metal surfaces often appear shiny?",
+          "answer": "They are very smooth, producing specular reflection that makes them look shiny."
+        },
+        {
+          "question": "Reflection #9: In diffuse reflection, what happens to the reflected rays?",
+          "answer": "They scatter in many directions rather than forming a clear reflected image."
+        },
+        {
+          "question": "Refraction #2: Why does a fish in water appear closer to the surface than it actually is?",
+          "answer": "Due to refraction at the water–air boundary, rays bend, making the fish seem nearer."
+        },
+        {
+          "question": "Refraction #5: Why do diamonds sparkle more than typical glass?",
+          "answer": "They have a higher refractive index and dispersion, causing intense internal reflections and color separation."
+        },
+        {
+          "question": "Refraction #7: Why does light separate into colors when passing through a prism?",
+          "answer": "Each wavelength refracts by a different amount, causing a spectrum of colors to fan out."
+        },
+        {
+          "question": "Refraction #9: Why does light remain guided within an optical fiber?",
+          "answer": "Total internal reflection keeps the light bouncing inside, preventing it from escaping the fiber core."
+        },
+        {
+          "question": "Mirrors & Lenses #2: Explain the difference between real and virtual images.",
+          "answer": "Real images form where light rays converge physically (projectable), while virtual images form where rays only appear to converge."
+        },
+        {
+          "question": "Mirrors & Lenses #5: Why do concave mirrors focus light to a single point, while convex mirrors do not?",
+          "answer": "Concave mirrors converge parallel rays at the focal point; convex mirrors diverge them."
+        },
+        {
+          "question": "Mirrors & Lenses #7: How does a convex (converging) lens produce magnification?",
+          "answer": "It bends parallel rays inward to a focal point, creating an enlarged image if the object is within 2f."
+        },
+        {
+          "question": "Mirrors & Lenses #9: What does the thin lens equation (1/f = 1/dₒ + 1/dᵢ) help you determine?",
+          "answer": "It relates object distance, image distance, and focal length, predicting where and how an image will form."
+        },
+        {
+          "question": "Color Theory #2: Why does a red apple appear red under white light?",
+          "answer": "It absorbs other wavelengths and reflects red light to our eyes."
+        },
+        {
+          "question": "Color Theory #3: If only blue wavelengths pass through a filter, which color do we see?",
+          "answer": "We see blue, because the filter blocks all other wavelengths."
+        },
+        {
+          "question": "Color Theory #5: How does additive color mixing differ from subtractive color mixing?",
+          "answer": "Additive mixing combines colored light (RGB), while subtractive mixing uses pigments/filters (CMY) that absorb certain wavelengths."
+        },
+        {
+          "question": "Color Theory #6: If white light passes through a cyan filter and then a magenta filter, which color emerges?",
+          "answer": "Blue emerges, because cyan blocks red and magenta blocks green."
+        },
+        {
+          "question": "Color Theory #7: How do modern displays (LCD/LED) produce a wide range of colors?",
+          "answer": "They use tiny red, green, and blue sub-pixels, whose intensities combine additively to create different hues."
+        },
+        {
+          "question": "Color Theory #9: Why do some objects appear colored under white light?",
+          "answer": "They selectively absorb certain wavelengths and reflect or transmit others, producing the perception of color."
+        },
+        {
+          "question": "Color Theory #10: If a blue object is lit by red light only, what color does it appear?",
+          "answer": "It appears black or very dark, because it cannot reflect red wavelengths."
+        },
+        {
+          "question": "Human Eye #2: Why does accommodation (focusing on near objects) often worsen with age?",
+          "answer": "The lens becomes harder and less flexible, making it more difficult to change shape for near focusing."
+        },
+        {
+          "question": "Human Eye #5: What is the primary function of the retina?",
+          "answer": "It contains photoreceptors (rods and cones) that convert light into electrical signals for the brain."
+        },
+        {
+          "question": "Human Eye #7: What creates the physiological blind spot in each eye?",
+          "answer": "The optic nerve exiting the retina has no photoreceptors, leaving a blind spot."
+        },
+        {
+          "question": "Human Eye #9: How do corrective lenses restore normal vision for refractive errors?",
+          "answer": "They adjust the eye’s effective focal length so that images form on the retina despite the eye’s focusing problem."
+        },
+        {
+          "question": "Human Eye #10: If the cornea provides 40 diopters and the lens provides 10 diopters, what is the total refractive power of the eye?",
+          "answer": "50 diopters (adding cornea and lens contributions)."
+        }
+      ]
+    },
+    {
+      "section": "Numerical Problems",
+      "points": 5,
+      "questions": [
+        {
+          "question": "Reflection #4: A beam of light hits a mirror at 40° to the normal. What is the reflection angle?",
+          "answer": "40° (Angle of incidence = angle of reflection)."
+        },
+        {
+          "question": "Reflection #7: A light ray strikes a mirror at 30° incidence. What is the reflection angle?",
+          "answer": "30° (Same as incidence angle)."
+        },
+        {
+          "question": "Refraction #3: Using Snell’s law, light passes from n=1.33 at 45° to air (n=1.00). Calculate the angle of refraction.",
+          "answer": "θr ≈ 61.04°"
+        },
+        {
+          "question": "Refraction #6: A light ray enters glass (n=1.50) at 30° incidence. Calculate the angle of refraction.",
+          "answer": "≈ 19.47°"
+        },
+        {
+          "question": "Refraction #10: Calculate the critical angle for light going from n=1.50 to air (n=1.00).",
+          "answer": "θc ≈ 62.46°"
+        },
+        {
+          "question": "Mirrors & Lenses #3: A lens has focal length 10 cm, object distance 30 cm. Solve for image distance using 1/f=1/dₒ+1/dᵢ.",
+          "answer": "dᵢ = 15 cm"
+        },
+        {
+          "question": "Mirrors & Lenses #6: If a spherical mirror has focal length 6 cm and object distance 20 cm, find the image distance.",
+          "answer": "dᵢ ≈ 8.57 cm"
+        },
+        {
+          "question": "Mirrors & Lenses #10: If an object’s height equals image height but the image is inverted, what is the magnification?",
+          "answer": "m = -1"
+        },
+        {
+          "question": "Human Eye #3: A person’s far point is 15 cm. Find the lens power needed to correct this myopia. (P=1/f in meters.)",
+          "answer": "P ≈ -6.67 diopters"
+        },
+        {
+          "question": "Human Eye #6: If a person’s near point is 19.2 cm, approximately how many diopters is that?",
+          "answer": "≈ 5.21 D (1 / 0.192 m)."
+        }
+      ]
+    }
+  ]
+}
